@@ -56,7 +56,7 @@ function badeye(){
 function gobig(){
     var do1=Number(localStorage.getItem("do"))+1;
     var age=Number(localStorage.getItem("age"));
-    if(do1==6){
+    if(do1==60){
         if(age<50){
         do1=0;
         age=Number(localStorage.getItem("age"))+1;
