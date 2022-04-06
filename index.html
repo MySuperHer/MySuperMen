@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>我的超人</title>
+    </head>
+    <body>
+        <script src="lvup.js"></script>
+        <div>
+            <a href="index.html">房間</a>
+            <a href="index2.html">吃飯</a>
+            <a href="index2.html">出門</a>
+        </div>
+        
+        <div>
+            <h1>玩家資訊</h1>
+            <h2><form>
+                姓名：<input type="text" name="欄位名稱">
+            </form></h2>
+            <h2>職業：無業遊民算是一種職業嗎？</h2>
+            <h2><script>
+                document.write("年齡："+localStorage.getItem("age")+"歲");
+            </script></h2>
+            <h2><form>
+                性別：<input type="text" name="欄位名稱">
+            </form></h2>
+            <table>
+                <tr>
+                    <td>身高</td>
+                    <td><script>
+                        h1=parseInt(localStorage.getItem("h1"));
+                        document.write(h1);
+                    </script><td>
+                    <td>cm</td>
+                </tr>
+                <tr>
+                    <td>體重</td>
+                    <td><script>
+                        g1=parseInt(Number(localStorage.getItem("g1"))+Number(localStorage.getItem("g2"))+Number(localStorage.getItem("g3")));
+                        document.write(g1);
+                    </script><td>
+                    <td>kg</td>
+                </tr>
+                <tr>
+                    <td>跳躍力</td>
+                    <td><script>
+                        j1=parseInt(localStorage.getItem("j1"));
+                        document.write(j1);
+                    </script><td>
+                </tr>
+                <tr>
+                    <td>視力</td>
+                    <td><script>
+                        l1=parseInt(localStorage.getItem("l1"));
+                        document.write(l1);
+                    </script><td>
+                </tr>
+                <tr>
+                    <td>幸運</td>
+                    <td><script>
+                        lu1=parseInt(localStorage.getItem("lu1"));
+                        document.write(lu1);
+                    </script><td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
