@@ -63,7 +63,6 @@ function gobig(){
     var do1=Number(localStorage.getItem("do"))+1;
     var age=Number(localStorage.getItem("age"));
     if(do1==age**2+age+2){
-        
         do1=0;
         age=Number(localStorage.getItem("age"))+1;
         localStorage.setItem("age",String(age));
@@ -89,8 +88,7 @@ function gobig(){
         localStorage.setItem("lu1",String(lu1));
         localStorage.setItem("lu11","0");
         alert("真的有人無聊到在這邊按了六十次？");
-
-    }
+        }
     localStorage.setItem("do",String(do1));
 }
 
