@@ -19,6 +19,10 @@ function goback(){
         localStorage.setItem("lu11","0")
     }
 }
+function goback2(){
+    alert("你也是真的很無聊");
+    localStorage.removeItem("goback")
+}
 function gohigh(){
     alert("長長的高丸嘗起來真美味");
     var h11=Number(localStorage.getItem("h11"))+0.1;
