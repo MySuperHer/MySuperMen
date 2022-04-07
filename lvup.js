@@ -53,11 +53,17 @@ function badeye(){
     localStorage.setItem("g31",String(g31));
     gobig();
 }
+function useeye(){
+    alert("看三小還想星爆啊");
+    var lu11=Number(localStorage.getItem("lu11"))+0.1;
+    localStorage.setItem("lu11",String(lu11));
+    gobig();
+}
 function gobig(){
     var do1=Number(localStorage.getItem("do"))+1;
     var age=Number(localStorage.getItem("age"));
-    if(do1==60){
-        if(age<50){
+    if(do1==age**2+age+2){
+        
         do1=0;
         age=Number(localStorage.getItem("age"))+1;
         localStorage.setItem("age",String(age));
@@ -82,9 +88,6 @@ function gobig(){
         var lu1=Number(localStorage.getItem("lu1"))+Number(localStorage.getItem("lu11"));
         localStorage.setItem("lu1",String(lu1));
         localStorage.setItem("lu11","0");
-        }else{
-            age=Number(localStorage.getItem("age"))+1;
-        }
         alert("真的有人無聊到在這邊按了六十次？");
 
     }
@@ -92,15 +95,6 @@ function gobig(){
 }
 
 goback();
-<<<<<<< HEAD
 
-function startLottery() {
-    $("#Start").css("display","none");
-    $("#End").css("display","block");
-}
-function endGift() {
-    $("#Start").css("display","block");
-    $("#End").css("display","none");
-}
-=======
->>>>>>> 95b1e754db1d9ea582214bce1b12c29b82a9247f
+
+
