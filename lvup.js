@@ -62,7 +62,8 @@ function useeye(){
 function gobig(){
     var do1=Number(localStorage.getItem("do"))+1;
     var age=Number(localStorage.getItem("age"))+1;
-    if(do1==age**2+age+2){
+    var age2=age**2+age+2;
+    if(do1==age2){
         do1=0;
         localStorage.setItem("age",String(age));
         var h1=Number(localStorage.getItem("h1"))+Number(localStorage.getItem("h11"));
