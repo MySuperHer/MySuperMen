@@ -92,6 +92,7 @@ function gobig(){
 }
 
 goback();
+<<<<<<< HEAD
 
 function startLottery() {
     $("#Start").css("display","none");
@@ -101,3 +102,5 @@ function endGift() {
     $("#Start").css("display","block");
     $("#End").css("display","none");
 }
+=======
+>>>>>>> 95b1e754db1d9ea582214bce1b12c29b82a9247f
