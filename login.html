@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>我的超人</title>
+        
+        <style type="text/css">
+            @import url("https://fonts.googleapis.com/css?family=Noto+Sana+TC:100,300,400,500,700,900&display=swap");
+            *{
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+            html,body{
+                height: 100%;
+            }
+            body{
+                display:flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .login{
+                width: 60%;
+                height: 45%;
+                background-color: darkblue;
+                border-radius: 10px;
+                border: 10px solid black;
+                box-shadow: 0 0 60px #000;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .form{
+                font-family: 'Noto Sans TC', sans-serif;
+                color:azure;
+            }
+            .form h2{
+                margin-bottom: 20px;
+            }
+            .form .group{
+                margin-bottom: 20px;
+            }
+            .form label{
+                line-height: 2;
+            }
+            .form input{
+                width:100%;
+                border:1px solid #aaa;
+                line-height: 2.2;
+                border-radius: 5px;
+            }
+            .form ,btn-group{
+                font-size: 1;
+            }
+            .form .btn{
+                font-size: 20px;
+                border-radius: 5px;
+                border:none;
+                background-color: aqua;
+                width: 150px;
+                padding: 3px 0;
+                color: darkblue;
+            }
+            .form .btn +.btn{
+                margin-left:20px;
+            }
+        </style>
+    </head>
+    <body>
+        <script src="login.js"></script>
+        <div class="login">
+            <form class="form">
+                <h2>登入</h2>
+                <div class="group">
+                    <label for="user_id">名字</label>
+                    <input type="text" name="" id="user_id">
+                </div>
+                <div class="group">
+                    <label for="user_password">性別</label>
+                    <input type="password" name="" id="user_password">
+                </div>
+                <div class="btn.group">
+                    <button class="btn" type="button" onClick="gohome()">登入</button>
+                    <button class="btn">取消</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
