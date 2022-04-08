@@ -19,6 +19,11 @@ function goback(){
         localStorage.setItem("lu11","0")
     }
 }
+
+function goback2(){
+    localStorage.removeItem("goback")
+}
+
 function gohigh(){
     alert("長長的高丸嘗起來真美味");
     var h11=Number(localStorage.getItem("h11"))+0.1;
@@ -53,13 +58,18 @@ function badeye(){
     localStorage.setItem("g31",String(g31));
     gobig();
 }
+function useeye(){
+    alert("看三小還想星爆啊");
+    var lu11=Number(localStorage.getItem("lu11"))+0.1;
+    localStorage.setItem("lu11",String(lu11));
+    gobig();
+}
 function gobig(){
     var do1=Number(localStorage.getItem("do"))+1;
-    var age=Number(localStorage.getItem("age"));
-    if(do1==60){
-        if(age<50){
+    var age=Number(localStorage.getItem("age"))+1;
+    var age2=age**2+age+2;
+    if(do1==age2){
         do1=0;
-        age=Number(localStorage.getItem("age"))+1;
         localStorage.setItem("age",String(age));
         var h1=Number(localStorage.getItem("h1"))+Number(localStorage.getItem("h11"));
         localStorage.setItem("h1",String(h1));
@@ -82,25 +92,10 @@ function gobig(){
         var lu1=Number(localStorage.getItem("lu1"))+Number(localStorage.getItem("lu11"));
         localStorage.setItem("lu1",String(lu1));
         localStorage.setItem("lu11","0");
-        }else{
-            age=Number(localStorage.getItem("age"))+1;
-        }
         alert("真的有人無聊到在這邊按了六十次？");
-
     }
     localStorage.setItem("do",String(do1));
 }
 
 goback();
-<<<<<<< HEAD
 
-function startLottery() {
-    $("#Start").css("display","none");
-    $("#End").css("display","block");
-}
-function endGift() {
-    $("#Start").css("display","block");
-    $("#End").css("display","none");
-}
-=======
->>>>>>> 95b1e754db1d9ea582214bce1b12c29b82a9247f
