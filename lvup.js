@@ -9,7 +9,7 @@ function goback(){
         localStorage.setItem("l1","10");
         localStorage.setItem("l2","5");
         localStorage.setItem("i1","0");
-        localStorage.setItem("m1","31");
+        localStorage.setItem("m1","0");
         localStorage.setItem("g11","31");
         localStorage.setItem("g21","31");
         localStorage.setItem("g31","31");
@@ -156,11 +156,11 @@ async function useeye(){
     var a1 = Math.random()*8;
     var b1 = ["g11", "g21", "g31", "j11", "l11", "l21", "i11", "m11"];
     var r1=Number(localStorage.getItem(b1[a1]))*1.1;
-    localStorage.setItem("j11",String(r1));
+    localStorage.setItem(b1[a1],String(r1));
     var b2 = b.splice(pos, a1);
     var a2 = Math.random()*7;
     var r2=Number(localStorage.getItem(b2[a2]))*0.09;
-    localStorage.setItem("g21",String(r2));
+    localStorage.setItem(b2[a2],String(r2));
     var l21=Number(localStorage.getItem("l21"))+3;
     localStorage.setItem("l21",String(l21));
     l11correction();
