@@ -58,7 +58,7 @@ async function gohigh(){
     localStorage.setItem("g31",String(g31));
     g21correction();
     g31correction();
-    document.write(長長的高丸嘗起來真美味);
+    document.write("長長的高丸嘗起來真美味");
     gobig();
     $('#train1').attr('disabled', false);
     $('#train2').attr('disabled', false);
