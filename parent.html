@@ -39,12 +39,17 @@
                     }
                 </script>
             </form></h3>
-            <h3>職業：無業遊民算是一種職業嗎？</h3>
+            <h3><script>
+                if(localStorage.getItem("work0") == null){
+                        document.write("職業：失蹤了");
+                    } else{
+                        document.write("職業："+localStorage.getItem("work0"));
+                    }
+            </script></h3>
             <h3><script>
                 if(localStorage.getItem("age0") == null){
-                        document.write("失蹤了");
+                        document.write("年齡：失蹤了");
                     } else{
-                        name=localStorage.getItem("age0");
                         document.write("年齡："+localStorage.getItem("age0")+"歲");
                     }
             </script></h3>
@@ -122,23 +127,17 @@
             <form>
                 <label for="testInput">
                   <span>小孩的名字 </span>
-                  <input type="text" placeholder="test" id="testInput" />
+                  <input type="text" placeholder="test" id="testInput2" />
                   <button class="submitBtn" onclick="FsubmitBtn()">生小孩</button>
                   <button type="reset">還是不要好了...</button>
                 </label>
             </form>
             <script>
-                var testInput = document.getElementById("testInput");
-                var submitBtn = document.querySelector(".submitBtn");
-
                 function FsubmitBtn() {
-                var str = "";
-                var submitValue = testInput.value;
-                str = submitValue;
-                localStorage.setItem("name0",nlocalStorage.getItem("name"));
-                localStorage.setItem("name",str);
-                localStorage.removeItem("goback");
-                localStorage.removeItem("goagain");
+                    var submitValue = $('#testInput2').val().toString();
+                    localStorage.setItem("name0",localStorage.getItem("name"));
+                    localStorage.setItem("name",submitValue);
+                    localStorage.removeItem("goagain");
                 }
             </script> 
     </body>

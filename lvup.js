@@ -47,7 +47,7 @@ async function gohigh(){
     $('#train3').attr('disabled', true);
     $('#train4').attr('disabled', true);
     $('#train5').attr('disabled', true);
-    await delay(20);
+    await delay(0);
     var g11=Number(localStorage.getItem("g11"))+3;
     localStorage.setItem("g11",String(g11));
     var j11=Number(localStorage.getItem("j11"))+1;
@@ -241,13 +241,7 @@ function gobig(){
         localStorage.setItem("m1",String(m1));
         localStorage.setItem("m11","0");
         localStorage.setItem("age",String(age));
-        alert("你長大了，成果如下\n身高成長了"
-        +String((g11)*(1+g0/20)/24)+"cm\n體重成長了"
-        +String(((g21)*(1+g0/20)/3+(g11)*(1+g0/20)/24))
-        +"kg\n跳躍力成長了"+String((j11)*(1+g0/20)/5)
-        +"\n視力成長了"+String((l11)*(1+g0/20)/5))
-        +"\n幸運成長了"+String((l21)*(1+g0/20)/5)
-        +"\n智力成長了"+String((i11)*(1+g0/20)/5);
+        alert("你長大了，成果如下\n身高成長了"+String((g11)*(1+g0/20)/24)+"cm\n體重成長了"+String(((g21)*(1+g0/20)/3+(g11)*(1+g0/20)/24))+"kg\n跳躍力成長了"+String((j11)*(1+g0/20)/5)+"\n視力成長了"+String((l11)*(1+g0/20)/5))+"\n幸運成長了"+String((l21)*(1+g0/20)/5)+"\n智力成長了"+String((i11)*(1+g0/20)/5);
     } else {
         localStorage.setItem("do",String(do1));
     }
@@ -336,7 +330,6 @@ function i11correction(){
     localStorage.setItem("i11",String(i11));
     localStorage.setItem("g31",String(g31));
 }
-
 
 goback();
 
