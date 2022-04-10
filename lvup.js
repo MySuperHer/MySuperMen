@@ -58,8 +58,8 @@ async function gohigh(){
     localStorage.setItem("g31",String(g31));
     g21correction();
     g31correction();
-    document.write(長長的高丸嘗起來真美味);
     gobig();
+    $("p").append("\n長長的高丸嘗起來真美味");
     $('#train1').attr('disabled', false);
     $('#train2').attr('disabled', false);
     $('#train3').attr('disabled', false);
@@ -84,7 +84,7 @@ async function gofat(){
     g11correction();
     g21correction();
     i11correction();
-    document.write("吃完垃圾食物後更高興了");
+    $("p").append("\n吃完垃圾食物後更高興了");
     gobig();
     $('#train1').attr('disabled', false);
     $('#train2').attr('disabled', false);
@@ -111,7 +111,7 @@ async function backfat(){
     localStorage.setItem("i11",String(i11));
     g31correction();
     i11correction();
-    document.write("到底有誰會想吃這鬼東西");
+    $("p").append("到底有誰會想吃這鬼東西");
     gobig();
     $('#train1').attr('disabled', false);
     $('#train2').attr('disabled', false);
@@ -138,7 +138,7 @@ async function badeye(){
     localStorage.setItem("j11",String(j11));
     j11correction();
     l11correction();
-    document.write("刀劍神域才不是卡通");
+    $("p").append("刀劍神域才不是卡通");
     gobig();
     $('#train1').attr('disabled', false);
     $('#train2').attr('disabled', false);
@@ -164,7 +164,7 @@ async function useeye(){
     var l21=Number(localStorage.getItem("l21"))+3;
     localStorage.setItem("l21",String(l21));
     l11correction();
-    document.write("看三小還想星爆啊");
+    $("p").append("看三小還想星爆啊");
     gobig();
     $('#train1').attr('disabled', false);
     $('#train2').attr('disabled', false);
@@ -241,7 +241,7 @@ function gobig(){
         localStorage.setItem("m1",String(m1));
         localStorage.setItem("m11","0");
         localStorage.setItem("age",String(age));
-        document.write("你長大了，成果如下\n身高成長了"+String((g11)*(1+g0/20)/24)+"cm\n體重成長了"+String(((g21)*(1+g0/20)/3+(g11)*(1+g0/20)/24))+"kg\n跳躍力成長了"+String((j11)*(1+g0/20)/5)+"\n視力成長了"+String((l11)*(1+g0/20)/5))+"\n幸運成長了"+String((l21)*(1+g0/20)/5)+"\n智力成長了"+String((i11)*(1+g0/20)/5);
+        $("p").append("你長大了，成果如下\n身高成長了"+String((g11)*(1+g0/20)/24)+"cm\n體重成長了"+String(((g21)*(1+g0/20)/3+(g11)*(1+g0/20)/24))+"kg\n跳躍力成長了"+String((j11)*(1+g0/20)/5)+"\n視力成長了"+String((l11)*(1+g0/20)/5))+"\n幸運成長了"+String((l21)*(1+g0/20)/5)+"\n智力成長了"+String((i11)*(1+g0/20)/5);
     } else {
         localStorage.setItem("do",String(do1));
     }

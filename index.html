@@ -80,7 +80,7 @@
                     </br>
                     <input placeholder="姓名" id="testInput1" />
                 </br>
-                    <a class="btn btn-primary" onclick="FsubmitBtn()" href="/MySuperMen/home.html">登入</a>
+                    <a class="btn btn-primary" onclick="FsubmitBtn()">登入</a>
                     <button class="btn btn-primary">取消</button>
                 </label>
             </form>
@@ -93,6 +93,7 @@
                     localStorage.setItem("name",submitValue);
                     localStorage.removeItem("goback");
                     localStorage.setItem("goagain");
+                    location.href="/MySuperMen/home.html";
                 }
             </script>
         </div>
