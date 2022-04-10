@@ -178,7 +178,7 @@ function gobig(){
     var age=Number(localStorage.getItem("age"))+1;
     var age2=age*2;
     if (do1 == age2){
-        var g0=(Number(localStorage.getItem(g01)));
+        var g0=(Number(localStorage.getItem("g01")));
         var g11=parseInt(Number(localStorage.getItem(g11))/5);
         var g21=parseInt(Number(localStorage.getItem(g21))/5);
         var g31=parseInt(Number(localStorage.getItem(g31))/5);
