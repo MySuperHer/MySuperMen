@@ -1,5 +1,6 @@
 function goback(){
     if(localStorage.getItem("goback")==null){
+        localStorage.setItem("work","無業");
         localStorage.setItem("hp","10");
         localStorage.setItem("g1","2.5");
         localStorage.setItem("g2","0.3");
@@ -26,6 +27,7 @@ function goback(){
 function again(){
     if(localStorage.getItem("goagain")==null){
         localStorage.setItem("age0",localStorage.getItem("age"));
+        localStorage.setItem("work0",localStorage.getItem("work"));
         localStorage.setItem("g01",localStorage.getItem("g1"));//轉生成長加成
         localStorage.setItem("g02",localStorage.getItem("g2"));
         localStorage.setItem("g03",localStorage.getItem("g3"));
@@ -173,7 +175,7 @@ async function useeye(){
 function gobig(){
     var do1=Number(localStorage.getItem("do"))+1;
     var age=Number(localStorage.getItem("age"))+1;
-    var age2=age*2+2;
+    var age2=age*2;
     if (do1 == age2){
         var g0=(Number(localStorage.getItem(g01)));
         var g11=parseInt(Number(localStorage.getItem(g11))/5);
@@ -240,12 +242,12 @@ function gobig(){
         localStorage.setItem("m11","0");
         localStorage.setItem("age",String(age));
         alert("你長大了，成果如下\n身高成長了"
-        +(g11)*(1+g0/20)/24+"cm\n體重成長了"
-        +((g21)*(1+g0/20)/3+(g11)*(1+g0/20)/24)
-        +"kg\n跳躍力成長了"+(j11)*(1+g0/20)/5
-        +"\n視力成長了"+(l11)*(1+g0/20)/5)
-        +"\n幸運成長了"+(l21)*(1+g0/20)/5
-        +"\n智力成長了"+(i11)*(1+g0/20)/5;
+        +String((g11)*(1+g0/20)/24)+"cm\n體重成長了"
+        +String(((g21)*(1+g0/20)/3+(g11)*(1+g0/20)/24))
+        +"kg\n跳躍力成長了"+String((j11)*(1+g0/20)/5)
+        +"\n視力成長了"+String((l11)*(1+g0/20)/5))
+        +"\n幸運成長了"+String((l21)*(1+g0/20)/5)
+        +"\n智力成長了"+String((i11)*(1+g0/20)/5);
     } else {
         localStorage.setItem("do",String(do1));
     }
