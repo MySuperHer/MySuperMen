@@ -60,7 +60,7 @@ async function gohigh(){
     g21correction();
     g31correction();
     gobig();
-    $("p").append("\n長長的高丸嘗起來真美味");
+    $("p").append("<div>長長的高丸嘗起來真美味</div>");
     $('#train1').attr('disabled', false);
     $('#train2').attr('disabled', false);
     $('#train3').attr('disabled', false);
@@ -85,7 +85,7 @@ async function gofat(){
     g11correction();
     g21correction();
     i11correction();
-    $("p").append("\n吃完垃圾食物後更高興了");
+    $("p").append("<div>吃完垃圾食物更高興了</div>");
     gobig();
     $('#train1').attr('disabled', false);
     $('#train2').attr('disabled', false);
@@ -112,7 +112,7 @@ async function backfat(){
     localStorage.setItem("i11",String(i11));
     g31correction();
     i11correction();
-    $("p").append("到底有誰會想吃這鬼東西");
+    $("p").append("<div>到底有誰會想吃這鬼東西</div>");
     gobig();
     $('#train1').attr('disabled', false);
     $('#train2').attr('disabled', false);
@@ -139,7 +139,7 @@ async function badeye(){
     localStorage.setItem("j11",String(j11));
     j11correction();
     l11correction();
-    $("p").append("刀劍神域才不是卡通");
+    $("p").append("<div>刀劍神域才不是卡通</div>");
     gobig();
     $('#train1').attr('disabled', false);
     $('#train2').attr('disabled', false);
@@ -165,7 +165,7 @@ async function useeye(){
     var l21=Number(localStorage.getItem("l21"))+3;
     localStorage.setItem("l21",String(l21));
     l11correction();
-    $("p").append("看三小還想星爆啊");
+    $("p").append("<div>看三小還想星爆啊</div>");
     gobig();
     $('#train1').attr('disabled', false);
     $('#train2').attr('disabled', false);
