@@ -242,7 +242,15 @@ function gobig(){
         localStorage.setItem("m1",String(m1));
         localStorage.setItem("m11","0");
         localStorage.setItem("age",String(age));
-        $("p").append("<div>你長大了，成果如下\n身高成長了"+String((g11)*(1+g0/20)/24)+"cm\n體重成長了"+String(((g21)*(1+g0/20)/3+(g11)*(1+g0/20)/24))+"kg\n跳躍力成長了"+String((j11)*(1+g0/20)/5)+"\n視力成長了"+String((l11)*(1+g0/20)/5))+"\n幸運成長了"+String((l21)*(1+g0/20)/5)+"\n智力成長了"+String((i11)*(1+g0/20)/5)+"</div>";
+        let content = '';
+        content += '<div>你長大了，成果如下</div>';
+        content += '<div>身高成長了' + String((g11)*(1+g0/20)/24) + 'cm</div>';
+        content += '<div>體重成長了' + String(((g21)*(1+g0/20)/3+(g11)*(1+g0/20)/24)) + 'kg</div>';
+        content += '<div>跳躍力成長了' + String((j11)*(1+g0/20)/5) + '</div>';
+        content += '<div>視力成長了' + String((l11)*(1+g0/20)/5) + '</div>';
+        content += '<div>幸運成長了' + String((l21)*(1+g0/20)/5) + '</div>';
+        content += '<div>智力成長了' + String((i11)*(1+g0/20)/5) + '</div>';
+        $("p").append(content);
     } else {
         localStorage.setItem("do",String(do1));
     }
