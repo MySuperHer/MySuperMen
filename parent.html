@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>我的超人</title>
+        <link href="title.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest/disable-devtool.min.js'></script>
+        <script>
+        import disableDevtool from 'disable-devtool';
+        disableDevtool();
+        </script>
+    </head>
+    <body class="chakra-ui-light">
+        <script src="lvup.js"></script>
+        <nav class="css-1hkgr98">
+            <div>
+                <a class="btn btn-primary" href="/home.html">房間</a>
+                <a class="btn btn-primary" href="/train.html">訓練</a>
+                <a class="btn btn-primary" href="/parent.html">家世</a>
+                <a class="btn btn-primary" href="/outside.html">出門</a>
+                <a class="btn btn-primary" href="/fight.html">戰鬥</a>
+                <a class="btn btn-primary" href="/casino.html">賭場</a>
+                <a class="btn btn-primary" href="/rank.html">排行榜</a>
+                <a class="btn btn-primary" href="/author.html">作者的話</a>
+            </div>
+        </nav>
+        <div>
+            <h1>你的父親</h1>
+            <h3>儘管他並不值得你自豪</h3>
+            <h3><form>
+                姓名：
+                <script>
+                    if(localStorage.getItem("name0") == null){
+                        document.write("失蹤了");
+                    } else{
+                        name=localStorage.getItem("name0");
+                        document.write(name);
+                    }
+                </script>
+            </form></h3>
+            <h3>職業：無業遊民算是一種職業嗎？</h3>
+            <h3><script>
+                if(localStorage.getItem("age0") == null){
+                        document.write("失蹤了");
+                    } else{
+                        name=localStorage.getItem("age0");
+                        document.write("年齡："+localStorage.getItem("age0")+"歲");
+                    }
+            </script></h3>
+            <h3><form>性別：男</form></h3>
+            <table>
+                <tr>
+                    <td>身高</td>
+                    <td><script>
+                        if(localStorage.getItem("g01") == null){
+                            document.write("未知");
+                        } else{
+                            h01=parseInt(Number(localStorage.getItem("g01")*10));
+                            document.write(h01);
+                        }
+                    </script><td>
+                    <td>cm</td>
+                </tr>
+                <tr>
+                    <td>體重</td>
+                    <td><script>
+                        if(localStorage.getItem("g01") == null){
+                            document.write("未知");
+                        } else{
+                            g01=parseInt(Number(localStorage.getItem("g01"))+Number(localStorage.getItem("g02"))+Number(localStorage.getItem("g03")));
+                            document.write(g01);
+                        }
+                    </script><td>
+                    <td>kg</td>
+                </tr>
+                <tr>
+                    <td>跳躍力</td>
+                    <td><script>
+                        if(localStorage.getItem("j01") == null){
+                            document.write("未知");
+                        } else{
+                            j01=parseInt(localStorage.getItem("j01"));
+                            document.write(j01);
+                        }
+                    </script><td>
+                </tr>
+                <tr>
+                    <td>視力</td>
+                    <td><script>
+                        if(localStorage.getItem("l01") == null){
+                            document.write("未知");
+                        } else{
+                            l01=parseInt(localStorage.getItem("l01"));
+                            document.write(l01);
+                        }
+                    </script><td>
+                </tr>
+                <tr>
+                    <td>幸運</td>
+                    <td><script>
+                        if(localStorage.getItem("l02") == null){
+                            document.write("未知");
+                        } else{
+                            l02=parseInt(localStorage.getItem("l02"));
+                            document.write(l02);
+                        }
+                    </script></tr>
+                </tr>
+                <tr>
+                    <td>智力</td>
+                    <td><script>
+                        if(localStorage.getItem("i01") == null){
+                            document.write("未知");
+                        } else{
+                            i01=parseInt(localStorage.getItem("i01"));
+                            document.write(i01);
+                        }
+                    </script></tr>
+                </tr>
+            </table>
+            <form>
+                <label for="testInput">
+                  <span>小孩的名字 </span>
+                  <input type="text" placeholder="test" id="testInput" />
+                  <button class="submitBtn" onclick="FsubmitBtn()">生小孩</button>
+                  <button type="reset">還是不要好了...</button>
+                </label>
+            </form>
+            <script>
+                var testInput = document.getElementById("testInput");
+                var submitBtn = document.querySelector(".submitBtn");
+
+                function FsubmitBtn() {
+                var str = "";
+                var submitValue = testInput.value;
+                str = submitValue;
+                localStorage.setItem("name0",nlocalStorage.getItem("name"));
+                localStorage.setItem("name",str);
+                localStorage.removeItem("goback");
+                localStorage.removeItem("goagain");
+                }
+            </script> 
+    </body>
+</html>

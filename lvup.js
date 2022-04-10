@@ -1,101 +1,296 @@
 function goback(){
     if(localStorage.getItem("goback")==null){
-        localStorage.setItem("goback","0")
-        localStorage.setItem("age","0")
-        localStorage.setItem("h1","30")
-        localStorage.setItem("g1","3")//骨
-        localStorage.setItem("g2","1")//肉
-        localStorage.setItem("g3","1")//油
-        localStorage.setItem("j1","1")
-        localStorage.setItem("l1","30")
-        localStorage.setItem("lu1","30")
-        localStorage.setItem("do","0")
-        localStorage.setItem("h11","0")
-        localStorage.setItem("g11","0")
-        localStorage.setItem("g21","0")
-        localStorage.setItem("g31","0")
-        localStorage.setItem("j11","0")
-        localStorage.setItem("l11","0")
-        localStorage.setItem("lu11","0")
+        localStorage.setItem("hp","10");
+        localStorage.setItem("g1","2.5");
+        localStorage.setItem("g2","0.3");
+        localStorage.setItem("g3","0.2");
+        localStorage.setItem("j1","1");
+        localStorage.setItem("l1","10");
+        localStorage.setItem("l2","5");
+        localStorage.setItem("i1","0");
+        localStorage.setItem("m1","31");
+        localStorage.setItem("g11","31");
+        localStorage.setItem("g21","31");
+        localStorage.setItem("g31","31");
+        localStorage.setItem("j11","31");
+        localStorage.setItem("l11","31");
+        localStorage.setItem("l21","31");
+        localStorage.setItem("i11","31");
+        localStorage.setItem("m11","31");
+        localStorage.setItem("age","31");
+        localStorage.setItem("do","0");
+        localStorage.setItem("goback","0");
     }
 }
 
-function goback2(){
-    localStorage.removeItem("goback")
+function again(){
+    if(localStorage.getItem("goagain")==null){
+        localStorage.setItem("age0",localStorage.getItem("age"));
+        localStorage.setItem("g01",localStorage.getItem("g1"));//轉生成長加成
+        localStorage.setItem("g02",localStorage.getItem("g2"));
+        localStorage.setItem("g03",localStorage.getItem("g3"));
+        localStorage.setItem("j01",localStorage.getItem("j1"));
+        localStorage.setItem("l01",localStorage.getItem("l1"));
+        localStorage.setItem("l02",localStorage.getItem("l2"));
+        localStorage.setItem("i01",localStorage.getItem("i1"));
+        localStorage.setItem("m01",localStorage.getItem("m1"));
+        localStorage.setItem("goagain",0);
+        localStorage.removeItem("goback");
+    }
 }
 
 function gohigh(){
-    alert("長長的高丸嘗起來真美味");
-    var h11=Number(localStorage.getItem("h11"))+0.1;
-    localStorage.setItem("h11",String(h11));
-    var j11=Number(localStorage.getItem("j11"))+0.06;
+    $('.xxx').attr('disabled', true);
+    var g11=Number(localStorage.getItem("g11"))+3;
+    localStorage.setItem("g11",String(g11));
+    var j11=Number(localStorage.getItem("j11"))+1;
     localStorage.setItem("j11",String(j11));
+    var g21=Number(localStorage.getItem("g21"))-3;
+    localStorage.setItem("g21",String(g21));
+    var g31=Number(localStorage.getItem("g31"))-1;
+    localStorage.setItem("g31",String(g31));
+    g21correction();
+    g31correction();
     gobig();
+    alert("長長的高丸嘗起來真美味");
+    delay(20);
 }
 function gofat(){
-    alert("吃完垃圾食物後更高興了");
-    var g21=Number(localStorage.getItem("g21"))+0.05;
+    $('.xxx').attr('disabled', true);
+    var g31=Number(localStorage.getItem("g31"))+9;
+    localStorage.setItem("g11",String(g11));
+    var i11=Number(localStorage.getItem("i11"))-5;
+    localStorage.setItem("i11",String(i11));
+    var g11=Number(localStorage.getItem("g11"))-3;
+    localStorage.setItem("g11",String(g11));
+    var g21=Number(localStorage.getItem("g21"))-1;
     localStorage.setItem("g21",String(g21));
-    var g31=Number(localStorage.getItem("g31"))+0.1;
-    localStorage.setItem("g31",String(g31));
+    g11correction();
+    g21correction();
+    i11correction();
     gobig();
+    alert("吃完垃圾食物後更高興了");
+    delay(20);
 }
 function backfat(){
-    alert("到底有誰會想吃這種鬼東西");
-    var g31=Number(localStorage.getItem("g31"))-0.1;
-    localStorage.setItem("g31",String(g31));
-    var g21=Number(localStorage.getItem("g21"))+0.1;
+    $('.xxx').attr('disabled', true);
+    var j11=Number(localStorage.getItem("j11"))+4;
+    localStorage.setItem("j11",String(j11));
+    var g21=Number(localStorage.getItem("g21"))+3;
     localStorage.setItem("g21",String(g21));
-    var l11=Number(localStorage.getItem("l11"))+0.1;
+    var l11=Number(localStorage.getItem("l11"))+1;
     localStorage.setItem("l11",String(l11));
+    var g31=Number(localStorage.getItem("g31"))-7;
+    localStorage.setItem("g31",String(g31));
+    var i11=Number(localStorage.getItem("i11"))-1;
+    localStorage.setItem("i11",String(i11));
+    g31correction();
+    i11correction();
     gobig();
+    alert("到底有誰會想吃這種鬼東西");
+    delay(20);
 }
 function badeye(){
-    alert("刀劍神域才不是卡通");
-    var l11=Number(localStorage.getItem("l11"))-0.01;
-    localStorage.setItem("l11",String(l11));
-    var g31=Number(localStorage.getItem("g31"))+0.05;
+    $('.xxx').attr('disabled', true);
+    var i11=Number(localStorage.getItem("i11"))+4;
+    localStorage.setItem("i11",String(i11));
+    var g31=Number(localStorage.getItem("g31"))*1.1;
     localStorage.setItem("g31",String(g31));
+    var g21=Number(localStorage.getItem("g21"))*0.8;
+    localStorage.setItem("g21",String(g21));
+    var l11=Number(localStorage.getItem("l11"))-7;
+    localStorage.setItem("l11",String(l11));
+    var j11=Number(localStorage.getItem("j11"))-1;
+    localStorage.setItem("j11",String(j11));
+    j11correction();
+    l11correction();
     gobig();
+    alert("刀劍神域才不是卡通");
+    delay(20);
 }
 function useeye(){
-    alert("看三小還想星爆啊");
-    var lu11=Number(localStorage.getItem("lu11"))+0.1;
-    localStorage.setItem("lu11",String(lu11));
+    $('.xxx').attr('disabled', true);
+    var a1 = Math.random()*8;
+    var b1 = ["g11", "g21", "g31", "j11", "l11", "l21", "i11", "m11"];
+    var r1=Number(localStorage.getItem(b1[a1]))*1.1;
+    localStorage.setItem("j11",String(r1));
+    var b2 = b.splice(pos, a1);
+    var a2 = Math.random()*7;
+    var r2=Number(localStorage.getItem(b2[a2]))*0.09;
+    localStorage.setItem("g21",String(r2));
+    var l21=Number(localStorage.getItem("l21"))+3;
+    localStorage.setItem("l21",String(l21));
+    l11correction();
     gobig();
+    alert("看三小還想星爆啊");
+    delay(20);
 }
 function gobig(){
     var do1=Number(localStorage.getItem("do"))+1;
     var age=Number(localStorage.getItem("age"))+1;
-    var age2=age**2+age+2;
-    if(do1==age2){
-        do1=0;
-        localStorage.setItem("age",String(age));
-        var h1=Number(localStorage.getItem("h1"))+Number(localStorage.getItem("h11"));
-        localStorage.setItem("h1",String(h1));
-        localStorage.setItem("h11","0");
-        var g1=Number(localStorage.getItem("g1"))+Number(localStorage.getItem("g11"));
+    var age2=age*2+2;
+    if (do1 == age2){
+        var g0=(Number(localStorage.getItem(g01)));
+        var g11=parseInt(Number(localStorage.getItem(g11))/5);
+        var g21=parseInt(Number(localStorage.getItem(g21))/5);
+        var g31=parseInt(Number(localStorage.getItem(g31))/5);
+        var j11=parseInt(Number(localStorage.getItem(j11))/5);
+        var l11=parseInt(Number(localStorage.getItem(l11))/5);
+        var l21=parseInt(Number(localStorage.getItem(l21))/5);
+        var i11=parseInt(Number(localStorage.getItem(i11))/5);
+        var m11=parseInt(Number(localStorage.getItem(m11))/5);
+        var g1=Number(localStorage.getItem(g1))+(g11)*(1+g0/20)/24;
+        var g2=Number(localStorage.getItem(g2))+(g21)*(1+g0/20)/6;
+        var g3=Number(localStorage.getItem(g3))+(g31)*(1+g0/20)/6;
+        var j1=Number(localStorage.getItem(j1))+(j11)*(1+g0/20)/5;
+        var l1=Number(localStorage.getItem(l1))+(l11)*(1+g0/20)/5;
+        var l2=Number(localStorage.getItem(l2))+(l21)*(1+g0/20)/5;
+        var i1=Number(localStorage.getItem(i1))+(i11)*(1+g0/20)/5;
+        var m1=Number(localStorage.getItem(m1))+(m11)*(1+g0/20)/5;
+        var hp=Number(localStorage.getItem(hp))+10*(1+g0/20);
+        if (g1>20*(1+g0/100)){
+            g1=20*(1+g0/20);
+            if(age>50){
+                g1=g1*0.99;
+            }
+        }
+        if (g2+g3>g1*14){
+            g2=g2*0.95;
+            g3=g3*0.9;
+        }
+        if (j1>g2*3.5){
+            j1=g2*3.5;
+        }
+        if (l1>100*(1+g0/20)){
+            l1=100;
+            if(age>35){
+                l1=l1*(1-0.005*age);
+            }
+        }
+        if (l2>100*(1+g0/20)){
+            l2=100*(1+g0/20);
+        }
+        if (i1>180*(1+g0/20)){
+            i1=180*(1+g0/20);
+            if (age>30){
+                i1=i1*(1-0.002*age);
+            }
+        }
+        localStorage.setItem("hp",String(hp));
         localStorage.setItem("g1",String(g1));
         localStorage.setItem("g11","0");
-        var g2=Number(localStorage.getItem("g2"))+Number(localStorage.getItem("g21"));
         localStorage.setItem("g2",String(g2));
         localStorage.setItem("g21","0");
-        var g3=Number(localStorage.getItem("g3"))+Number(localStorage.getItem("g31"));
         localStorage.setItem("g3",String(g3));
         localStorage.setItem("g31","0");
-        var j1=Number(localStorage.getItem("j1"))+Number(localStorage.getItem("j11"));
         localStorage.setItem("j1",String(j1));
         localStorage.setItem("j11","0");
-        var l1=Number(localStorage.getItem("l1"))+Number(localStorage.getItem("l11"));
         localStorage.setItem("l1",String(l1));
         localStorage.setItem("l11","0");
-        var lu1=Number(localStorage.getItem("lu1"))+Number(localStorage.getItem("lu11"));
-        localStorage.setItem("lu1",String(lu1));
-        localStorage.setItem("lu11","0");
-        alert("真的有人無聊到在這邊按了六十次？");
+        localStorage.setItem("l2",String(l2));
+        localStorage.setItem("l21","0");
+        localStorage.setItem("i1",String(i1));
+        localStorage.setItem("i11","0");
+        localStorage.setItem("m1",String(m1));
+        localStorage.setItem("m11","0");
+        localStorage.setItem("age",String(age));
+    } else {
+        localStorage.setItem("do",String(do1));
     }
-    localStorage.setItem("do",String(do1));
 }
+
+function g11correction(){
+    var g11=Number(localStorage.getItem(g11));
+    var g31=Number(localStorage.getItem(g31));
+    if (g11<0){
+        g31=g31+g11;
+        if(g31<0){
+            g31=0;
+        }
+        g11=0;
+    }
+    localStorage.setItem("g11",String(g11));
+    localStorage.setItem("g31",String(g31));
+}
+
+function g21correction(){
+    var g21=Number(localStorage.getItem(g21));
+    var g11=Number(localStorage.getItem(g11));
+    if (g21<0){
+        g11=g11+g21;
+        if(g11<0){
+            g11=0;
+        }
+        g21=0;
+    }
+    localStorage.setItem("g21",String(g21));
+    localStorage.setItem("g11",String(g11));
+}
+
+function g31correction(){
+    var g31=Number(localStorage.getItem(g31));
+    var g21=Number(localStorage.getItem(g21));
+    if (g31<0){
+        g21=g21+g31;
+        if(g21<0){
+            g21=0;
+        }
+        g31=0;
+    }
+    localStorage.setItem("g21",String(g21));
+    localStorage.setItem("g31",String(g31));
+}
+
+function j11correction(){
+    var j11=Number(localStorage.getItem(j11));
+    var i11=Number(localStorage.getItem(i11));
+    if (j11<0){
+        i11=i11+j11;
+        if(i11<0){
+            i11=0;
+        }
+        j11=0;
+    }
+    localStorage.setItem("j11",String(j11));
+    localStorage.setItem("i11",String(i11));
+}
+
+function l11correction(){
+    var l11=Number(localStorage.getItem(l11));
+    var i11=Number(localStorage.getItem(i11));
+    if (l11<0){
+        i11=i11+l11;
+        if(i11<0){
+            i11=0;
+        }
+        l11=0;
+    }
+    localStorage.setItem("l11",String(l11));
+    localStorage.setItem("i11",String(i11));
+}
+
+function i11correction(){
+    var i11=Number(localStorage.getItem(i11));
+    var g31=Number(localStorage.getItem(g31));
+    if (i11<0){
+        g31=g31+i11;
+        if(g31<0){
+            g31=0;
+        }
+        i11=0;
+    }
+    localStorage.setItem("i11",String(i11));
+    localStorage.setItem("g31",String(g31));
+}
+
 
 goback();
 
+again();
+
+function delay(n){
+    return new Promise(function(resolve){
+        setTimeout(resolve,n*1000);  //n*1000為毫秒
+        $('.xxx').attr('disabled', false);
+    });
+}
