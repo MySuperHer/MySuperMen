@@ -39,8 +39,13 @@ function again(){
     }
 }
 
-function gohigh(){
-    $('.xxx').attr('disabled', true);
+async function gohigh(){
+    $('#train1').attr('disabled', true);
+    $('#train2').attr('disabled', true);
+    $('#train3').attr('disabled', true);
+    $('#train4').attr('disabled', true);
+    $('#train5').attr('disabled', true);
+    await delay(20);
     var g11=Number(localStorage.getItem("g11"))+3;
     localStorage.setItem("g11",String(g11));
     var j11=Number(localStorage.getItem("j11"))+1;
@@ -51,12 +56,21 @@ function gohigh(){
     localStorage.setItem("g31",String(g31));
     g21correction();
     g31correction();
-    gobig();
     alert("長長的高丸嘗起來真美味");
-    delay(20);
+    gobig();
+    $('#train1').attr('disabled', false);
+    $('#train2').attr('disabled', false);
+    $('#train3').attr('disabled', false);
+    $('#train4').attr('disabled', false);
+    $('#train5').attr('disabled', false);
 }
-function gofat(){
-    $('.xxx').attr('disabled', true);
+async function gofat(){
+    $('#train1').attr('disabled', true);
+    $('#train2').attr('disabled', true);
+    $('#train3').attr('disabled', true);
+    $('#train4').attr('disabled', true);
+    $('#train5').attr('disabled', true);
+    await delay(20);
     var g31=Number(localStorage.getItem("g31"))+9;
     localStorage.setItem("g11",String(g11));
     var i11=Number(localStorage.getItem("i11"))-5;
@@ -68,12 +82,21 @@ function gofat(){
     g11correction();
     g21correction();
     i11correction();
-    gobig();
     alert("吃完垃圾食物後更高興了");
-    delay(20);
+    gobig();
+    $('#train1').attr('disabled', false);
+    $('#train2').attr('disabled', false);
+    $('#train3').attr('disabled', false);
+    $('#train4').attr('disabled', false);
+    $('#train5').attr('disabled', false);
 }
-function backfat(){
-    $('.xxx').attr('disabled', true);
+async function backfat(){
+    $('#train1').attr('disabled', true);
+    $('#train2').attr('disabled', true);
+    $('#train3').attr('disabled', true);
+    $('#train4').attr('disabled', true);
+    $('#train5').attr('disabled', true);
+    await delay(20);
     var j11=Number(localStorage.getItem("j11"))+4;
     localStorage.setItem("j11",String(j11));
     var g21=Number(localStorage.getItem("g21"))+3;
@@ -86,12 +109,21 @@ function backfat(){
     localStorage.setItem("i11",String(i11));
     g31correction();
     i11correction();
-    gobig();
     alert("到底有誰會想吃這種鬼東西");
-    delay(20);
+    gobig();
+    $('#train1').attr('disabled', false);
+    $('#train2').attr('disabled', false);
+    $('#train3').attr('disabled', false);
+    $('#train4').attr('disabled', false);
+    $('#train5').attr('disabled', false);
 }
-function badeye(){
-    $('.xxx').attr('disabled', true);
+async function badeye(){
+    $('#train1').attr('disabled', true);
+    $('#train2').attr('disabled', true);
+    $('#train3').attr('disabled', true);
+    $('#train4').attr('disabled', true);
+    $('#train5').attr('disabled', true);
+    await delay(20);
     var i11=Number(localStorage.getItem("i11"))+4;
     localStorage.setItem("i11",String(i11));
     var g31=Number(localStorage.getItem("g31"))*1.1;
@@ -104,12 +136,21 @@ function badeye(){
     localStorage.setItem("j11",String(j11));
     j11correction();
     l11correction();
-    gobig();
     alert("刀劍神域才不是卡通");
-    delay(20);
+    gobig();
+    $('#train1').attr('disabled', false);
+    $('#train2').attr('disabled', false);
+    $('#train3').attr('disabled', false);
+    $('#train4').attr('disabled', false);
+    $('#train5').attr('disabled', false);
 }
-function useeye(){
-    $('.xxx').attr('disabled', true);
+async function useeye(){
+    $('#train1').attr('disabled', true);
+    $('#train2').attr('disabled', true);
+    $('#train3').attr('disabled', true);
+    $('#train4').attr('disabled', true);
+    $('#train5').attr('disabled', true);
+    await delay(20);
     var a1 = Math.random()*8;
     var b1 = ["g11", "g21", "g31", "j11", "l11", "l21", "i11", "m11"];
     var r1=Number(localStorage.getItem(b1[a1]))*1.1;
@@ -121,9 +162,13 @@ function useeye(){
     var l21=Number(localStorage.getItem("l21"))+3;
     localStorage.setItem("l21",String(l21));
     l11correction();
-    gobig();
     alert("看三小還想星爆啊");
-    delay(20);
+    gobig();
+    $('#train1').attr('disabled', false);
+    $('#train2').attr('disabled', false);
+    $('#train3').attr('disabled', false);
+    $('#train4').attr('disabled', false);
+    $('#train5').attr('disabled', false);
 }
 function gobig(){
     var do1=Number(localStorage.getItem("do"))+1;
@@ -194,6 +239,13 @@ function gobig(){
         localStorage.setItem("m1",String(m1));
         localStorage.setItem("m11","0");
         localStorage.setItem("age",String(age));
+        alert("你長大了，成果如下\n身高成長了"
+        +(g11)*(1+g0/20)/24+"cm\n體重成長了"
+        +((g21)*(1+g0/20)/3+(g11)*(1+g0/20)/24)
+        +"kg\n跳躍力成長了"+(j11)*(1+g0/20)/5
+        +"\n視力成長了"+(l11)*(1+g0/20)/5)
+        +"\n幸運成長了"+(l21)*(1+g0/20)/5
+        +"\n智力成長了"+(i11)*(1+g0/20)/5;
     } else {
         localStorage.setItem("do",String(do1));
     }
@@ -291,6 +343,5 @@ again();
 function delay(n){
     return new Promise(function(resolve){
         setTimeout(resolve,n*1000);  //n*1000為毫秒
-        $('.xxx').attr('disabled', false);
     });
 }
