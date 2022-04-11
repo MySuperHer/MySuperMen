@@ -229,7 +229,6 @@ function gobig(){
     }else{
         var age2=age*2;
     }
-    ocalStorage.setItem("exp",String(age2));
     var work=localStorage.getItem("work");
     if (work == "跳級生"){
         var do1=Number(localStorage.getItem("do"))+1;
@@ -380,6 +379,7 @@ function gobig(){
         localStorage.setItem("m11","31");
         localStorage.setItem("do","0");
         localStorage.setItem("age",age.toString());
+        localStorage.setItem("exp",String(age2));
         let content = '';
         content += '<div>你長大了，成果如下</div>';
         content += '<div>身高成長了' + String((parseInt(g1*1000)-parseInt(cg1*1000))/100)+ 'cm</div>';
@@ -555,7 +555,6 @@ function gobig2(){
     }else{
         var age2=age*2;
     }
-    ocalStorage.setItem("exp",String(age2));
     var work=localStorage.getItem("work");
     if (work == "跳級生"){
         var do1=Number(localStorage.getItem("do"))+1;
@@ -706,6 +705,7 @@ function gobig2(){
         localStorage.setItem("m11","31");
         localStorage.setItem("do","0");
         localStorage.setItem("age",age.toString());
+        localStorage.setItem("exp",String(age2));
         let content = '';
         content += '<div>你長大了，成果如下</div>';
         content += '<div>身高成長了' + String((parseInt(g1*1000)-parseInt(cg1*1000))/100)+ 'cm</div>';
