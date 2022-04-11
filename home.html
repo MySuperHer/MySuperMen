@@ -35,7 +35,9 @@
                     document.write(name);
                 </script>
             </form></h3>
-            <h3>職業：無業遊民算是一種職業嗎？</h3>
+            <h3><script>
+                document.write("職業："+localStorage.getItem("work"));
+            </script></h3>
             <h3><script>
                 document.write("年齡："+localStorage.getItem("age")+"歲");
             </script></h3>
@@ -44,8 +46,9 @@
                 <tr>
                     <td>身高</td>
                     <td><script>
-                        var plh=parseInt(Number(localStorage.getItem("g1"))*1000)/100;
-                        document.write(plh);
+                        var plh=parseInt(Number(localStorage.getItem("g1"))*1000);
+                        var plh2=plh/100;
+                        document.write(plh2);
                     </script><td>
                     <td>cm</td>
                 </tr>
