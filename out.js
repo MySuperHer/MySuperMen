@@ -103,7 +103,7 @@ async function study(){
     var age=Number(localStorage.getItem("age"));
     var i1=Number(localStorage.getItem("i1"));
     var l2=Number(localStorage.getItem("l2"));
-    var a1 = parseInt(Math.random()*100)*(100+i1)*(100+l2)/10000+1;
+    var a1 = parseInt(Math.random()*100)*(100+i1)*(1000+l2)/100000;
     let content = '';
     if (age<27){
         if(age>22){
@@ -114,7 +114,7 @@ async function study(){
                 content = '<div>入學測試慘遭滑鐵盧，明年再來吧。</div>';
             }
         }else{
-            if (a1>90){
+            if (a1>=100){
                 content = '<div>你的成績非常出眾，於是你的老師決定讓你至哈佛研究所就讀。</div>';
                 localStorage.setItem("work","跳級生");
             }else{
