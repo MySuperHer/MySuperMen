@@ -15,9 +15,9 @@
         <script src="lvup.js"></script>
         <nav class="css-1hkgr98">
             <div>
-                <a class="btn btn-primary" href="/MySuperMen/home.html">房間</a>
-                <a class="btn btn-primary" href="/MySuperMen/train.html">訓練</a>
-                <a class="btn btn-primary" href="/MySuperMen/parent.html">家世</a>
+                <a class="btn btn-primary" href="./home.html">房間</a>
+                <a class="btn btn-primary" href="./train.html">訓練</a>
+                <a class="btn btn-primary" href="./parent.html">家世</a>
                 <a class="btn btn-primary" href="/MySuperMen/outside.html">出門</a>
                 <a class="btn btn-primary" href="/MySuperMen/fight.html">戰鬥</a>
                 <a class="btn btn-primary" href="/MySuperMen/casino.html">賭場</a>
@@ -44,45 +44,52 @@
                 <tr>
                     <td>身高</td>
                     <td><script>
-                        g1=parseInt(Number(localStorage.getItem("g1"))*10);
-                        document.write(g1);
+                        var plh=parseInt(Number(localStorage.getItem("g1"))*1000)/100;
+                        document.write(plh);
                     </script><td>
                     <td>cm</td>
                 </tr>
                 <tr>
                     <td>體重</td>
                     <td><script>
-                        g1=parseInt(Number(localStorage.getItem("g1"))+Number(localStorage.getItem("g2"))+Number(localStorage.getItem("g3")));
-                        document.write(g1);
+                        var plg=parseInt(Number(localStorage.getItem("g1"))*100+Number(localStorage.getItem("g2"))*100+Number(localStorage.getItem("g3"))*100)/100;
+                        document.write(plg);
                     </script><td>
                     <td>kg</td>
                 </tr>
                 <tr>
                     <td>跳躍力</td>
                     <td><script>
-                        j1=parseInt(localStorage.getItem("j1"));
-                        document.write(j1);
+                        var plj=parseInt(Number(localStorage.getItem("j1"))*100)/100;
+                        document.write(plj);
                     </script><td>
                 </tr>
                 <tr>
                     <td>視力</td>
                     <td><script>
-                        l1=parseInt(localStorage.getItem("l1"));
-                        document.write(l1);
+                        var pll=parseInt(Number(localStorage.getItem("l1"))*100)/100;
+                        document.write(pll);
                     </script><td>
                 </tr>
                 <tr>
                     <td>幸運</td>
                     <td><script>
-                        l2=parseInt(localStorage.getItem("l2"));
-                        document.write(l2);
+                        pll2=parseInt(Number(localStorage.getItem("l2"))*100)/100;
+                        document.write(pll2);
                     </script><td>
                 </tr>
                 <tr>
                     <td>智力</td>
                     <td><script>
-                        i1=parseInt(localStorage.getItem("i1"));
-                        document.write(i1);
+                        pli=parseInt(Number(localStorage.getItem("i1"))*100)/100;
+                        document.write(pli);
+                    </script><td>
+                </tr>
+                <tr>
+                    <td>魅力</td>
+                    <td><script>
+                        plm=parseInt(Number(localStorage.getItem("m1"))*100)/100;
+                        document.write(plm);
                     </script><td>
                 </tr>
             </table>
