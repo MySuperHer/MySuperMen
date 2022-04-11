@@ -42,8 +42,10 @@ function people(){
     var mhp=10000;//血量
     var content = '';
     content += '<div>'+plname+'遇到了動保委員</div>';
+    $('#3').append(content);
     while(php>=0 && mhp>=0){
         if(pl1>=ml1){
+            var content = '';
             var pm1 = parseInt(Math.random()*101)*(100+pl1)*(100+pi1)/10000;//命中判定
             var pm2 = parseInt(Math.random()*101)*(100+mj1)/100;//閃避判定
             if(pm1>=50 && pa>0){
@@ -93,7 +95,7 @@ function people(){
                         }
                         content += '<div>動保委員掏出'+garm+'，打出了致命一擊，對'+plname+'造成了'+String(harm)+'點傷害</div>';
                         php=php-harm;
-                        if (garm='電擊槍'){
+                        if (garm=='電擊槍'){
                             var mp4 = parseInt(Math.random()*101)*(100+ml1)*(100+mi1)/10000;//命中判定
                             var mp5 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
                             if(mp4>=mp5){
@@ -109,7 +111,7 @@ function people(){
                         }
                         content += '<div>動保委員掏出'+garm+'，發動攻擊，對'+plname+'造成了'+String(harm)+'點傷害</div>';
                         php=php-harm;
-                        if (garm='電擊槍'){
+                        if (garm=='電擊槍'){
                             var mp6 = parseInt(Math.random()*101)*(100+ml1)*(100+mi1)/10000;//命中判定
                             var mp7 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
                             if(mp6>=mp7){
@@ -145,7 +147,7 @@ function people(){
                         }
                         content += '<div>動保委員掏出'+garm+'，打出了致命一擊，對'+plname+'造成了'+String(harm)+'點傷害</div>';
                         php=php-harm;
-                        if (garm='電擊槍'){
+                        if (garm=='電擊槍'){
                             var mp4 = parseInt(Math.random()*101)*(100+ml1)*(100+mi1)/10000;//命中判定
                             var mp5 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
                             if(mp4>=mp5){
@@ -161,7 +163,7 @@ function people(){
                         }
                         content += '<div>動保委員掏出'+garm+'，發動攻擊，對'+plname+'造成了'+String(harm)+'點傷害</div>';
                         php=php-harm;
-                        if (garm='電擊槍'){
+                        if (garm=='電擊槍'){
                             var mp6 = parseInt(Math.random()*101)*(100+ml1)*(100+mi1)/10000;//命中判定
                             var mp7 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
                             if(mp6>=mp7){
@@ -213,8 +215,10 @@ function people(){
     var content = '';
     if(php<0 && mhp>0){
         content += '<div>'+plname+'倒下了，動保委員還有'+String(mhp)+'點生命</div>';
+        lose();
     }else if(php>0 && mhp<0){
-        content += '<div>動保委員倒下了，'+plname+'還有'+String(mhp)+'點生命</div>';
+        content += '<div>動保委員倒下了，'+plname+'還有'+String(php)+'點生命</div>';
+        win();
     }else{
         content += '<div>'+plname+'和動保委員同歸於盡了</div>';
     }
@@ -240,8 +244,10 @@ function sheep(){
     var mhp=100;//血量
     var content = '';
     content += '<div>'+plname+'遇到了綿羊</div>';
+    $('#3').append(content);
     while(php>=0 && mhp>=0){
         if(pl1>=ml1){
+            var content = '';
             var pm1 = parseInt(Math.random()*101)*(100+pl1)*(100+pi1)/10000;//命中判定
             var pm2 = parseInt(Math.random()*101)*(100+mj1)/100;//閃避判定
             if(pm1>=50 && pa>0){
@@ -286,7 +292,7 @@ function sheep(){
                         }else{
                             var harm=parseInt((Math.random()*10+(mi1/10)+1)*mi1/100);
                         }
-                        if (garm='跑步'){
+                        if (garm=='跑步'){
                             var mp4 = parseInt(Math.random()*101)*(100+ml1)*(100+mi1)/10000;//命中判定
                             var mp5 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
                             if(mp4>=mp5){
@@ -303,7 +309,7 @@ function sheep(){
                         }else{
                             var harm=parseInt((Math.random()*10));
                         }
-                        if (garm='跑步'){
+                        if (garm=='跑步'){
                             var mp6 = parseInt(Math.random()*101)*(100+ml1)*(100+mi1)/10000;//命中判定
                             var mp7 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
                             if(mp6>=mp7){
@@ -340,7 +346,7 @@ function sheep(){
                         }else{
                             var harm=parseInt((Math.random()*10+(mi1/10)+1)*mi1/100);
                         }
-                        if (garm='跑步'){
+                        if (garm=='跑步'){
                             var mp4 = parseInt(Math.random()*101)*(100+ml1)*(100+mi1)/10000;//命中判定
                             var mp5 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
                             if(mp4>=mp5){
@@ -357,7 +363,7 @@ function sheep(){
                         }else{
                             var harm=parseInt((Math.random()*10));
                         }
-                        if (garm='跑步'){
+                        if (garm=='跑步'){
                             var mp6 = parseInt(Math.random()*101)*(100+ml1)*(100+mi1)/10000;//命中判定
                             var mp7 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
                             if(mp6>=mp7){
@@ -409,8 +415,10 @@ function sheep(){
     var content = '';
     if(php<0 && mhp>0){
         content += '<div>'+plname+'倒下了，綿羊還有'+String(mhp)+'點生命</div>';
+        lose();
     }else if(php>0 && mhp<0){
-        content += '<div>綿羊倒下了，'+plname+'還有'+String(mhp)+'點生命</div>';
+        content += '<div>綿羊倒下了，'+plname+'還有'+String(php)+'點生命</div>';
+        win();
     }else{
         content += '<div>'+plname+'和綿羊同歸於盡了</div>';
     }
@@ -436,6 +444,7 @@ function goat(){
     var mhp=1000;//血量
     var content = '';
     content += '<div>'+plname+'遇到了山羊</div>';
+    $('#3').append(content);
     while(php>=0 && mhp>=0){
         if(pl1>=ml1){
             var content = '';
@@ -488,7 +497,7 @@ function goat(){
                         }
                         content += '<div>山羊'+garm+'，打出了致命一擊，對'+plname+'造成'+String(harm)+'點傷害</div>';
                         php=php-harm;
-                        if (garm='衝撞'){
+                        if (garm=='衝撞'){
                             var mp4 = parseInt(Math.random()*101)*(100+ml1)*(100+mi1)/10000;//命中判定
                             var mp5 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
                             if(mp4>=mp5){
@@ -504,7 +513,7 @@ function goat(){
                         }
                         content += '<div>山羊'+garm+'，發動攻擊，對'+plname+'造成了'+String(harm)+'點傷害</div>';
                         php=php-harm;
-                        if (garm='衝撞'){
+                        if (garm=='衝撞'){
                             var mp6 = parseInt(Math.random()*101)*(100+ml1)*(100+mi1)/10000;//命中判定
                             var mp7 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
                             if(mp6>=mp7){
@@ -540,7 +549,7 @@ function goat(){
                         }
                         content += '<div>山羊'+garm+'，打出了致命一擊，對'+plname+'造成'+String(harm)+'點傷害</div>';
                         php=php-harm;
-                        if (garm='衝撞'){
+                        if (garm=='衝撞'){
                             var mp4 = parseInt(Math.random()*101)*(100+ml1)*(100+mi1)/10000;//命中判定
                             var mp5 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
                             if(mp4>=mp5){
@@ -556,7 +565,7 @@ function goat(){
                         }
                         content += '<div>山羊'+garm+'，發動攻擊，對'+plname+'造成了'+String(harm)+'點傷害</div>';
                         php=php-harm;
-                        if (garm='衝撞'){
+                        if (garm=='衝撞'){
                             var mp6 = parseInt(Math.random()*101)*(100+ml1)*(100+mi1)/10000;//命中判定
                             var mp7 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
                             if(mp6>=mp7){
@@ -608,8 +617,10 @@ function goat(){
     var content = '';
     if(php<0 && mhp>0){
         content += '<div>'+plname+'倒下了，山羊還有'+String(mhp)+'點生命</div>';
+        lose();
     }else if(php>0 && mhp<0){
-        content += '<div>山羊倒下了，'+plname+'還有'+String(mhp)+'點生命</div>';
+        content += '<div>山羊倒下了，'+plname+'還有'+String(php)+'點生命</div>';
+        win();
     }else{
         content += '<div>'+plname+'和山羊同歸於盡了</div>';
     }
@@ -635,6 +646,7 @@ function qiang(){
     var mhp=5000;//血量
     var content = '';
     content += '<div>'+plname+'遇到了山羌</div>';
+    $('#3').append(content);
     while(php>=0 && mhp>=0){
         if(pl1>=ml1){
             var content = '';
@@ -650,7 +662,6 @@ function qiang(){
                             var harm=parseInt((Math.random()*10+(pi1/10)+1)*pi1/100);
                         }
                         content += '<div>'+plname+'打出了致命一擊，對山羌造成了'+String(harm)+'點傷害</div>';
-                        mhp=mhp-harm;
                     }else{
                         if(pg2*pi1/100-mg3>0){
                             var harm=parseInt((Math.random()*10)*(pg2*pi1/100-mg3));
@@ -669,8 +680,6 @@ function qiang(){
             }else{
                 content += '<div>'+plname+'試圖發動攻擊，但是沒有命中</div>';
             }
-            $('#3').append(content);
-            var content = '';
             var arms = ['吐口水','跳躍攻擊','用角衝撞','踢擊'];
             var newj = [180,100,30,70];
             var arm = parseInt(Math.random()*4);
@@ -681,7 +690,7 @@ function qiang(){
             if(mp1>=50){
                 if(mp1>=mp1){
                     mp3 = parseInt(Math.random()*101)*(100-pl2)*(100+ml2)/10000;//爆擊判定
-                    if(mp3>pi2){;
+                    if(mp3>pi1){;
                         if(mg2*mi1/100-pg3>0){
                             var harm=parseInt((Math.random()*10+(mi1/10)+1)*(mg2*mi1/100-pg3));
                         }else{
@@ -689,7 +698,7 @@ function qiang(){
                         }
                         content += '<div>山羌'+garm+'，打出了致命一擊，對'+plname+'造成了'+String(harm)+'點傷害</div>';
                         php=php-harm;
-                        if (garm='用角衝撞'){
+                        if (garm=='用角衝撞'){
                             var mp4 = parseInt(Math.random()*101)*(100+ml1)*(100+mi1)/10000;//命中判定
                             var mp5 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
                             if(mp4>=mp5){
@@ -705,7 +714,7 @@ function qiang(){
                         }
                         content += '<div>山羌'+garm+'，發動攻擊，對'+plname+'造成了'+String(harm)+'點傷害</div>';
                         php=php-harm;
-                        if (garm='用角衝撞'){
+                        if (garm=='用角衝撞'){
                             var mp6 = parseInt(Math.random()*101)*(100+ml1)*(100+mi1)/10000;//命中判定
                             var mp7 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
                             if(mp6>=mp7){
@@ -720,8 +729,6 @@ function qiang(){
             }else{
                 content += '<div>山羌試圖發動攻擊，但是沒有命中</div>';
             }
-            $('#3').append(content);
-            var content = '';
             content += '<div>山羌梅開二度</div>';
             var arms = ['吐口水','跳躍攻擊','用角衝撞','踢擊'];
             var newj = [180,100,30,70];
@@ -741,12 +748,12 @@ function qiang(){
                         }
                         content += '<div>山羌'+garm+'，打出了致命一擊，對'+plname+'造成了'+String(harm)+'點傷害</div>';
                         php=php-harm;
-                        if (garm='用角衝撞'){
+                        if (garm=='用角衝撞'){
                             var mp4 = parseInt(Math.random()*101)*(100+ml1)*(100+mi1)/10000;//命中判定
                             var mp5 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
-                            if(mp4>=mp5){
+                            if(mp4 >= mp5){
                                 content += '<div>'+plname+'被暈眩了</div>';
-                                pa=pa-1;
+                                pa = pa-1;
                             }
                         }
                     }else{
@@ -757,10 +764,10 @@ function qiang(){
                         }
                         content += '<div>山羌'+garm+'，發動攻擊，對'+plname+'造成了'+String(harm)+'點傷害</div>';
                         php=php-harm;
-                        if (garm='用角衝撞'){
+                        if (garm =='用角衝撞'){
                             var mp6 = parseInt(Math.random()*101)*(100+ml1)*(100+mi1)/10000;//命中判定
                             var mp7 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
-                            if(mp6>=mp7){
+                            if(mp6 >= mp7){
                                 content += '<div>'+plname+'被暈眩了</div>';
                                 pa=pa-1;
                             }
@@ -772,8 +779,6 @@ function qiang(){
             }else{
                 content += '<div>山羌試圖發動攻擊，但是沒有命中</div>';
             }
-            $('#3').append(content);
-            var content = '';
             content += '<div>山羌梅開三度</div>';
             var arms = ['吐口水','跳躍攻擊','用角衝撞','踢擊'];
             var newj = [180,100,30,70];
@@ -785,7 +790,7 @@ function qiang(){
             if(mp1>=50){
                 if(mp1>=mp1){
                     mp3 = parseInt(Math.random()*101)*(100-pl2)*(100+ml2)/10000;//爆擊判定
-                    if(mp3>pi2){;
+                    if(mp3>pi1){;
                         if(mg2*mi1/100-pg3>0){
                             var harm=parseInt((Math.random()*10+(mi1/10)+1)*(mg2*mi1/100-pg3));
                         }else{
@@ -793,7 +798,7 @@ function qiang(){
                         }
                         content += '<div>山羌'+garm+'，打出了致命一擊，對'+plname+'造成了'+String(harm)+'點傷害</div>';
                         php=php-harm;
-                        if (garm='用角衝撞'){
+                        if (garm=='用角衝撞'){
                             var mp4 = parseInt(Math.random()*101)*(100+ml1)*(100+mi1)/10000;//命中判定
                             var mp5 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
                             if(mp4>=mp5){
@@ -809,10 +814,10 @@ function qiang(){
                         }
                         content += '<div>山羌'+garm+'，發動攻擊，對'+plname+'造成了'+String(harm)+'點傷害</div>';
                         php=php-harm;
-                        if (garm='用角衝撞'){
+                        if (garm == '用角衝撞'){
                             var mp6 = parseInt(Math.random()*101)*(100+ml1)*(100+mi1)/10000;//命中判定
                             var mp7 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
-                            if(mp6>=mp7){
+                            if(mp6 >= mp7){
                                 content += '<div>'+plname+'被暈眩了</div>';
                                 pa=pa-1;
                             }
@@ -826,7 +831,7 @@ function qiang(){
             }
             $('#3').append(content);
         }else{
-            var content = '';
+            var content = ''
             var arms = ['吐口水','跳躍攻擊','用角衝撞','踢擊'];
             var newj = [180,100,30,70];
             var arm = parseInt(Math.random()*4);
@@ -846,12 +851,12 @@ function qiang(){
                         let content = '';
                         content += '<div>山羌'+garm+'，打出了致命一擊，對'+plname+'造成了'+String(harm)+'點傷害</div>';
                         php=php-harm;
-                        if (garm='用角衝撞'){
+                        if (garm =='用角衝撞'){
                             var mp4 = parseInt(Math.random()*101)*(100+ml1)*(100+mi1)/10000;//命中判定
                             var mp5 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
-                            if(mp4>=mp5){
+                            if(mp4 >= mp5){
                                 content += '<div>'+plname+'被暈眩了</div>';
-                                pa=pa-1;
+                                pa = pa-1;
                             }
                         }
                     }else{
@@ -862,12 +867,12 @@ function qiang(){
                         }
                         content += '<div>山羌'+garm+'，發動攻擊，對'+plname+'造成了'+String(harm)+'點傷害</div>';
                         php=php-harm;
-                        if (garm='用角衝撞'){
+                        if (garm =='用角衝撞'){
                             var mp6 = parseInt(Math.random()*101)*(100+ml1)*(100+mi1)/10000;//命中判定
                             var mp7 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
-                            if(mp6>=mp7){
+                            if(mp6 >= mp7){
                                 content += '<div>'+plname+'被暈眩了</div>';
-                                pa=pa-1;
+                                pa = pa-1;
                             }
                         }
                     }
@@ -888,7 +893,7 @@ function qiang(){
             if(mp1>=50){
                 if(mp1>=mp1){
                     mp3 = parseInt(Math.random()*101)*(100-pl2)*(100+ml2)/10000;//爆擊判定
-                    if(mp3>pi2){;
+                    if(mp3>pi1){;
                         if(mg2*mi1/100-pg3>0){
                             var harm=parseInt((Math.random()*10+(mi1/10)+1)*(mg2*mi1/100-pg3));
                         }else{
@@ -896,7 +901,7 @@ function qiang(){
                         }
                         content += '<div>山羌'+garm+'，打出了致命一擊，對'+plname+'造成了'+String(harm)+'點傷害</div>';
                         php=php-harm;
-                        if (garm='用角衝撞'){
+                        if (garm=='用角衝撞'){
                             var mp4 = parseInt(Math.random()*101)*(100+ml1)*(100+mi1)/10000;//命中判定
                             var mp5 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
                             if(mp4>=mp5){
@@ -912,7 +917,7 @@ function qiang(){
                         }
                         content += '<div>山羌'+garm+'，發動攻擊，對'+plname+'造成了'+String(harm)+'點傷害</div>';
                         php=php-harm;
-                        if (garm='用角衝撞'){
+                        if (garm=='用角衝撞'){
                             var mp6 = parseInt(Math.random()*101)*(100+ml1)*(100+mi1)/10000;//命中判定
                             var mp7 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
                             if(mp6>=mp7){
@@ -927,8 +932,6 @@ function qiang(){
             }else{
                 content += '<div>山羌試圖發動攻擊，但是沒有命中</div>';
             }
-            $('#3').append(content);
-            var content = '';
             content += '<div>山羌梅開三度</div>';
             var arms = ['吐口水','跳躍攻擊','用角衝撞','踢擊'];
             var newj = [180,100,30,70];
@@ -948,7 +951,7 @@ function qiang(){
                         }
                         content += '<div>山羌'+garm+'，打出了致命一擊，對'+plname+'造成了'+String(harm)+'點傷害</div>';
                         php=php-harm;
-                        if (garm='用角衝撞'){
+                        if (garm=='用角衝撞'){
                             var mp4 = parseInt(Math.random()*101)*(100+ml1)*(100+mi1)/10000;//命中判定
                             var mp5 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
                             if(mp4>=mp5){
@@ -964,7 +967,7 @@ function qiang(){
                         }
                         content += '<div>山羌'+garm+'，發動攻擊，對'+plname+'造成了'+String(harm)+'點傷害</div>';
                         php=php-harm;
-                        if (garm='用角衝撞'){
+                        if (garm=='用角衝撞'){
                             var mp6 = parseInt(Math.random()*101)*(100+ml1)*(100+mi1)/10000;//命中判定
                             var mp7 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
                             if(mp6>=mp7){
@@ -979,8 +982,6 @@ function qiang(){
             }else{
                 content += '<div>山羌試圖發動攻擊，但是沒有命中</div>';
             }
-            $('#3').append(content);
-            var content = '';
             var pm1 = parseInt(Math.random()*101)*(100+pl1)*(100+pi1)/10000;//命中判定
             var pm2 = parseInt(Math.random()*101)*(100+mj1)/100;//閃避判定
             if(pm1>=50 && pa>0){
@@ -1018,8 +1019,10 @@ function qiang(){
     var content = '';
     if(php<0 && mhp>0){
         content += '<div>'+plname+'倒下了，山羌還有'+String(mhp)+'點生命</div>';
+        lose();
     }else if(php>0 && mhp<0){
-        content += '<div>山羌倒下了，'+plname+'還有'+String(mhp)+'點生命</div>';
+        content += '<div>山羌倒下了，'+plname+'還有'+String(php)+'點生命</div>';
+        win();
     }else{
         content += '<div>'+plname+'和山羌同歸於盡了</div>';
     }

@@ -20,7 +20,6 @@ function goback(){
         localStorage.setItem("m11","31");
         localStorage.setItem("age","0");
         localStorage.setItem("do","0");
-        localStorage.setItem("g01","0");
         localStorage.setItem("goback","0");
        
     }
@@ -50,7 +49,7 @@ async function gohigh(){
     $('#train4').attr('disabled', true);
     $('#train5').attr('disabled', true);
     $('#train6').attr('disabled', true);
-    await delay(20);
+    await delay(5);
     var g11=Number(localStorage.getItem("g11"))+3;
     localStorage.setItem("g11",g11.toString());
     var j11=Number(localStorage.getItem("j11"))+1;
@@ -77,7 +76,7 @@ async function gofat(){
     $('#train4').attr('disabled', true);
     $('#train5').attr('disabled', true);
     $('#train6').attr('disabled', true);
-    await delay(20);
+    await delay(5);
     var g31=Number(localStorage.getItem("g31"))+9;
     localStorage.setItem("g31",g31.toString());
     var i11=Number(localStorage.getItem("i11"))-5;
@@ -108,7 +107,7 @@ async function backfat(){
     $('#train4').attr('disabled', true);
     $('#train5').attr('disabled', true);
     $('#train6').attr('disabled', true);
-    await delay(20);
+    await delay(5);
     var j11=Number(localStorage.getItem("j11"))+4;
     localStorage.setItem("j11",j11.toString());
     var g21=Number(localStorage.getItem("g21"))+3;
@@ -139,7 +138,7 @@ async function badeye(){
     $('#train4').attr('disabled', true);
     $('#train5').attr('disabled', true);
     $('#train6').attr('disabled', true);
-    await delay(20);
+    await delay(5);
     var i11=Number(localStorage.getItem("i11"))+4;
     localStorage.setItem("i11",i11.toString());
     var g31=Number(localStorage.getItem("g31"))*1.1;
@@ -168,7 +167,7 @@ async function useeye(){
     $('#train4').attr('disabled', true);
     $('#train5').attr('disabled', true);
     $('#train6').attr('disabled', true);
-    await delay(20);
+    await delay(5);
     var a1 = Math.random()*8;
     var b1 = ["g11", "g21", "g31", "j11", "l11", "l21", "i11", "m11"];
     var r1=Number(localStorage.getItem(b1[a1]))*1.1;
@@ -195,7 +194,7 @@ async function gopretty(){
     $('#train4').attr('disabled', true);
     $('#train5').attr('disabled', true);
     $('#train6').attr('disabled', true);
-    await delay(20);
+    await delay(5);
     var m11=Number(localStorage.getItem("m11"))*1.3;
     localStorage.setItem("m11",m11.toString());
     var g31=Number(localStorage.getItem("g31"))-3;
@@ -223,9 +222,16 @@ async function gopretty(){
 function gobig(){
     var do1=Number(localStorage.getItem("do"))+1;
     var age=Number(localStorage.getItem("age"))+1;
-    var age2=age*3;
+    if(age>=35){
+        var age2=age;
+    }else if(age>=20){
+        var age2=age+20;
+    }else{
+        var age2=age*2;
+    }
     var work=localStorage.getItem("work");
     if (work == "跳級生"){
+        var do1=Number(localStorage.getItem("do"))+1;
         var i11=Number(localStorage.getItem("i11"))+5;
         var g31=Number(localStorage.getItem("g31"))-2;
         localStorage.setItem("i11",i11.toString());
@@ -242,6 +248,7 @@ function gobig(){
             }
         }
     }else if(work == "研究生"){
+        var do1=Number(localStorage.getItem("do"))+1;
         var i11=Number(localStorage.getItem("i11"))+3;
         var g31=Number(localStorage.getItem("g31"))-4;
         localStorage.setItem("i11",i11.toString());
@@ -256,6 +263,7 @@ function gobig(){
             }
         }
     }else if(work == "延畢生"){
+        var do1=Number(localStorage.getItem("do"))+1;
         var i11=Number(localStorage.getItem("i11"))+1;
         var g31=Number(localStorage.getItem("g31"))-5;
         localStorage.setItem("i11",i11.toString());
@@ -268,12 +276,14 @@ function gobig(){
             }
         }
     }else if(work == "畢業生"){
+        var do1=Number(localStorage.getItem("do"))+1;
         var i11=Number(localStorage.getItem("i11"))+4;
         var g31=Number(localStorage.getItem("g31"))-2;
         localStorage.setItem("i11",i11.toString());
         localStorage.setItem("g31",g31.toString());
         g31correction();
     }else if(work == "大學教授"){
+        var do1=Number(localStorage.getItem("do"))+1;
         var i11=Number(localStorage.getItem("i11"))*2;
         var g31=Number(localStorage.getItem("g31"))/2;
         localStorage.setItem("i11",i11.toString());
@@ -454,6 +464,20 @@ function l11correction(){
     localStorage.setItem("i11",String(i11));
 }
 
+function l21correction(){
+    var l21=Number(localStorage.getItem("l21"));
+    var i11=Number(localStorage.getItem("i11"));
+    if (l21<0){
+        i11=i11+l21;
+        if(i11<0){
+            i11=0;
+        }
+        l21=0;
+    }
+    localStorage.setItem("l21",String(l21));
+    localStorage.setItem("i11",String(i11));
+}
+
 function i11correction(){
     var i11=Number(localStorage.getItem("i11"));
     var g31=Number(localStorage.getItem("g31"));
@@ -491,4 +515,31 @@ function delay(n){
     return new Promise(function(resolve){
         setTimeout(resolve,n*1000);  //n*1000為毫秒
     });
+}
+
+function win(){
+    var g21=Number(localStorage.getItem("g21"))+9;
+    localStorage.setItem("g21",g21.toString());
+    var i11=Number(localStorage.getItem("i11"))+5;
+    localStorage.setItem("i11",i11.toString());
+    var m11=Number(localStorage.getItem("m11"))-7;
+    localStorage.setItem("m11",m11.toString());
+    var l21=Number(localStorage.getItem("l21"))-4;
+    localStorage.setItem("l21",l21.toString());
+    m11correction();
+    l21correction();
+    gobig();
+}
+
+function lose(){
+    var g31=Number(localStorage.getItem("g31"))+4;
+    localStorage.setItem("g31",g31.toString());
+    var j11=Number(localStorage.getItem("j11"))+3;
+    localStorage.setItem("j11",j11.toString());
+    var l11=Number(localStorage.getItem("l11"))+3;
+    localStorage.setItem("l11",l11.toString());
+    var i11=Number(localStorage.getItem("i11"))-9;
+    localStorage.setItem("i11",i11.toString());
+    i11correction();
+    gobig();
 }
