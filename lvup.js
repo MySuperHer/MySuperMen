@@ -266,7 +266,7 @@ function gobig(){
         let content = '';
         content += '<div>你長大了，成果如下</div>';
         content += '<div>身高成長了' + String((parseInt(g1)*1000-parseInt(cg1)*1000)/100) + 'cm</div>';
-        content += '<div>體重成長了' + String(parseInt((g1+g2+g3)*100)-parseInt((cg1-cg2-cg3)*100)/100) + 'kg</div>';
+        content += '<div>體重成長了' + String((parseInt((g1+g2+g3)*100)-parseInt((cg1+cg2+cg3)*100))/100) + 'kg</div>';
         content += '<div>跳躍力成長了' + String((parseInt(j1*100)-parseInt(cj1*100))/100) + '</div>';
         content += '<div>視力成長了' + String((parseInt(l1*100)-parseInt(cl1*100))/100) + '</div>';
         content += '<div>幸運成長了' + String((parseInt(l2*100)-parseInt(cl2*100))/100) + '</div>';
