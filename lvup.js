@@ -61,7 +61,7 @@ async function gohigh(){
     localStorage.setItem("g31",g31.toString());
     g21correction();
     g31correction();
-    $("p").append("<div>長長的高丸嘗起來真美味。</div>");
+    $("#1").append("<div>長長的高丸嘗起來真美味。</div>");
     gobig();
     $('#train1').attr('disabled', false);
     $('#train2').attr('disabled', false);
@@ -92,7 +92,7 @@ async function gofat(){
     g21correction();
     i11correction();
     m11correction();
-    $("p").append("<div>吃完垃圾食物更高興了。</div>");
+    $("#1").append("<div>吃完垃圾食物更高興了。</div>");
     gobig();
     $('#train1').attr('disabled', false);
     $('#train2').attr('disabled', false);
@@ -123,7 +123,7 @@ async function backfat(){
     localStorage.setItem("i11",i11.toString());
     g31correction();
     i11correction();
-    $("p").append("<div>到底有誰會想吃這鬼東西。</div>");
+    $("#1").append("<div>到底有誰會想吃這鬼東西。</div>");
     gobig();
     $('#train1').attr('disabled', false);
     $('#train2').attr('disabled', false);
@@ -152,7 +152,7 @@ async function badeye(){
     localStorage.setItem("j11",j11.toString());
     j11correction();
     l11correction();
-    $("p").append("<div>刀劍神域才不是卡通。</div>");
+    $("#1").append("<div>刀劍神域才不是卡通。</div>");
     gobig();
     $('#train1').attr('disabled', false);
     $('#train2').attr('disabled', false);
@@ -179,7 +179,7 @@ async function useeye(){
     localStorage.setItem(b2[a2],r2.toString());
     var l21=Number(localStorage.getItem("l21"))+3;
     localStorage.setItem("l21",l21.toString());
-    $("p").append("<div>看三小還想星爆啊。</div>");
+    $("#1").append("<div>看三小還想星爆啊。</div>");
     gobig();
     $('#train1').attr('disabled', false);
     $('#train2').attr('disabled', false);
@@ -210,7 +210,7 @@ async function gopretty(){
     g21correction();
     g31correction();
     i11correction();
-    $("p").append("<div>一個大男人到底能化什麼妝。</div>");
+    $("#1").append("<div>一個大男人到底能化什麼妝。</div>");
     gobig();
     $('#train1').attr('disabled', false);
     $('#train2').attr('disabled', false);
@@ -224,6 +224,61 @@ function gobig(){
     var do1=Number(localStorage.getItem("do"))+1;
     var age=Number(localStorage.getItem("age"))+1;
     var age2=age*3;
+    var work=localStorage.getItem("work");
+    if (work == "跳級生"){
+        var i11=Number(localStorage.getItem("i11"))+5;
+        var g31=Number(localStorage.getItem("g31"))-2;
+        localStorage.setItem("i11",i11.toString());
+        localStorage.setItem("g31",g31.toString());
+        g31correction();
+        if(age == 30){
+            var i1=Number(localStorage.getItem("i1"));
+            if(i1<50){
+                localStorage.setItem("work","延畢生");
+            }else if(i1<90){
+                localStorage.setItem("work","畢業生");
+            }else{
+                localStorage.setItem("work","大學教授");
+            }
+        }
+    }else if(work == "研究生"){
+        var i11=Number(localStorage.getItem("i11"))+3;
+        var g31=Number(localStorage.getItem("g31"))-4;
+        localStorage.setItem("i11",i11.toString());
+        localStorage.setItem("g31",g31.toString());
+        g31correction();
+        if(age == 30){
+            var i1=Number(localStorage.getItem("i1"));
+            if(i1<50){
+                localStorage.setItem("work","延畢生");
+            }else{
+                localStorage.setItem("work","畢業生");
+            }
+        }
+    }else if(work == "延畢生"){
+        var i11=Number(localStorage.getItem("i11"))+1;
+        var g31=Number(localStorage.getItem("g31"))-5;
+        localStorage.setItem("i11",i11.toString());
+        localStorage.setItem("g31",g31.toString());
+        g31correction();
+        if(age == 30){
+            var i1=Number(localStorage.getItem("i1"));
+            if(i1>50){
+                localStorage.setItem("work","畢業生");
+            }
+        }
+    }else if(work == "畢業生"){
+        var i11=Number(localStorage.getItem("i11"))+4;
+        var g31=Number(localStorage.getItem("g31"))-2;
+        localStorage.setItem("i11",i11.toString());
+        localStorage.setItem("g31",g31.toString());
+        g31correction();
+    }else if(work == "大學教授"){
+        var i11=Number(localStorage.getItem("i11"))*2;
+        var g31=Number(localStorage.getItem("g31"))/2;
+        localStorage.setItem("i11",i11.toString());
+        localStorage.setItem("g31",g31.toString());
+    }
     if (do1 == age2){
         var g0=Number(localStorage.getItem("g01"));
         var g11=parseInt(Number(localStorage.getItem("g11"))/5);
@@ -323,7 +378,7 @@ function gobig(){
         content += '<div>幸運成長了' + String((parseInt(l2*100)-parseInt(cl2*100))/100) + '</div>';
         content += '<div>智力成長了' + String((parseInt(i1*100)-parseInt(ci1*100))/100) + '</div>';
         content += '<div>魅力成長了' + String((parseInt(m1*100)-parseInt(cm1*100))/100) + '</div>';
-        $("p").append(content);
+        $("#1").append(content);
     } else {
         localStorage.setItem("do",do1.toString());
     }
