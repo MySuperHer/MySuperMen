@@ -5,11 +5,8 @@
         <title>我的超人</title>
         <link href="title.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-        <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest/disable-devtool.min.js'></script>
-        <script>
-        import disableDevtool from 'disable-devtool';
-        disableDevtool();
-        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        
     </head>
     <body class="chakra-ui-light">
         <script src="lvup.js"></script>
@@ -26,17 +23,27 @@
             </div>
         </nav>
         <h1>戰鬥</h1>
-        <h4>聽說附近有很可怕的生物</h4>
+        <h4>聽說附近有很可怕的生物。</h4>
         <h6>擊敗他們可以獲得什麼呢？</h6>
+        <p>戰鬥冷卻10秒</p>
         </div>
-        <script src="out.js"></script>
-        <button id="train21" onClick="steppe()">青青草原</button>
+        <script src="monster.js"></script>
+        <button id="train21" onClick="grassland()">青青草原</button>
+        <p>充滿動物的國家公有土地。</p>
+        <br>
+        <br>
+        <button id="train22" onClick="school()">青青中學</button>
         <p></p>
-        <button id="train22" onClick="steppe()">青青中學</button>
+        <br>
+        <br>
+        <button id="train23" onClick="grave()">秦始皇陵</button>
         <p></p>
-        <button id="train22" onClick="steppe()">秦始皇陵</button>
+        <br>
+        <br>
+        <button id="train24" onClick="remains()">遠古遺跡</button>
         <p></p>
-        <button id="train22" onClick="steppe()">遠古遺跡</button>
-        <p></p>
+        <br>
+        <br>
+        <p id="3">戰鬥過程</p> 
     </body>
 </html>
