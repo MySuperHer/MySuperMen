@@ -316,7 +316,7 @@ function gobig(){
         var m11=parseInt(Number(localStorage.getItem("m11"))/5);
         var g1x=g11*(1+g01/20)/20;
         var g2x=g21*(25+Math.sqrt(g01*g02))/80;
-        var g3x=j11*(25+Math.sqrt(g01*g03))/80;
+        var g3x=g31*(25+Math.sqrt(g01*g03))/80;
         var j1x=j11*(25+Math.sqrt(g01*j01))/60;
         var l1x=l11*(25+Math.sqrt(g01*l01))/45;
         var l2x=l21*(15+Math.sqrt(g01*l02))/80;
@@ -341,8 +341,8 @@ function gobig(){
         var i1=ci1+i1x;
         var m1=cm1+m1x;
         var hp=chp+hpx;
-        if (g1>20*(1+g0/100)){
-            g1=20*(1+g0/20);
+        if (g1>20*(1+g01/100)){
+            g1=20*(1+g01/20);
             if(age>50){
                 g1=g1*0.99;
             }
@@ -360,17 +360,17 @@ function gobig(){
                 l1=l1*(1-0.005*age);
             }
         }
-        if (l2>100*(1+g0/20)){
-            l2=100*(1+g0/20);
+        if (l2>100*(1+g01/20)){
+            l2=100*(1+g01/20);
         }
-        if (i1>180*(1+g0/20)){
-            i1=180*(1+g0/20);
+        if (i1>180*(1+g01/20)){
+            i1=180*(1+g01/20);
             if (age>30){
                 i1=i1*(1-0.002*age);
             }
         }
-        if (m1>100*(1+g0/20)){
-            m1=180*(1+g0/20);
+        if (m1>100*(1+g01/20)){
+            m1=180*(1+g01/20);
             if (age>30){
                 m1=m1*(1-0.01*age);
             }
@@ -657,7 +657,7 @@ function gobig2(){
         var m11=parseInt(Number(localStorage.getItem("m11"))/5);
         var g1x=g11*(1+g01/20)/20;
         var g2x=g21*(25+Math.sqrt(g01*g02))/80;
-        var g3x=j11*(25+Math.sqrt(g01*g03))/80;
+        var g3x=g31*(25+Math.sqrt(g01*g03))/80;
         var j1x=j11*(25+Math.sqrt(g01*j01))/60;
         var l1x=l11*(25+Math.sqrt(g01*l01))/45;
         var l2x=l21*(15+Math.sqrt(g01*l02))/80;
@@ -681,8 +681,8 @@ function gobig2(){
         var i1=ci1+i1x;
         var m1=cm1+m1x;
         var hp=chp+hpx;
-        if (g1>20*(1+g0/100)){
-            g1=20*(1+g0/20);
+        if (g1>20*(1+g01/100)){
+            g1=20*(1+g01/20);
             if(age>50){
                 g1=g1*0.99;
             }
@@ -694,23 +694,23 @@ function gobig2(){
         if (j1>g2*3.5){
             j1=g2*3.5;
         }
-        if (l1>100*(1+g0/20)){
+        if (l1>100){
             l1=100;
             if(age>35){
                 l1=l1*(1-0.005*age);
             }
         }
-        if (l2>100*(1+g0/20)){
-            l2=100*(1+g0/20);
+        if (l2>100*(1+g01/20)){
+            l2=100*(1+g01/20);
         }
-        if (i1>180*(1+g0/20)){
-            i1=180*(1+g0/20);
+        if (i1>180*(1+g01/20)){
+            i1=180*(1+g01/20);
             if (age>30){
                 i1=i1*(1-0.002*age);
             }
         }
-        if (m1>100*(1+g0/20)){
-            m1=180*(1+g0/20);
+        if (m1>100*(1+g01/20)){
+            m1=180*(1+g01/20);
             if (age>30){
                 m1=m1*(1-0.01*age);
             }
