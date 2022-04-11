@@ -3,24 +3,24 @@ function goback(){
         localStorage.setItem("work","無業");
         localStorage.setItem("hp","10");
         localStorage.setItem("g1","2.5");
-        localStorage.setItem("g2","0.3");
-        localStorage.setItem("g3","0.2");
-        localStorage.setItem("j1","1");
+        localStorage.setItem("g2","1");
+        localStorage.setItem("g3","1");
+        localStorage.setItem("j1","5");
         localStorage.setItem("l1","10");
         localStorage.setItem("l2","5");
-        localStorage.setItem("i1","0");
-        localStorage.setItem("m1","0");
-        localStorage.setItem("g11","31");
-        localStorage.setItem("g21","31");
-        localStorage.setItem("g31","31");
-        localStorage.setItem("j11","31");
-        localStorage.setItem("l11","31");
-        localStorage.setItem("l21","31");
-        localStorage.setItem("i11","31");
-        localStorage.setItem("m11","31");
+        localStorage.setItem("i1","1");
+        localStorage.setItem("m1","1");
+        localStorage.setItem("g11","20");
+        localStorage.setItem("g21","20");
+        localStorage.setItem("g31","20");
+        localStorage.setItem("j11","20");
+        localStorage.setItem("l11","20");
+        localStorage.setItem("l21","20");
+        localStorage.setItem("i11","20");
+        localStorage.setItem("m11","20");
         localStorage.setItem("age","0");
         localStorage.setItem("do","0");
-        localStorage.setItem("exp","0");
+        localStorage.setItem("exp","2");
         localStorage.setItem("goback","0");
     }
 }
@@ -195,7 +195,7 @@ async function gopretty(){
     $('#train5').attr('disabled', true);
     $('#train6').attr('disabled', true);
     await delay(5);
-    var m11=Number(localStorage.getItem("m11"))*1.3;
+    var m11=Number(localStorage.getItem("m11"))*1.2;
     localStorage.setItem("m11",m11.toString());
     var g31=Number(localStorage.getItem("g31"))-3;
     localStorage.setItem("g31",g31.toString());
@@ -244,6 +244,7 @@ function gobig(){
         var g31=Number(localStorage.getItem("g31"))-2;
         localStorage.setItem("i11",i11.toString());
         localStorage.setItem("g31",g31.toString());
+        localStorage.setItem("do",do1.toString());
         g31correction();
         if(age == 30){
             var i1=Number(localStorage.getItem("i1"));
@@ -261,6 +262,7 @@ function gobig(){
         var g31=Number(localStorage.getItem("g31"))-4;
         localStorage.setItem("i11",i11.toString());
         localStorage.setItem("g31",g31.toString());
+        localStorage.setItem("do",do1.toString());
         g31correction();
         if(age == 30){
             var i1=Number(localStorage.getItem("i1"));
@@ -276,6 +278,7 @@ function gobig(){
         var g31=Number(localStorage.getItem("g31"))-5;
         localStorage.setItem("i11",i11.toString());
         localStorage.setItem("g31",g31.toString());
+        localStorage.setItem("do",do1.toString());
         g31correction();
         if(age == 30){
             var i1=Number(localStorage.getItem("i1"));
@@ -289,6 +292,7 @@ function gobig(){
         var g31=Number(localStorage.getItem("g31"))-2;
         localStorage.setItem("i11",i11.toString());
         localStorage.setItem("g31",g31.toString());
+        localStorage.setItem("do",do1.toString());
         g31correction();
     }else if(work == "大學教授"){
         var do1=Number(localStorage.getItem("do"))+1;
@@ -296,6 +300,7 @@ function gobig(){
         var g31=Number(localStorage.getItem("g31"))/2;
         localStorage.setItem("i11",i11.toString());
         localStorage.setItem("g31",g31.toString());
+        localStorage.setItem("do",do1.toString());
     }
     if (do1 == age2){
         var g01=Number(localStorage.getItem("g01"));
@@ -314,15 +319,15 @@ function gobig(){
         var l21=parseInt(Number(localStorage.getItem("l21"))/5);
         var i11=parseInt(Number(localStorage.getItem("i11"))/5);
         var m11=parseInt(Number(localStorage.getItem("m11"))/5);
-        var g1x=g11*(20+g01/100)/80;
-        var g2x=g21*(250+Math.sqrt(g01*g02))/1000;
-        var g3x=g31*(250+Math.sqrt(g01*g03))/1000;
-        var j1x=j11*(300+Math.sqrt(g01*j01))/1000;
-        var l1x=l11*(400+Math.sqrt(g01*l01))/1000;
-        var l2x=l21*(150+Math.sqrt(g01*l02))/1000;
-        var i1x=i11*(100+Math.sqrt(g01*i01))/1000;
-        var m1x=m11*(200+Math.sqrt(g01*m01))/1000;
-        var hpx=(400+g01)/100;
+        var g1x=g11*(0.2+0.1*g01/(g01+1));
+        var g2x=g21*(0.3+0.3*Math.sqrt(g01)*g02/((Math.sqrt(g01)+1)*(g02+1)));
+        var g3x=g31*(0.3+0.3*Math.sqrt(g01)*g03/((Math.sqrt(g01)+1)*(g03+1)));
+        var j1x=j11*(0.2+0.5*Math.sqrt(g01)*j01/((Math.sqrt(g01)+1)*(j01+1)));
+        var l1x=l11*(0.3+0.3*Math.sqrt(g01)*l01/((Math.sqrt(g01)+1)*(l01+1)));
+        var l2x=l21*(0.2+0.2*Math.sqrt(g01)*l02/((Math.sqrt(g01)+1)*(l02+1)));
+        var i1x=i11*(0.1+0.1*Math.sqrt(g01)*i01/((Math.sqrt(g01)+1)*(i01+1)));
+        var m1x=m11*(0.3+0.4*Math.sqrt(g01)*m01/((Math.sqrt(g01)+1)*(m01+1)));
+        var hpx=10*(0.1+0.1*g01/(g01+1));
         var cg1=Number(localStorage.getItem("g1"));
         var cg2=Number(localStorage.getItem("g2"));
         var cg3=Number(localStorage.getItem("g3"));
@@ -341,36 +346,42 @@ function gobig(){
         var i1=ci1+i1x;
         var m1=cm1+m1x;
         var hp=chp+hpx;
-        if (g1>20*(1+g01/100)){
-            g1=20*(1+g01/20);
+        if (g1>20+g01){
+            g1=20+g01;
             if(age>50){
                 g1=g1*0.99;
             }
         }
-        if (g2+g3>g1*14){
-            g2=g2*0.95;
-            g3=g3*0.9;
+        if (g2>g1*7*(1+g02/(g02+g2))){
+            g2=g1*7*(1+g02/(g02+g2));
         }
-        if (j1>g2*3.5){
-            j1=g2*3.5;
+        if (g3>g1*7*(1+g03/(g03+g3))){
+            g3=g1*7*(1+g03/(g03+g3));
+        }
+        if(g2+g3>g1*10){
+            g3=g3*0.9;
+            g2=g2*0.95;
+        }
+        if (j1>g2*3*(1+j01/(j01+j1))){
+            j1=g2*3*(j01/j01+j1);
         }
         if (l1>100){
             l1=100;
-            if(age>35){
+            if(age>40){
                 l1=l1*(1-0.005*age);
             }
         }
-        if (l2>100*(1+g01/20)){
-            l2=100*(1+g01/20);
+        if (l2>100*(1+l02/(l02+l2))){
+            l2=100*(1+l02/(l02+l2));
         }
-        if (i1>180*(1+g01/20)){
-            i1=180*(1+g01/20);
-            if (age>30){
+        if (i1>180*(1+i01/(i01+i1))){
+            i1=180*(1+i01/(i01+i1));
+            if (age>50){
                 i1=i1*(1-0.002*age);
             }
         }
-        if (m1>100*(1+g01/20)){
-            m1=180*(1+g01/20);
+        if (m1>100*(1+m01/(m01+m1))){
+            m1=100*(1+m01/(m01+m1));
             if (age>30){
                 m1=m1*(1-0.01*age);
             }
@@ -583,6 +594,7 @@ function gobig2(){
         var do1=Number(localStorage.getItem("do"))+1;
         var i11=Number(localStorage.getItem("i11"))+5;
         var g31=Number(localStorage.getItem("g31"))-2;
+        localStorage.setItem("do",do1.toString());
         localStorage.setItem("i11",i11.toString());
         localStorage.setItem("g31",g31.toString());
         g31correction();
@@ -600,6 +612,7 @@ function gobig2(){
         var do1=Number(localStorage.getItem("do"))+1;
         var i11=Number(localStorage.getItem("i11"))+3;
         var g31=Number(localStorage.getItem("g31"))-4;
+        localStorage.setItem("do",do1.toString());
         localStorage.setItem("i11",i11.toString());
         localStorage.setItem("g31",g31.toString());
         g31correction();
@@ -617,6 +630,7 @@ function gobig2(){
         var g31=Number(localStorage.getItem("g31"))-5;
         localStorage.setItem("i11",i11.toString());
         localStorage.setItem("g31",g31.toString());
+        localStorage.setItem("do",do1.toString());
         g31correction();
         if(age == 30){
             var i1=Number(localStorage.getItem("i1"));
@@ -630,6 +644,7 @@ function gobig2(){
         var g31=Number(localStorage.getItem("g31"))-2;
         localStorage.setItem("i11",i11.toString());
         localStorage.setItem("g31",g31.toString());
+        localStorage.setItem("do",do1.toString());
         g31correction();
     }else if(work == "大學教授"){
         var do1=Number(localStorage.getItem("do"))+1;
@@ -637,6 +652,7 @@ function gobig2(){
         var g31=Number(localStorage.getItem("g31"))/2;
         localStorage.setItem("i11",i11.toString());
         localStorage.setItem("g31",g31.toString());
+        localStorage.setItem("do",do1.toString());
     }
     if (do1 == age2){
         var g01=Number(localStorage.getItem("g01"));
@@ -655,15 +671,15 @@ function gobig2(){
         var l21=parseInt(Number(localStorage.getItem("l21"))/5);
         var i11=parseInt(Number(localStorage.getItem("i11"))/5);
         var m11=parseInt(Number(localStorage.getItem("m11"))/5);
-        var g1x=g11*(20+g01/100)/80;
-        var g2x=g21*(250+Math.sqrt(g01*g02))/1000;
-        var g3x=g31*(250+Math.sqrt(g01*g03))/1000;
-        var j1x=j11*(300+Math.sqrt(g01*j01))/1000;
-        var l1x=l11*(400+Math.sqrt(g01*l01))/1000;
-        var l2x=l21*(150+Math.sqrt(g01*l02))/1000;
-        var i1x=i11*(100+Math.sqrt(g01*i01))/1000;
-        var m1x=m11*(200+Math.sqrt(g01*m01))/1000;
-        var hpx=(400+g01)/100;
+        var g1x=g11*(0.2+0.1*g01/(g01+1));
+        var g2x=g21*(0.3+0.3*Math.sqrt(g01)*g02/((Math.sqrt(g01)+1)*(g02+1)));
+        var g3x=g31*(0.3+0.3*Math.sqrt(g01)*g03/((Math.sqrt(g01)+1)*(g03+1)));
+        var j1x=j11*(0.2+0.5*Math.sqrt(g01)*j01/((Math.sqrt(g01)+1)*(j01+1)));
+        var l1x=l11*(0.3+0.3*Math.sqrt(g01)*l01/((Math.sqrt(g01)+1)*(l01+1)));
+        var l2x=l21*(0.2+0.2*Math.sqrt(g01)*l02/((Math.sqrt(g01)+1)*(l02+1)));
+        var i1x=i11*(0.1+0.1*Math.sqrt(g01)*i01/((Math.sqrt(g01)+1)*(i01+1)));
+        var m1x=m11*(0.3+0.4*Math.sqrt(g01)*m01/((Math.sqrt(g01)+1)*(m01+1)));
+        var hpx=10*(0.1+0.1*g01/(g01+1));
         var cg1=Number(localStorage.getItem("g1"));
         var cg2=Number(localStorage.getItem("g2"));
         var cg3=Number(localStorage.getItem("g3"));
@@ -682,36 +698,42 @@ function gobig2(){
         var i1=ci1+i1x;
         var m1=cm1+m1x;
         var hp=chp+hpx;
-        if (g1>20*(1+g01/100)){
-            g1=20*(1+g01/20);
+        if (g1>20+g01){
+            g1=20+g01;
             if(age>50){
                 g1=g1*0.99;
             }
         }
-        if (g2+g3>g1*14){
-            g2=g2*0.95;
-            g3=g3*0.9;
+        if (g2>g1*7*(1+g02/(g02+g2))){
+            g2=g1*7*(1+g02/(g02+g2));
         }
-        if (j1>g2*3.5){
-            j1=g2*3.5;
+        if (g3>g1*7*(1+g03/(g03+g3))){
+            g3=g1*7*(1+g03/(g03+g3));
+        }
+        if(g2+g3>g1*10){
+            g3=g3*0.9;
+            g2=g2*0.95;
+        }
+        if (j1>g2*3*(1+j01/(j01+j1))){
+            j1=g2*3*(j01/j01+j1);
         }
         if (l1>100){
             l1=100;
-            if(age>35){
+            if(age>40){
                 l1=l1*(1-0.005*age);
             }
         }
-        if (l2>100*(1+g01/20)){
-            l2=100*(1+g01/20);
+        if (l2>100*(1+l02/(l02+l2))){
+            l2=100*(1+l02/(l02+l2));
         }
-        if (i1>180*(1+g01/20)){
-            i1=180*(1+g01/20);
-            if (age>30){
+        if (i1>180*(1+i01/(i01+i1))){
+            i1=180*(1+i01/(i01+i1));
+            if (age>50){
                 i1=i1*(1-0.002*age);
             }
         }
-        if (m1>100*(1+g01/20)){
-            m1=180*(1+g01/20);
+        if (m1>100*(1+m01/(m01+m1))){
+            m1=100*(1+m01/(m01+m1));
             if (age>30){
                 m1=m1*(1-0.01*age);
             }
