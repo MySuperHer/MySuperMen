@@ -10,12 +10,12 @@ async function grassland(){
     var a1 = parseInt(Math.random()*100)*(100+l2)/100+1;
     if (a1<10){
         people();
+    }else if(a1<30){
+        qiang();
     }else if(a1<70){
-        sheep();
-    }else if(a1<120){
         goat();
     }else{
-        qiang();
+        sheep();
     }
     $('#train21').attr('disabled', false);
     $('#train22').attr('disabled', false);
