@@ -178,7 +178,7 @@ function people(){
             }else{
                 content += '<div>動保委員試圖發動攻擊，但是沒有命中</div>';
             }
-            var pm1 = parseInt(Math.random()*101)*(100+pl1)*(100+pi1)/10000;//命中判定
+            var pm1 =0;//命中判定
             var pm2 = parseInt(Math.random()*101)*(100+mj1)/100;//閃避判定
             if(pm1>=50 && pa>0){
                 if(pm1>=pm2){
@@ -647,7 +647,7 @@ function qiang(){
     var content = '';
     content += '<div>'+plname+'遇到了山羌</div>';
     $('#3').append(content);
-    while(php>=0 && mhp>=0){
+    while(php >=0 && mhp >= 0 ){
         if(pl1>=ml1){
             var content = '';
             var pm1 = parseInt(Math.random()*101)*(100+pl1)*(100+pi1)/10000;//命中判定
