@@ -37,6 +37,8 @@ function again(){
         localStorage.setItem("l02",localStorage.getItem("l2"));
         localStorage.setItem("i01",localStorage.getItem("i1"));
         localStorage.setItem("m01",localStorage.getItem("m1"));
+        var died=Number(localStorage.getItem("died"))+1;
+        localStorage.setItem("died",died.toString());
         localStorage.setItem("goagain",0);
         localStorage.removeItem("goback");
     }
