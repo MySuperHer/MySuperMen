@@ -289,6 +289,12 @@ function gobig(){
                 i1=i1*(1-0.002*age);
             }
         }
+        if (m1>100*(1+g0/20)){
+            m1=180*(1+g0/20);
+            if (age>30){
+                m1=m1*(1-0.01*age);
+            }
+        }
         localStorage.setItem("hp",hp.toString());
         localStorage.setItem("g1",g1.toString());
         localStorage.setItem("g11","31");
