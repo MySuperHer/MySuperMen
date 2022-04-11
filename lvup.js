@@ -262,6 +262,7 @@ function gobig(){
         localStorage.setItem("m11","31");
         localStorage.setItem("do","0");
         localStorage.setItem("age",age.toString());
+        localStorage.setItem("do","0");
         let content = '';
         content += '<div>你長大了，成果如下</div>';
         content += '<div>身高成長了' + String((parseInt(g1)*1000-parseInt(cg1)*1000)/100) + 'cm</div>';
