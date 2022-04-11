@@ -67,7 +67,7 @@ async function swimmer(){
     $('#train12').attr('disabled', true);
     $('#train13').attr('disabled', true);
     $('#train14').attr('disabled', true);
-    await delay(0);
+    await delay(80);
     var age=Number(localStorage.getItem("age"));
     var i1=Number(localStorage.getItem("i1"));
     var g2=Number(localStorage.getItem("g2"));
@@ -99,7 +99,7 @@ async function study(){
     $('#train12').attr('disabled', true);
     $('#train13').attr('disabled', true);
     $('#train14').attr('disabled', true);
-    await delay(0);
+    await delay(80);
     var age=Number(localStorage.getItem("age"));
     var i1=Number(localStorage.getItem("i1"));
     var l2=Number(localStorage.getItem("l2"));
