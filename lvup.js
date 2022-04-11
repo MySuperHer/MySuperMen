@@ -222,12 +222,20 @@ async function gopretty(){
 function gobig(){
     var do1=Number(localStorage.getItem("do"))+1;
     var age=Number(localStorage.getItem("age"))+1;
+    var age1=Number(localStorage.getItem("age"))+2;
     if(age>=35){
         var age2=age;
     }else if(age>=20){
         var age2=age+20;
     }else{
         var age2=age*2;
+    }
+    if(age1>=35){
+        var age3=age1;
+    }else if(age1>=20){
+        var age3=age1+20;
+    }else{
+        var age3=age1*2;
     }
     var work=localStorage.getItem("work");
     if (work == "跳級生"){
@@ -379,7 +387,7 @@ function gobig(){
         localStorage.setItem("m11","31");
         localStorage.setItem("do","0");
         localStorage.setItem("age",age.toString());
-        localStorage.setItem("exp",String(age2));
+        localStorage.setItem("exp",String(age3));
         let content = '';
         content += '<div>你長大了，成果如下</div>';
         content += '<div>身高成長了' + String((parseInt(g1*1000)-parseInt(cg1*1000))/100)+ 'cm</div>';
@@ -548,12 +556,20 @@ function lose(){
 function gobig2(){
     var do1=Number(localStorage.getItem("do"))+1;
     var age=Number(localStorage.getItem("age"))+1;
+    var age1=Number(localStorage.getItem("age"))+2;
     if(age>=35){
         var age2=age;
     }else if(age>=20){
         var age2=age+20;
     }else{
         var age2=age*2;
+    }
+    if(age1>=35){
+        var age3=age1;
+    }else if(age1>=20){
+        var age3=age1+20;
+    }else{
+        var age3=age1*2;
     }
     var work=localStorage.getItem("work");
     if (work == "跳級生"){
@@ -705,7 +721,7 @@ function gobig2(){
         localStorage.setItem("m11","31");
         localStorage.setItem("do","0");
         localStorage.setItem("age",age.toString());
-        localStorage.setItem("exp",String(age2));
+        localStorage.setItem("exp",String(age3));
         let content = '';
         content += '<div>你長大了，成果如下</div>';
         content += '<div>身高成長了' + String((parseInt(g1*1000)-parseInt(cg1*1000))/100)+ 'cm</div>';
