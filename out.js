@@ -8,7 +8,7 @@ async function waiter(){
     var m1=Number(localStorage.getItem("m1"));
     var g2=Number(localStorage.getItem("g2"));
     var l2=Number(localStorage.getItem("l2"));
-    var a1 = parseInt(Math.random()*100)*(1+l2)/100+1;
+    var a1 = parseInt(Math.random()*100)*(100+l2)/100+1;
     let content = '';
     if (age>=18){
         if(m1>70 && a1>70){
@@ -39,8 +39,8 @@ async function lucky(){
     var age=Number(localStorage.getItem("age"));
     var m1=Number(localStorage.getItem("m1"));
     var l2=Number(localStorage.getItem("l2"));
-    var a1 = parseInt(Math.random()*100)*(1+l2)/100+1;
-    var a2 = parseInt(Math.random()*100)*(1+l2)/100+1;
+    var a1 = parseInt(Math.random()*100)*(100+l2)/100+1;
+    var a2 = parseInt(Math.random()*100)*(100+l2)/100+1;
     let content = '';
     if (age>=18){
         if(m1>70 && a1>70){
@@ -72,7 +72,7 @@ async function swimmer(){
     var i1=Number(localStorage.getItem("i1"));
     var g2=Number(localStorage.getItem("g2"));
     var l2=Number(localStorage.getItem("l2"));
-    var a1 = parseInt(Math.random()*100)*(1+l2)/100+1;
+    var a1 = parseInt(Math.random()*100)*(100+l2)/100+1;
     let content = '';
     if (age>=18){
         if(i1>40 && g2>40 && a1<90){
