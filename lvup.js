@@ -229,6 +229,7 @@ function gobig(){
     }else{
         var age2=age*2;
     }
+    ocalStorage.setItem("exp",String(age2));
     var work=localStorage.getItem("work");
     if (work == "跳級生"){
         var do1=Number(localStorage.getItem("do"))+1;
@@ -554,6 +555,7 @@ function gobig2(){
     }else{
         var age2=age*2;
     }
+    ocalStorage.setItem("exp",String(age2));
     var work=localStorage.getItem("work");
     if (work == "跳級生"){
         var do1=Number(localStorage.getItem("do"))+1;
