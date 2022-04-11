@@ -223,7 +223,7 @@ async function gopretty(){
 function gobig(){
     var do1=Number(localStorage.getItem("do"))+1;
     var age=Number(localStorage.getItem("age"))+1;
-    var age2=age*2;
+    var age2=1;
     if (do1 == age2){
         var g0=Number(localStorage.getItem("g01"));
         var g11=parseInt(Number(localStorage.getItem("g11"))/5);
@@ -316,7 +316,7 @@ function gobig(){
         localStorage.setItem("age",age.toString());
         let content = '';
         content += '<div>你長大了，成果如下</div>';
-        content += '<div>身高成長了' + String((parseInt(g1*1000)-parseInt(cg1*1000))/100) + 'cm</div>';
+        content += '<div>身高成長了' + String((parseInt(g1*1000)-parseInt(cg1*1000))/100)+ 'cm</div>';
         content += '<div>體重成長了' + String((parseInt((g1+g2+g3)*100)-parseInt((cg1+cg2+cg3)*100))/100) + 'kg</div>';
         content += '<div>跳躍力成長了' + String((parseInt(j1*100)-parseInt(cj1*100))/100) + '</div>';
         content += '<div>視力成長了' + String((parseInt(l1*100)-parseInt(cl1*100))/100) + '</div>';
@@ -330,8 +330,8 @@ function gobig(){
 }
 
 function g11correction(){
-    var g11=Number(localStorage.getItem(g11));
-    var g31=Number(localStorage.getItem(g31));
+    var g11=Number(localStorage.getItem("g11"));
+    var g31=Number(localStorage.getItem("g31"));
     if (g11<0){
         g31=g31+g11;
         if(g31<0){
@@ -344,8 +344,8 @@ function g11correction(){
 }
 
 function g21correction(){
-    var g21=Number(localStorage.getItem(g21));
-    var g11=Number(localStorage.getItem(g11));
+    var g21=Number(localStorage.getItem("g21"));
+    var g11=Number(localStorage.getItem("g11"));
     if (g21<0){
         g11=g11+g21;
         if(g11<0){
@@ -358,8 +358,8 @@ function g21correction(){
 }
 
 function g31correction(){
-    var g31=Number(localStorage.getItem(g31));
-    var g21=Number(localStorage.getItem(g21));
+    var g31=Number(localStorage.getItem("g31"));
+    var g21=Number(localStorage.getItem("g21"));
     if (g31<0){
         g21=g21+g31;
         if(g21<0){
@@ -372,8 +372,8 @@ function g31correction(){
 }
 
 function j11correction(){
-    var j11=Number(localStorage.getItem(j11));
-    var i11=Number(localStorage.getItem(i11));
+    var j11=Number(localStorage.getItem("j11"));
+    var i11=Number(localStorage.getItem("i11"));
     if (j11<0){
         i11=i11+j11;
         if(i11<0){
@@ -386,8 +386,8 @@ function j11correction(){
 }
 
 function l11correction(){
-    var l11=Number(localStorage.getItem(l11));
-    var i11=Number(localStorage.getItem(i11));
+    var l11=Number(localStorage.getItem("l11"));
+    var i11=Number(localStorage.getItem("i11"));
     if (l11<0){
         i11=i11+l11;
         if(i11<0){
@@ -400,8 +400,8 @@ function l11correction(){
 }
 
 function i11correction(){
-    var i11=Number(localStorage.getItem(i11));
-    var g31=Number(localStorage.getItem(g31));
+    var i11=Number(localStorage.getItem("i11"));
+    var g31=Number(localStorage.getItem("g31"));
     if (i11<0){
         g31=g31+i11;
         if(g31<0){
@@ -414,8 +414,8 @@ function i11correction(){
 }
 
 function m11correction(){
-    var m11=Number(localStorage.getItem(m11));
-    var g31=Number(localStorage.getItem(g31));
+    var m11=Number(localStorage.getItem("m11"));
+    var g31=Number(localStorage.getItem("g31"));
     if (m11<0){
         g31=g31+m11;
         if(g31<0){
