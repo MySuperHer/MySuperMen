@@ -653,7 +653,7 @@ function qiang(){
             var pm1 = parseInt(Math.random()*101)*(100+pl1)*(100+pi1)/10000;//命中判定
             var pm2 = parseInt(Math.random()*101)*(100+mj1)/100;//閃避判定
             if(pm1>=50 && pa>0){
-                if(pm1>=pm1){
+                if(pm1>=pm2){
                     pm3 = parseInt(Math.random()*101)*(100-ml2)*(100+pl2)/10000;//爆擊判定
                     if(pm3>mi1){
                         if(pg2*pi1/100-mg3>0){
@@ -688,7 +688,7 @@ function qiang(){
             var mp1 = parseInt(Math.random()*101)*(100+ml1)*(100+mi1)/10000;//命中判定
             var mp2 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
             if(mp1>=50){
-                if(mp1>=mp1){
+                if(mp1>=mp2){
                     mp3 = parseInt(Math.random()*101)*(100-pl2)*(100+ml2)/10000;//爆擊判定
                     if(mp3>pi1){;
                         if(mg2*mi1/100-pg3>0){
@@ -738,7 +738,7 @@ function qiang(){
             var mp1 = parseInt(Math.random()*101)*(100+ml1)*(100+mi1)/10000;//命中判定
             var mp2 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
             if(mp1>=50){
-                if(mp1>=mp1){
+                if(mp1>=mp2){
                     mp3 = parseInt(Math.random()*101)*(100-pl2)*(100+ml2)/10000;//爆擊判定
                     if(mp3>pi1){;
                         if(mg2*mi1/100-pg3>0){
@@ -788,7 +788,7 @@ function qiang(){
             var mp1 = parseInt(Math.random()*101)*(100+ml1)*(100+mi1)/10000;//命中判定
             var mp2 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
             if(mp1>=50){
-                if(mp1>=mp1){
+                if(mp1>=mp2){
                     mp3 = parseInt(Math.random()*101)*(100-pl2)*(100+ml2)/10000;//爆擊判定
                     if(mp3>pi1){;
                         if(mg2*mi1/100-pg3>0){
@@ -890,7 +890,7 @@ function qiang(){
             var mp1 = parseInt(Math.random()*101)*(100+ml1)*(100+mi1)/10000;//命中判定
             var mp2 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
             if(mp1>=50){
-                if(mp1>=mp1){
+                if(mp1>=mp2){
                     mp3 = parseInt(Math.random()*101)*(100-pl2)*(100+ml2)/10000;//爆擊判定
                     if(mp3>pi1){;
                         if(mg2*mi1/100-pg3>0){
