@@ -20,8 +20,8 @@ function goback(){
         localStorage.setItem("m11","31");
         localStorage.setItem("age","0");
         localStorage.setItem("do","0");
+        localStorage.setItem("exp","0");
         localStorage.setItem("goback","0");
-       
     }
 }
 
