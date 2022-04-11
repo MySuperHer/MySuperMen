@@ -848,7 +848,6 @@ function qiang(){
                         }else{
                             var harm=parseInt((Math.random()*10+(mi1/10)+1)*mi1/100);
                         }
-                        let content = '';
                         content += '<div>山羌'+garm+'，打出了致命一擊，對'+plname+'造成了'+String(harm)+'點傷害</div>';
                         php=php-harm;
                         if (garm =='用角衝撞'){
