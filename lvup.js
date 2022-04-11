@@ -159,7 +159,7 @@ async function useeye(){
     var b1 = ["g11", "g21", "g31", "j11", "l11", "l21", "i11", "m11"];
     var r1=Number(localStorage.getItem(b1[a1]))*1.1;
     localStorage.setItem(b1[a1],r1.toString());
-    var b2 = b1.splice(pos, a1);
+    var b2 = b1.splice(a1, 1);
     var a2 = Math.random()*7;
     var r2=Number(localStorage.getItem(b2[a2]))*0.09;
     localStorage.setItem(b2[a2],r2.toString());
