@@ -298,24 +298,31 @@ function gobig(){
         localStorage.setItem("g31",g31.toString());
     }
     if (do1 == age2){
-        var g0=Number(localStorage.getItem("g01"));
+        var g01=Number(localStorage.getItem("g01"));
+        var g02=Number(localStorage.getItem("g02"));
+        var g03=Number(localStorage.getItem("g03"));
+        var j01=Number(localStorage.getItem("j01"));
+        var l01=Number(localStorage.getItem("l01"));
+        var l02=Number(localStorage.getItem("l02"));
+        var i01=Number(localStorage.getItem("i01"));
+        var m01=Number(localStorage.getItem("m01"));
         var g11=parseInt(Number(localStorage.getItem("g11"))/5);
         var g21=parseInt(Number(localStorage.getItem("g21"))/5);
         var g31=parseInt(Number(localStorage.getItem("g31"))/5);
-        var j11=parseInt(Number(localStorage.getItem("j11")))/5;
-        var l11=parseInt(Number(localStorage.getItem("l11")))/5;
-        var l21=parseInt(Number(localStorage.getItem("l21")))/5;
-        var i11=parseInt(Number(localStorage.getItem("i11")))/5;
-        var m11=parseInt(Number(localStorage.getItem("m11")))/5;
-        var g1x=g11*(1+g0/20)/19.5;
-        var g2x=g21*(1+g0/20)/3.8;
-        var g3x=g31*(1+g0/20)/3.6;
-        var j1x=j11*(1+g0/20)/1.5;
-        var l1x=l11*(1+g0/20)/2.75;
-        var l2x=l21*(1+g0/20)/3.5;
-        var i1x=i11*(1+g0/20)/3.25;
-        var m1x=m11*(1+g0/20)/3.1;
-        var hpx=10*(1+g0/20);
+        var j11=parseInt(Number(localStorage.getItem("j11"))/5);
+        var l11=parseInt(Number(localStorage.getItem("l11"))/5);
+        var l21=parseInt(Number(localStorage.getItem("l21"))/5);
+        var i11=parseInt(Number(localStorage.getItem("i11"))/5);
+        var m11=parseInt(Number(localStorage.getItem("m11"))/5);
+        var g1x=g11*(1+g01/20)/20;
+        var g2x=g21*(25+Math.sqrt(g01*g02))/80;
+        var g3x=j11*(25+Math.sqrt(g01*g03))/80;
+        var j1x=j11*(25+Math.sqrt(g01*j01))/60;
+        var l1x=l11*(25+Math.sqrt(g01*l01))/45;
+        var l2x=l21*(15+Math.sqrt(g01*l02))/80;
+        var i1x=i11*(5+Math.sqrt(g01*i01))/80;
+        var m1x=m11*(10+Math.sqrt(g01*m01))/60;
+        var hpx=10*(1+g01/20);
         var cg1=Number(localStorage.getItem("g1"));
         var cg2=Number(localStorage.getItem("g2"));
         var cg3=Number(localStorage.getItem("g3"));
@@ -347,7 +354,7 @@ function gobig(){
         if (j1>g2*3.5){
             j1=g2*3.5;
         }
-        if (l1>100*(1+g0/20)){
+        if (l1>100){
             l1=100;
             if(age>35){
                 l1=l1*(1-0.005*age);
@@ -632,24 +639,30 @@ function gobig2(){
         localStorage.setItem("g31",g31.toString());
     }
     if (do1 == age2){
-        var g0=Number(localStorage.getItem("g01"));
+        var g01=Number(localStorage.getItem("g01"));
+        var g02=Number(localStorage.getItem("g02"));
+        var g03=Number(localStorage.getItem("g03"));
+        var j01=Number(localStorage.getItem("j01"));
+        var l01=Number(localStorage.getItem("l01"));
+        var l02=Number(localStorage.getItem("l02"));
+        var i01=Number(localStorage.getItem("i01"));
+        var m01=Number(localStorage.getItem("m01"));
         var g11=parseInt(Number(localStorage.getItem("g11"))/5);
         var g21=parseInt(Number(localStorage.getItem("g21"))/5);
         var g31=parseInt(Number(localStorage.getItem("g31"))/5);
-        var j11=parseInt(Number(localStorage.getItem("j11")))/5;
-        var l11=parseInt(Number(localStorage.getItem("l11")))/5;
-        var l21=parseInt(Number(localStorage.getItem("l21")))/5;
-        var i11=parseInt(Number(localStorage.getItem("i11")))/5;
-        var m11=parseInt(Number(localStorage.getItem("m11")))/5;
-        var g1x=g11*(1+g0/20)/19.5;
-        var g2x=g21*(1+g0/20)/3.8;
-        var g3x=g31*(1+g0/20)/3.6;
-        var j1x=j11*(1+g0/20)/1.5;
-        var l1x=l11*(1+g0/20)/2.75;
-        var l2x=l21*(1+g0/20)/3.5;
-        var i1x=i11*(1+g0/20)/3.25;
-        var m1x=m11*(1+g0/20)/3.1;
-        var hpx=10*(1+g0/20);
+        var j11=parseInt(Number(localStorage.getItem("j11"))/5);
+        var l11=parseInt(Number(localStorage.getItem("l11"))/5);
+        var l21=parseInt(Number(localStorage.getItem("l21"))/5);
+        var i11=parseInt(Number(localStorage.getItem("i11"))/5);
+        var m11=parseInt(Number(localStorage.getItem("m11"))/5);
+        var g1x=g11*(1+g01/20)/20;
+        var g2x=g21*(25+Math.sqrt(g01*g02))/80;
+        var g3x=j11*(25+Math.sqrt(g01*g03))/80;
+        var j1x=j11*(25+Math.sqrt(g01*j01))/60;
+        var l1x=l11*(25+Math.sqrt(g01*l01))/45;
+        var l2x=l21*(15+Math.sqrt(g01*l02))/80;
+        var i1x=i11*(5+Math.sqrt(g01*i01))/80;
+        var m1x=m11*(10+Math.sqrt(g01*m01))/60;
         var cg1=Number(localStorage.getItem("g1"));
         var cg2=Number(localStorage.getItem("g2"));
         var cg3=Number(localStorage.getItem("g3"));
