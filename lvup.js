@@ -223,7 +223,7 @@ async function gopretty(){
 function gobig(){
     var do1=Number(localStorage.getItem("do"))+1;
     var age=Number(localStorage.getItem("age"))+1;
-    var age2=1;
+    var age2=age*3;
     if (do1 == age2){
         var g0=Number(localStorage.getItem("g01"));
         var g11=parseInt(Number(localStorage.getItem("g11"))/5);
