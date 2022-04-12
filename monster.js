@@ -205,6 +205,9 @@ function grassfight(moname){
         var content = '<div>'+work+plname+'倒下了，'+moname+'還有'+String(parseInt(mhp))+'生命</div>';
         $('#3').append(content);
         lose();
+    }else if (php<0 && mhp<0){
+        var content = '<div>'+work+plname+'和'+moname+'同歸於盡了</div>';
+        $('#3').append(content);
     }else{
         var content = '<div>'+work+plname+'和'+moname+'打得難分難捨</div>';
         $('#3').append(content);
@@ -347,9 +350,17 @@ function playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,m
                 content += '<div>'+work1+plname+'開始有氧呼吸，恢復了'+String(harm)+'</div>';
                 php = php + harm;
             }else if(work1 =='卡車司機' && pm5>=pm6*2){
-                content += '<div>'+work1+plname+'開著卡車撞擊'+moname+'</div>';
-                content += '<div>'+moname+'轉生到異世界了</div>';
-                mhp = -1;
+                var harm=parseInt(Math.random()*100)+1;
+                if(harm>50){
+                    content += '<div>'+work1+plname+'開著卡車撞擊'+moname+'</div>';
+                    content += '<div>'+moname+'轉生到異世界去了</div>';
+                    mhp = -1;
+                }else{
+                    content += '<div>'+work1+plname+'開著卡車撞擊'+moname+'的時候爆炸了</div>';
+                    content += '<div>'+work1+plname+'和'+moname+'一起轉生到異世界去了</div>';
+                    php = -1;
+                    mhp = -1;
+                }
             }else if(pm3>=pm4){//爆擊
                 var harm=parseInt((Math.random()*10+(pi1/10)+1)*(Math.sqrt(pg2*pi1)-mg3));
                 if (harm<0){
