@@ -115,7 +115,7 @@ async function study(){
                 content = '<div>入學測試慘遭滑鐵盧，明年再來吧。</div>';
             }
         }else{
-            if (a1>=100){
+            if (a1>=100 && age>=10){
                 content = '<div>你的成績非常出眾，於是你的老師決定讓你至哈佛研究所就讀。</div>';
                 localStorage.setItem("work","跳級生");
             }else{
@@ -141,8 +141,9 @@ async function getcar(){
     $('#train15').attr('disabled', true);
     await delay(20);
     var l1=Number(localStorage.getItem("l1"));
+    var age=Number(localStorage.getItem("age"));
     let content = '';
-    if(l1<70){
+    if(l1<70 && age>14){
         content = '<div>你撿到了一台來路不明的卡車</div>';
         localStorage.setItem("work","卡車司機");
     }else{
