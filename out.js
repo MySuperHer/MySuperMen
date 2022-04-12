@@ -3,6 +3,7 @@ async function waiter(){
     $('#train12').attr('disabled', true);
     $('#train13').attr('disabled', true);
     $('#train14').attr('disabled', true);
+    $('#train15').attr('disabled', true);
     await delay(20);
     var age=Number(localStorage.getItem("age"));
     var m1=Number(localStorage.getItem("m1"));
@@ -28,6 +29,7 @@ async function waiter(){
     $('#train12').attr('disabled', false);
     $('#train13').attr('disabled', false);
     $('#train14').attr('disabled', false);
+    $('#train15').attr('disabled', false);
 }
 
 async function lucky(){
@@ -35,6 +37,7 @@ async function lucky(){
     $('#train12').attr('disabled', true);
     $('#train13').attr('disabled', true);
     $('#train14').attr('disabled', true);
+    $('#train15').attr('disabled', true);
     await delay(20);
     var age=Number(localStorage.getItem("age"));
     var m1=Number(localStorage.getItem("m1"));
@@ -60,6 +63,7 @@ async function lucky(){
     $('#train12').attr('disabled', false);
     $('#train13').attr('disabled', false);
     $('#train14').attr('disabled', false);
+    $('#train15').attr('disabled', false);
 }
 
 async function swimmer(){
@@ -67,6 +71,7 @@ async function swimmer(){
     $('#train12').attr('disabled', true);
     $('#train13').attr('disabled', true);
     $('#train14').attr('disabled', true);
+    $('#train15').attr('disabled', true);
     await delay(20);
     var age=Number(localStorage.getItem("age"));
     var i1=Number(localStorage.getItem("i1"));
@@ -92,6 +97,7 @@ async function swimmer(){
     $('#train12').attr('disabled', false);
     $('#train13').attr('disabled', false);
     $('#train14').attr('disabled', false);
+    $('#train15').attr('disabled', false);
 }
 
 async function study(){
@@ -99,6 +105,7 @@ async function study(){
     $('#train12').attr('disabled', true);
     $('#train13').attr('disabled', true);
     $('#train14').attr('disabled', true);
+    $('#train15').attr('disabled', true);
     await delay(20);
     var age=Number(localStorage.getItem("age"));
     var i1=Number(localStorage.getItem("i1"));
@@ -129,4 +136,30 @@ async function study(){
     $('#train12').attr('disabled', false);
     $('#train13').attr('disabled', false);
     $('#train14').attr('disabled', false);
+    $('#train15').attr('disabled', false);
+}
+
+async function getcar(){
+    $('#train11').attr('disabled', true);
+    $('#train12').attr('disabled', true);
+    $('#train13').attr('disabled', true);
+    $('#train14').attr('disabled', true);
+    $('#train15').attr('disabled', true);
+    await delay(20);
+    var l1=Number(localStorage.getItem("l1"));
+    var l2=Number(localStorage.getItem("l2"));
+    var a1 = parseInt(Math.random()*100)*(100+l2)/100+1;
+    let content = '';
+    if(l1<90 && a1>90){
+        content = '<div>你撿到了一台來路不明的卡車</div>';
+        localStorage.setItem("work","卡車司機");
+    }else{
+        content = '<div>來這裡找工作是想當乞丐嗎？</div>';
+    }
+    $('#2').append(content);
+    $('#train11').attr('disabled', false);
+    $('#train12').attr('disabled', false);
+    $('#train13').attr('disabled', false);
+    $('#train14').attr('disabled', false);
+    $('#train15').attr('disabled', false);
 }
