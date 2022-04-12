@@ -82,8 +82,8 @@ async function gofat(){
     var g11=Number(localStorage.getItem("g11"))-3;
     var g21=Number(localStorage.getItem("g21"))-1;
     var m11=Number(localStorage.getItem("m11"))-1;
-    gobig(g11,g21,g31,-1,-1,-1,i11,m11);
     $("#1").append("<div>吃完垃圾食物更高興了。</div>");
+    gobig(g11,g21,g31,-1,-1,-1,i11,m11);
     $('#train1').attr('disabled', false);
     $('#train2').attr('disabled', false);
     $('#train3').attr('disabled', false);
@@ -131,8 +131,8 @@ async function badeye(){
     var g21=Number(localStorage.getItem("g21"))*0.8;
     var l11=Number(localStorage.getItem("l11"))-7;
     var j11=Number(localStorage.getItem("j11"))-1;
-    gobig(-1,g21,g31,j11,l11,-1,i11,-1);
     $("#1").append("<div>刀劍神域才不是卡通。</div>");
+    gobig(-1,g21,g31,j11,l11,-1,i11,-1);
     $('#train1').attr('disabled', false);
     $('#train2').attr('disabled', false);
     $('#train3').attr('disabled', false);

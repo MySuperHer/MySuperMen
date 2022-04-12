@@ -198,7 +198,7 @@ function grassfight(moname){
         }
     }
     if (php>0 && mhp<0){
-        var content = '<div>'+work+moname+'倒下了，'+plname+'還有'+String(php)+'生命</div>';
+        var content = '<div>'+moname+'倒下了，'+work+plname+'還有'+String(php)+'生命</div>';
         $('#3').append(content);
         win();
     }else if (php<0 && mhp>0){
