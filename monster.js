@@ -5,7 +5,7 @@ async function grassland(){
     $('#train22').attr('disabled', true);
     $('#train23').attr('disabled', true);
     $('#train24').attr('disabled', true);
-    await delay(0);
+    await delay(10);
     var l2=Number(localStorage.getItem("l2"));
     var a1 = parseInt(Math.random()*100)*(100+l2)/100+1;
     if (a1<10){
