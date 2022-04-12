@@ -223,7 +223,7 @@ function playerattack(pg2,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,monam
             var pm5 = parseInt(Math.random()*101)*(1000+pi1)/1000;//技能判定
             var pm6 = parseInt(Math.random()*101)*(1000+mg3)/1000;//技能抵抗
             if(work1 =='救生員' && pm5>=pm6){
-                var pm7 = ParseInt(Math.random()*100)
+                var pm7 = parseInt(Math.random()*100)
                 if(pm7>50){
                     content += '<div>'+work1+plname+'用力地吹了吹口哨'+moname+'受到了驚嚇</div>';
                     content += '<div>'+moname+'感到了恐懼</div>';
@@ -234,7 +234,7 @@ function playerattack(pg2,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,monam
             }
             if(work1 =='彩卷行員工' && pm5>=pm6){
                 var harm=parseInt((Math.random()*10+(pi1/10)+1)*(Math.sqrt(pg2*pi1)));
-                var pm7 = ParseInt(Math.random()*100)
+                var pm7 =parseInt(Math.random()*100)
                 if(pm7>=75){
                     content += '<div>'+work1+plname+'刮了張彩卷，抽中了炸彈，攻擊'+moname+'造成了'+String(harm)+'點傷害</div>';
                     mhp=mhp-harm;
