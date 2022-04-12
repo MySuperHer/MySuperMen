@@ -233,16 +233,13 @@ function playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,m
                 }
             }
             if(work1 =='彩卷行員工'){
-                var harm=parseInt((Math.random()*10+(pi1/10)+1)*(Math.sqrt(pg2*pi1)));
-                var pm7 =parseInt(Math.random()*100)
-                if(pm7>=75 && pm5>=pm6){
-                    content += '<div>'+work1+plname+'刮了張彩卷，抽中了炸彈，攻擊'+moname+'造成了'+String(harm)+'點傷害</div>';
-                    mhp=mhp-harm;
-                }else if(pm7>=50 && pm5>=pm6){
-                    content += '<div>'+work1+plname+'刮了張彩卷，抽中了炸彈，炸彈爆炸對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
-                    php=php-harm;
-                }else{
-                    content += '<div>'+work1+plname+'刮了張彩卷，但是沒有中獎</div>';
+                var pm7 = parseInt(Math.random()*(pl2/70)+1);
+                content += '<div>'+work1+plname+'獲得了'+String(pm7)+'張彩券</div>';
+                for (i = 1; i < pm7; i++) {
+                    var aa =lotto(pl2,content,php,mhp,plname,moname);
+                    php = aa[0];
+                    mhp = aa[1];
+                    content = aa[2];
                 }
             }
             if(work1 =='幸運星' && pm5>=pm6){
@@ -516,4 +513,36 @@ function monstorattack(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname,
     }
     $('#3').append(content);
     return [php,mhp,pgosh,mgosh,mfire,mgosh2,newj,pgosh1];
+}
+
+function lotto(pl2,content,php,mhp,plname,moname){
+    var work1=String(localStorage.getItem("work"));
+    var a = parseInt(Math.random()*100)+1;
+    if(a>80){
+        var harm=parseInt(Math.random()*10*(pl2/20));
+        content += '<div>'+work1+plname+'回復了'+work1+plname+String(harm)+'點生命</div>';
+        php=php+harm;
+    }else if(a>60){
+        var harm=parseInt(Math.random()*10*(pl2/20));
+        content += '<div>'+work1+plname+'刮了一張彩卷，回復了'+moname+String(harm)+'點生命</div>';
+        mhp=mhp+harm;
+    }else if(a>40){
+        var harm = parseInt(Math.random()*(pl2/70)+1);
+        content += '<div>'+work1+plname+'獲得了'+String(harm)+'張彩券</div>';
+        for (i = 1; i < harm; i++) {
+            var aa = lotto(pl2,content,php,mhp,plname,moname);
+            php = aa[0];
+            mhp = aa[1];
+            content = aa[2];
+        }
+    }else if(a>20){
+        var harm=parseInt(Math.random()*10*(pl2/20));
+        content += '<div>'+work1+plname+'刮了一張彩卷，抽中了炸彈，炸彈爆炸對'+moname+'造成了'+String(harm)+'點傷害</div>';
+        mhp=mhp-harm;
+    }else{
+        var harm=parseInt(Math.random()*10*(pl2/20));
+        content += '<div>'+work1+plname+'刮了一張彩卷，抽中了炸彈，炸彈爆炸對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+        php=php-harm;
+    }
+    return [php,mhp,content]
 }
