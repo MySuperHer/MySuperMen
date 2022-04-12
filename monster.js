@@ -90,7 +90,7 @@ function grassfight(moname){
     $('#3').append(content);
     while(php>0 && mhp>0 && turn<100){
         if(pl1>pl2){
-            var x =playerattack(pg2,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work,plname,moname,pgosh,mgosh,mfire,mgosh2,pgosh1);
+            var x =playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work,plname,moname,pgosh,mgosh,mfire,mgosh2,pgosh1);
             php = x[0];
             mhp = x[1];
             pgosh = x[2];
@@ -185,7 +185,7 @@ function grassfight(moname){
                 turn=turn+1;
             }
             if (php>0){
-                var x =playerattack(pg2,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work,plname,moname,pgosh,mgosh,mfire,mgosh2,pgosh1);
+                var x =playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work,plname,moname,pgosh,mgosh,mfire,mgosh2,pgosh1);
                 php = x[0];
                 mhp = x[1];
                 pgosh = x[2];
@@ -198,11 +198,11 @@ function grassfight(moname){
         }
     }
     if (php>0 && mhp<0){
-        var content = '<div>'+moname+'倒下了，'+work+plname+'還有'+String(php)+'生命</div>';
+        var content = '<div>'+moname+'倒下了，'+work+plname+'還有'+String(parseInt(php))+'生命</div>';
         $('#3').append(content);
         win();
     }else if (php<0 && mhp>0){
-        var content = '<div>'+work+plname+'倒下了，'+moname+'還有'+String(mhp)+'生命</div>';
+        var content = '<div>'+work+plname+'倒下了，'+moname+'還有'+String(parseInt(mhp))+'生命</div>';
         $('#3').append(content);
         lose();
     }else{
@@ -212,7 +212,7 @@ function grassfight(moname){
 }
 //青青中學：校園惡霸，訓導主任，初音幫
 
-function playerattack(pg2,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,moname,pgosh,mgosh,mfire,mgosh2,pgosh1){
+function playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,moname,pgosh,mgosh,mfire,mgosh2,pgosh1){
     var content = '';
     var pm1 = parseInt(Math.random()*101)*(100+pl1)*(100+pi1)/10000;//命中判定
     var pm2 = parseInt(Math.random()*101)*(1000+mj1)/1000;//閃避判定
@@ -271,7 +271,44 @@ function playerattack(pg2,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,monam
                     }
                 }
             }
-            if(work1 =='服務生' && pm5>=pm6){
+            if(plname == '和人'){
+                var pm7 = parseInt(Math.random()*101);
+                if(pm7>40){
+                    var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-mg3));
+                    content += '<div>真正的桐谷和人使出了水平立方斬，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                    mhp = mhp - harm;
+                }else if(pm7>10){
+                    var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-mg3));
+                    content += '<div>真正的桐谷和人使出了星爆氣流斬，對'+moname+'造成了'+String(harm)+'點傷害/div>';
+                    mhp = mhp - harm;
+                    var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-mg3));
+                    content += '<div>星爆氣流斬二連擊！對'+moname+'造成了'+String(harm)+'點傷害/div>';
+                    mhp = mhp - harm;
+                }else{
+                    content += '<div>SWITCH!/div>';
+                    content += '<div>真正的桐谷和人使出了星爆氣流斬，對'+moname+'造成了'+String(harm)+'點傷害/div>';
+                    var i=0;
+                    for (i = 1; i < 17; i++) {
+                        var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-mg3));
+                        content += '<div>星爆氣流斬'+String(i)+'連擊！對'+moname+'造成了'+String(harm)+'點傷害/div>';
+                        mhp = mhp - harm;
+                    }
+                }
+            }else if(work1 == '雙刀劍士' && pm5>=pm6){
+                var pm7 = parseInt(Math.random()*101);
+                if(pm7>=30){
+                    var harm=parseInt((Math.random()*10+(pi1/10)+1)*(Math.sqrt(pg2*pi1)));
+                    content += '<div>'+work1+plname+'使出了水平立方斬，對'+moname+'造成了'+String(harm)+'點傷害</div>'
+                    mhp = mhp - harm;
+                }else {
+                    var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-mg3));
+                    content += '<div>'+work1+plname+'使出了星爆氣流斬，對'+moname+'造成了'+String(harm)+'點傷害/div>';
+                    mhp = mhp - harm;
+                    var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-mg3));
+                    content += '<div>星爆氣流斬2連擊！對'+moname+'造成了'+String(harm)+'點傷害/div>';
+                    mhp = mhp - harm;
+                }                
+            }else if(work1 =='服務生' && pm5>=pm6){
                 var harm=parseInt((Math.random()*10+(pi1/10)+1)*(Math.sqrt(pg2*pi1)));
                 content += '<div>'+work1+plname+'使用了瘋狂餐車，對'+moname+'造成了'+String(harm)+'點傷害</div>';
                 var pm7 = parseInt(Math.random()*100)
@@ -457,6 +494,7 @@ function monstorattack(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname,
     if (mfire<=0){
         var harm=parseInt((Math.random()*10+(pi1/10)+1)*(Math.sqrt(pg2*pi1)))*(-1*mfire);
         content += '<div>'+moname+'被灼燒了，受到'+String(harm)+'點傷害</div>';
+        mhp = mhp - harm;
     }
     $('#3').append(content);
     return [php,mhp,pgosh,mgosh,mfire,mgosh2,newj,pgosh1];
