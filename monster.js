@@ -39,46 +39,46 @@ function grassfight(moname){
     var pgosh1=1;
     var plname=localStorage.getItem("name");
     if(moname=='動保委員'){
-        var mg2=10000;//肌力
-        var mg3=55;//脂肪
-        var mj1=50;//移動
-        var ml1=70;//視力
-        var ml2=100;//幸運
-        var mi1=150;//智力
-        var mhp=10000;//血量
+        var mg2=100;//肌力
+        var mg3=20;//脂肪
+        var mj1=35;//移動
+        var ml1=50;//視力
+        var ml2=30;//幸運
+        var mi1=20;//智力
+        var mhp=1000;//血量
         var mgosh=1;
         var mfire=1;
         var mgosh2=1;
     }else if(moname=='山羌'){
-        var mg2=5000;//肌力
+        var mg2=75;//肌力
         var mg3=30;//脂肪
         var mj1=70;//移動
-        var ml1=40;//視力
-        var ml2=40;//幸運
-        var mi1=60;//智力
-        var mhp=4000;//血量
+        var ml1=20;//視力
+        var ml2=20;//幸運
+        var mi1=20;//智力
+        var mhp=700;//血量
         var mgosh=1;
         var mfire=1;
         var mgosh2=1;
     }else if(moname=='山羊'){
-        var mg2=1200;//肌力
-        var mg3=40;//脂肪
-        var mj1=400;//移動
-        var ml1=30;//視力
+        var mg2=40;//肌力
+        var mg3=10;//脂肪
+        var mj1=30;//移動
+        var ml1=10;//視力
         var ml2=10;//幸運
         var mi1=10;//智力
-        var mhp=1000;//血量
+        var mhp=100;//血量
         var mgosh=1;
         var mfire=1;
         var mgosh2=1;
     }else if(moname=='綿羊'){
         var mg2=10;//肌力
-        var mg3=100;//脂肪
+        var mg3=30;//脂肪
         var mj1=20;//移動
-        var ml1=50;//視力
-        var ml2=10;//幸運
-        var mi1=20;//智力
-        var mhp=100;//血量
+        var ml1=20;//視力
+        var ml2=5;//幸運
+        var mi1=10;//智力
+        var mhp=50;//血量
         var mgosh=1;
         var mfire=1;
         var mgosh2=1;
@@ -88,7 +88,7 @@ function grassfight(moname){
     var fight = 1;
     content += '<div>'+work+plname+'遇到了'+moname+'</div>';
     $('#3').append(content);
-    while(php>=0 && mhp>=0 && turn<100){
+    while(php>0 && mhp>0 && turn<100){
         if(pl1>pl2){
             var x =playerattack(pg2,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work,plname,moname,pgosh,mgosh,mfire,mgosh2,pgosh1);
             php = x[0];
@@ -294,7 +294,7 @@ function playerattack(pg2,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,monam
             }else if(work1 =='卡車司機' && pm5>=pm6*2){
                 content += '<div>'+work1+plname+'開著卡車撞擊'+moname+'</div>';
                 content += '<div>'+moname+'轉生到異世界了</div>';
-                mhp = 0;
+                mhp = -1;
             }else if(pm3>=pm4){//爆擊
                 var harm=parseInt((Math.random()*10+(pi1/10)+1)*(Math.sqrt(pg2*pi1)-mg3));
                 if (harm<0){
@@ -408,13 +408,6 @@ function monstorattack(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname,
                         content += '<div>'+moname+newm+'，連開三槍，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
                     }
                 }
-            }else if(mp3>=mp4 && newm!=='吃草'){//爆擊
-                var harm=parseInt((Math.random()*10+(mi1/10)+1)*(Math.sqrt(mg2*mi1)-pg3));
-                if (harm<0){
-                    harm=parseInt(Math.random()*10);
-                }
-                content += '<div>'+moname+newm+'打出了致命一擊，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
-                php=php-harm;
             }else if (newm=='吃草'){
                 var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)-pg3));
                 if (harm<0){
@@ -422,6 +415,13 @@ function monstorattack(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname,
                 }
                 content += '<div>'+moname+newm+'回復了'+String(harm)+'點生命</div>';
                 mhp=mhp+harm;
+            }else if(mp3>=mp4){//爆擊
+                var harm=parseInt((Math.random()*10+(mi1/10)+1)*(Math.sqrt(mg2*mi1)-pg3));
+                if (harm<0){
+                    harm=parseInt(Math.random()*10);
+                }
+                content += '<div>'+moname+newm+'打出了致命一擊，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+                php=php-harm;
             }else{
                 var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)-pg3));
                 if (harm<0){

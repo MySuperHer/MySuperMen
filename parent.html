@@ -124,6 +124,17 @@
                         }
                     </script></tr>
                 </tr>
+                <tr>
+                    <td>魅力</td>
+                    <td><script>
+                        if(localStorage.getItem("m01") == null){
+                            document.write("未知");
+                        } else{
+                            i01=parseInt(localStorage.getItem("m01"));
+                            document.write(m01);
+                        }
+                    </script></tr>
+                </tr>
             </table>
             <form>
                 <label for="testInput">
