@@ -48,7 +48,7 @@ async function lucky(){
         }else if(l2>50){
             content = '<div>在離開彩卷行時，你順便買了一張樂透，恭喜您中獎了。</div>';
             localStorage.setItem("work","幸運星");
-        }{
+        }else{
             content = '<div>很抱歉，您並不符合我們的要求</div>';
         }
     }else{
