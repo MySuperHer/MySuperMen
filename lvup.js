@@ -74,7 +74,7 @@ async function gofat(){
     $('#train4').attr('disabled', true);
     $('#train5').attr('disabled', true);
     $('#train6').attr('disabled', true);
-    await delay(0);
+    await delay(5);
     var work=localStorage.getItem("work");
     work1(work);
     var g31=Number(localStorage.getItem("g31"))+9;
