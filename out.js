@@ -190,6 +190,8 @@ async function star(){
         if(n>=48763){
             content = '<div>一個散發著強大氣場的無名黑衣劍士給了你兩把單手劍。</div>';
             localStorage.setItem("work","雙刀劍士");
+        }else{
+            content = '<div>風景真好。</div>';
         }
     }else{
         k=parseInt(Math.random()*41);
@@ -202,7 +204,6 @@ async function star(){
         }else {
             content = '<div>我們只歡迎真正的冒險者</div>';
         }
-        
     }
     $('#2').append(content);
     $('#train11').attr('disabled', false);
