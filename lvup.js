@@ -1,6 +1,10 @@
 function goback(){
     if(localStorage.getItem("goback")==null){
-        localStorage.setItem("work","無業");
+        if(localStorage.getItem("name")=='和人'){
+            localStorage.setItem("work","真正的桐谷");
+        }else{
+            localStorage.setItem("work","無業");
+        }
         localStorage.setItem("hp","10");
         localStorage.setItem("g1","2.5");
         localStorage.setItem("g2","1");

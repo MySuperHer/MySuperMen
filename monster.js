@@ -275,22 +275,34 @@ function playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,m
                 var pm7 = parseInt(Math.random()*101);
                 if(pm7>40){
                     var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-mg3));
+                    if (harm<0){
+                        harm=parseInt(Math.random()*10);
+                    }
                     content += '<div>真正的桐谷和人使出了水平立方斬，對'+moname+'造成了'+String(harm)+'點傷害</div>';
                     mhp = mhp - harm;
                 }else if(pm7>10){
                     var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-mg3));
-                    content += '<div>真正的桐谷和人使出了星爆氣流斬，對'+moname+'造成了'+String(harm)+'點傷害/div>';
+                    if (harm<0){
+                        harm=parseInt(Math.random()*10);
+                    }
+                    content += '<div>真正的桐谷和人使出了星爆氣流斬，對'+moname+'造成了'+String(harm)+'點傷害</div>';
                     mhp = mhp - harm;
                     var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-mg3));
-                    content += '<div>星爆氣流斬二連擊！對'+moname+'造成了'+String(harm)+'點傷害/div>';
+                    if (harm<0){
+                        harm=parseInt(Math.random()*10);
+                    }
+                    content += '<div>星爆氣流斬二連擊！對'+moname+'造成了'+String(harm)+'點傷害</div>';
                     mhp = mhp - harm;
                 }else{
                     content += '<div>SWITCH!/div>';
-                    content += '<div>真正的桐谷和人使出了星爆氣流斬，對'+moname+'造成了'+String(harm)+'點傷害/div>';
+                    content += '<div>真正的桐谷和人使出了星爆氣流斬，對'+moname+'造成了'+String(harm)+'點傷害</div>';
                     var i=0;
                     for (i = 1; i < 17; i++) {
                         var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-mg3));
-                        content += '<div>星爆氣流斬'+String(i)+'連擊！對'+moname+'造成了'+String(harm)+'點傷害/div>';
+                        if (harm<0){
+                            harm=parseInt(Math.random()*10);
+                        }
+                        content += '<div>星爆氣流斬'+String(i)+'連擊！對'+moname+'造成了'+String(harm)+'點傷害</div>';
                         mhp = mhp - harm;
                     }
                 }
@@ -302,10 +314,16 @@ function playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,m
                     mhp = mhp - harm;
                 }else {
                     var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-mg3));
-                    content += '<div>'+work1+plname+'使出了星爆氣流斬，對'+moname+'造成了'+String(harm)+'點傷害/div>';
+                    if (harm<0){
+                        harm=parseInt(Math.random()*10);
+                    }
+                    content += '<div>'+work1+plname+'使出了星爆氣流斬，對'+moname+'造成了'+String(harm)+'點傷害</div>';
                     mhp = mhp - harm;
                     var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-mg3));
-                    content += '<div>星爆氣流斬2連擊！對'+moname+'造成了'+String(harm)+'點傷害/div>';
+                    if (harm<0){
+                        harm=parseInt(Math.random()*10);
+                    }
+                    content += '<div>星爆氣流斬2連擊！對'+moname+'造成了'+String(harm)+'點傷害</div>';
                     mhp = mhp - harm;
                 }                
             }else if(work1 =='服務生' && pm5>=pm6){
