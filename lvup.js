@@ -244,6 +244,14 @@ function gobig(g11,g21,g31,j11,l11,l21,i11,m11){
         var cl2=l21*(0.2+(0.2*Math.sqrt(g01)*l02)/((Math.sqrt(g01)+1)*(l02+1)));
         var ci1=i11*(0.1+0.1*Math.sqrt(g01)*i01/((Math.sqrt(g01)+1)*(i01+1)));
         var cm1=m11*(0.3+0.4*Math.sqrt(g01)*m01/((Math.sqrt(g01)+1)*(m01+1)));
+        var g1n=Number(localStorage.getItem("g1"))
+        var g2n=Number(localStorage.getItem("g2"))
+        var g3n=Number(localStorage.getItem("g3"))
+        var j1n=Number(localStorage.getItem("j1"))
+        var l1n=Number(localStorage.getItem("l1"))
+        var l2n=Number(localStorage.getItem("l2"))
+        var i1n=Number(localStorage.getItem("i1"))
+        var m1n=Number(localStorage.getItem("m1"))
         var g1=Number(localStorage.getItem("g1"))+g11*(0.2+0.1*g01/(g01+1));
         var g2=Number(localStorage.getItem("g2"))+g21*(0.3+(0.3*Math.sqrt(g01)*g02)/((Math.sqrt(g01)+1)*(g02+1)));
         var g3=Number(localStorage.getItem("g3"))+g31*(0.3+(0.3*Math.sqrt(g01)*g03)/((Math.sqrt(g01)+1)*(g03+1)));
@@ -315,13 +323,13 @@ function gobig(g11,g21,g31,j11,l11,l21,i11,m11){
         localStorage.setItem("exp",String(line1));
         let content = '';
         content += '<div>你長大了，成果如下</div>';
-        content += '<div>身高成長了' + String(parseInt(cg1*1000)/100)+ 'cm</div>';
-        content += '<div>體重成長了' + String(parseInt((cg1+cg2+cg3)*100)/100) + 'kg</div>';
-        content += '<div>跳躍力成長了' + String(parseInt(cj1*100)/100) + '</div>';
-        content += '<div>視力成長了' + String(parseInt(cl1*100)/100) + '</div>';
-        content += '<div>幸運成長了' + String(parseInt(cl2*100)/100) + '</div>';
-        content += '<div>智力成長了' + String(parseInt(ci1*100)/100) + '</div>';
-        content += '<div>魅力成長了' + String(parseInt(cm1*100)/100) + '</div>';
+        content += '<div>身高成長了' + String(parseInt((g1-g1n)*1000)/100)+ 'cm</div>';
+        content += '<div>體重成長了' + String(parseInt((g1+g2+g3-g1n-g2n-g3n)*100)/100) + 'kg</div>';
+        content += '<div>跳躍力成長了' + String(parseInt((j1-j1n)*100)/100) + '</div>';
+        content += '<div>視力成長了' + String(parseInt((l1-l1n)*100)/100) + '</div>';
+        content += '<div>幸運成長了' + String(parseInt((l2-l2n)*100)/100) + '</div>';
+        content += '<div>智力成長了' + String(parseInt((i1-i1n)*100)/100) + '</div>';
+        content += '<div>魅力成長了' + String(parseInt((m1-m1n)*100)/100) + '</div>';
         $("#1").append(content);
     } else {
         if(g11>=0){
