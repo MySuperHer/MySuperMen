@@ -431,7 +431,7 @@ function monstorattack(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname,
                 }
                 content += '<div>'+moname+newm+'發動攻擊，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
                 php=php-harm;
-                content += '<div>'+plname+'眩暈了</div>';
+                content += '<div>'+work1+plname+'眩暈了</div>';
                 pgosh = pgosh-1;
             }else if(newm=='掏出電擊棒'){
                 var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)-pg3));
@@ -440,7 +440,7 @@ function monstorattack(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname,
                 }
                 content += '<div>'+moname+newm+'發動攻擊，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
                 php=php-harm;
-                content += '<div>'+plname+'被麻痺了</div>';
+                content += '<div>'+work1+plname+'被麻痺了</div>';
                 pgosh1 = pgosh1-1;
             }else if(newm=='掏出持槍'){
                 var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)-pg3));
