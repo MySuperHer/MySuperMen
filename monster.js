@@ -408,27 +408,27 @@ function monstorattack(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname,
                         content += '<div>'+moname+newm+'，連開三槍，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
                     }
                 }
-            }else if(mp3>=mp4 && newm!='吃草'){//爆擊
+            }else if(mp3>=mp4 && newm!=='吃草'){//爆擊
                 var harm=parseInt((Math.random()*10+(mi1/10)+1)*(Math.sqrt(mg2*mi1)-pg3));
                 if (harm<0){
                     harm=parseInt(Math.random()*10);
                 }
                 content += '<div>'+moname+newm+'打出了致命一擊，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
                 php=php-harm;
-            }else if (newm!='吃草'){
-                var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)-pg3));
-                if (harm<0){
-                    harm=parseInt(Math.random()*10);
-                }
-                content += '<div>'+moname+newm+'發動攻擊，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
-                php=php-harm;
-            }else{
+            }else if (newm=='吃草'){
                 var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)-pg3));
                 if (harm<0){
                     harm=parseInt(Math.random()*10);
                 }
                 content += '<div>'+moname+newm+'回復了'+String(harm)+'點生命</div>';
                 mhp=mhp+harm;
+            }else{
+                var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)-pg3));
+                if (harm<0){
+                    harm=parseInt(Math.random()*10);
+                }
+                content += '<div>'+moname+newm+'發動攻擊，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+                php=php-harm;
             }
         }else{
             content += '<div>'+moname+'試圖發動攻擊，但是被'+work1+plname+'發現了</div>';
