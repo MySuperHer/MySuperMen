@@ -98,7 +98,7 @@ async function backfat(){
     $('#train4').attr('disabled', true);
     $('#train5').attr('disabled', true);
     $('#train6').attr('disabled', true);
-    await delay(0);
+    await delay(5);
     var work=localStorage.getItem("work");
     work1(work);
     var j11=Number(localStorage.getItem("j11"))+4;
@@ -585,7 +585,7 @@ function gobig2(g11,g21,g31,j11,l11,l21,i11,m11){
     l21correction();
     i11correction();
     m11correction();
-    var do1=Number(localStorage.getItem("do"))+1;
+    var do1=Number(localStorage.getItem("do"))+10;
     var age=Number(localStorage.getItem("age"));
     var age1=Number(localStorage.getItem("age"))+1;
     if(age>=35){
@@ -635,7 +635,7 @@ function gobig2(g11,g21,g31,j11,l11,l21,i11,m11){
         var l2=Number(localStorage.getItem("l2"))+l21*(0.2+(0.2*Math.sqrt(g01)*l02)/((Math.sqrt(g01)+1)*(l02+1)));
         var i1=Number(localStorage.getItem("i1"))+i11*(0.1+0.1*Math.sqrt(g01)*i01/((Math.sqrt(g01)+1)*(i01+1)));
         var m1=Number(localStorage.getItem("m1"))+m11*(0.3+0.4*Math.sqrt(g01)*m01/((Math.sqrt(g01)+1)*(m01+1)));
-        var hp=10*(0.1+(0.1*g01)/(g01+1));
+        var hp=10*(0.1+(0.1*g01)/(g01+1))+g01;
         if (g1>20+g01){
             g1=20+g01;
             if(age>20){
@@ -693,7 +693,7 @@ function gobig2(g11,g21,g31,j11,l11,l21,i11,m11){
         localStorage.setItem("i11","31");
         localStorage.setItem("m1",m1.toString());
         localStorage.setItem("m11","31");
-        localStorage.setItem("do","0");
+        localStorage.setItem("do",(line-do1).toString());
         localStorage.setItem("age",age1.toString());
         localStorage.setItem("exp",String(line1));
         let content = '';
