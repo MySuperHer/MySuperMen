@@ -309,7 +309,7 @@ function playerattack(pg2,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,monam
                 content += '<div>'+work1+plname+'發動攻擊，對'+moname+'造成了'+String(harm)+'點傷害</div>';
             }
         }else{
-            content += '<div>'+work1+plname+'試圖發動攻擊，但是被山羊發現了</div>';
+            content += '<div>'+work1+plname+'試圖發動攻擊，但是被'+moname+'發現了</div>';
         }
     }else if(pgosh<=0){
         var pm10 = parseInt(Math.random()*101)*(1000+pi1)/1000;
