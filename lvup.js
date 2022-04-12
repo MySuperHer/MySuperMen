@@ -185,6 +185,7 @@ async function gopretty(){
     var i11=Number(localStorage.getItem("i11"))-1;
     $("#1").append("<div>一個大男人到底能化什麼妝。</div>");
     gobig(g11,g21,g31,-1,-1,-1,i11,m11);
+    gobig(-1,-1,-1,-1,-1,-1,-1,-1);
     $('#train1').attr('disabled', false);
     $('#train2').attr('disabled', false);
     $('#train3').attr('disabled', false);
@@ -255,7 +256,7 @@ function gobig(g11,g21,g31,j11,l11,l21,i11,m11){
         var hp=Number(localStorage.getItem("hp"))+g01;
         if (g1>20+g01){
             g1=20+g01;
-            if(age>20){
+            if(age>30){
                 g1=g1*0.9;
             }
         }
@@ -356,9 +357,12 @@ function gobig(g11,g21,g31,j11,l11,l21,i11,m11){
 function work1(work1){
     var age=Number(localStorage.getItem("age"));
     if (work1 == "跳級生"){
-        do1=do1+1;
-        i11=i11+5;
-        g31=g31-2;
+        var do1=Number(localStorage.getItem("do"))+1;
+        var i11=Number(localStorage.getItem("i11"))+5;
+        var g31=Number(localStorage.getItem("g31"))-2;
+        localStorage.setItem("i11",i11.toString());
+        localStorage.setItem("g31",g31.toString());
+        localStorage.setItem("do",do1.toString());
         if(age == 27){
             var i1=Number(localStorage.getItem("i1"));
             if(i1<70){
@@ -585,7 +589,7 @@ function gobig2(g11,g21,g31,j11,l11,l21,i11,m11){
     l21correction();
     i11correction();
     m11correction();
-    var do1=Number(localStorage.getItem("do"))+10;
+    var do1=Number(localStorage.getItem("do"))+1;
     var age=Number(localStorage.getItem("age"));
     var age1=Number(localStorage.getItem("age"))+1;
     if(age>=35){
