@@ -150,15 +150,15 @@ async function useeye(){
     await delay(5);
     var work=localStorage.getItem("work");
     work1(work);
-    var a1 = Math.random()*8;
-    var b1 = ["g11", "g21", "g31", "j11", "l11", "l21", "i11", "m11"];
+    var a1 = parseInt(Math.random()*7);
+    var b1 = ["g11", "g21", "g31", "j11", "l11", "i11", "m11"];
     var r1=Number(localStorage.getItem(b1[a1]))*1.1;
     localStorage.setItem(b1[a1],r1.toString());
     var b2 = b1.splice(a1, 1);
     var a2 = parseInt(Math.random()*7);
     var r2=Number(localStorage.getItem(b2[a2]))*0.09;
     localStorage.setItem(b2[a2],r2.toString());
-    var l21=Number(localStorage.getItem("l21"))+3;
+    var l21=Number(localStorage.getItem("l21"))*1.2;
     $("#1").append("<div>看三小還想星爆啊。</div>");
     gobig(-1,-1,-1,-1,-1,l21,-1,-1);
     $('#train1').attr('disabled', false);
