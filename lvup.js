@@ -107,8 +107,8 @@ async function backfat(){
     var m11=Number(localStorage.getItem("m11"))+1;
     var g31=Number(localStorage.getItem("g31"))-7;
     var i11=Number(localStorage.getItem("i11"))-1;
-    gobig(-1,g21,g31,j11,l11,-1,i11,m11);
     $("#1").append("<div>到底有誰會想吃這鬼東西。</div>");
+    gobig(-1,g21,g31,j11,l11,-1,i11,m11);
     $('#train1').attr('disabled', false);
     $('#train2').attr('disabled', false);
     $('#train3').attr('disabled', false);
