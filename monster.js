@@ -111,7 +111,7 @@ function grassfight(moname){
                 mfire = y[4];
                 mgosh2 = y[5];
                 mj1=y[6];
-                pgosh2 = x[7];
+                pgosh2 = y[7];
                 turn=turn+1;
                 if(php>0 && fight>=2){
                     var content = '';
@@ -124,7 +124,7 @@ function grassfight(moname){
                     mfire = y[4];
                     mgosh2 = y[5];
                     mj1=y[6];
-                    pgosh2 = x[7];
+                    pgosh2 = y[7];
                     turn=turn+1;
                 }
                 if(php>0 && fight>=3){
@@ -138,7 +138,7 @@ function grassfight(moname){
                     mfire = y[4];
                     mgosh2 = y[5];
                     mj1=y[6];
-                    pgosh2 = x[7];
+                    pgosh2 = y[7];
                     turn=turn+1;
                 }
             }
@@ -154,7 +154,7 @@ function grassfight(moname){
             mfire = y[4];
             mgosh2 = y[5];
             mj1=y[6];
-            pgosh2 = x[7];
+            pgosh2 = y[7];
             turn=turn+1;
             if(php>0 && fight>=2){
                 var content = '';
@@ -167,7 +167,7 @@ function grassfight(moname){
                 mfire = y[4];
                 mgosh2 = y[5];
                 mj1=y[6];
-                pgosh2 = x[7];
+                pgosh2 = y[7];
                 turn=turn+1;
             }
             if(php>0 && fight>=3){
@@ -301,12 +301,14 @@ function playerattack(pg2,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,monam
                     harm=parseInt(Math.random()*10);
                 }
                 content += '<div>'+work1+plname+'打出了致命一擊，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                mhp = mhp - harm;
             }else{
                 var harm=parseInt((Math.random()*10)*(Math.sqrt(pg2*pi1)-mg3));
                 if (harm<0){
                     harm=parseInt(Math.random()*10);
                 }
                 content += '<div>'+work1+plname+'發動攻擊，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                mhp = mhp - harm;
             }
         }else{
             content += '<div>'+work1+plname+'試圖發動攻擊，但是被'+moname+'發現了</div>';
