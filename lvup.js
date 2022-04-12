@@ -236,14 +236,6 @@ function gobig(g11,g21,g31,j11,l11,l21,i11,m11){
         l21=parseInt(Number(localStorage.getItem("l21"))/5);
         i11=parseInt(Number(localStorage.getItem("i11"))/5);
         m11=parseInt(Number(localStorage.getItem("m11"))/5);
-        var cg1=g11*(0.2+0.1*g01/(g01+1));
-        var cg2=g21*(0.3+(0.3*Math.sqrt(g01)*g02)/((Math.sqrt(g01)+1)*(g02+1)));
-        var cg3=g31*(0.3+(0.3*Math.sqrt(g01)*g03)/((Math.sqrt(g01)+1)*(g03+1)));
-        var cj1=j11*(0.2+(0.35*Math.sqrt(g01)*j01)/((Math.sqrt(g01)+1)*(j01+1)));
-        var cl1=l11*(0.3+(0.3*Math.sqrt(g01)*l01)/((Math.sqrt(g01)+1)*(l01+1)));
-        var cl2=l21*(0.2+(0.2*Math.sqrt(g01)*l02)/((Math.sqrt(g01)+1)*(l02+1)));
-        var ci1=i11*(0.1+0.1*Math.sqrt(g01)*i01/((Math.sqrt(g01)+1)*(i01+1)));
-        var cm1=m11*(0.3+0.4*Math.sqrt(g01)*m01/((Math.sqrt(g01)+1)*(m01+1)));
         var g1n=Number(localStorage.getItem("g1"))
         var g2n=Number(localStorage.getItem("g2"))
         var g3n=Number(localStorage.getItem("g3"))
@@ -273,7 +265,7 @@ function gobig(g11,g21,g31,j11,l11,l21,i11,m11){
         if (g3>g1*7*(1+g03)/(g03+g3)){
             g3=g1*7*(1+g03)/(g03+g3);
         }
-        if(g2+g3 > g1*10){
+        if (g2+g3 > g1*10){
             g3=g3*0.9;
             g2=g2*0.95;
         }
@@ -627,14 +619,6 @@ function gobig2(g11,g21,g31,j11,l11,l21,i11,m11){
         l21=parseInt(Number(localStorage.getItem("l21"))/5);
         i11=parseInt(Number(localStorage.getItem("i11"))/5);
         m11=parseInt(Number(localStorage.getItem("m11"))/5);
-        var cg1=g11*(0.2+0.1*g01/(g01+1));
-        var cg2=g21*(0.3+(0.3*Math.sqrt(g01)*g02)/((Math.sqrt(g01)+1)*(g02+1)));
-        var cg3=g31*(0.3+(0.3*Math.sqrt(g01)*g03)/((Math.sqrt(g01)+1)*(g03+1)));
-        var cj1=j11*(0.2+(0.35*Math.sqrt(g01)*j01)/((Math.sqrt(g01)+1)*(j01+1)));
-        var cl1=l11*(0.3+(0.3*Math.sqrt(g01)*l01)/((Math.sqrt(g01)+1)*(l01+1)));
-        var cl2=l21*(0.2+(0.2*Math.sqrt(g01)*l02)/((Math.sqrt(g01)+1)*(l02+1)));
-        var ci1=i11*(0.1+0.1*Math.sqrt(g01)*i01/((Math.sqrt(g01)+1)*(i01+1)));
-        var cm1=m11*(0.3+0.4*Math.sqrt(g01)*m01/((Math.sqrt(g01)+1)*(m01+1)));
         var g1n=Number(localStorage.getItem("g1"))
         var g2n=Number(localStorage.getItem("g2"))
         var g3n=Number(localStorage.getItem("g3"))
