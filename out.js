@@ -8,14 +8,12 @@ async function waiter(){
     var age=Number(localStorage.getItem("age"));
     var m1=Number(localStorage.getItem("m1"));
     var g2=Number(localStorage.getItem("g2"));
-    var l2=Number(localStorage.getItem("l2"));
-    var a1 = parseInt(Math.random()*100)*(100+l2)/100+1;
     let content = '';
-    if (age>=18){
-        if(m1>70 && a1>70){
+    if (age>=10){
+        if(m1>30){
             content = '<div>恭喜您被錄取了</div>';
             localStorage.setItem("work","服務生");
-        }else if(g2>40 && a1>90){
+        }else if(g2>40){
             content = '<div>我們剛好缺一個廚師，恭喜您被錄取了。</div>';
             localStorage.setItem("work","廚師");
         }else{
@@ -42,14 +40,12 @@ async function lucky(){
     var age=Number(localStorage.getItem("age"));
     var m1=Number(localStorage.getItem("m1"));
     var l2=Number(localStorage.getItem("l2"));
-    var a1 = parseInt(Math.random()*100)*(100+l2)/100+1;
-    var a2 = parseInt(Math.random()*100)*(100+l2)/100+1;
     let content = '';
-    if (age>=18){
-        if(m1>70 && a1>70){
+    if (age>=10){
+        if(m1>30 && l2>30){
             content = '<div>恭喜您被錄取了</div>';
             localStorage.setItem("work","彩卷行員工");
-        }else if(a2>99){
+        }else if(l2>50){
             content = '<div>在離開彩卷行時，你順便買了一張樂透，恭喜您中獎了。</div>';
             localStorage.setItem("work","幸運星");
         }{
@@ -76,14 +72,12 @@ async function swimmer(){
     var age=Number(localStorage.getItem("age"));
     var i1=Number(localStorage.getItem("i1"));
     var g2=Number(localStorage.getItem("g2"));
-    var l2=Number(localStorage.getItem("l2"));
-    var a1 = parseInt(Math.random()*100)*(100+l2)/100+1;
     let content = '';
-    if (age>=18){
-        if(i1>40 && g2>40 && a1<90){
+    if (age>=10){
+        if(i1>30 && g2>40){
             content = '<div>恭喜您被錄取了</div>';
             localStorage.setItem("work","救生員");
-        }else if(g2>60){
+        }else if(g2>50){
             content = '<div>路過的國家游泳隊教練看上了你，恭喜您被錄取了。</div>';
             localStorage.setItem("work","游泳國手");
         }else{
@@ -147,10 +141,8 @@ async function getcar(){
     $('#train15').attr('disabled', true);
     await delay(20);
     var l1=Number(localStorage.getItem("l1"));
-    var l2=Number(localStorage.getItem("l2"));
-    var a1 = parseInt(Math.random()*100)*(100+l2)/100+1;
     let content = '';
-    if(l1<90 && a1>90){
+    if(l1<70){
         content = '<div>你撿到了一台來路不明的卡車</div>';
         localStorage.setItem("work","卡車司機");
     }else{
