@@ -178,7 +178,7 @@ async function gopretty(){
     $('#train6').attr('disabled', true);
     await delay(5);
     var work=localStorage.getItem("work");
-    work(work);
+    work1(work);
     var m11=Number(localStorage.getItem("m11"))*1.2;
     var g31=Number(localStorage.getItem("g31"))-3;
     var g21=Number(localStorage.getItem("g21"))-2;
