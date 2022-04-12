@@ -227,7 +227,7 @@ function playerattack(pg2,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,monam
                 if(pm7>50){
                     content += '<div>'+work1+plname+'用力地吹了吹口哨'+moname+'受到了驚嚇</div>';
                     content += '<div>'+moname+'感到了恐懼</div>';
-                    mgosh2 = mgosh2-1;
+                    mgosh2 = mgosh2-2;
                 }else{
                     content += '<div>'+work1+plname+'用力地吹了吹口哨，沒什麼效果</div>';
                 }
@@ -455,9 +455,8 @@ function monstorattack(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname,
         content += '<div>'+moname+'試圖發動攻擊，但是沒有命中</div>';
     }
     if (mfire<=0){
-        var harm=parseInt((Math.random()*10+(pi1/10)+1)*(Math.sqrt(pg2*pi1)));
+        var harm=parseInt((Math.random()*10+(pi1/10)+1)*(Math.sqrt(pg2*pi1)))*(-1*mfire);
         content += '<div>'+moname+'被灼燒了，受到'+String(harm)+'點傷害</div>';
-        mfire=mfire+1;
     }
     $('#3').append(content);
     return [php,mhp,pgosh,mgosh,mfire,mgosh2,newj,pgosh1];
