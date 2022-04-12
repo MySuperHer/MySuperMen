@@ -98,7 +98,7 @@ async function backfat(){
     $('#train4').attr('disabled', true);
     $('#train5').attr('disabled', true);
     $('#train6').attr('disabled', true);
-    await delay(5);
+    await delay(0);
     var work=localStorage.getItem("work");
     work1(work);
     var j11=Number(localStorage.getItem("j11"))+4;
@@ -252,7 +252,7 @@ function gobig(g11,g21,g31,j11,l11,l21,i11,m11){
         var l2=Number(localStorage.getItem("l2"))+l21*(0.2+(0.2*Math.sqrt(g01)*l02)/((Math.sqrt(g01)+1)*(l02+1)));
         var i1=Number(localStorage.getItem("i1"))+i11*(0.1+0.1*Math.sqrt(g01)*i01/((Math.sqrt(g01)+1)*(i01+1)));
         var m1=Number(localStorage.getItem("m1"))+m11*(0.3+0.4*Math.sqrt(g01)*m01/((Math.sqrt(g01)+1)*(m01+1)));
-        var hp=Number(localStorage.getItem("hp"))+20;
+        var hp=Number(localStorage.getItem("hp"))+g01;
         if (g1>20+g01){
             g1=20+g01;
             if(age>20){
