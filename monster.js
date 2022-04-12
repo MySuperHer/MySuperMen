@@ -31,7 +31,7 @@ function grassfight(moname){
     var pl2=Number(localStorage.getItem("l2"));
     var pi1=Number(localStorage.getItem("i1"));
     var php=Number(localStorage.getItem("hp"));
-    var work=localStorage.getItem("work");
+    var work=String(localStorage.getItem("work"));
     if(work='無業'){
         work='';
     }
@@ -86,7 +86,7 @@ function grassfight(moname){
     var turn = 0
     var content = '';
     var fight = 1;
-    content += '<div>'+plname+'遇到了'+moname+'</div>';
+    content += '<div>'+work+plname+'遇到了'+moname+'</div>';
     $('#3').append(content);
     while(php>=0 && mhp>=0 && turn<100){
         if(pl1>pl2){
