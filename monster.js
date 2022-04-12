@@ -5,7 +5,7 @@ async function grassland(){
     $('#train22').attr('disabled', true);
     $('#train23').attr('disabled', true);
     $('#train24').attr('disabled', true);
-    await delay(10);
+    await delay(0);
     var l2=Number(localStorage.getItem("l2"));
     var a1 = parseInt(Math.random()*100)*(100+l2)/100+1;
     if (a1<10){
@@ -32,8 +32,8 @@ function grassfight(moname){
     var pi1=Number(localStorage.getItem("i1"));
     var php=Number(localStorage.getItem("hp"));
     var work=String(localStorage.getItem("work"));
-    if(work='無業'){
-        work='';
+    if(work=='無業'){
+        work=='';
     }
     var pgosh=1;
     var pgosh1=1;
