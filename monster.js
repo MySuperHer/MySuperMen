@@ -239,7 +239,7 @@ function playerattack(pg2,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,monam
                     content += '<div>'+work1+plname+'刮了張彩卷，抽中了炸彈，攻擊'+moname+'造成了'+String(harm)+'點傷害</div>';
                     mhp=mhp-harm;
                 }else if(pm7>=50){
-                    content += '<div>'+work1+plname+'刮了張彩卷，抽中了炸彈，炸彈爆炸對'+plname+'造成了'+String(harm)+'點傷害</div>';
+                    content += '<div>'+work1+plname+'刮了張彩卷，抽中了炸彈，炸彈爆炸對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
                     php=php-harm;
                 }else{
                     content += '<div>'+work1+plname+'刮了張彩卷，但是沒有中獎</div>';
