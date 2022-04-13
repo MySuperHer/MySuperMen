@@ -524,7 +524,7 @@ function monstorattack(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname,
                     }
                 }
             }else if (newm=='吃草'){
-                var harm=parseInt((Math.random()*100)*(Math.sqrt(mg2*mi1)));
+                var harm=parseInt((Math.random()*100+1)*(Math.sqrt(mg2*mi1)));
                 content += '<div>'+moname+newm+'回復了'+String(harm)+'點生命</div>';
                 mhp=mhp+harm;
             }else if(mp3>=mp4){//爆擊
