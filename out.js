@@ -12,11 +12,11 @@ async function waiter(){
     var m1=Number(localStorage.getItem("m1"));
     var g2=Number(localStorage.getItem("g2"));
     let content = '';
-    if (age>=10){
-        if(m1>30){
+    if (age>=18){
+        if(m1>100){
             content = '<div>恭喜您被錄取了。</div>';
             localStorage.setItem("work","服務生");
-        }else if(g2>40){
+        }else if(g2>150){
             content = '<div>我們剛好缺一個廚師，恭喜您被錄取了。</div>';
             localStorage.setItem("work","廚師");
         }else{
@@ -51,11 +51,11 @@ async function lucky(){
     var m1=Number(localStorage.getItem("m1"));
     var l2=Number(localStorage.getItem("l2"));
     let content = '';
-    if (age>=10){
-        if(m1>30 && l2>30){
+    if (age>=18){
+        if(m1>100 && l2>200){
             content = '<div>恭喜您被錄取了。</div>';
             localStorage.setItem("work","彩卷行員工");
-        }else if(l2>50){
+        }else if(l2>500){
             content = '<div>在離開彩卷行時，你順便買了一張樂透，恭喜您中獎了。</div>';
             localStorage.setItem("work","幸運星");
         }else{
@@ -90,11 +90,11 @@ async function swimmer(){
     var i1=Number(localStorage.getItem("i1"));
     var g2=Number(localStorage.getItem("g2"));
     let content = '';
-    if (age>=10){
-        if(i1>30 && g2>40){
+    if (age>=18){
+        if(i1>50 && g2>70){
             content = '<div>恭喜您被錄取了。</div>';
             localStorage.setItem("work","救生員");
-        }else if(g2>50){
+        }else if(g2>100){
             content = '<div>路過的國家游泳隊教練看上了你，恭喜您被錄取了。</div>';
             localStorage.setItem("work","游泳國手");
         }else{
@@ -128,7 +128,7 @@ async function study(){
     var age=Number(localStorage.getItem("age"));
     var i1=Number(localStorage.getItem("i1"));
     var l2=Number(localStorage.getItem("l2"));
-    var a1 = parseInt(Math.random()*100)*(100+i1)*(1000+l2)/100000;
+    var a1 = parseInt(Math.random()*60)+i1/30+l2/100;
     let content = '';
     if (age<27){
         if(age>22){
@@ -211,11 +211,12 @@ async function star(){
     var l2=Number(localStorage.getItem("l2"));
     var i1=Number(localStorage.getItem("i1"));
     var m1=Number(localStorage.getItem("m1"));
+    var hp=Number(localStorage.getItem("hp"));
     let content = '';
     if (age>=15){
-        var n = g1*11+g2+g3+j1+l1+l2+i1+m1;
+        var n = g1*11+g2+g3+j1+l1+l2+i1+m1+hp;
         if(n>=48763){
-            content = '<div>一個散發著強大氣場的無名黑衣劍士給了你兩把單手劍。</div>';
+            content = '<div>一個散發著強大氣場的無名黑衣劍士給了你兩把單手劍和兩本密技。</div>';
             localStorage.setItem("work","雙刀劍士");
         }else{
             content = '<div>風景真好。</div>';
