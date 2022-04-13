@@ -7,11 +7,11 @@ function goback(){
         }
         localStorage.setItem("hp","10");
         localStorage.setItem("g1","2.5");
-        localStorage.setItem("g2","1");
-        localStorage.setItem("g3","1");
-        localStorage.setItem("j1","5");
+        localStorage.setItem("g2",String(1+Number(localStorage.getItem("getg2"))));
+        localStorage.setItem("g3",String(1+Number(localStorage.getItem("getg3"))));
+        localStorage.setItem("j1",String(5+Number(localStorage.getItem("getj1"))));
         localStorage.setItem("l1","10");
-        localStorage.setItem("l2","5");
+        localStorage.setItem("l2",String(5+Number(localStorage.getItem("getl2"))));
         localStorage.setItem("i1","1");
         localStorage.setItem("m1","1");
         localStorage.setItem("g11","20");
@@ -22,6 +22,10 @@ function goback(){
         localStorage.setItem("l21","20");
         localStorage.setItem("i11","20");
         localStorage.setItem("m11","20");
+        localStorage.setItem("getg3","0");
+        localStorage.setItem("getg2","0");
+        localStorage.setItem("getj1","0");
+        localStorage.setItem("getl2","0");
         localStorage.setItem("age","0");
         localStorage.setItem("do","0");
         localStorage.setItem("exp","2");
@@ -151,7 +155,7 @@ async function useeye(){
     $('#train4').attr('disabled', true);
     $('#train5').attr('disabled', true);
     $('#train6').attr('disabled', true);
-    await delay(0);
+    await delay(5);
     var work=localStorage.getItem("work");
     work1(work);
     var a1 = parseInt(Math.random()*7);
@@ -568,12 +572,26 @@ function delay(n){
     });
 }
 
-function win(){
+function win(n){
     var g21=Number(localStorage.getItem("g21"))+9;
     var i11=Number(localStorage.getItem("i11"))+5;
     var m11=Number(localStorage.getItem("m11"))-7;
     var l21=Number(localStorage.getItem("l21"))-4;
     gobig2(-1,g21,-1,-1,-1,l21,i11,m11);
+    if (n =='動保委員'){
+        var getg2=Number(localStorage.getItem("getg2"))+100;
+        localStorage.setItem("getg2",String(getg2));
+    }else if (n == '山羌'){
+        var getg3=Number(localStorage.getItem("getg3"))+50;
+        localStorage.setItem("getg3",String(getg3));
+    }else if (n == '山羊'){
+        var getj1=Number(localStorage.getItem("getj1"))+3;
+        localStorage.setItem("getj1",String(getj1));
+    }else if (n == '綿羊'){
+        var getl2=Number(localStorage.getItem("getl2"))+1;
+        localStorage.setItem("getl2",String(getl2));
+    }
+    localStorage.setItem("getl2","0");
 }
 
 function lose(){

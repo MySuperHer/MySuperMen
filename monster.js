@@ -200,7 +200,7 @@ function grassfight(moname){
     if (php>0 && mhp<0){
         var content = '<div>'+moname+'倒下了，'+work+plname+'還有'+String(parseInt(php))+'生命</div>';
         $('#3').append(content);
-        win();
+        win(moname);
     }else if (php<0 && mhp>0){
         var content = '<div>'+work+plname+'倒下了，'+moname+'還有'+String(parseInt(mhp))+'生命</div>';
         $('#3').append(content);
