@@ -151,7 +151,7 @@ async function useeye(){
     $('#train4').attr('disabled', true);
     $('#train5').attr('disabled', true);
     $('#train6').attr('disabled', true);
-    await delay(5);
+    await delay(0);
     var work=localStorage.getItem("work");
     work1(work);
     var a1 = parseInt(Math.random()*7);
@@ -249,14 +249,14 @@ function gobig(g11,g21,g31,j11,l11,l21,i11,m11){
         var l2n=Number(localStorage.getItem("l2"));
         var i1n=Number(localStorage.getItem("i1"));
         var m1n=Number(localStorage.getItem("m1"));
-        var g1=Number(localStorage.getItem("g1"))+g11*(0.2+0.1*g01/(g01+1));
-        var g2=Number(localStorage.getItem("g2"))+g21*(0.3+(0.3*Math.sqrt(g01)*g02)/((Math.sqrt(g01)+1)*(g02+1)));
-        var g3=Number(localStorage.getItem("g3"))+g31*(0.3+(0.3*Math.sqrt(g01)*g03)/((Math.sqrt(g01)+1)*(g03+1)));
-        var j1=Number(localStorage.getItem("j1"))+j11*(0.2+(0.35*Math.sqrt(g01)*j01)/((Math.sqrt(g01)+1)*(j01+1)));
-        var l1=Number(localStorage.getItem("l1"))+l11*(0.3+(0.3*Math.sqrt(g01)*l01)/((Math.sqrt(g01)+1)*(l01+1)));
-        var l2=Number(localStorage.getItem("l2"))+l21*(0.2+(0.2*Math.sqrt(g01)*l02)/((Math.sqrt(g01)+1)*(l02+1)));
-        var i1=Number(localStorage.getItem("i1"))+i11*(0.1+0.1*Math.sqrt(g01)*i01/((Math.sqrt(g01)+1)*(i01+1)));
-        var m1=Number(localStorage.getItem("m1"))+m11*(0.3+0.4*Math.sqrt(g01)*m01/((Math.sqrt(g01)+1)*(m01+1)));
+        var g1=g1n+g11*(0.2+0.2*g01/50);
+        var g2=g2n+g21*(0.3+0.3*g02*g01/15000);
+        var g3=g3n+g31*(0.3+0.3*g03*g01/15000);
+        var j1=j1n+j11*(0.2+0.35*j01*g01/25000);
+        var l1=l1n+l11*(0.3+0.3*l01*g01/25000);
+        var l2=l2n+l21*(0.2+0.2*l02*g01/25000);
+        var i1=i1n+i11*(0.1+0.1*i01*g01/25000);
+        var m1=m1n+m11*(0.3+0.4*m01*g01/25000);
         var hp=Number(localStorage.getItem("hp"))+g01;
         if (g1>20+g01){
             g1=20+g01;
