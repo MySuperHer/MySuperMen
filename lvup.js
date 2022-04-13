@@ -6,12 +6,12 @@ function goback(){
             localStorage.setItem("work","無業");
         }
         localStorage.setItem("hp","10");
-        localStorage.setItem("g1","2.5");
+        localStorage.setItem("g1",String(2.5+0.1*Number(localStorage.getItem("getl2"))));
         localStorage.setItem("g2",String(1+Number(localStorage.getItem("getg2"))));
         localStorage.setItem("g3",String(1+Number(localStorage.getItem("getg3"))));
         localStorage.setItem("j1",String(5+Number(localStorage.getItem("getj1"))));
         localStorage.setItem("l1","10");
-        localStorage.setItem("l2",String(5+Number(localStorage.getItem("getl2"))));
+        localStorage.setItem("l2","5");
         localStorage.setItem("i1","1");
         localStorage.setItem("m1","1");
         localStorage.setItem("g11","20");
