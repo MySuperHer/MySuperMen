@@ -300,8 +300,8 @@ function playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,m
                     content += '<div>星爆氣流斬二連擊！對'+moname+'造成了'+String(harm)+'點傷害</div>';
                     mhp = mhp - harm;
                 }else{
-                    content += '<div>SWITCH!/div>';
-                    content += '<div>真正的桐谷和人使出了星爆氣流斬，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                    content += '<div>SWITCH!</div>';
+                    content += '<div>真正的桐谷和人使出了星爆氣流斬</div>';
                     var i=0;
                     for (i = 1; i < 17; i++) {
                         var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)));
@@ -370,7 +370,7 @@ function playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,m
                     }
                 }
             }else if(work1 =='游泳國手' && pm5>=pm6){
-                var harm=parseInt((Math.random()*10+(pi1/10)+1)*(Math.sqrt(pg2*pi1)));
+                var harm=parseInt((Math.random()*100+(pi1/10)+1)*(Math.sqrt(pg2*pi1)));
                 content += '<div>'+work1+plname+'開始有氧呼吸，恢復了'+String(harm)+'</div>';
                 php = php + harm;
             }else if(work1 =='卡車司機' && pm5>=pm6*2){
@@ -524,10 +524,7 @@ function monstorattack(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname,
                     }
                 }
             }else if (newm=='吃草'){
-                var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)-pg3));
-                if (harm<=0){
-                    harm=parseInt(Math.random()*10);
-                }
+                var harm=parseInt((Math.random()*100)*(Math.sqrt(mg2*mi1)));
                 content += '<div>'+moname+newm+'回復了'+String(harm)+'點生命</div>';
                 mhp=mhp+harm;
             }else if(mp3>=mp4){//爆擊
