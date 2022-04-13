@@ -227,7 +227,7 @@ function playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,m
             var pm6 = parseInt(Math.random()*101)*(1000+mg3)/1000;//技能抵抗
             if(work1 =='救生員'){
                 var pm7 = parseInt(Math.random()*100)
-                if(pm7>50 && pm5>=pm6){
+                if(pm7>50){
                     content += '<div>'+work1+plname+'用力地吹了吹口哨'+moname+'受到了驚嚇</div>';
                     content += '<div>'+moname+'感到了恐懼</div>';
                     mgosh2 = mgosh2-2;
@@ -235,7 +235,7 @@ function playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,m
                     content += '<div>'+work1+plname+'用力地吹了吹口哨，沒什麼效果</div>';
                 }
             }
-            if(work1 =='彩卷行員工'){
+            if(work1 =='彩卷行員工' && pm5>=pm6){
                 var pm7 = parseInt(Math.random()*pl2/100);
                 content += '<div>'+work1+plname+'獲得了'+String(pm7)+'張彩券</div>';
                 $('#3').append(content);
@@ -249,16 +249,13 @@ function playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,m
                 var content = '';
             }
             if(work1 =='幸運星' && pm5>=pm6){
-                var pm7 = parseInt(Math.random()*101)
+                var pm7 = parseInt(Math.random()*101+pl2/100)
                 if(pm7>=99){
                     var harm=parseInt(Math.random()*10*pl2);
                     content += '<div>天上掉下一個盆栽，砸到了'+moname+'的頭上，造成了'+String(harm)+'點傷害</div>';
                     mhp=mhp-harm;
-                    var pm8 = parseInt(Math.random()*100)
-                    if(pm8>70){
-                        content += '<div>'+moname+'眩暈了</div>';
-                        mgosh = mgosh-1;
-                    }
+                    content += '<div>'+moname+'眩暈了</div>';
+                    mgosh = mgosh-1;
                 }else if(pm7>=70){
                     var harm=parseInt(Math.random()*10*(pl2/20));
                     content += '<div>'+moname+'被午餐的魚骨頭噎到了，受到了'+String(harm)+'點傷害</div>';
@@ -267,8 +264,8 @@ function playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,m
                     var harm=parseInt(Math.random()*10*(pl2/100));
                     content += '<div>'+moname+'踩到了地上的香蕉皮滑倒了，受到了'+String(harm)+'點傷害</div>';
                     php=php-harm;
-                    var pm8 = parseInt(Math.random()*100)
-                    if(pm8>70){
+                    var pm8 = parseInt(Math.random()*100+pl2/100);
+                    if(pm8>=70){
                         content += '<div>'+moname+'眩暈了</div>';
                         mgosh = mgosh-1;
                     }
@@ -278,22 +275,25 @@ function playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,m
                 var pm7 = parseInt(Math.random()*101);
                 if(pm7>40){
                     var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-mg3));
-                    if (harm<0){
+                    if (harm<=0){
                         harm=parseInt(Math.random()*10);
+                        content += '<div>真正的桐谷和人使出了水平立方斬，但是沒有突破'+moname+'的防禦，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                        mhp = mhp - harm;
+                    }else{
+                        content += '<div>真正的桐谷和人使出了水平立方斬，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                        mhp = mhp - harm;
                     }
-                    content += '<div>真正的桐谷和人使出了水平立方斬，對'+moname+'造成了'+String(harm)+'點傷害</div>';
-                    mhp = mhp - harm;
-                }else if(pm7>10){
+                }else if(pm7>5){
                     var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-mg3));
-                    if (harm<0){
+                    if (harm<=0){
                         harm=parseInt(Math.random()*10);
+                        content += '<div>真正的桐谷和人使出了星爆氣流斬，但是沒有突破'+moname+'的防禦，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                        mhp = mhp - harm;
+                    }else{
+                        content += '<div>真正的桐谷和人使出了星爆氣流斬，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                        mhp = mhp - harm;
                     }
-                    content += '<div>真正的桐谷和人使出了星爆氣流斬，對'+moname+'造成了'+String(harm)+'點傷害</div>';
-                    mhp = mhp - harm;
-                    var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-mg3));
-                    if (harm<0){
-                        harm=parseInt(Math.random()*10);
-                    }
+                    var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)));
                     content += '<div>星爆氣流斬二連擊！對'+moname+'造成了'+String(harm)+'點傷害</div>';
                     mhp = mhp - harm;
                 }else{
@@ -301,10 +301,7 @@ function playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,m
                     content += '<div>真正的桐谷和人使出了星爆氣流斬，對'+moname+'造成了'+String(harm)+'點傷害</div>';
                     var i=0;
                     for (i = 1; i < 17; i++) {
-                        var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-mg3));
-                        if (harm<0){
-                            harm=parseInt(Math.random()*10);
-                        }
+                        var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)));
                         content += '<div>星爆氣流斬'+String(i)+'連擊！對'+moname+'造成了'+String(harm)+'點傷害</div>';
                         mhp = mhp - harm;
                     }
@@ -312,38 +309,62 @@ function playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,m
             }else if(work1 == '雙刀劍士' && pm5>=pm6){
                 var pm7 = parseInt(Math.random()*101);
                 if(pm7>=30){
-                    var harm=parseInt((Math.random()*10+(pi1/10)+1)*(Math.sqrt(pg2*pi1)));
-                    content += '<div>'+work1+plname+'使出了水平立方斬，對'+moname+'造成了'+String(harm)+'點傷害</div>'
-                    mhp = mhp - harm;
+                    var harm=parseInt((Math.random()*10+(pi1/10)+1)*(Math.sqrt(pg2*pi1-mg3)));
+                    if (harm<=0){
+                        harm=parseInt(Math.random()*10);
+                        content += '<div>'+work1+plname+'使出了水平立方斬，但是沒有突破'+moname+'的防禦，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                        mhp = mhp - harm;
+                    }else{
+                        content += '<div>'+work1+plname+'使出了水平立方斬，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                        mhp = mhp - harm;
+                    }
                 }else {
-                    var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-mg3));
-                    if (harm<0){
+                    var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pi1)-mg3));
+                    if (harm<=0){
                         harm=parseInt(Math.random()*10);
+                        content += '<div>'+work1+plname+'使出了星爆氣流斬，但是沒有突破'+moname+'的防禦，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                        mhp = mhp - harm;
+                    }else{
+                        content += '<div>'+work1+plname+'使出了星爆氣流斬，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                        mhp = mhp - harm;
                     }
-                    content += '<div>'+work1+plname+'使出了星爆氣流斬，對'+moname+'造成了'+String(harm)+'點傷害</div>';
-                    mhp = mhp - harm;
-                    var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-mg3));
-                    if (harm<0){
-                        harm=parseInt(Math.random()*10);
-                    }
+                    var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pi1)));
                     content += '<div>星爆氣流斬2連擊！對'+moname+'造成了'+String(harm)+'點傷害</div>';
                     mhp = mhp - harm;
                 }                
             }else if(work1 =='服務生' && pm5>=pm6){
-                var harm=parseInt((Math.random()*10+(pi1/10)+1)*(Math.sqrt(pg2*pi1)));
-                content += '<div>'+work1+plname+'使用了瘋狂餐車，對'+moname+'造成了'+String(harm)+'點傷害</div>';
-                var pm7 = parseInt(Math.random()*100)
+                var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pi1)-mg3));
+                if (harm<=0){
+                    harm=parseInt(Math.random()*10);
+                    content += '<div>'+work1+plname+'使用了瘋狂餐車，但是沒有突破'+moname+'的防禦，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                    mhp = mhp - harm;
+                }else{
+                    content += '<div>'+work1+plname+'使用了瘋狂餐車，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                    mhp = mhp - harm;
+                }
+                var pm7 = parseInt(Math.random()*100);
                 if(pm7>70){
                     content += '<div>'+moname+'眩暈了</div>';
                     mgosh = mgosh-1;
                 }
-                mhp=mhp-harm;
             }else if(work1 =='廚師' && pm5>=pm6){
                 content += '<div>'+work1+plname+'開始料理'+moname+'</div>';
-                var pm7 = parseInt(Math.random()*100)
-                if(pm7>70){
-                    content += '<div>'+moname+'灼燒了</div>';
-                    mfire = mfire-1;
+                var pm7 = parseInt(Math.random()*100+pg2/100);
+                if(pm7>50){
+                    var pm8 = parseInt(Math.random()*101);
+                    if(pm8>=99){
+                        content += '<div>'+moname+'四度灼燒了</div>';
+                        mfire = mfire-4;
+                    }else if(pm8>=90){
+                        content += '<div>'+moname+'三度灼燒了</div>';
+                        mfire = mfire-3;
+                    }else if(pm8>=70){
+                        content += '<div>'+moname+'二度灼燒了</div>';
+                        mfire = mfire-2;
+                    }else{
+                        content += '<div>'+moname+'灼燒了</div>';
+                        mfire = mfire-1;
+                    }
                 }
             }else if(work1 =='游泳國手' && pm5>=pm6){
                 var harm=parseInt((Math.random()*10+(pi1/10)+1)*(Math.sqrt(pg2*pi1)));
@@ -363,18 +384,24 @@ function playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,m
                 }
             }else if(pm3>=pm4){//爆擊
                 var harm=parseInt((Math.random()*10+(pi1/10)+1)*(Math.sqrt(pg2*pi1)-mg3));
-                if (harm<0){
+                if (harm<=0){
                     harm=parseInt(Math.random()*10);
+                    content += '<div>'+work1+plname+'打出了致命一擊，但是沒有突破'+moname+'的防禦，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                    mhp = mhp - harm;
+                }else{
+                    content += '<div>'+work1+plname+'打出了致命一擊，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                    mhp = mhp - harm;
                 }
-                content += '<div>'+work1+plname+'打出了致命一擊，對'+moname+'造成了'+String(harm)+'點傷害</div>';
-                mhp = mhp - harm;
             }else{
                 var harm=parseInt((Math.random()*10)*(Math.sqrt(pg2*pi1)-mg3));
-                if (harm<0){
+                if (harm<=0){
                     harm=parseInt(Math.random()*10);
+                    content += '<div>'+work1+plname+'發動攻擊，但是沒有突破'+moname+'的防禦，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                    mhp = mhp - harm;
+                }else{
+                    content += '<div>'+work1+plname+'發動攻擊，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                    mhp = mhp - harm;
                 }
-                content += '<div>'+work1+plname+'發動攻擊，對'+moname+'造成了'+String(harm)+'點傷害</div>';
-                mhp = mhp - harm;
             }
         }else{
             content += '<div>'+work1+plname+'試圖發動攻擊，但是被'+moname+'發現了</div>';
@@ -439,41 +466,58 @@ function monstorattack(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname,
                 var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)-pg3));
                 if (harm<0){
                     harm=parseInt(Math.random()*10);
+                    content += '<div>'+moname+newm+'發動攻擊，但是沒有突破'+work1+plname+'的防禦，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+                    php=php-harm;
+                }else{
+                    content += '<div>'+moname+newm+'發動攻擊，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+                    php=php-harm;
                 }
-                content += '<div>'+moname+newm+'發動攻擊，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
-                php=php-harm;
                 content += '<div>'+work1+plname+'眩暈了</div>';
                 pgosh = pgosh-1;
             }else if(newm=='掏出電擊棒'){
                 var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)-pg3));
                 if (harm<0){
                     harm=parseInt(Math.random()*10);
+                    content += '<div>'+moname+newm+'發動攻擊，但是沒有突破'+work1+plname+'的防禦，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+                    php=php-harm;
+                }else{
+                    content += '<div>'+moname+newm+'發動攻擊，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+                    php=php-harm;
                 }
-                content += '<div>'+moname+newm+'發動攻擊，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
-                php=php-harm;
                 content += '<div>'+work1+plname+'被麻痺了</div>';
                 pgosh1 = pgosh1-1;
             }else if(newm=='掏出持槍'){
                 var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)-pg3));
                 if (harm<0){
                     harm=parseInt(Math.random()*10);
+                    content += '<div>'+moname+'再次'+newm+'，再次發動攻擊，但是沒有突破'+work1+plname+'的防禦，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+                    mhp=mhp-harm;
+                }else{
+                    content += '<div>'+moname+newm+'，發動攻擊，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+                    php=php-harm;
                 }
-                content += '<div>'+moname+newm+'，發動攻擊，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
-                php=php-harm;
                 var mp5 = Math.random()*10;
                 if (mp5>8){ 
                     var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)-pg3));
                     if (harm<0){
                         harm=parseInt(Math.random()*10);
+                        content += '<div>'+moname+'再次'+newm+'，再次發動攻擊，但是沒有突破'+work1+plname+'的防禦，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+                        mhp=mhp-harm;
+                    }else {
+                        content += '<div>'+moname+'再次'+newm+'，再次發動攻擊，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+                        mhp=mhp-harm;
                     }
-                    content += '<div>'+moname+'再次'+newm+'，再次發動攻擊，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
                     var mp6 = Math.random()*10;
                     if (mp6>9){ 
                         var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)-pg3));
                         if (harm<0){
                             harm=parseInt(Math.random()*10);
+                            content += '<div>'+moname+newm+'，連開三槍，但是沒有突破'+work1+plname+'的防禦，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+                            mhp=mhp-harm;
+                        }else{
+                            content += '<div>'+moname+newm+'，連開三槍，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+                            mhp=mhp-harm;
                         }
-                        content += '<div>'+moname+newm+'，連開三槍，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
                     }
                 }
             }else if (newm=='吃草'){
@@ -487,16 +531,22 @@ function monstorattack(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname,
                 var harm=parseInt((Math.random()*10+(mi1/10)+1)*(Math.sqrt(mg2*mi1)-pg3));
                 if (harm<0){
                     harm=parseInt(Math.random()*10);
+                    content += '<div>'+moname+newm+'打出了致命一擊，但是沒有突破'+work1+plname+'的防禦，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+                    php=php-harm;
+                }else{
+                    content += '<div>'+moname+newm+'打出了致命一擊，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+                    php=php-harm;
                 }
-                content += '<div>'+moname+newm+'打出了致命一擊，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
-                php=php-harm;
             }else{
                 var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)-pg3));
                 if (harm<0){
                     harm=parseInt(Math.random()*10);
+                    content += '<div>'+moname+newm+'發動攻擊，但是沒有突破'+work1+plname+'的防禦，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+                    php=php-harm;
+                }else{
+                    content += '<div>'+moname+newm+'發動攻擊，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+                    php=php-harm;
                 }
-                content += '<div>'+moname+newm+'發動攻擊，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
-                php=php-harm;
             }
         }else{
             content += '<div>'+moname+'試圖發動攻擊，但是被'+work1+plname+'發現了</div>';
