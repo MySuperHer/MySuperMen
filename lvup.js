@@ -616,6 +616,7 @@ function win(n){
     if (n =='動保委員'){
         var getg2=Number(localStorage.getItem("getg2"))+100;
         localStorage.setItem("getg2",String(getg2));
+        localStorage.setItem("work","蝦仁飯");
     }else if (n == '山羌'){
         var getg3=Number(localStorage.getItem("getg3"))+50;
         localStorage.setItem("getg3",String(getg3));
@@ -626,7 +627,6 @@ function win(n){
         var getl2=Number(localStorage.getItem("getl2"))+1;
         localStorage.setItem("getl2",String(getl2));
     }
-    localStorage.setItem("getl2","0");
 }
 
 function lose(){
