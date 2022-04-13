@@ -8,11 +8,11 @@ async function grassland(){
     await delay(10);
     var l2=Number(localStorage.getItem("l2"));
     var a1 = parseInt(Math.random()*100)*(100+l2)/100+1;
-    if (a1<10){
+    if (a1<15){
         grassfight('動保委員');
-    }else if(a1<30){
+    }else if(a1<50){
         grassfight('山羌');
-    }else if(a1<70){
+    }else if(a1<90){
         grassfight('山羊');
     }else{
         grassfight('綿羊');
