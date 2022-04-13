@@ -212,6 +212,9 @@ function grassfight(moname){
         var content = '<div>'+work+plname+'和'+moname+'打得難分難捨</div>';
         $('#3').append(content);
     }
+    var content = '<div>--------------------------戰鬥結束--------------------------</div>';
+    content += '<div>--------------------------戰鬥開始--------------------------</div>';
+    $('#3').append(content);
 }
 //青青中學：校園惡霸，訓導主任，初音幫
 
@@ -464,7 +467,7 @@ function monstorattack(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname,
             }
             if (newm=='掏出警棍'||newm=='用角撞擊'||newm=='撞擊'){
                 var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)-pg3));
-                if (harm<0){
+                if (harm<=0){
                     harm=parseInt(Math.random()*10);
                     content += '<div>'+moname+newm+'發動攻擊，但是沒有突破'+work1+plname+'的防禦，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
                     php=php-harm;
@@ -476,7 +479,7 @@ function monstorattack(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname,
                 pgosh = pgosh-1;
             }else if(newm=='掏出電擊棒'){
                 var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)-pg3));
-                if (harm<0){
+                if (harm<=0){
                     harm=parseInt(Math.random()*10);
                     content += '<div>'+moname+newm+'發動攻擊，但是沒有突破'+work1+plname+'的防禦，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
                     php=php-harm;
@@ -488,7 +491,7 @@ function monstorattack(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname,
                 pgosh1 = pgosh1-1;
             }else if(newm=='掏出持槍'){
                 var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)-pg3));
-                if (harm<0){
+                if (harm<=0){
                     harm=parseInt(Math.random()*10);
                     content += '<div>'+moname+'再次'+newm+'，再次發動攻擊，但是沒有突破'+work1+plname+'的防禦，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
                     mhp=mhp-harm;
@@ -499,7 +502,7 @@ function monstorattack(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname,
                 var mp5 = Math.random()*10;
                 if (mp5>8){ 
                     var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)-pg3));
-                    if (harm<0){
+                    if (harm<=0){
                         harm=parseInt(Math.random()*10);
                         content += '<div>'+moname+'再次'+newm+'，再次發動攻擊，但是沒有突破'+work1+plname+'的防禦，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
                         mhp=mhp-harm;
@@ -522,14 +525,14 @@ function monstorattack(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname,
                 }
             }else if (newm=='吃草'){
                 var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)-pg3));
-                if (harm<0){
+                if (harm<=0){
                     harm=parseInt(Math.random()*10);
                 }
                 content += '<div>'+moname+newm+'回復了'+String(harm)+'點生命</div>';
                 mhp=mhp+harm;
             }else if(mp3>=mp4){//爆擊
                 var harm=parseInt((Math.random()*10+(mi1/10)+1)*(Math.sqrt(mg2*mi1)-pg3));
-                if (harm<0){
+                if (harm<=0){
                     harm=parseInt(Math.random()*10);
                     content += '<div>'+moname+newm+'打出了致命一擊，但是沒有突破'+work1+plname+'的防禦，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
                     php=php-harm;
@@ -539,7 +542,7 @@ function monstorattack(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname,
                 }
             }else{
                 var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)-pg3));
-                if (harm<0){
+                if (harm<=0){
                     harm=parseInt(Math.random()*10);
                     content += '<div>'+moname+newm+'發動攻擊，但是沒有突破'+work1+plname+'的防禦，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
                     php=php-harm;
