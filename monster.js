@@ -242,7 +242,7 @@ function playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,m
             }
             if(work1 =='彩卷行員工' && pm5>=pm6){
                 var pm7 = parseInt(Math.random()*pl2/100);
-                content += '<div>'+work1+plname+'獲得了'+String(pm7)+'張彩券</div>';
+                content += '<div>'+work1+plname+'獲得了'+String(pm7)+'張彩卷</div>';
                 $('#3').append(content);
                 var content = '';
                 for (i = 1; i <= pm7; i++) {
