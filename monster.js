@@ -236,7 +236,7 @@ function playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,m
                 }
             }
             if(work1 =='彩卷行員工'){
-                var pm7 = parseInt(Math.random()*(pl2/70)+1);
+                var pm7 = parseInt(Math.random()*pl2/100);
                 content += '<div>'+work1+plname+'獲得了'+String(pm7)+'張彩券</div>';
                 $('#3').append(content);
                 var content = '';
@@ -542,8 +542,8 @@ function lotto(pl2,php,mhp,plname,moname){
         content = '<div>'+work1+plname+'刮了一張彩卷，抽中了藥水，藥水回復了'+moname+String(harm)+'點生命</div>';
         mhp=mhp+harm;
         $('#3').append(content);
-    }else if(a>40){
-        var harm = parseInt(Math.random()*(pl2/70)+1);
+    }else if(a>50){
+        var harm = parseInt(Math.random()*pl2/150);
         content = '<div>'+work1+plname+'刮了一張彩卷，抽中了'+String(harm)+'張彩券</div>';
         $('#3').append(content);
         for (i = 1; i <= harm; i++) {
@@ -551,6 +551,10 @@ function lotto(pl2,php,mhp,plname,moname){
             php = aa[0];
             mhp = aa[1];
         }
+    }else if(a>40){
+        var harm=parseInt(Math.random()*10*(pl2/100));
+        content = '<div>'+work1+plname+'刮了一張彩卷，抽出了一把生鏽的刀對'+moname+'造成了'+String(harm)+'點傷害</div>';;
+        $('#3').append(content);
     }else if(a>20){
         var harm=parseInt(Math.random()*10*(pl2/20));
         content = '<div>'+work1+plname+'刮了一張彩卷，抽中了炸彈，炸彈爆炸對'+moname+'造成了'+String(harm)+'點傷害</div>';
