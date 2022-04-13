@@ -172,11 +172,15 @@ async function getcar(){
     $('#train18').attr('disabled', true);
     await delay(20);
     var l1=Number(localStorage.getItem("l1"));
+    var m1=Number(localStorage.getItem("m1"));
     var age=Number(localStorage.getItem("age"));
     let content = '';
     if(l1<70 && age>14){
         content = '<div>你撿到了一台來路不明的卡車。</div>';
         localStorage.setItem("work","卡車司機");
+    }else if(m1>0){
+        content = '<div>你結交到了一群志同道合的朋友。</div>';
+        localStorage.setItem("work","童子軍");
     }else{
         content = '<div>來這裡找工作是想當乞丐嗎？</div>';
     }

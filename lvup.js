@@ -29,7 +29,7 @@ function goback(){
         localStorage.setItem("age","0");
         localStorage.setItem("do","0");
         localStorage.setItem("exp","2");
-        localStorage.setItem("cookie","2");
+        localStorage.setItem("cookie","0");
         localStorage.setItem("goback","0");
     }
 }
@@ -215,7 +215,7 @@ async function gopretty(){
     $('#train6').attr('disabled', false);
     $('#train7').attr('disabled', false);
 }
-async function cookie(){
+async function getcookie(){
     $('#train1').attr('disabled', true);
     $('#train2').attr('disabled', true);
     $('#train3').attr('disabled', true);
@@ -224,15 +224,9 @@ async function cookie(){
     $('#train6').attr('disabled', true);
     $('#train7').attr('disabled', true);
     await delay(5);
-    var work=localStorage.getItem("work");
-    work1(work);
-    var m11=Number(localStorage.getItem("m11"))*1.2;
-    var g31=Number(localStorage.getItem("g31"))-3;
-    var g21=Number(localStorage.getItem("g21"))-2;
-    var g11=Number(localStorage.getItem("g11"))-2;
-    var i11=Number(localStorage.getItem("i11"))-1;
-    $("#1").append("<div>硝酸...？做餅乾應該不需要這些東西吧。</div>");
-    gobig(g11,g21,g31,-1,-1,-1,i11,m11);
+    var coo=Number(localStorage.getItem("cookie"))+1;
+    localStorage.setItem("cookie",String(coo));
+    $("#1").append("<div>香噴噴的餅乾出爐了。</div>");
     gobig(-1,-1,-1,-1,-1,-1,-1,-1);
     $('#train1').attr('disabled', false);
     $('#train2').attr('disabled', false);

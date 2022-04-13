@@ -49,12 +49,31 @@
         <h6>充滿各種你想得到的知識。</h6>
         <br>
         <br>
-        <button id="train5"onClick="useeye()">天文望遠鏡</button>
+        <button id="train5" onClick="useeye()">天文望遠鏡</button>
         <h6>天上的星星似乎有種神祕的力量。</h6>
         <br>
         <br>
-        <button id="train6"onClick="gopretty()">購買化妝品</button>
+        <button id="train6" onClick="gopretty()">購買化妝品</button>
         <h6>你知道的...購物總有種神奇的魔力讓人欲罷不能。</h6>
+        <br>
+        <br>
+        <button id="train7" onClick="getcookie()" style="display:none">做手工餅乾</button>
+        <h6 id="train71" style="display:none">香噴噴的手工餅乾，食用前請先詳閱公開說明書。</h6>
+        <br id="train72" style="display:none">
+        <br id="train73" style="display:none">
+        <script>
+            if(localStorage.getItem("work")=='童子軍'){
+                train7.style.display='block';
+                train71.style.display='block';
+                train72.style.display='block';
+                train73.style.display='block';
+            }else{
+                train7.style.display='none';
+                train71.style.display='none';
+                train72.style.display='none';
+                train73.style.display='none';
+            }
+        </script>
         <p id="1">行動結果</p>
     </body>
 </html>

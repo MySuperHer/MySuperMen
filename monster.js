@@ -7,37 +7,40 @@ async function grassland(){
     $('#train24').attr('disabled', true);
     await delay(10);
     var l2=Number(localStorage.getItem("l2"));
+    var php=Number(localStorage.getItem("hp"));
+    var plname=localStorage.getItem("name");
+    var work=String(localStorage.getItem("work"));
     var a1 = parseInt(Math.random()*100)*(100+l2)/100+1;
     if (a1<15){
-        grassfight('動保委員');
+        grassfight('動保委員',php,100000,plname,work);
     }else if(a1<50){
-        grassfight('山羌');
+        grassfight('山羌',php,10000,plname,work);
     }else if(a1<90){
-        grassfight('山羊');
+        grassfight('山羊',php,1000,plname,work);
     }else{
-        grassfight('綿羊');
+        var a = grassfight('綿羊',php,500,plname,work);
     }
+    var content = '<div>--------------------------戰鬥結束--------------------------</div>';
+    content += '<div>--------------------------戰鬥開始--------------------------</div>';
+    $('#3').append(content);
     $('#train21').attr('disabled', false);
     $('#train22').attr('disabled', false);
     $('#train23').attr('disabled', false);
     $('#train24').attr('disabled', false);
 }
 
-function grassfight(moname){
+function grassfight(moname,php,mhp,plname,work){
     var pg2=Number(localStorage.getItem("g2"));
     var pg3=Number(localStorage.getItem("g3"));
     var pj1=Number(localStorage.getItem("j1"));
     var pl1=Number(localStorage.getItem("l1"));
     var pl2=Number(localStorage.getItem("l2"));
     var pi1=Number(localStorage.getItem("i1"));
-    var php=Number(localStorage.getItem("hp"));
-    var work=String(localStorage.getItem("work"));
     if(work=='無業'){
         work=='';
     }
     var pgosh=1;
     var pgosh1=1;
-    var plname=localStorage.getItem("name");
     if(moname=='動保委員'){
         var mg2=1000000;//肌力
         var mg3=2000;//脂肪
@@ -45,7 +48,6 @@ function grassfight(moname){
         var ml1=50;//視力
         var ml2=1000;//幸運
         var mi1=1000;//智力
-        var mhp=100000;//血量
         var mgosh=1;
         var mfire=1;
         var mgosh2=1;
@@ -56,7 +58,6 @@ function grassfight(moname){
         var ml1=30;//視力
         var ml2=2000;//幸運
         var mi1=700;//智力
-        var mhp=10000;//血量
         var mgosh=1;
         var mfire=1;
         var mgosh2=1;
@@ -67,7 +68,6 @@ function grassfight(moname){
         var ml1=20;//視力
         var ml2=100;//幸運
         var mi1=100;//智力
-        var mhp=1000;//血量
         var mgosh=1;
         var mfire=1;
         var mgosh2=1;
@@ -78,7 +78,6 @@ function grassfight(moname){
         var ml1=20;//視力
         var ml2=20;//幸運
         var mi1=150;//智力
-        var mhp=500;//血量
         var mgosh=1;
         var mfire=1;
         var mgosh2=1;
@@ -197,26 +196,36 @@ function grassfight(moname){
             }
         }
     }
-    if (php>0 && mhp<0){
+    var content='';
+    var coo=Number(localStorage.getItem("cookie"));
+    if (php>0 && mhp<=0){
         var content = '<div>'+moname+'倒下了，'+work+plname+'還有'+String(parseInt(php))+'生命</div>';
-        $('#3').append(content);
         win(moname);
-    }else if (php<0 && mhp>0){
+        $('#3').append(content);
+    }else if (php<=0 && mhp>0 && coo>=1){
         var content = '<div>'+work+plname+'倒下了，'+moname+'還有'+String(parseInt(mhp))+'生命</div>';
         $('#3').append(content);
-        lose();
-    }else if (php<0 && mhp<0){
-        var content = '<div>'+work+plname+'和'+moname+'同歸於盡了</div>';
+        var content='';
+        var plname=localStorage.getItem("name");
+        var work=String(localStorage.getItem("work"));
+        var content = '<div>'+work+plname+'使用了一塊餅乾呼喚了一群童子軍來幫忙</div>';
         $('#3').append(content);
+        localStorage.setItem("cookie",String(coo-1));
+        var php=Number(localStorage.getItem("hp"));
+        var a = grassfight(moname,php,mhp,'童子軍隊員','');
+    }else if (php<=0 && mhp>0){
+        var content = '<div>'+work+plname+'倒下了，'+moname+'還有'+String(parseInt(mhp))+'生命</div>';
         lose();
+        $('#3').append(content);
+    }else if (php<=0 && mhp<=0){
+        var content = '<div>'+work+plname+'和'+moname+'同歸於盡了</div>';
+        lose();
+        $('#3').append(content);
     }else{
         var content = '<div>'+work+plname+'和'+moname+'打得難分難捨</div>';
-        $('#3').append(content);
         tie();
+        $('#3').append(content);
     }
-    var content = '<div>--------------------------戰鬥結束--------------------------</div>';
-    content += '<div>--------------------------戰鬥開始--------------------------</div>';
-    $('#3').append(content);
 }
 //青青中學：校園惡霸，訓導主任，初音幫
 
@@ -496,7 +505,7 @@ function monstorattack(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname,
                 if (harm<=0){
                     harm=parseInt(Math.random()*10);
                     content += '<div>'+moname+'再次'+newm+'，再次發動攻擊，但是沒有突破'+work1+plname+'的防禦，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
-                    mhp=mhp-harm;
+                    php=php-harm;
                 }else{
                     content += '<div>'+moname+newm+'，發動攻擊，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
                     php=php-harm;
@@ -507,10 +516,10 @@ function monstorattack(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname,
                     if (harm<=0){
                         harm=parseInt(Math.random()*10);
                         content += '<div>'+moname+'再次'+newm+'，再次發動攻擊，但是沒有突破'+work1+plname+'的防禦，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
-                        mhp=mhp-harm;
+                        php=php-harm;
                     }else {
                         content += '<div>'+moname+'再次'+newm+'，再次發動攻擊，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
-                        mhp=mhp-harm;
+                        php=php-harm;
                     }
                     var mp6 = Math.random()*10;
                     if (mp6>9){ 
@@ -518,10 +527,10 @@ function monstorattack(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname,
                         if (harm<0){
                             harm=parseInt(Math.random()*10);
                             content += '<div>'+moname+newm+'，連開三槍，但是沒有突破'+work1+plname+'的防禦，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
-                            mhp=mhp-harm;
+                            php=php-harm;
                         }else{
                             content += '<div>'+moname+newm+'，連開三槍，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
-                            mhp=mhp-harm;
+                            php=php-harm;
                         }
                     }
                 }
