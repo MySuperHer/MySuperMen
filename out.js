@@ -5,6 +5,8 @@ async function waiter(){
     $('#train14').attr('disabled', true);
     $('#train15').attr('disabled', true);
     $('#train16').attr('disabled', true);
+    $('#train17').attr('disabled', true);
+    $('#train18').attr('disabled', true);
     await delay(20);
     var age=Number(localStorage.getItem("age"));
     var m1=Number(localStorage.getItem("m1"));
@@ -31,6 +33,8 @@ async function waiter(){
     $('#train14').attr('disabled', false);
     $('#train15').attr('disabled', false);
     $('#train16').attr('disabled', false);
+    $('#train17').attr('disabled', false);
+    $('#train18').attr('disabled', false);
 }
 
 async function lucky(){
@@ -40,6 +44,8 @@ async function lucky(){
     $('#train14').attr('disabled', true);
     $('#train15').attr('disabled', true);
     $('#train16').attr('disabled', true);
+    $('#train17').attr('disabled', true);
+    $('#train18').attr('disabled', true);
     await delay(20);
     var age=Number(localStorage.getItem("age"));
     var m1=Number(localStorage.getItem("m1"));
@@ -66,6 +72,8 @@ async function lucky(){
     $('#train14').attr('disabled', false);
     $('#train15').attr('disabled', false);
     $('#train16').attr('disabled', false);
+    $('#train17').attr('disabled', false);
+    $('#train18').attr('disabled', false);
 }
 
 async function swimmer(){
@@ -75,6 +83,8 @@ async function swimmer(){
     $('#train14').attr('disabled', true);
     $('#train15').attr('disabled', true);
     $('#train16').attr('disabled', true);
+    $('#train17').attr('disabled', true);
+    $('#train18').attr('disabled', true);
     await delay(20);
     var age=Number(localStorage.getItem("age"));
     var i1=Number(localStorage.getItem("i1"));
@@ -101,6 +111,8 @@ async function swimmer(){
     $('#train14').attr('disabled', false);
     $('#train15').attr('disabled', false);
     $('#train16').attr('disabled', false);
+    $('#train17').attr('disabled', false);
+    $('#train18').attr('disabled', false);
 }
 
 async function study(){
@@ -110,6 +122,8 @@ async function study(){
     $('#train14').attr('disabled', true);
     $('#train15').attr('disabled', true);
     $('#train16').attr('disabled', true);
+    $('#train17').attr('disabled', true);
+    $('#train18').attr('disabled', true);
     await delay(20);
     var age=Number(localStorage.getItem("age"));
     var i1=Number(localStorage.getItem("i1"));
@@ -143,6 +157,8 @@ async function study(){
     $('#train14').attr('disabled', false);
     $('#train15').attr('disabled', false);
     $('#train16').attr('disabled', false);
+    $('#train17').attr('disabled', false);
+    $('#train18').attr('disabled', false);
 }
 
 async function getcar(){
@@ -152,6 +168,8 @@ async function getcar(){
     $('#train14').attr('disabled', true);
     $('#train15').attr('disabled', true);
     $('#train16').attr('disabled', true);
+    $('#train17').attr('disabled', true);
+    $('#train18').attr('disabled', true);
     await delay(20);
     var l1=Number(localStorage.getItem("l1"));
     var age=Number(localStorage.getItem("age"));
@@ -170,6 +188,8 @@ async function getcar(){
     $('#train14').attr('disabled', false);
     $('#train15').attr('disabled', false);
     $('#train16').attr('disabled', false);
+    $('#train17').attr('disabled', false);
+    $('#train18').attr('disabled', false);
 }
 
 async function star(){
@@ -179,6 +199,8 @@ async function star(){
     $('#train14').attr('disabled', true);
     $('#train15').attr('disabled', true);
     $('#train16').attr('disabled', true);
+    $('#train17').attr('disabled', true);
+    $('#train18').attr('disabled', true);
     await delay(20);
     var age=Number(localStorage.getItem("age"));
     var g1=Number(localStorage.getItem("g1"));
@@ -218,4 +240,79 @@ async function star(){
     $('#train14').attr('disabled', false);
     $('#train15').attr('disabled', false);
     $('#train16').attr('disabled', false);
+    $('#train17').attr('disabled', false);
+    $('#train18').attr('disabled', false);
+}
+
+async function gym(){
+    $('#train11').attr('disabled', true);
+    $('#train12').attr('disabled', true);
+    $('#train13').attr('disabled', true);
+    $('#train14').attr('disabled', true);
+    $('#train15').attr('disabled', true);
+    $('#train16').attr('disabled', true);
+    $('#train17').attr('disabled', true);
+    $('#train18').attr('disabled', true);
+    await delay(20);
+    var age=Number(localStorage.getItem("age"));
+    var g1=Number(localStorage.getItem("g1"));
+    var g2=Number(localStorage.getItem("g2"));
+    var g21=Number(localStorage.getItem("g21"));
+    var g31=Number(localStorage.getItem("g31"));
+    var l21=Number(localStorage.getItem("l21"));
+    var i11=Number(localStorage.getItem("i11"));
+    let content = '';
+    if (age>=18){
+        if(g2>=g1*20){
+            content = '<div>為什麼我的人生會變成這樣...</div>';
+            localStorage.setItem("work","俱樂部會員");
+        }else{
+            g21=g21+(g31/4)+4;
+            g31=g31/3;
+            l21=l21-3;
+            i11=i11-3;
+            content = '<div>你在淋浴間撿到了塊肥皂，但是沒有事情發生。</div>';
+        }
+    }else{
+        content = '<div>未成年禁止入內。</div>';
+    }
+    $('#2').append(content);
+    gobig(-1,g21,g31,-1,-1,l21,i11,0);
+    $('#train11').attr('disabled', false);
+    $('#train12').attr('disabled', false);
+    $('#train13').attr('disabled', false);
+    $('#train14').attr('disabled', false);
+    $('#train15').attr('disabled', false);
+    $('#train16').attr('disabled', false);
+    $('#train17').attr('disabled', false);
+    $('#train18').attr('disabled', false);
+}
+
+async function circus(){
+    $('#train11').attr('disabled', true);
+    $('#train12').attr('disabled', true);
+    $('#train13').attr('disabled', true);
+    $('#train14').attr('disabled', true);
+    $('#train15').attr('disabled', true);
+    $('#train16').attr('disabled', true);
+    $('#train17').attr('disabled', true);
+    $('#train18').attr('disabled', true);
+    await delay(20);
+    var age=Number(localStorage.getItem("age"));
+    let content = '';
+    if (age>=15){
+        content = '<div>先生，我們的小丑夠多了。</div>';
+    }else{
+        content = '<div>小朋友，我們不賣水餃。</div>';
+    } 
+    $('#2').append(content);
+    gobig(-1,-1,-1,-1,-1,-1,-1,-1);
+    $('#train11').attr('disabled', false);
+    $('#train12').attr('disabled', false);
+    $('#train13').attr('disabled', false);
+    $('#train14').attr('disabled', false);
+    $('#train15').attr('disabled', false);
+    $('#train16').attr('disabled', false);
+    $('#train17').attr('disabled', false);
+    $('#train18').attr('disabled', false);
 }
