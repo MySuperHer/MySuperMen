@@ -201,7 +201,7 @@ async function gopretty(){
     $('#train5').attr('disabled', false);
     $('#train6').attr('disabled', false);
 }
-
+cookie()
 function gobig(g11,g21,g31,j11,l11,l21,i11,m11){
     g11correction();
     g21correction();
@@ -602,6 +602,14 @@ function lose(){
     gobig2(-1,-1,g31,j11,l11,-1,i11,-1);
 }
 
+function tie(){
+    var l21=Number(localStorage.getItem("l21"))+4;
+    var i11=Number(localStorage.getItem("i11"))+5;
+    var m11=Number(localStorage.getItem("m11"))+3;
+    var g11=Number(localStorage.getItem("g11"))-4;
+    gobig2(g11,-1,-1,-1,-1,l21,i11,m11);
+}
+
 function gobig2(g11,g21,g31,j11,l11,l21,i11,m11){
     g11correction();
     g21correction();
@@ -653,14 +661,14 @@ function gobig2(g11,g21,g31,j11,l11,l21,i11,m11){
         var l2n=Number(localStorage.getItem("l2"));
         var i1n=Number(localStorage.getItem("i1"));
         var m1n=Number(localStorage.getItem("m1"));
-        var g1=Number(localStorage.getItem("g1"))+g11*(0.2+0.1*g01/(g01+1));
-        var g2=Number(localStorage.getItem("g2"))+g21*(0.3+(0.3*Math.sqrt(g01)*g02)/((Math.sqrt(g01)+1)*(g02+1)));
-        var g3=Number(localStorage.getItem("g3"))+g31*(0.3+(0.3*Math.sqrt(g01)*g03)/((Math.sqrt(g01)+1)*(g03+1)));
-        var j1=Number(localStorage.getItem("j1"))+j11*(0.2+(0.35*Math.sqrt(g01)*j01)/((Math.sqrt(g01)+1)*(j01+1)));
-        var l1=Number(localStorage.getItem("l1"))+l11*(0.3+(0.3*Math.sqrt(g01)*l01)/((Math.sqrt(g01)+1)*(l01+1)));
-        var l2=Number(localStorage.getItem("l2"))+l21*(0.2+(0.2*Math.sqrt(g01)*l02)/((Math.sqrt(g01)+1)*(l02+1)));
-        var i1=Number(localStorage.getItem("i1"))+i11*(0.1+0.1*Math.sqrt(g01)*i01/((Math.sqrt(g01)+1)*(i01+1)));
-        var m1=Number(localStorage.getItem("m1"))+m11*(0.3+0.4*Math.sqrt(g01)*m01/((Math.sqrt(g01)+1)*(m01+1)));
+        var g1=g1n+g11*(0.2+0.2*g01/50);
+        var g2=g2n+g21*(0.3+0.3*g02*g01/15000);
+        var g3=g3n+g31*(0.3+0.3*g03*g01/15000);
+        var j1=j1n+j11*(0.2+0.35*j01*g01/25000);
+        var l1=l1n+l11*(0.3+0.3*l01*g01/25000);
+        var l2=l2n+l21*(0.2+0.2*l02*g01/25000);
+        var i1=i1n+i11*(0.1+0.1*i01*g01/25000);
+        var m1=m1n+m11*(0.3+0.4*m01*g01/25000);
         var hp=Number(localStorage.getItem("hp"))+g01;
         if (g1>20+g01){
             g1=20+g01;
@@ -719,7 +727,7 @@ function gobig2(g11,g21,g31,j11,l11,l21,i11,m11){
         localStorage.setItem("i11","31");
         localStorage.setItem("m1",m1.toString());
         localStorage.setItem("m11","31");
-        localStorage.setItem("do",(line-do1).toString());
+        localStorage.setItem("do","0");
         localStorage.setItem("age",age1.toString());
         localStorage.setItem("exp",String(line1));
         let content = '';
@@ -731,7 +739,7 @@ function gobig2(g11,g21,g31,j11,l11,l21,i11,m11){
         content += '<div>幸運成長了' + String(parseInt((l2-l2n)*100)/100) + '</div>';
         content += '<div>智力成長了' + String(parseInt((i1-i1n)*100)/100) + '</div>';
         content += '<div>魅力成長了' + String(parseInt((m1-m1n)*100)/100) + '</div>';
-        $("#1").append(content);
+        $("#3").append(content);
     } else {
         if(g11>=0){
             localStorage.setItem("g11",String(g11));

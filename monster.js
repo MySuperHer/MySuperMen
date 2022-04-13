@@ -208,9 +208,11 @@ function grassfight(moname){
     }else if (php<0 && mhp<0){
         var content = '<div>'+work+plname+'和'+moname+'同歸於盡了</div>';
         $('#3').append(content);
+        lose();
     }else{
         var content = '<div>'+work+plname+'和'+moname+'打得難分難捨</div>';
         $('#3').append(content);
+        tie();
     }
     var content = '<div>--------------------------戰鬥結束--------------------------</div>';
     content += '<div>--------------------------戰鬥開始--------------------------</div>';
