@@ -291,7 +291,7 @@ function playerattack(pg2,pg3,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plna
                 if(pm7>40){
                     var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-pg3));
                     if (harm<=0){
-                        harm=parseInt(Math.random()*10);
+                        harm=parseInt(Math.random()*10+1);
                         content += '<div>真正的桐谷和人使出了水平立方斬，但是沒有突破'+moname+'的防禦，對'+moname+'造成了'+String(harm)+'點傷害</div>';
                         mhp = mhp - harm;
                     }else{
@@ -301,7 +301,7 @@ function playerattack(pg2,pg3,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plna
                 }else if(pm7>5){
                     var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-pg3));
                     if (harm<=0){
-                        harm=parseInt(Math.random()*10);
+                        harm=parseInt(Math.random()*10+1);
                         content += '<div>真正的桐谷和人使出了星爆氣流斬，但是沒有突破'+moname+'的防禦，對'+moname+'造成了'+String(harm)+'點傷害</div>';
                         mhp = mhp - harm;
                     }else{
@@ -312,8 +312,14 @@ function playerattack(pg2,pg3,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plna
                     var pm2 = parseInt(Math.random()*101)*(1000+mj1)/1000;
                     if (pm1>=pm2){
                         var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1))-pg3);
-                        content += '<div>星爆氣流斬二連擊！對'+moname+'造成了'+String(harm)+'點傷害</div>';
-                        mhp = mhp - harm;
+                        if (harm<=0){
+                            harm=parseInt(Math.random()*10+1);
+                            content += '<div>星爆氣流斬二連擊！但是沒有突破'+moname+'的防禦，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                            mhp = mhp - harm;
+                        }else{
+                            content += '<div>星爆氣流斬二連擊！對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                            mhp = mhp - harm;
+                        }
                     }else{
                         content += '<div>星爆氣流斬二連擊！但是沒有命中</div>';
                     }
