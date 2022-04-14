@@ -311,7 +311,7 @@ function playerattack(pg2,pg3,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plna
                     var pm1 = parseInt(Math.random()*101)*(100+pl1)*(100+pi1)/10000;//命中判定
                     var pm2 = parseInt(Math.random()*101)*(1000+mj1)/1000;
                     if (pm1>=pm2){
-                        var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1))-pg3);
+                        var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-pg3));
                         if (harm<=0){
                             harm=parseInt(Math.random()*10+1);
                             content += '<div>星爆氣流斬二連擊！但是沒有突破'+moname+'的防禦，對'+moname+'造成了'+String(harm)+'點傷害</div>';
@@ -329,9 +329,9 @@ function playerattack(pg2,pg3,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plna
                     var i=0;
                     for (i = 1; i < 17; i++) {
                         var pm1 = parseInt(Math.random()*101)*(100+pl1)*(100+pi1)/10000;//命中判定
-                        var pm2 = parseInt(Math.random()*101)*(1000+mj1)/1000;
+                        var pm2 = parseInt(Math.random()*101)*(1000+mj1)*(1000+pg3)/1000000;
                         if (pm1>=pm2){
-                            var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)));
+                            var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-Math.sqrt(pg3)));
                             content += '<div>星爆氣流斬'+String(i)+'連擊！對'+moname+'造成了'+String(harm)+'點傷害</div>';
                             mhp = mhp - harm;
                         }else{
