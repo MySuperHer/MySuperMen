@@ -274,11 +274,11 @@ function playerattack(pg2,pg3,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plna
                 }else if(pm7>=70){
                     var harm=parseInt(Math.random()*10*(pl2/20));
                     content += '<div>'+moname+'跌進了隕石坑，受到了'+String(harm)+'點傷害</div>';
-                    php=php-harm;
+                    mhp=mhp-harm;
                 }else{
                     var harm=parseInt(Math.random()*10*(pl2/100));
                     content += '<div>'+moname+'踩到了地上的香蕉皮滑倒了，受到了'+String(harm)+'點傷害</div>';
-                    php=php-harm;
+                    mhp=mhp-harm;
                     var pm8 = parseInt(Math.random()*100+pl2/100);
                     if(pm8>=70){
                         content += '<div>'+moname+'眩暈了</div>';
