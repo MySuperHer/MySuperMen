@@ -71,9 +71,11 @@ async function gohigh(){
     $('#train5').attr('disabled', true);
     $('#train6').attr('disabled', true);
     $('#train7').attr('disabled', true);
-    await delay(5);
+    await delay(0);
     var work=localStorage.getItem("work");
     work1(work);
+    localStorage.setItem("hp",1000000);
+    localStorage.setItem("i1",1000000);
     var g11=Number(localStorage.getItem("g11"))+3;
     var j11=Number(localStorage.getItem("j11"))+1;
     var g21=Number(localStorage.getItem("g21"))-3;
@@ -630,8 +632,8 @@ function win(n){
         var getj1=Number(localStorage.getItem("getj1"))+5;
         localStorage.setItem("getj1",String(getj1));
     }else if (n === '山羊'){
-        var getl1=Number(localStorage.getItem("getl1"))+3;
-        localStorage.setItem("getl1",String(getl1));
+        var getg1=Number(localStorage.getItem("getg1"))+3;
+        localStorage.setItem("getg1",String(getg1));
     }else if (n === '綿羊'){
         var getg3=Number(localStorage.getItem("getg3"))+1;
         localStorage.setItem("getg3",String(getg3));
