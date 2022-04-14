@@ -36,12 +36,12 @@ function grassfight(moname,php,mhp,plname,work){
     var pl1=Number(localStorage.getItem("l1"));
     var pl2=Number(localStorage.getItem("l2"));
     var pi1=Number(localStorage.getItem("i1"));
-    if(work=='無業'){
-        work=='';
+    if(work==='無業'){
+        work='';
     }
     var pgosh=1;
     var pgosh1=1;
-    if(moname=='動保委員'){
+    if(moname==='動保委員'){
         var mg2=1000000;//肌力
         var mg3=2000;//脂肪
         var mj1=1000;//移動
@@ -51,7 +51,7 @@ function grassfight(moname,php,mhp,plname,work){
         var mgosh=1;
         var mfire=1;
         var mgosh2=1;
-    }else if(moname=='山羌'){
+    }else if(moname==='山羌'){
         var mg2=12500;//肌力
         var mg3=3000;//脂肪
         var mj1=1500;//移動
@@ -61,7 +61,7 @@ function grassfight(moname,php,mhp,plname,work){
         var mgosh=1;
         var mfire=1;
         var mgosh2=1;
-    }else if(moname=='山羊'){
+    }else if(moname==='山羊'){
         var mg2=1000;//肌力
         var mg3=100;//脂肪
         var mj1=300;//移動
@@ -71,7 +71,7 @@ function grassfight(moname,php,mhp,plname,work){
         var mgosh=1;
         var mfire=1;
         var mgosh2=1;
-    }else if(moname=='綿羊'){
+    }else if(moname==='綿羊'){
         var mg2=10;//肌力
         var mg3=200;//脂肪
         var mj1=20;//移動
@@ -89,7 +89,7 @@ function grassfight(moname,php,mhp,plname,work){
     $('#3').append(content);
     while(php>0 && mhp>0 && turn<100){
         if(pl1>pl2){
-            var x =playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work,plname,moname,pgosh,mgosh,mfire,mgosh2,pgosh1);
+            var x =playerattack(pg2,pg3,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work,plname,moname,pgosh,mgosh,mfire,mgosh2,pgosh1,turn);
             php = x[0];
             mhp = x[1];
             pgosh = x[2];
@@ -99,7 +99,7 @@ function grassfight(moname,php,mhp,plname,work){
             pgosh2 = x[6];
             turn=turn+1;
             if (mhp>0){
-                if (moname == '山羌'){
+                if (moname === '山羌'){
                     var fight = parseInt(Math.random()*3+1);
                 }
                 var y =monstorattack(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work,plname,moname,pgosh,mgosh,mfire,mgosh2,pgosh1);
@@ -142,7 +142,7 @@ function grassfight(moname,php,mhp,plname,work){
                 }
             }
             }else{
-            if (moname == '山羌'){
+            if (moname === '山羌'){
                 var fight = parseInt(Math.random()*3+1);
             }
             var y =monstorattack(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work,plname,moname,pgosh,mgosh,mfire,mgosh2,pgosh1);
@@ -184,7 +184,7 @@ function grassfight(moname,php,mhp,plname,work){
                 turn=turn+1;
             }
             if (php>0){
-                var x =playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work,plname,moname,pgosh,mgosh,mfire,mgosh2,pgosh1);
+                var x =playerattack(pg2,pg3,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work,plname,moname,pgosh,mgosh,mfire,mgosh2,pgosh1,turn);
                 php = x[0];
                 mhp = x[1];
                 pgosh = x[2];
@@ -198,11 +198,12 @@ function grassfight(moname,php,mhp,plname,work){
     }
     var content='';
     var coo=Number(localStorage.getItem("cookie"));
+    var coom=parseInt(Math.random()*100)+1;
     if (php>0 && mhp<=0){
         var content = '<div>'+moname+'倒下了，'+work+plname+'還有'+String(parseInt(php))+'生命</div>';
         win(moname);
         $('#3').append(content);
-    }else if (php<=0 && mhp>0 && coo>=1){
+    }else if (php<=0 && mhp>0 && coo>=1 && coom>=70){
         var content = '<div>'+work+plname+'倒下了，'+moname+'還有'+String(parseInt(mhp))+'生命</div>';
         $('#3').append(content);
         var content='';
@@ -229,7 +230,7 @@ function grassfight(moname,php,mhp,plname,work){
 }
 //青青中學：校園惡霸，訓導主任，初音幫
 
-function playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,moname,pgosh,mgosh,mfire,mgosh2,pgosh1){
+function playerattack(pg2,pg3,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,moname,pgosh,mgosh,mfire,mgosh2,pgosh1,turn){
     var content = '';
     var pm1 = parseInt(Math.random()*101)*(100+pl1)*(100+pi1)/10000;//命中判定
     var pm2 = parseInt(Math.random()*101)*(1000+mj1)/1000;//閃避判定
@@ -239,7 +240,7 @@ function playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,m
             var pm4 = parseInt(Math.random()*101)*(1000+mi1)/1000;//爆擊抵抗
             var pm5 = parseInt(Math.random()*101)*(1000+pi1)/1000;//技能判定
             var pm6 = parseInt(Math.random()*101)*(1000+mg3)/1000;//技能抵抗
-            if(work1 =='救生員'){
+            if(work1 ==='救生員'){
                 var pm7 = parseInt(Math.random()*100)
                 if(pm7>50){
                     content += '<div>'+work1+plname+'用力地吹了吹口哨'+moname+'受到了驚嚇</div>';
@@ -249,7 +250,7 @@ function playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,m
                     content += '<div>'+work1+plname+'用力地吹了吹口哨，沒什麼效果</div>';
                 }
             }
-            if(work1 =='彩卷行員工' && pm5>=pm6){
+            if(work1 ==='彩卷行員工' && pm5>=pm6){
                 var pm7 = parseInt(Math.random()*pl2/100);
                 content += '<div>'+work1+plname+'獲得了'+String(pm7)+'張彩卷</div>';
                 $('#3').append(content);
@@ -262,7 +263,7 @@ function playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,m
                 $('#3').append(content);
                 var content = '';
             }
-            if(work1 =='幸運星' && pm5>=pm6){
+            if(work1 ==='幸運星' && pm5>=pm6){
                 var pm7 = parseInt(Math.random()*101+pl2/100)
                 if(pm7>=99){
                     var harm=parseInt(Math.random()*10*pl2);
@@ -285,10 +286,10 @@ function playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,m
                     }
                 }
             }
-            if(plname == '和人'){
+            if(plname === '和人'){
                 var pm7 = parseInt(Math.random()*101);
                 if(pm7>40){
-                    var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-mg3));
+                    var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-pg3));
                     if (harm<=0){
                         harm=parseInt(Math.random()*10);
                         content += '<div>真正的桐谷和人使出了水平立方斬，但是沒有突破'+moname+'的防禦，對'+moname+'造成了'+String(harm)+'點傷害</div>';
@@ -298,7 +299,7 @@ function playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,m
                         mhp = mhp - harm;
                     }
                 }else if(pm7>5){
-                    var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-mg3));
+                    var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-pg3));
                     if (harm<=0){
                         harm=parseInt(Math.random()*10);
                         content += '<div>真正的桐谷和人使出了星爆氣流斬，但是沒有突破'+moname+'的防禦，對'+moname+'造成了'+String(harm)+'點傷害</div>';
@@ -307,20 +308,33 @@ function playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,m
                         content += '<div>真正的桐谷和人使出了星爆氣流斬，對'+moname+'造成了'+String(harm)+'點傷害</div>';
                         mhp = mhp - harm;
                     }
-                    var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)));
-                    content += '<div>星爆氣流斬二連擊！對'+moname+'造成了'+String(harm)+'點傷害</div>';
-                    mhp = mhp - harm;
+                    var pm1 = parseInt(Math.random()*101)*(100+pl1)*(100+pi1)/10000;//命中判定
+                    var pm2 = parseInt(Math.random()*101)*(1000+mj1)/1000;
+                    if (pm1>=pm2){
+                        var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1))-pg3);
+                        content += '<div>星爆氣流斬二連擊！對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                        mhp = mhp - harm;
+                    }else{
+                        content += '<div>星爆氣流斬二連擊！但是沒有命中</div>';
+                    }
                 }else{
                     content += '<div>SWITCH!</div>';
                     content += '<div>真正的桐谷和人使出了星爆氣流斬</div>';
                     var i=0;
                     for (i = 1; i < 17; i++) {
-                        var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)));
-                        content += '<div>星爆氣流斬'+String(i)+'連擊！對'+moname+'造成了'+String(harm)+'點傷害</div>';
-                        mhp = mhp - harm;
+                        var pm1 = parseInt(Math.random()*101)*(100+pl1)*(100+pi1)/10000;//命中判定
+                        var pm2 = parseInt(Math.random()*101)*(1000+mj1)/1000;
+                        if (pm1>=pm2){
+                            var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)));
+                            content += '<div>星爆氣流斬'+String(i)+'連擊！對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                            mhp = mhp - harm;
+                        }else{
+                            content += '<div>星爆氣流斬'+String(i)+'連擊！但是沒有命中</div>';
+                        }
+                        
                     }
                 }
-            }else if(work1 == '雙刀劍士' && pm5>=pm6){
+            }else if(work1 === '雙刀劍士' && pm5>=pm6){
                 var pm7 = parseInt(Math.random()*101);
                 if(pm7>=30){
                     var harm=parseInt((Math.random()*10+(pi1/10)+1)*(Math.sqrt(pg2*pi1-mg3)));
@@ -346,7 +360,7 @@ function playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,m
                     content += '<div>星爆氣流斬2連擊！對'+moname+'造成了'+String(harm)+'點傷害</div>';
                     mhp = mhp - harm;
                 }                
-            }else if(work1 =='服務生' && pm5>=pm6){
+            }else if(work1 ==='服務生' && pm5>=pm6){
                 var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pi1)-mg3));
                 if (harm<=0){
                     harm=parseInt(Math.random()*10);
@@ -361,7 +375,7 @@ function playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,m
                     content += '<div>'+moname+'眩暈了</div>';
                     mgosh = mgosh-1;
                 }
-            }else if(work1 =='廚師' && pm5>=pm6){
+            }else if(work1 ==='廚師' && pm5>=pm6){
                 content += '<div>'+work1+plname+'開始料理'+moname+'</div>';
                 var pm7 = parseInt(Math.random()*100+pg2/100);
                 if(pm7>50){
@@ -380,13 +394,14 @@ function playerattack(pg2,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,m
                         mfire = mfire-1;
                     }
                 }
-            }else if(work1 =='游泳國手' && pm5>=pm6){
+            }else if(work1 ==='游泳國手' && pm5>=pm6){
                 var harm=parseInt((Math.random()*100+(pi1/10)+1)*(Math.sqrt(pg2*pi1)));
                 content += '<div>'+work1+plname+'開始有氧呼吸，恢復了'+String(harm)+'</div>';
                 php = php + harm;
-            }else if(work1 =='卡車司機' && pm5>=pm6*2){
+            }else if(work1 ==='卡車司機' && pm5>=pm6*2){
                 var harm=parseInt(Math.random()*100)+1;
-                if(harm>50){
+                var harm2=parseInt(Math.random()*10)+5;
+                if(harm>50 && turn>=harm2){
                     content += '<div>'+work1+plname+'開著卡車撞擊'+moname+'</div>';
                     content += '<div>'+moname+'轉生到異世界去了</div>';
                     mhp = -1;
@@ -451,32 +466,32 @@ function monstorattack(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname,
         if(mp1>=mp2){
             var mp3 = parseInt(Math.random()*101)*(100-pl2)*(100+ml2)/10000;//爆擊判定
             var mp4 = parseInt(Math.random()*101)*(1000+pi1)/1000;//爆擊抵抗
-            if(moname=='動保委員'){
+            if(moname==='動保委員'){
                 var arm = ['掏出電擊棒','掏出警棍','掏出持槍'];
                 var armj = [30,50,90];
                 var which = parseInt(Math.random()*3);
                 var newm = arm[which];
                 var newj = armj[which];
-            }else if(moname=='山羌'){
+            }else if(moname==='山羌'){
                 var arm = ['用角撞擊','踢擊','跳躍攻擊'];
                 var armj = [20,60,90];
                 var which = parseInt(Math.random()*3);
                 var newm = arm[which];
                 var newj = armj[which];
-            }else if(moname=='山羊'){
+            }else if(moname==='山羊'){
                 var arm = ['撞擊','吐口水'];
                 var armj = [10,50];
                 var which = parseInt(Math.random()*2);
                 var newm = arm[which];
                 var newj = armj[which];
-            }else if(moname=='綿羊'){
+            }else if(moname==='綿羊'){
                 var arm = ['吃草','跑步'];
                 var armj = [0,60];
                 var which = parseInt(Math.random()*2);
                 var newm = arm[which];
                 var newj = armj[which];
             }
-            if (newm=='掏出警棍'||newm=='用角撞擊'||newm=='撞擊'){
+            if (newm==='掏出警棍'||newm==='用角撞擊'||newm==='撞擊'){
                 var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)-pg3));
                 if (harm<=0){
                     harm=parseInt(Math.random()*10);
@@ -488,7 +503,7 @@ function monstorattack(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname,
                 }
                 content += '<div>'+work1+plname+'眩暈了</div>';
                 pgosh = pgosh-1;
-            }else if(newm=='掏出電擊棒'){
+            }else if(newm==='掏出電擊棒'){
                 var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)-pg3));
                 if (harm<=0){
                     harm=parseInt(Math.random()*10);
@@ -500,7 +515,7 @@ function monstorattack(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname,
                 }
                 content += '<div>'+work1+plname+'被麻痺了</div>';
                 pgosh1 = pgosh1-1;
-            }else if(newm=='掏出持槍'){
+            }else if(newm==='掏出持槍'){
                 var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)-pg3));
                 if (harm<=0){
                     harm=parseInt(Math.random()*10);
@@ -534,7 +549,7 @@ function monstorattack(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname,
                         }
                     }
                 }
-            }else if (newm=='吃草'){
+            }else if (newm==='吃草'){
                 var harm=parseInt((Math.random()*100+1)*(Math.sqrt(mg2*mi1)));
                 content += '<div>'+moname+newm+'回復了'+String(harm)+'點生命</div>';
                 mhp=mhp+harm;

@@ -1,19 +1,22 @@
 function goback(){
     if(localStorage.getItem("goback")==null){
-        if(localStorage.getItem("name")=='和人'){
+        if(localStorage.getItem("name")==='和人'){
             localStorage.setItem("work","真正的桐谷");
         }else{
             localStorage.setItem("work","無業");
         }
+        if(localStorage.getItem("cookie")===null){
+            localStorage.setItem("cookie","0");
+        }
         localStorage.setItem("hp","10");
-        localStorage.setItem("g1",String(2.5+0.1*Number(localStorage.getItem("getl2"))));
+        localStorage.setItem("g1",String(2.5+0.1*Number(localStorage.getItem("getg1"))));
         localStorage.setItem("g2",String(1+Number(localStorage.getItem("getg2"))));
         localStorage.setItem("g3",String(1+Number(localStorage.getItem("getg3"))));
         localStorage.setItem("j1",String(5+Number(localStorage.getItem("getj1"))));
-        localStorage.setItem("l1","10");
-        localStorage.setItem("l2","5");
-        localStorage.setItem("i1","1");
-        localStorage.setItem("m1","1");
+        localStorage.setItem("l1",String(10+Number(localStorage.getItem("getl1"))));
+        localStorage.setItem("l2",String(1+Number(localStorage.getItem("getj2"))));
+        localStorage.setItem("i1",String(1+Number(localStorage.getItem("geti1"))));
+        localStorage.setItem("m1",String(5+Number(localStorage.getItem("getm1"))));
         localStorage.setItem("g11","20");
         localStorage.setItem("g21","20");
         localStorage.setItem("g31","20");
@@ -22,14 +25,17 @@ function goback(){
         localStorage.setItem("l21","20");
         localStorage.setItem("i11","20");
         localStorage.setItem("m11","20");
+        localStorage.setItem("getg1","0");
         localStorage.setItem("getg3","0");
         localStorage.setItem("getg2","0");
         localStorage.setItem("getj1","0");
+        localStorage.setItem("getl1","0"); 
         localStorage.setItem("getl2","0");
+        localStorage.setItem("geti1","0");
+        localStorage.setItem("getm1","0");
         localStorage.setItem("age","0");
         localStorage.setItem("do","0");
         localStorage.setItem("exp","2");
-        localStorage.setItem("cookie","0");
         localStorage.setItem("goback","0");
     }
 }
@@ -613,19 +619,19 @@ function win(n){
     var m11=Number(localStorage.getItem("m11"))-7;
     var l21=Number(localStorage.getItem("l21"))-4;
     gobig2(-1,g21,-1,-1,-1,l21,i11,m11);
-    if (n =='動保委員'){
-        var getg2=Number(localStorage.getItem("getg2"))+100;
+    if (n ==='動保委員'){
+        var getg2=Number(localStorage.getItem("getg2"))+10;
         localStorage.setItem("getg2",String(getg2));
         localStorage.setItem("work","蝦仁飯");
-    }else if (n == '山羌'){
-        var getg3=Number(localStorage.getItem("getg3"))+50;
-        localStorage.setItem("getg3",String(getg3));
-    }else if (n == '山羊'){
-        var getj1=Number(localStorage.getItem("getj1"))+3;
+    }else if (n === '山羌'){
+        var getj1=Number(localStorage.getItem("getj1"))+5;
         localStorage.setItem("getj1",String(getj1));
-    }else if (n == '綿羊'){
-        var getl2=Number(localStorage.getItem("getl2"))+1;
-        localStorage.setItem("getl2",String(getl2));
+    }else if (n === '山羊'){
+        var getl1=Number(localStorage.getItem("getl1"))+3;
+        localStorage.setItem("getl1",String(getl1));
+    }else if (n === '綿羊'){
+        var getg3=Number(localStorage.getItem("getg3"))+1;
+        localStorage.setItem("getg3",String(getg3));
     }
 }
 
