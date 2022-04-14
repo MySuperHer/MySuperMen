@@ -27,7 +27,7 @@ async function waiter(){
         content = '<div>很抱歉，本場所不雇傭童工。</div>';
     }
     $('#2').append(content);
-    gobig(-1,-1,-1,-1,-1,-1,-1,-1);
+    gobig3(-1,-1,-1,-1,-1,-1,-1,-1);
     $('#train11').attr('disabled', false);
     $('#train12').attr('disabled', false);
     $('#train13').attr('disabled', false);
@@ -66,7 +66,7 @@ async function lucky(){
         content = '<div>很抱歉，本場所不雇傭童工。</div>';
     }
     $('#2').append(content);
-    gobig(-1,-1,-1,-1,-1,-1,-1,-1);
+    gobig3(-1,-1,-1,-1,-1,-1,-1,-1);
     $('#train11').attr('disabled', false);
     $('#train12').attr('disabled', false);
     $('#train13').attr('disabled', false);
@@ -106,7 +106,7 @@ async function swimmer(){
         content = '<div>很抱歉，本場所不雇傭童工。</div>';
     }
     $('#2').append(content);
-    gobig(-1,-1,-1,-1,-1,-1,-1,-1);
+    gobig3(-1,-1,-1,-1,-1,-1,-1,-1);
     $('#train11').attr('disabled', false);
     $('#train12').attr('disabled', false);
     $('#train13').attr('disabled', false);
@@ -152,7 +152,7 @@ async function study(){
         content = '<div>旁邊有社區大學。</div>';
     }
     $('#2').append(content);
-    gobig(-1,-1,-1,-1,-1,-1,-1,-1);
+    gobig3(-1,-1,-1,-1,-1,-1,-1,-1);
     $('#train11').attr('disabled', false);
     $('#train12').attr('disabled', false);
     $('#train13').attr('disabled', false);
@@ -187,7 +187,7 @@ async function getcar(){
         content = '<div>來這裡找工作是想當乞丐嗎？</div>';
     }
     $('#2').append(content);
-    gobig(-1,-1,-1,-1,-1,-1,-1,-1);
+    gobig3(-1,-1,-1,-1,-1,-1,-1,-1);
     $('#train11').attr('disabled', false);
     $('#train12').attr('disabled', false);
     $('#train13').attr('disabled', false);
@@ -240,7 +240,7 @@ async function star(){
         }
     }
     $('#2').append(content);
-    gobig(-1,-1,-1,-1,-1,-1,-1,-1);
+    gobig3(-1,-1,-1,-1,-1,-1,-1,-1);
     $('#train11').attr('disabled', false);
     $('#train12').attr('disabled', false);
     $('#train13').attr('disabled', false);
@@ -284,7 +284,7 @@ async function gym(){
         content = '<div>未成年禁止入內。</div>';
     }
     $('#2').append(content);
-    gobig(-1,g21,g31,-1,-1,l21,i11,0);
+    gobig3(-1,g21,g31,-1,-1,l21,i11,0);
     $('#train11').attr('disabled', false);
     $('#train12').attr('disabled', false);
     $('#train13').attr('disabled', false);
@@ -313,7 +313,7 @@ async function circus(){
         content = '<div>小朋友，我們不賣水餃。</div>';
     } 
     $('#2').append(content);
-    gobig(-1,-1,-1,-1,-1,-1,-1,-1);
+    gobig3(-1,-1,-1,-1,-1,-1,-1,-1);
     $('#train11').attr('disabled', false);
     $('#train12').attr('disabled', false);
     $('#train13').attr('disabled', false);
