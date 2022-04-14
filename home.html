@@ -100,11 +100,21 @@
                         document.write(plm);
                     </script><td>
                 </tr>
+                <tr>
+                    <td>金錢</td>
+                    <td><script>
+                        mon=parseInt(Number(localStorage.getItem("money"))*100)/100;
+                        document.write(mon);
+                    </script><td>
+                </tr>
+                <tr>
+                    <td>魅力</td>
+                    <td><script>
+                        coo=parseInt(Number(localStorage.getItem("cookie"))*100)/100;
+                        document.write(coo);
+                    </script><td>
+                </tr>
             </table>
-            <h6 id="home1"><script>
-                coo=parseInt(Number(localStorage.getItem("cookie"))*100)/100;
-                document.write("餅乾數量："+coo);
-            </script></h6>
             <h6>無法出現數據的話，請至家世視窗取名並且生小孩，或是聯絡作者DC爆米花#5401</h6>
         </div>
     </body>
