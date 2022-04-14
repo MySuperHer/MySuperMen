@@ -263,17 +263,17 @@ function playerattack(pg2,pg3,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plna
                 $('#3').append(content);
                 var content = '';
             }
-            if(work1 ==='幸運星' && pm5>=pm6){
+            if(work1 ==='幸運星'){
                 var pm7 = parseInt(Math.random()*101+pl2/100)
                 if(pm7>=99){
                     var harm=parseInt(Math.random()*10*pl2);
-                    content += '<div>天上掉下一個盆栽，砸到了'+moname+'的頭上，造成了'+String(harm)+'點傷害</div>';
+                    content += '<div>天上掉下一顆流星，砸到了'+moname+'的頭上，造成了'+String(harm)+'點傷害</div>';
                     mhp=mhp-harm;
                     content += '<div>'+moname+'眩暈了</div>';
                     mgosh = mgosh-1;
                 }else if(pm7>=70){
                     var harm=parseInt(Math.random()*10*(pl2/20));
-                    content += '<div>'+moname+'被午餐的魚骨頭噎到了，受到了'+String(harm)+'點傷害</div>';
+                    content += '<div>'+moname+'跌進了隕石坑，受到了'+String(harm)+'點傷害</div>';
                     php=php-harm;
                 }else{
                     var harm=parseInt(Math.random()*10*(pl2/100));
