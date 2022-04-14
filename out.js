@@ -9,6 +9,7 @@ async function waiter(){
     $('#train18').attr('disabled', true);
     await delay(20);
     var age=Number(localStorage.getItem("age"));
+    var g1=Number(localStorage.getItem("g1"))*10;
     var m1=Number(localStorage.getItem("m1"));
     var g2=Number(localStorage.getItem("g2"));
     let content = '';
@@ -16,7 +17,7 @@ async function waiter(){
         if(m1>100){
             content = '<div>恭喜您被錄取了。</div>';
             localStorage.setItem("work","服務生");
-        }else if(g2>150){
+        }else if(g2>150 && g1>180){
             content = '<div>我們剛好缺一個廚師，恭喜您被錄取了。</div>';
             localStorage.setItem("work","廚師");
         }else{
@@ -89,12 +90,13 @@ async function swimmer(){
     var age=Number(localStorage.getItem("age"));
     var i1=Number(localStorage.getItem("i1"));
     var g2=Number(localStorage.getItem("g2"));
+    var m1=Number(localStorage.getItem("m1"));
     let content = '';
     if (age>=18){
         if(i1>50 && g2>70){
             content = '<div>恭喜您被錄取了。</div>';
             localStorage.setItem("work","救生員");
-        }else if(g2>100){
+        }else if(g2>100 && m1>70){
             content = '<div>路過的國家游泳隊教練看上了你，恭喜您被錄取了。</div>';
             localStorage.setItem("work","游泳國手");
         }else{
@@ -128,7 +130,7 @@ async function study(){
     var age=Number(localStorage.getItem("age"));
     var i1=Number(localStorage.getItem("i1"));
     var l2=Number(localStorage.getItem("l2"));
-    var a1 = parseInt(Math.random()*60)+i1/30+l2/100;
+    var a1 = parseInt(Math.random()*100)+i1/30+l2/100;
     let content = '';
     if (age<27){
         if(age>22){
@@ -139,7 +141,7 @@ async function study(){
                 content = '<div>入學測試慘遭滑鐵盧，明年再來吧。</div>';
             }
         }else{
-            if (a1>=100 && age>=10){
+            if (a1>=90 && age>=10){
                 content = '<div>你的成績非常出眾，於是你的老師決定讓你至哈佛研究所就讀。</div>';
                 localStorage.setItem("work","跳級生");
             }else{
@@ -175,10 +177,10 @@ async function getcar(){
     var m1=Number(localStorage.getItem("m1"));
     var age=Number(localStorage.getItem("age"));
     let content = '';
-    if(l1<70 && age>14){
+    if(l1>80 && age>18){
         content = '<div>你撿到了一台來路不明的卡車。</div>';
         localStorage.setItem("work","卡車司機");
-    }else if(m1>0){
+    }else if(m1>100 && age<20){
         content = '<div>你結交到了一群志同道合的朋友。</div>';
         localStorage.setItem("work","童子軍");
     }else{
