@@ -8,6 +8,9 @@ function goback(){
         if(localStorage.getItem("cookie")===null){
             localStorage.setItem("cookie","0");
         }
+        if(localStorage.getItem("money")===null){
+            localStorage.setItem("cookie","0");
+        }
         localStorage.setItem("hp","10");
         localStorage.setItem("g1",String(2.5+0.1*Number(localStorage.getItem("getg1"))));
         localStorage.setItem("g2",String(1+Number(localStorage.getItem("getg2"))));
