@@ -3,7 +3,6 @@
     <head>
         <meta charset="UTF-8"/>
         <title>我的超人</title>
-        <link href="title.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest/disable-devtool.min.js'></script>
@@ -12,10 +11,10 @@
         disableDevtool();
         </script>
     </head>
-    <body class="chakra-ui-light">
+    <body">
         <script src="lvup.js"></script>
         <script src="weapon.js"></script>
-        <nav class="css-1hkgr98">
+        <nav>
             <div>
                 <a class="btn btn-primary" href="./home.html">房間</a>
                 <a class="btn btn-primary" href="./train.html">訓練</a>
@@ -175,19 +174,62 @@
         <h4>倉庫</h4>
         <table>
             <tr>
-                <td>高級羊毛</td>
-                <td><script>
+                <td id="thing1" style="display: block;"><script>
                     var woo=Number(localStorage.getItem("wool"));
-                    document.write(woo);
+                    document.write("高級羊毛 "+woo+" 柔軟的絲質物體。");
                 </script><td>
             </tr>
             <tr>
-                <td>山羊奶</td>
-                <td><script>
-                    var gmk=Number(localStorage.getItem("gmilk"));
-                    document.write(gmk);
+                <td id="thing2" style="display: block;"><script>
+                    var gmk=Number(localStorage.getItem("gmk"));
+                    document.write("山羊奶 "+gmk+" 黃濁色的黏稠液體。");
+                </script><td>
+            </tr>
+            <tr>
+                <td id="thing3" style="display: block;"><script>
+                    var gmk=Number(localStorage.getItem("gmk"));
+                    document.write("山羌糞便 "+gmk+" 具有獨特氣味的動物分泌物。");
+                </script><td>
+            </tr>
+            <tr>
+                <td id="thing4" style="display: block;"><script>
+                    var antl=Number(localStorage.getItem("antler"));
+                    document.write("鹿茸 "+antl+" 被嚴格控管的珍貴中藥材。");
+                </script><td>
+            </tr>
+            <tr>
+                <td id="thing5" style="display: block;"><script>
+                    var tofu=Number(localStorage.getItem("tofu"));
+                    document.write("臭豆腐 "+tofu+" 極具特色的在地小吃。");
                 </script><td>
             </tr>
         </table>
+        <script>
+            if(Number(localStorage.getItem("wool"))>='1'){
+                thing1.style.display='block';
+            }else{
+                thing1.style.display='none';
+            }
+            if(Number(localStorage.getItem("gmilk"))>='1'){
+                thing2.style.display='block';
+            }else{
+                thing2.style.display='none';
+            }
+            if(Number(localStorage.getItem("stool"))>='1'){
+                thing3.style.display='block';
+            }else{
+                thing3.style.display='none';
+            }
+            if(Number(localStorage.getItem("antler"))>='1'){
+                thing4.style.display='block';
+            }else{
+                thing4.style.display='none';
+            }
+            if(Number(localStorage.getItem("antler"))>='1'){
+                thing5.style.display='block';
+            }else{
+                thing5.style.display='none';
+            }
+        </script>
     </body>
 </html>
