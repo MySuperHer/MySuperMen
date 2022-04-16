@@ -64,6 +64,9 @@
                     <td>體重</td>
                     <td><script>
                         var plg=parseInt(Number(localStorage.getItem("g1"))*100+Number(localStorage.getItem("g2"))*100+Number(localStorage.getItem("g3"))*100)/100;
+                        if (localStorage.getItem("weapon")=="knife"){
+                            plg=plg+Number(localStorage.getItem("knife"))*5;
+                        }
                         document.write(plg);
                     </script><td>
                     <td>kg</td>
@@ -93,6 +96,9 @@
                     <td>智力</td>
                     <td><script>
                         pli=parseInt(Number(localStorage.getItem("i1"))*100)/100;
+                        if (localStorage.getItem("weapon")=="phone"){
+                            pli=pli+Number(localStorage.getItem("phone"))*5;
+                        }
                         document.write(pli);
                     </script><td>
                 </tr>
