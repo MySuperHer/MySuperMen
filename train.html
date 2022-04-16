@@ -2,71 +2,93 @@
 <html>
     <head>
         <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <title>我的超人</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest/disable-devtool.min.js'></script>
-        <script>
-        import disableDevtool from 'disable-devtool';
-        disableDevtool();
-        </script>
+        <script src="lvup.js"></script>
+        
     </head>
     <body>
-        <script src="lvup.js"></script>
-        <nav>
-            <div>
-                <a class="btn btn-primary" href="./home.html">房間</a>
-                <a class="btn btn-primary" href="./train.html">訓練</a>
-                <a class="btn btn-primary" href="./parent.html">家世</a>
-                <a class="btn btn-primary" href="./outside.html">出門</a>
-                <a class="btn btn-primary" href="./fight.html">戰鬥</a>
-                <a class="btn btn-primary" href="./life.html">生活</a>
-                <a class="btn btn-primary" href="./shop.html">商店</a>
-                <a class="btn btn-primary" href="./treasure.html">傳家寶</a>
-                <a class="btn btn-primary" href="./casino.html">賭場</a>
-                <a class="btn btn-primary" href="./rank.html">排行榜</a>
-                <a class="btn btn-primary" href="./author.html">作者的話</a>
+        <div class="bg-blue">
+            <div class="header">
+                <nav>
+                    <a href="./home.html">房間</a>
+                    <a href="./train.html">訓練</a>
+                    <a href="./parent.html">家世</a>
+                    <a href="./outside.html">出門</a>
+                    <a href="./fight.html">戰鬥</a>
+                    <a href="./life.html">生活</a>
+                    <a href="./shop.html">商店</a>
+                    <a href="./treasure.html">傳家寶</a>
+                    <a href="./casino.html">賭場</a>
+                    <a href="./rank.html">排行榜</a>
+                    <a href="./author.html">作者的話</a>
+                </nav>
             </div>
-        </nav>
-        <div>
-            <h1>訓練</h1>
-            <h4>難道說...吃飯就會變強？</h4>
-            <h6>吃東西請細嚼慢嚥，吐出來是沒人會打掃的。</h6>
-            <h6>按下按鈕請在此頁面等待5秒至按紐回彈。</h6>
+            <div class="container bc-white">
+                <div class="form-row">
+                    <div class="form-group col-md-3 col-sm-5 col-6">
+                        <p>訓練</p>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-5 col-sm-6 col-6">
+                        <p>難道說...吃飯就會變強？</p>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-8 col-sm-6 col-6">
+                        <p>吃東西請細嚼慢嚥，吐出來是沒人會打掃的。</p>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-8 col-sm-6 col-6">
+                        <p>按下按鈕請在此頁面等待5秒至按紐回彈。</p>
+                    </div>
+                </div>
+
+                <hr class="divider" />
+
+                <div class="explore">
+                    <div class="flex">
+                        <button class="btn btn-primary" id="train1" onclick="gohigh()">食用長高丸</button>
+                        <p>讓人長高的藍色長高丸。</p>
+                    </div>
+                    <div class="flex">
+                        <button class="btn btn-primary" id="train2" onclick="gofat()">吃垃圾食物</button>
+                        <p>充滿了油脂，讓人很有飽足感。</p>
+                    </div>
+                    <div class="flex">
+                        <button class="btn btn-primary" id="train3" onclick="gohigh()">品嘗減肥餐</button>
+                        <p>主打健康的精緻美食。</p>
+                    </div>
+                    <div class="flex">
+                        <button class="btn btn-primary" id="train4" onclick="badeye()">來去看電視</button>
+                        <p>充滿各種你想像得到的知識。</p>
+                    </div>
+                    <div class="flex">
+                        <button class="btn btn-primary" id="train5" onclick="useeye()">天文望遠鏡</button>
+                        <p>天上的星星似乎有種神祕的力量。</p>
+                    </div>
+                    <div class="flex">
+                        <button class="btn btn-primary" id="train6" onclick="gopretty()">購買化妝品</button>
+                        <p>你知道的...購物總有種神奇的魔力讓人欲罷不能。</p>
+                    </div>
+                    <div class="flex">
+                        <button class="btn btn-primary" id="train7" onclick="getcookie()">做手工餅乾</button>
+                        <p>香噴噴的手工餅乾，食用前請先詳閱公開說明書。</p>
+                    </div>
+                    <div class="flex">
+                        <button class="btn btn-primary" id="train8" onclick="gettofu()">烹飪臭豆腐</button>
+                        <p>原物料來源不明，但似乎挺有賺頭。</p>
+                    </div>
+                    <p id="1">行動結果</p>
+                </div>
+            </div>
         </div>
-        <script src="lvup.js"></script>
-        <button id="train1" onClick="gohigh()">食用長高丸</button>
-        <h6>讓人長高的藍色長高丸。</h6>
-        <br>
-        <br>
-        <button id="train2" onClick="gofat()">吃垃圾食物</button>
-        <h6>充滿了油脂，讓人很有飽足感。</h6>
-        <br>
-        <br>
-        <button id="train3" onClick="backfat()">品嘗減肥餐</button>
-        <h6>主打健康的精緻美食。</h6>
-        <br>
-        <br>
-        <button id="train4" onClick="badeye()">來去看電視</button>
-        <h6>充滿各種你想得到的知識。</h6>
-        <br>
-        <br>
-        <button id="train5" onClick="useeye()">天文望遠鏡</button>
-        <h6>天上的星星似乎有種神祕的力量。</h6>
-        <br>
-        <br>
-        <button id="train6" onClick="gopretty()">購買化妝品</button>
-        <h6>你知道的...購物總有種神奇的魔力讓人欲罷不能。</h6>
-        <br>
-        <br>
-        <button id="train7" onClick="getcookie()">做手工餅乾</button>
-        <h6>香噴噴的手工餅乾，食用前請先詳閱公開說明書。</h6>
-        <br>
-        <br>
-        <button id="train8" onClick="gettofu()">烹飪臭豆腐</button>
-        <h6>原物料來源不明，但似乎挺有賺頭。</h6>
-        <br>
-        <br>
-        <p id="1">行動結果</p>
     </body>
 </html>

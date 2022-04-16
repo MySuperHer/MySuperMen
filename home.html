@@ -2,8 +2,14 @@
 <html>
     <head>
         <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="icon" type="image/x-ico" href="image/logo2.png" />
         <title>我的超人</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    
+        <script src="lvup.js"></script>
         <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest/disable-devtool.min.js'></script>
         <script>
         import disableDevtool from 'disable-devtool';
@@ -11,119 +17,145 @@
         </script>
     </head>
     <body>
-        <script src="lvup.js"></script>
-        <nav>
-            <div>
-                <a class="btn btn-primary" href="./home.html">房間</a>
-                <a class="btn btn-primary" href="./train.html">訓練</a>
-                <a class="btn btn-primary" href="./parent.html">家世</a>
-                <a class="btn btn-primary" href="./outside.html">出門</a>
-                <a class="btn btn-primary" href="./fight.html">戰鬥</a>
-                <a class="btn btn-primary" href="./life.html">生活</a>
-                <a class="btn btn-primary" href="./shop.html">商店</a>
-                <a class="btn btn-primary" href="./treasure.html">傳家寶</a>
-                <a class="btn btn-primary" href="./casino.html">賭場</a>
-                <a class="btn btn-primary" href="./rank.html">排行榜</a>
-                <a class="btn btn-primary" href="./author.html">作者的話</a>
+        <div class="bg-blue">
+            <div class="header">
+                <nav>
+                    <a href="./home.html">房間</a>
+                    <a href="./train.html">訓練</a>
+                    <a href="./parent.html">家世</a>
+                    <a href="./outside.html">出門</a>
+                    <a href="./fight.html">戰鬥</a>
+                    <a href="./life.html">生活</a>
+                    <a href="./shop.html">商店</a>
+                    <a href="./treasure.html">傳家寶</a>
+                    <a href="./casino.html">賭場</a>
+                    <a href="./rank.html">排行榜</a>
+                    <a href="./author.html">作者的話</a>
+                </nav>
             </div>
-        </nav>
-        <div>
-            <h1>玩家資訊</h1>
-            <h3><form>
-                姓名：
-                <script>
-                    name=localStorage.getItem("name");
-                    document.write(name);
-                </script>
-            </form></h3>
-            <h3><script>
-                document.write("職業："+localStorage.getItem("work"));
-            </script></h3>
-            <h3><script>
-                document.write("年齡："+localStorage.getItem("age")+"歲");
-            </script></h3>
-            <h4><form>性別：男</form></h4>
-            <h4><script>
-                document.write("經驗："+localStorage.getItem("do")+'/'+localStorage.getItem("exp"));
-            </script></h4>
-            <h4><script>
-                document.write("重生次數："+localStorage.getItem("died"));
-            </script></h4>
-            <table>
-                <tr>
-                    <td>身高</td>
-                    <td><script>
-                        var plh=parseInt(Number(localStorage.getItem("g1"))*1000);
-                        var plh2=plh/100;
-                        document.write(plh2);
-                    </script><td>
-                    <td>cm</td>
-                </tr>
-                <tr>
-                    <td>體重</td>
-                    <td><script>
-                        var plg=parseInt(Number(localStorage.getItem("g1"))*100+Number(localStorage.getItem("g2"))*100+Number(localStorage.getItem("g3"))*100)/100;
-                        if (localStorage.getItem("weapon")=="knife"){
-                            plg=parseInt(plg+(Number(localStorage.getItem("knife"))*5));
-                        }
-                        document.write(plg);
-                    </script><td>
-                    <td>kg</td>
-                </tr>
-                <tr>
-                    <td>跳躍力</td>
-                    <td><script>
-                        var plj=parseInt(Number(localStorage.getItem("j1"))*100)/100;
-                        document.write(plj);
-                    </script><td>
-                </tr>
-                <tr>
-                    <td>視力</td>
-                    <td><script>
-                        var pll=parseInt(Number(localStorage.getItem("l1"))*100)/100;
-                        document.write(pll);
-                    </script><td>
-                </tr>
-                <tr>
-                    <td>幸運</td>
-                    <td><script>
-                        pll2=parseInt(Number(localStorage.getItem("l2"))*100)/100;
-                        document.write(pll2);
-                    </script><td>
-                </tr>
-                <tr>
-                    <td>智力</td>
-                    <td><script>
-                        pli=parseInt(Number(localStorage.getItem("i1"))*100)/100;
-                        if (localStorage.getItem("weapon")=="phone"){
-                            pli=parseInt(pli+Number(localStorage.getItem("phone"))*5);
-                        }
-                        document.write(pli);
-                    </script><td>
-                </tr>
-                <tr>
-                    <td>魅力</td>
-                    <td><script>
-                        plm=parseInt(Number(localStorage.getItem("m1"))*100)/100;
-                        document.write(plm);
-                    </script><td>
-                </tr>
-                <tr>
-                    <td>金錢</td>
-                    <td><script>
-                        mon=parseInt(Number(localStorage.getItem("money"))*100)/100;
-                        document.write(mon);
-                    </script><td>
-                </tr>
-                <tr>
-                    <td>餅乾</td>
-                    <td><script>
-                        coo=parseInt(Number(localStorage.getItem("cookie"))*100)/100;
-                        document.write(coo);
-                    </script><td>
-                </tr>
-            </table>
-            <h6>無法出現數據的話，請至家世視窗取名並且生小孩，或是聯絡作者DC爆米花#5401</h6>
+
+            <div class="container bc-white">
+                <div class="form-row">
+                    <div class="form-group col-md-3 col-sm-4 col-6">
+                        <p>玩家資訊</p>
+                    </div>
+                </div>
+
+                <hr class="divider" />
+
+                <div class="form-row">
+                    <div class=" form-group col-md-3 col-sm-6 col-6">
+                        <p><script>
+                            name=localStorage.getItem("name");
+                            document.write("姓名："+name);
+                        </script></p>
+                    </div>
+                    <div class="form-group col-md-3 col-sm-6 col-6">
+                        <p><script>
+                            document.write("職業："+localStorage.getItem("work"));
+                        </script></p>
+                    </div>
+                </div>
+                    
+                <div class="form-row">
+                    <div class="form-group col-md-3 col-sm-6 col-6">
+                        <p><script>
+                            document.write("年齡："+localStorage.getItem("age")+"歲");
+                        </script></p>
+                    </div>
+                    <div class=" form-group col-md-3 col-sm-6 col-6">
+                        <p><script>
+                            document.write("性別：男性");
+                        </script></p>
+                    </div>
+                    <div class=" form-group col-md-3 col-sm-6 col-6">
+                        <p><script>
+                            document.write("經驗："+localStorage.getItem("do")+'/'+localStorage.getItem("exp"));
+                        </script></p>
+                    </div>
+                    <div class=" form-group col-md-3 col-sm-6 col-6">
+                        <p><script>
+                            document.write("重生次數："+localStorage.getItem("died"));
+                        </script></p>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class=" form-group col-md-3 col-sm-6 col-6">
+                        <p><script>
+                            var plh=parseInt(Number(localStorage.getItem("g1"))*1000);
+                            var plh2=plh/100;
+                            document.write("身高："+plh2+"cm");
+                        </script><p>
+                    </div>
+                    <div class=" form-group col-md-3 col-sm-6 col-6">
+                        <p><script>
+                            var plg=parseInt(Number(localStorage.getItem("g1"))*100+Number(localStorage.getItem("g2"))*100+Number(localStorage.getItem("g3"))*100)/100;
+                            if (localStorage.getItem("weapon")=="knife"){
+                                plg=parseInt(plg+(Number(localStorage.getItem("knife"))*5));
+                            }
+                            document.write("體重："+plg+"kg");
+                        </script><p>
+                    </div>
+                    <div class=" form-group col-md-3 col-sm-6 col-6">
+                        <p><script>
+                            var plj=parseInt(Number(localStorage.getItem("j1"))*100)/100;
+                            document.write("跳躍力："+plj);
+                        </script><p>
+                    </div>
+                    <div class=" form-group col-md-3 col-sm-6 col-6">
+                        <p><script>
+                            var pll=parseInt(Number(localStorage.getItem("l1"))*100)/100;
+                            document.write("視力："+pll);
+                        </script><p>
+                    </div>
+                    <div class=" form-group col-md-3 col-sm-6 col-6">
+                        <p><script>
+                            pll2=parseInt(Number(localStorage.getItem("l2"))*100)/100;
+                            document.write("幸運："+pll2);
+                        </script><p>
+                    </div>
+                    <div class=" form-group col-md-3 col-sm-6 col-6">
+                        <p><script>
+                            pli=parseInt(Number(localStorage.getItem("i1"))*100)/100;
+                            if (localStorage.getItem("weapon")=="phone"){
+                                pli=parseInt(pli+Number(localStorage.getItem("phone"))*5);
+                            }
+                            document.write("智力："+pli);
+                        </script><p>
+                    </div>
+                    <div class=" form-group col-md-3 col-sm-6 col-6">
+                        <p><script>
+                            plm=parseInt(Number(localStorage.getItem("m1"))*100)/100;
+                            document.write("魅力："+plm);
+                        </script><p>
+                    </div>
+                    <div class=" form-group col-md-3 col-sm-6 col-6">
+                        <p><script>
+                            plm2=parseInt(Number(localStorage.getItem("m2"))*100)/100;
+                            document.write("魔力："+plm2);
+                        </script><p>
+                    </div>
+                </div>
+    
+                <hr class="divider" />
+                
+                <div class="form-row">
+                    <div class=" form-group col-md-3 col-sm-6 col-6">
+                        <p><script>
+                            mon=parseInt(Number(localStorage.getItem("money"))*100)/100;
+                            document.write("金錢："+mon);
+                        </script><p>
+                    </div>
+                    <div class=" form-group col-md-3 col-sm-6 col-6">
+                        <p><script>
+                            coo=parseInt(Number(localStorage.getItem("cookie"))*100)/100;
+                            document.write("餅乾："+coo);
+                        </script><p>
+                    </div>
+                </div>
+            <p>無法出現數據的話，請至家世視窗取名並且生小孩，或是聯絡作者DC爆米花#5401</p>
+            </div>
         </div>
     </body>
 </html>
