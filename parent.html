@@ -2,150 +2,176 @@
 <html>
     <head>
         <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <title>我的超人</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="lvup.js"></script>
         <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest/disable-devtool.min.js'></script>
         <script>
-        import disableDevtool from 'disable-devtool';
-        disableDevtool();
+            import disableDevtool from 'disable-devtool';
+            disableDevtool();
         </script>
     </head>
+    </head>
     <body>
-        <script src="lvup.js"></script>
-        <nav>
-            <div>
-                <a class="btn btn-primary" href="./home.html">房間</a>
-                <a class="btn btn-primary" href="./train.html">訓練</a>
-                <a class="btn btn-primary" href="./parent.html">家世</a>
-                <a class="btn btn-primary" href="./outside.html">出門</a>
-                <a class="btn btn-primary" href="./fight.html">戰鬥</a>
-                <a class="btn btn-primary" href="./life.html">生活</a>
-                <a class="btn btn-primary" href="./shop.html">商店</a>
-                <a class="btn btn-primary" href="./treasure.html">傳家寶</a>
-                <a class="btn btn-primary" href="./casino.html">賭場</a>
-                <a class="btn btn-primary" href="./rank.html">排行榜</a>
-                <a class="btn btn-primary" href="./author.html">作者的話</a>
+        <div class="bg-blue">
+            <div class="header">
+                <nav>
+                    <a href="./home.html">房間</a>
+                    <a href="./train.html">訓練</a>
+                    <a href="./parent.html">家世</a>
+                    <a href="./outside.html">出門</a>
+                    <a href="./fight.html">戰鬥</a>
+                    <a href="./life.html">生活</a>
+                    <a href="./shop.html">商店</a>
+                    <a href="./treasure.html">傳家寶</a>
+                    <a href="./casino.html">賭場</a>
+                    <a href="./rank.html">排行榜</a>
+                    <a href="./author.html">作者的話</a>
+                </nav>
             </div>
-        </nav>
-        <div>
-            <h1>你的父親</h1>
-            <h3>儘管他並不值得你自豪</h3>
-            <h3><form>
-                姓名：
-                <script>
-                    if(localStorage.getItem("name0") == null){
-                        document.write("失蹤了");
-                    } else{
-                        name=localStorage.getItem("name0");
-                        document.write(name);
-                    }
-                </script>
-            </form></h3>
-            <h3><script>
-                if(localStorage.getItem("work0") == null){
-                        document.write("職業：失蹤了");
-                    } else{
-                        document.write("職業："+localStorage.getItem("work0"));
-                    }
-            </script></h3>
-            <h3><script>
-                if(localStorage.getItem("age0") == null){
-                        document.write("年齡：失蹤了");
-                    } else{
-                        document.write("年齡："+localStorage.getItem("age0")+"歲");
-                    }
-            </script></h3>
-            <h3><form>性別：男</form></h3>
-            <table>
-                <tr>
-                    <td>身高</td>
-                    <td><script>
-                        if(localStorage.getItem("g01") == null){
-                            document.write("未知");
-                        } else{
-                            h01=parseInt(Number(localStorage.getItem("g01")*10));
-                            document.write(h01);
-                        }
-                    </script><td>
-                    <td>cm</td>
-                </tr>
-                <tr>
-                    <td>體重</td>
-                    <td><script>
-                        if(localStorage.getItem("g01") == null){
-                            document.write("未知");
-                        } else{
-                            g01=parseInt(Number(localStorage.getItem("g01"))+Number(localStorage.getItem("g02"))+Number(localStorage.getItem("g03")));
-                            document.write(g01);
-                        }
-                    </script><td>
-                    <td>kg</td>
-                </tr>
-                <tr>
-                    <td>跳躍力</td>
-                    <td><script>
-                        if(localStorage.getItem("j01") == null){
-                            document.write("未知");
-                        } else{
-                            j01=parseInt(localStorage.getItem("j01"));
-                            document.write(j01);
-                        }
-                    </script><td>
-                </tr>
-                <tr>
-                    <td>視力</td>
-                    <td><script>
-                        if(localStorage.getItem("l01") == null){
-                            document.write("未知");
-                        } else{
-                            l01=parseInt(localStorage.getItem("l01"));
-                            document.write(l01);
-                        }
-                    </script><td>
-                </tr>
-                <tr>
-                    <td>幸運</td>
-                    <td><script>
-                        if(localStorage.getItem("l02") == null){
-                            document.write("未知");
-                        } else{
-                            l02=parseInt(localStorage.getItem("l02"));
-                            document.write(l02);
-                        }
-                    </script></tr>
-                </tr>
-                <tr>
-                    <td>智力</td>
-                    <td><script>
-                        if(localStorage.getItem("i01") == null){
-                            document.write("未知");
-                        } else{
-                            i01=parseInt(localStorage.getItem("i01"));
-                            document.write(i01);
-                        }
-                    </script></tr>
-                </tr>
-                <tr>
-                    <td>魅力</td>
-                    <td><script>
-                        if(localStorage.getItem("m01") == null){
-                            document.write("未知");
-                        } else{
-                            m01=parseInt(localStorage.getItem("m01"));
-                            document.write(m01);
-                        }
-                    </script></tr>
-                </tr>
-            </table>
-            <form>
-                <label for="testInput">
-                  <span>小孩的名字 </span>
-                  <input type="text" placeholder="test" id="testInput2" />
-                  <button class="submitBtn" onclick="FsubmitBtn()">生小孩</button>
-                  <button type="reset">還是不要好了...</button>
-                </label>
-            </form>
+            
+            <div class="container bc-white">
+                <div class="form-row">
+                    <div class="form-group col-md-3 col-sm-4 col-6">
+                        <p>你的父親</p>
+                        <P>儘管他並不值得你自豪。</p>
+                    </div>
+                </div>
+
+                <hr class="divider" />
+
+                <div class="form-row">
+                    <div class=" form-group col-md-3 col-sm-6 col-6">
+                        <p><script>
+                            if(localStorage.getItem("name0") == null){
+                                document.write("失蹤了");
+                            } else{
+                                name=localStorage.getItem("name0");
+                                document.write("姓名："+name);
+                            }
+                        </script></p>
+                    </div>
+                    <div class="form-group col-md-3 col-sm-6 col-6">
+                        <p><script>
+                            if(localStorage.getItem("work0") == null){
+                                    document.write("職業：失蹤了");
+                                } else{
+                                    document.write("職業："+localStorage.getItem("work0"));
+                                }
+                        </script></p>
+                    </div>
+                </div>
+                    
+                <div class="form-row">
+                    <div class="form-group col-md-3 col-sm-6 col-6">
+                        <p><script>
+                            if(localStorage.getItem("age0") == null){
+                                    document.write("年齡：失蹤了");
+                                } else{
+                                    document.write("年齡："+localStorage.getItem("age0")+"歲");
+                                }
+                        </script></p>
+                    </div>
+                    <div class=" form-group col-md-3 col-sm-6 col-6">
+                        <p><script>
+                            document.write("性別：男性");
+                        </script></p>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class=" form-group col-md-3 col-sm-6 col-6">
+                        <p><script>
+                            if(localStorage.getItem("g01") == null){
+                                document.write("未知");
+                            }else{
+                                h01=parseInt(Number(localStorage.getItem("g01")*10));
+                                document.write("身高："+h01+"cm");
+                            }
+                        </script><p>
+                    </div>
+                    <div class=" form-group col-md-3 col-sm-6 col-6">
+                        <p><script>
+                            if(localStorage.getItem("g01") == null){
+                                document.write("未知");
+                            } else{
+                                g01=parseInt(Number(localStorage.getItem("g01"))+Number(localStorage.getItem("g02"))+Number(localStorage.getItem("g03")));
+                                document.write("體重："+g01+"kg");
+                            }
+                        </script><p>
+                    </div>
+                    <div class=" form-group col-md-3 col-sm-6 col-6">
+                        <p><script>
+                            if(localStorage.getItem("j01") == null){
+                                document.write("未知");
+                            } else{
+                                j01=parseInt(localStorage.getItem("j01"));
+                                document.write("跳躍力："+j01);
+                            }
+                        </script><p>
+                    </div>
+                    <div class=" form-group col-md-3 col-sm-6 col-6">
+                        <p><script>
+                            if(localStorage.getItem("l01") == null){
+                                document.write("未知");
+                            } else{
+                                l01=parseInt(localStorage.getItem("l01"));
+                                document.write("視力："+l01);
+                            }
+                        </script><p>
+                    </div>
+                    <div class=" form-group col-md-3 col-sm-6 col-6">
+                        <p><script>
+                            if(localStorage.getItem("l02") == null){
+                                document.write("未知");
+                            } else{
+                                l02=parseInt(localStorage.getItem("l02"));
+                                document.write("幸運"+l02);
+                            }
+                        </script><p>
+                    </div>
+                    <div class=" form-group col-md-3 col-sm-6 col-6">
+                        <p><script>
+                            if(localStorage.getItem("i01") == null){
+                                document.write("未知");
+                            } else{
+                                i01=parseInt(localStorage.getItem("i01"));
+                                document.write("智力："+i01);
+                            }
+                        </script><p>
+                    </div>
+                    <div class=" form-group col-md-3 col-sm-6 col-6">
+                        <p><script>
+                            if(localStorage.getItem("m01") == null){
+                                document.write("未知");
+                            } else{
+                                m01=parseInt(localStorage.getItem("m01"));
+                                document.write("魅力"+m01);
+                            }
+                        </script><p>
+                    </div>
+                    <div class=" form-group col-md-3 col-sm-6 col-6">
+                        <p><script>
+                            plm2=parseInt(Number(localStorage.getItem("m2"))*100)/100;
+                            document.write("魔力："+plm2);
+                        </script><p>
+                    </div>
+                </div>
+                <form>
+                    <label for="testInput">
+                    <span>小孩的名字 </span>
+                    <input type="text" placeholder="test" id="testInput2" />
+                    <button class="btn btn-primary" onclick="FsubmitBtn()">生小孩</button>
+                    <button class="btn btn-primary" type="reset">還是不要好了...</button>
+                    </label>
+                </form>
+            </div>
+
             <script>
                 function FsubmitBtn() {
                     var submitValue = $('#testInput2').val().toString();
@@ -155,5 +181,6 @@
                     location.href = "home.html";
                 }
             </script> 
+        </div>
     </body>
 </html>
