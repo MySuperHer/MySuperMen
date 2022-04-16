@@ -6,6 +6,11 @@
         <link href="title.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest/disable-devtool.min.js'></script>
+        <script>
+        import disableDevtool from 'disable-devtool';
+        disableDevtool();
+        </script>
     </head>
     <body class="chakra-ui-light">
         <script src="lvup.js"></script>
@@ -28,9 +33,19 @@
         <h2>這裡賣著許多有趣的商品。</h2>
         <h6>提交購物單後需在此網頁等待10秒。</h6>
         <script src="shop.js"></script>
-        <button id="shop11" onClick="cookiesell()">童軍餅乾</button>
+        <br>
+        <h5>童軍餅乾</h5>
         <p>美味的餅乾，買一份回家嘗嘗如何？</p>
         <p>售價：10元</p>
+        <button id="shop11" onClick="cookiebuy()">購買</button>
+        <button id="shop12" onClick="cookiesell()">販售</button>
+        <br>
+        <br>
+        <h5>中秋月餅禮盒</h5>
+        <p>裡面裝著許多餅乾，送禮自用兩相宜。</p>
+        <p>售價：50元</p>
+        <button id="shop13" onClick="cookiebox()">購買</button>
+        <br>
         <br>
         <p id="4">購買收據</p> 
     </body>
