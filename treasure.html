@@ -48,7 +48,9 @@
                     <div class="flex">
                         <p id="tre11" style="display: block;"><script>
                             var a=Number(localStorage.getItem("knife"))-1;
-                            if (a>9){
+                            if(a>19){
+                                document.write("不敗的野太刀"+"+"+String(a-20));
+                            }else if(a>9){
                                 document.write("嶄新的野太刀"+"+"+String(a-10));
                             }else{
                                 document.write("老舊的野太刀"+"+"+String(a));
@@ -60,7 +62,9 @@
                     <div class="flex">
                         <p id="tre14" style="display: block;"><script>
                             var a=Number(localStorage.getItem("knife"));
-                            if (a>10){
+                            if(a>19){
+                                document.write("<span style=' white-space:pre;'>"+"刀身蘊含著強大的魔力，讓人充滿力量。　　　　　"+"</span>");
+                            }else if(a>10){
                                 document.write("<span style=' white-space:pre;'>"+"被修整得非常乾淨的刀身閃爍著微量的光芒。　　　"+"</span>");
                             }else{
                                 document.write("<span style=' white-space:pre;'>"+"某個冒險者留下的，老舊的刀身上充滿歲月的痕跡。"+"</span>");
@@ -74,7 +78,10 @@
                         <button class="btn btn-primary" id="tre18" onClick="upknife()" style="display: none;">升級</button>
                         <p id="tre19" style="display: none;"><script>
                             var a=Number(localStorage.getItem("knife"));
-                            if (a>=10){
+                            if(a>19){
+                                document.write("<span style=' white-space:pre;'>"+"升級所需材料：眼鏡布x"+Math.pow(a-8,2)+",火藥x"+(a-9)*2+"青銅x"+Math.pow(a-19,2)+"魔水晶"+(a-19)*2+"</span>");
+                            
+                            }else if(a>=10){
                                 document.write("<span style=' white-space:pre;'>"+"升級所需材料：高級羊毛x"+Math.pow(a,2)*2+",山羊奶x"+Math.pow(a,2)+",眼鏡布x"+Math.pow(a-8,3)+",火藥x"+Math.pow(a-9,2)+"</span>");
                             }else{
                                 document.write("<span style=' white-space:pre;'>"+"升級所需材料：高級羊毛x"+Math.pow(a,3)+",山羊奶x"+Math.pow(a,2)*3+"</span>");
@@ -297,6 +304,36 @@
                         document.write("<span style=' white-space:pre;'>"+"合金齒輪　　　　　　　　　　　帶有金屬光澤的電子零件。　　　　　　　　　"+ger+"</span>");
                     </script></p>
                 </div>
+                <div class="flex">
+                    <p id="thing7" style="display: block;"><script>
+                        var clo=Number(localStorage.getItem("cloth"));
+                        document.write("<span style=' white-space:pre;'>"+"眼鏡布　　　　　　　　　　　　用以擦拭精密的玻璃製品。　　　　　　　　　"+clo+"</span>");
+                    </script></p>
+                </div>
+                <div class="flex">
+                    <p id="thing8" style="display: block;"><script>
+                        var tee=Number(localStorage.getItem("teech"));
+                        document.write("<span style=' white-space:pre;'>"+"掉落牙齒　　　　　　　　　　　堅硬的骨骼組織，能夠有效的提升武器耐久。　"+tee+"</span>");
+                    </script></p>
+                </div>
+                <div class="flex">
+                    <p id="thing9" style="display: block;"><script>
+                        var gra=Number(localStorage.getItem("grass"));
+                        document.write("<span style=' white-space:pre;'>"+"玻璃碎片　　　　　　　　　　　已經破碎的鋒利易碎品。　　　　　　　　　　"+gra+"</span>");
+                    </script></p>
+                </div>
+                <div class="flex">
+                    <p id="thing10" style="display: block;"><script>
+                        var gun=Number(localStorage.getItem("gunpow"));
+                        document.write("<span style=' white-space:pre;'>"+"火藥　　　　　　　　　　　　　充滿能量的黑色粉末狀物質。　　　　　　　　"+gun+"</span>");
+                    </script></p>
+                </div>
+                <div class="flex">
+                    <p id="thing11" style="display: block;"><script>
+                        var pain=Number(localStorage.getItem("paint"));
+                        document.write("<span style=' white-space:pre;'>"+"油漆　　　　　　　　　　　　　白濁色的黏稠液體。　　　　　　　　　　　　"+pain+"</span>");
+                    </script></p>
+                </div>
                 <script>
                     if(Number(localStorage.getItem("wool"))>='1'){
                         thing1.style.display='block';
@@ -327,6 +364,31 @@
                         thing6.style.display='block';
                     }else{
                         thing6.style.display='none';
+                    }
+                    if(Number(localStorage.getItem("cloth"))>='1'){
+                        thing7.style.display='block';
+                    }else{
+                        thing7.style.display='none';
+                    }
+                    if(Number(localStorage.getItem("teech"))>='1'){
+                        thing8.style.display='block';
+                    }else{
+                        thing8.style.display='none';
+                    }
+                    if(Number(localStorage.getItem("gress"))>='1'){
+                        thing9.style.display='block';
+                    }else{
+                        thing9.style.display='none';
+                    }
+                    if(Number(localStorage.getItem("gunpow"))>='1'){
+                        thing10.style.display='block';
+                    }else{
+                        thing10.style.display='none';
+                    }
+                    if(Number(localStorage.getItem("paint"))>='1'){
+                        thing11.style.display='block';
+                    }else{
+                        thing11.style.display='none';
                     }
                 </script>
             </div>
