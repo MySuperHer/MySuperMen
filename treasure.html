@@ -147,7 +147,7 @@
                         </script></p>
                     </div>
                     <div class="flex">
-                        <br id="tre210" style="display: none;">
+                        <p id="tre210" style="display: none;">
                         <script>
                             if(Number(localStorage.getItem("phone"))>=1){
                                 tre21.style.display='block';
@@ -291,6 +291,12 @@
                         document.write("<span style=' white-space:pre;'>"+"臭豆腐　　　　　　　　　　　　極具特色的在地小吃。　　　　　　　　　　　"+tofu+"</span>");
                     </script></p>
                 </div>
+                <div class="flex">
+                    <p id="thing6" style="display: block;"><script>
+                        var ger=Number(localStorage.getItem("gear"));
+                        document.write("<span style=' white-space:pre;'>"+"合金齒輪　　　　　　　　　　　帶有金屬光澤的電子零件。　　　　　　　　　"+ger+"</span>");
+                    </script></p>
+                </div>
                 <script>
                     if(Number(localStorage.getItem("wool"))>='1'){
                         thing1.style.display='block';
@@ -312,10 +318,15 @@
                     }else{
                         thing4.style.display='none';
                     }
-                    if(Number(localStorage.getItem("antler"))>='1'){
+                    if(Number(localStorage.getItem("tofu"))>='1'){
                         thing5.style.display='block';
                     }else{
                         thing5.style.display='none';
+                    }
+                    if(Number(localStorage.getItem("gear"))>='1'){
+                        thing6.style.display='block';
+                    }else{
+                        thing6.style.display='none';
                     }
                 </script>
             </div>
