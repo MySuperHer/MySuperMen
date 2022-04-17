@@ -11,11 +11,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="lvup.js"></script>
         <script src="weapon.js"></script>
-        <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest/disable-devtool.min.js'></script>
-        <script>
-            import disableDevtool from 'disable-devtool';
-            disableDevtool();
-        </script>
+        
     </head>
     <body>
         <div class="bg-blue">
@@ -44,6 +40,7 @@
                     <div class="form-group col-md-8 col-sm-5 col-6">
                         <p>&emsp;傳家寶</p>
                         <p>&emsp;你在父親的遺物中找到了這些東西。</p>
+                        <p>&emsp;裝備升級需等待十秒鐘。</p>
                     </div>
                 </div>
                 <hr class="divider" />
@@ -75,10 +72,17 @@
                     <div class="flex">
                         <p id="tre17"></p>
                         <button class="btn btn-primary" id="tre18" onClick="upknife()" style="display: none;">升級</button>
-                        <p id="tre19">升級所需材料：未開放</p>
+                        <p id="tre19" style="display: none;"><script>
+                            var a=Number(localStorage.getItem("knife"));
+                            if (a>=10){
+                                document.write("<span style=' white-space:pre;'>"+"升級所需材料：高級羊毛x"+Math.pow(a,2)*2+",山羊奶x"+Math.pow(a,2)+",眼鏡布x"+Math.pow(a-8,3)+",火藥x"+Math.pow(a-9,2)+"</span>");
+                            }else{
+                                document.write("<span style=' white-space:pre;'>"+"升級所需材料：高級羊毛x"+Math.pow(a,3)+",山羊奶x"+Math.pow(a,2)*3+"</span>");
+                            }
+                        </script></p>
                     </div>
                     <div class="flex">
-                        <br id="tre110" style="display: none;">
+                        <p id="tre110" style="display: none;"></p>
                         <script>
                             if(Number(localStorage.getItem("knife"))>=1){
                                 tre11.style.display='block';
@@ -133,7 +137,14 @@
                     <div class="flex">
                         <p id="tre27"></p>
                         <button class="btn btn-primary" id="tre28" onClick="upphone()" style="display: none;">升級</button>
-                        <p id="tre29">升級所需材料：未開放</p>
+                        <p id="tre29" style="display: none;"><script>
+                            var a=Number(localStorage.getItem("phone"));
+                            if (a>=10){
+                                document.write("<span style=' white-space:pre;'>"+"升級所需材料：高級羊毛x"+Math.pow(a,3)*2+",合金齒輪x"+Math.pow(a,2)+",火藥x"+Math.pow(a-9,2)+"</span>");
+                            }else{
+                                document.write("<span style=' white-space:pre;'>"+"升級所需材料：高級羊毛x"+Math.pow(a,4)+",合金齒輪x"+Math.pow(a,2)*2+"</span>");
+                            }
+                        </script></p>
                     </div>
                     <div class="flex">
                         <br id="tre210" style="display: none;">
