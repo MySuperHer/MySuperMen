@@ -2,234 +2,290 @@
 <html>
     <head>
         <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <title>我的超人</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest/disable-devtool.min.js'></script>
-        <script>
-        import disableDevtool from 'disable-devtool';
-        disableDevtool();
-        </script>
-    </head>
-    <body">
         <script src="lvup.js"></script>
         <script src="weapon.js"></script>
-        <nav>
-            <div>
-                <a class="btn btn-primary" href="./home.html">房間</a>
-                <a class="btn btn-primary" href="./train.html">訓練</a>
-                <a class="btn btn-primary" href="./parent.html">家世</a>
-                <a class="btn btn-primary" href="./outside.html">出門</a>
-                <a class="btn btn-primary" href="./fight.html">戰鬥</a>
-                <a class="btn btn-primary" href="./life.html">生活</a>
-                <a class="btn btn-primary" href="./shop.html">商店</a>
-                <a class="btn btn-primary" href="./treasure.html">傳家寶</a>
-                <a class="btn btn-primary" href="./casino.html">賭場</a>
-                <a class="btn btn-primary" href="./rank.html">排行榜</a>
-                <a class="btn btn-primary" href="./author.html">作者的話</a>
+        <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest/disable-devtool.min.js'></script>
+        <script>
+            import disableDevtool from 'disable-devtool';
+            disableDevtool();
+        </script>
+    </head>
+    <body>
+        <div class="bg-blue">
+            <div class="header">
+                <nav>
+                    <a href="./home.html">房間</a>
+                    <a href="./train.html">訓練</a>
+                    <a href="./parent.html">家世</a>
+                    <a href="./outside.html">出門</a>
+                    <a href="./fight.html">戰鬥</a>
+                    <a href="./life.html">生活</a>
+                    <a href="./shop.html">商店</a>
+                </nav>
             </div>
-        </nav>
-        <h1>傳家寶</h1>
-        <h4>你在父親的遺物中找到了這些東西。</h4>
-        <br>
-        <h5 id="tre11" style="display: block;"><script>
-            var a=Number(localStorage.getItem("knife"))-1;
-            if (a>9){
-                document.write("嶄新的野太刀"+"+"+String(a-10));
-            }else{
-                document.write("老舊的野太刀"+"+"+String(a));
-            }
-        </script></h5>
-        <p id="tre12" style="display: block;"><script>
-            var a=Number(localStorage.getItem("knife"));
-            if (a>10){
-                document.write("被修整得非常乾淨的刀身閃爍著微量的光芒。");
-            }else{
-                document.write("某個冒險者留下的，老舊的刀身上充滿歲月的痕跡。");
-            }
-        </script></p>
-        <button id="tre13" onClick="takeknife()" style="display: none;">裝備</button>
-        <button id="tre14" onClick="downknife()" style="display: none;">卸下</button>
-        <button id="tre15" onClick="upknife()" style="display: none;">升級</button>
-        <br id="tre16" style="display: none;">
-        <br id="tre17" style="display: none;">
-        <script>
-            if(Number(localStorage.getItem("knife"))>=1){
-                tre11.style.display='block';
-                tre12.style.display='block';
-                tre13.style.display='block';
-                tre14.style.display='block';
-                tre15.style.display='block';
-                tre16.style.display='block';
-                tre17.style.display='block';
-            }else{
-                tre11.style.display='none';
-                tre12.style.display='none';
-                tre13.style.display='none';
-                tre14.style.display='none';
-                tre15.style.display='none';
-                tre16.style.display='none';
-                tre17.style.display='none';
-            }
-        </script>
-        <h5 id="tre21" style="display: block;"><script>
-            var a=Number(localStorage.getItem("phone"))-1;
-            if (a>9){
-                document.write("智慧型手機"+"+"+String(a-10));
-            }else{
-                document.write("智障型手機"+"+"+String(a));
-            }
-        </script></h5>
-        <p id="tre22" style="display: block;"><script>
-            var a=Number(localStorage.getItem("phone"));
-            if (a>10){
-                document.write("似乎每過一段時間就會推出最新版本。");
-            }else{
-                document.write("只是拿著就覺得自己變聰明了。");
-            }
-        </script></p>
-        <button id="tre23" onClick="takephone()" style="display: none;">裝備</button>
-        <button id="tre24" onClick="downphone()" style="display: none;">卸下</button>
-        <button id="tre25" onClick="upphone()" style="display: none;">升級</button>
-        <br id="tre26" style="display: none;">
-        <br id="tre27" style="display: none;">
-        <script>
-            if(localStorage.getItem("phone")>='1'){
-                tre21.style.display='block';
-                tre22.style.display='block';
-                tre23.style.display='block';
-                tre24.style.display='block';
-                tre25.style.display='block';
-                tre26.style.display='block';
-                tre27.style.display='block';
-            }else{
-                tre21.style.display='none';
-                tre22.style.display='none';
-                tre23.style.display='none';
-                tre24.style.display='none';
-                tre25.style.display='none';
-                tre26.style.display='none';
-                tre27.style.display='none';
-            }
-        </script>
-        <h5 id="tre31" style="display: block;"><script>
-            var a=Number(localStorage.getItem("robot"))-1;
-            if (a>9){
-                document.write("人工智能 結衣"+"+"+String(a-10));
-            }else{
-                document.write("旅行用機器人 結衣"+"+"+String(a));
-            }
-        </script></h5>
-        <p id="tre32" style="display: block;"><script>
-            var a=Number(localStorage.getItem("robot"));
-            if (a>10){
-                document.write("具有相當程度的智慧，能夠理解人類的語言");
-            }else{
-                document.write("在戰鬥的時候帶上她吧，她能在戰鬥的時候幫你加油打氣。");
-            }
-        </script></p>
-        <button id="tre33" onClick="takerobot()" style="display: none;">裝備</button>
-        <button id="tre34" onClick="downrobot()" style="display: none;">卸下</button>
-        <button id="tre35" onClick="uprobot()" style="display: none;">升級</button>
-        <br id="tre36" style="display: none;">
-        <br id="tre37" style="display: none;">
-        <script>
-            if(localStorage.getItem("robot")>='1'){
-                tre31.style.display='block';
-                tre32.style.display='block';
-                tre33.style.display='block';
-                tre34.style.display='block';
-                tre35.style.display='block';
-                tre36.style.display='block';
-                tre37.style.display='block';
-            }else{
-                tre31.style.display='none';
-                tre32.style.display='none';
-                tre33.style.display='none';
-                tre34.style.display='none';
-                tre35.style.display='none';
-                tre36.style.display='none';
-                tre37.style.display='none';
-            }
-        </script>
-        <script>
-            $('#tre13').attr('disabled', true);
-            $('#tre23').attr('disabled', true);
-            $('#tre33').attr('disabled', true);
-            $('#tre14').attr('disabled', true);
-            $('#tre24').attr('disabled', true);
-            $('#tre34').attr('disabled', true);
-            if(localStorage.getItem("weapon")=="knife"){
-                $('#tre14').attr('disabled', false);
-            }else if(localStorage.getItem("weapon")=="phone"){
-                $('#tre24').attr('disabled', false);
-            }else if(localStorage.getItem("weapon")=="robot"){
-                $('#tre34').attr('disabled', false);
-            }else{
-                $('#tre13').attr('disabled', false);
-                $('#tre23').attr('disabled', false);
-                $('#tre33').attr('disabled', false);
-            }
-        </script>
-        <h4>倉庫</h4>
-        <table>
-            <tr>
-                <td id="thing1" style="display: block;"><script>
-                    var woo=Number(localStorage.getItem("wool"));
-                    document.write("高級羊毛 "+woo+" 柔軟的絲質物體。");
-                </script><td>
-            </tr>
-            <tr>
-                <td id="thing2" style="display: block;"><script>
-                    var gmk=Number(localStorage.getItem("gmilk"));
-                    document.write("山羊奶 "+gmk+" 黃濁色的黏稠液體。");
-                </script><td>
-            </tr>
-            <tr>
-                <td id="thing3" style="display: block;"><script>
-                    var gmk=Number(localStorage.getItem("gmk"));
-                    document.write("山羌糞便 "+gmk+" 具有獨特氣味的動物分泌物。");
-                </script><td>
-            </tr>
-            <tr>
-                <td id="thing4" style="display: block;"><script>
-                    var antl=Number(localStorage.getItem("antler"));
-                    document.write("鹿茸 "+antl+" 被嚴格控管的珍貴中藥材。");
-                </script><td>
-            </tr>
-            <tr>
-                <td id="thing5" style="display: block;"><script>
-                    var tofu=Number(localStorage.getItem("tofu"));
-                    document.write("臭豆腐 "+tofu+" 極具特色的在地小吃。");
-                </script><td>
-            </tr>
-        </table>
-        <script>
-            if(Number(localStorage.getItem("wool"))>='1'){
-                thing1.style.display='block';
-            }else{
-                thing1.style.display='none';
-            }
-            if(Number(localStorage.getItem("gmilk"))>='1'){
-                thing2.style.display='block';
-            }else{
-                thing2.style.display='none';
-            }
-            if(Number(localStorage.getItem("stool"))>='1'){
-                thing3.style.display='block';
-            }else{
-                thing3.style.display='none';
-            }
-            if(Number(localStorage.getItem("antler"))>='1'){
-                thing4.style.display='block';
-            }else{
-                thing4.style.display='none';
-            }
-            if(Number(localStorage.getItem("antler"))>='1'){
-                thing5.style.display='block';
-            }else{
-                thing5.style.display='none';
-            }
-        </script>
+            <div class="header">
+                <nav>
+                    <a href="./treasure.html">傳家寶</a>
+                    <a href="./casino.html">賭場</a>
+                    <a href="./rank.html">排行榜</a>
+                    <a href="./author.html">作者的話</a>
+                </nav>
+            </div>
+            
+            <div class="container bc-white">
+                <div class="form-row">
+                    <div class="form-group col-md-8 col-sm-5 col-6">
+                        <p>&emsp;傳家寶</p>
+                        <p>&emsp;你在父親的遺物中找到了這些東西。</p>
+                    </div>
+                </div>
+                <hr class="divider" />
+                <div class="explore">
+                    <div class="flex">
+                        <p id="tre11" style="display: block;"><script>
+                            var a=Number(localStorage.getItem("knife"))-1;
+                            if (a>9){
+                                document.write("嶄新的野太刀"+"+"+String(a-10));
+                            }else{
+                                document.write("老舊的野太刀"+"+"+String(a));
+                            }
+                        </script></p>
+                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                        <button class="btn btn-primary" id="tre13" onClick="takeknife()" style="display: none;">裝備</button>
+                    </div>
+                    <div class="flex">
+                        <p id="tre12" style="display: block;"><script>
+                            var a=Number(localStorage.getItem("knife"));
+                            if (a>10){
+                                document.write("<span style=' white-space:pre;'>"+"被修整得非常乾淨的刀身閃爍著微量的光芒。　　　"+"</span>");
+                            }else{
+                                document.write("<span style=' white-space:pre;'>"+"某個冒險者留下的，老舊的刀身上充滿歲月的痕跡。"+"</span>");
+                            }
+                        </script></p>
+                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                        <button class="btn btn-primary" id="tre14" onClick="downknife()" style="display: none;">卸下</button>
+                    </div>
+                    <div class="flex">
+                        <p></p>
+                        <button class="btn btn-primary" id="tre15" onClick="upknife()" style="display: none;">升級</button>
+                        <p>升級所需材料：未開放</p>
+                    </div>
+                    <div class="flex">
+                        <br id="tre16" style="display: none;">
+                        <script>
+                            if(Number(localStorage.getItem("knife"))>=1){
+                                tre11.style.display='block';
+                                tre12.style.display='block';
+                                tre13.style.display='block';
+                                tre14.style.display='block';
+                                tre15.style.display='block';
+                                tre16.style.display='block';
+                                tre17.style.display='block';
+                            }else{
+                                tre11.style.display='none';
+                                tre12.style.display='none';
+                                tre13.style.display='none';
+                                tre14.style.display='none';
+                                tre15.style.display='none';
+                                tre16.style.display='none';
+                                tre17.style.display='none';
+                            }
+                        </script>
+                    </div>
+                    <div class="flex">
+                        <p id="tre21" style="display: block;"><script>
+                            var a=Number(localStorage.getItem("phone"))-1;
+                            if (a>9){
+                                document.write("智慧型手機"+"+"+String(a-10));
+                            }else{
+                                document.write("智障型手機"+"+"+String(a));
+                            }
+                        </script></p>
+                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                        <button class="btn btn-primary" id="tre23" onClick="takephone()" style="display: none;">裝備</button>
+                    </div>
+                    <div class="flex">
+                        <p id="tre22" style="display: block;"><script>
+                            var a=Number(localStorage.getItem("phone"));
+                            if (a>10){
+                                document.write("<span style=' white-space:pre;'>"+"似乎每過一段時間就會推出最新版本。"+"</span>");
+                            }else{
+                                document.write("<span style=' white-space:pre;'>"+"只是拿著就覺得自己變聰明了。　　　"+"</span>");
+                            }
+                        </script></p>
+                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                        <button class="btn btn-primary" id="tre24" onClick="downphone()" style="display: none;">卸下</button>
+                    </div>
+                    <div class="flex">
+                        <p></p>
+                        <button class="btn btn-primary" id="tre25" onClick="upphone()" style="display: none;">升級</button>
+                        <p>升級所需材料：未開放</p>
+                    </div>
+                    <div class="flex">
+                        <br id="tre26" style="display: none;">
+                        <script>
+                            if(localStorage.getItem("phone")>='1'){
+                                tre21.style.display='block';
+                                tre22.style.display='block';
+                                tre23.style.display='block';
+                                tre24.style.display='block';
+                                tre25.style.display='block';
+                                tre26.style.display='block';
+                                tre27.style.display='block';
+                            }else{
+                                tre21.style.display='none';
+                                tre22.style.display='none';
+                                tre23.style.display='none';
+                                tre24.style.display='none';
+                                tre25.style.display='none';
+                                tre26.style.display='none';
+                                tre27.style.display='none';
+                            }
+                        </script>
+                    </div>
+                    <div class="flex">
+                        <p id="tre31" style="display: block;"><script>
+                            var a=Number(localStorage.getItem("robot"))-1;
+                            if (a>10){
+                                document.write("<span style=' white-space:pre;'>"+"人工智能 結衣　　 "+"+"+String(a-10)+"</span>");
+                            }else{
+                                document.write("<span style=' white-space:pre;'>"+"旅行用機器人 結衣 "+"+"+String(a)+"</span>");
+                            }
+                        </script></p>
+                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                        <button class="btn btn-primary" id="tre33" onClick="takerobot()" style="display: none;">裝備</button>
+                    </div>
+                    <div class="flex">
+                        <p id="tre32" style="display: block;"><script>
+                            var a=Number(localStorage.getItem("robot"));
+                            if (a>10){
+                                document.write("<span style=' white-space:pre;'>"+"具有相當程度的智慧，能夠理解人類的語言　　　　　　　"+"</span>");
+                            }else{
+                                document.write("<span style=' white-space:pre;'>"+"在戰鬥的時候帶上她吧，她能在戰鬥的時候幫你加油打氣。"+"</span>");
+                            }
+                        </script></p>
+                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                        <button class="btn btn-primary" id="tre34" onClick="downrobot()" style="display: none;">卸下</button>
+                    </div>
+                    <div class="flex">
+                        <p></p>
+                        <button class="btn btn-primary" id="tre35" onClick="uprobot()" style="display: none;">升級</button>
+                        <p>升級所需材料：未開放</p>
+                    </div>
+                    <div class="flex">
+                        <br id="tre36" style="display: none;">
+                        <script>
+                            if(localStorage.getItem("robot")>='1'){
+                                tre31.style.display='block';
+                                tre32.style.display='block';
+                                tre33.style.display='block';
+                                tre34.style.display='block';
+                                tre35.style.display='block';
+                                tre36.style.display='block';
+                                tre37.style.display='block';
+                            }else{
+                                tre31.style.display='none';
+                                tre32.style.display='none';
+                                tre33.style.display='none';
+                                tre34.style.display='none';
+                                tre35.style.display='none';
+                                tre36.style.display='none';
+                                tre37.style.display='none';
+                            }
+                        </script>
+                    </div>
+                    <script>
+                        $('#tre13').attr('disabled', true);
+                        $('#tre23').attr('disabled', true);
+                        $('#tre33').attr('disabled', true);
+                        $('#tre14').attr('disabled', true);
+                        $('#tre24').attr('disabled', true);
+                        $('#tre34').attr('disabled', true);
+                        if(localStorage.getItem("weapon")=="knife"){
+                            $('#tre14').attr('disabled', false);
+                        }else if(localStorage.getItem("weapon")=="phone"){
+                            $('#tre24').attr('disabled', false);
+                        }else if(localStorage.getItem("weapon")=="robot"){
+                            $('#tre34').attr('disabled', false);
+                        }else{
+                            $('#tre13').attr('disabled', false);
+                            $('#tre23').attr('disabled', false);
+                            $('#tre33').attr('disabled', false);
+                        }
+                    </script>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-8 col-sm-5 col-6">
+                        <p>&emsp;倉庫</p>
+                        <p>&emsp;擺放著雜物的老舊廢棄倉庫</p>
+                    </div>
+                </div>
+                <hr class="divider" />
+                <div class="flex">
+                    <p id="thing1" style="display: block;"><script>
+                        var woo=Number(localStorage.getItem("wool"));
+                        document.write("<span style=' white-space:pre;'>"+"高級羊毛　　　　　　　　　　　柔軟的絲質物體。　　　　　　　　　　　　　"+woo+"</span>");
+                    </script></p>
+                </div>
+                <div class="flex">
+                    <p id="thing2" style="display: block;"><script>
+                        var gmk=Number(localStorage.getItem("gmilk"));
+                        document.write("<span style=' white-space:pre;'>"+"山羊奶　　　　　　　　　　　　黃濁色的黏稠液體。　　　　　　　　　　　　"+gmk+"</span>");
+                    </script></p>
+                </div>
+                <div class="flex">
+                    <p id="thing3" style="display: block;"><script>
+                        var sto=Number(localStorage.getItem("stool"));
+                        document.write("<span style=' white-space:pre;'>"+"山羌糞便　　　　　　　　　　　具有獨特氣味的動物分泌物。　　　　　　　　"+sto+"</span>");
+                    </script></p>
+                </div>
+                <div class="flex">
+                    <p id="thing4" style="display: block;"><script>
+                        var antl=Number(localStorage.getItem("antler"));
+                        document.write("<span style=' white-space:pre;'>"+"鹿茸　　　　　　　　　　　　　被嚴格控管的珍貴中藥材。　　　　　　　　　"+antl+"</span>");
+                    </script></p>
+                </div>
+                <div class="flex">
+                    <p id="thing5" style="display: block;"><script>
+                        var tofu=Number(localStorage.getItem("tofu"));
+                        document.write("<span style=' white-space:pre;'>"+"臭豆腐　　　　　　　　　　　　極具特色的在地小吃。　　　　　　　　　　　"+tofu+"</span>");
+                    </script></p>
+                </div>
+                <script>
+                    if(Number(localStorage.getItem("wool"))>='1'){
+                        thing1.style.display='block';
+                    }else{
+                        thing1.style.display='none';
+                    }
+                    if(Number(localStorage.getItem("gmilk"))>='1'){
+                        thing2.style.display='block';
+                    }else{
+                        thing2.style.display='none';
+                    }
+                    if(Number(localStorage.getItem("stool"))>='1'){
+                        thing3.style.display='block';
+                    }else{
+                        thing3.style.display='none';
+                    }
+                    if(Number(localStorage.getItem("antler"))>='1'){
+                        thing4.style.display='block';
+                    }else{
+                        thing4.style.display='none';
+                    }
+                    if(Number(localStorage.getItem("antler"))>='1'){
+                        thing5.style.display='block';
+                    }else{
+                        thing5.style.display='none';
+                    }
+                </script>
+            </div>
+        </div>
     </body>
 </html>
