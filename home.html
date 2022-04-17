@@ -97,9 +97,9 @@
                             var plg=parseInt(Number(localStorage.getItem("g1"))*100+Number(localStorage.getItem("g2"))*100+Number(localStorage.getItem("g3"))*100)/100;
                             if (localStorage.getItem("weapon")=="knife"){
                                 if(localStorage.getItem("knife")>=11){
-                                    plg=parseInt(plg+(Math.pow(Number(localStorage.getItem("knife"))),2));
+                                    plg=parseInt((plg+Math.pow((Number(localStorage.getItem("knife"))),2))*100)/100;
                                 }else{
-                                    plg=parseInt(plg+(Number(localStorage.getItem("knife"))*5));
+                                    plg=parseInt((plg+(Number(localStorage.getItem("knife"))*5))*100)/100;
                                 }
                             }
                             document.write("體重："+plg+"kg");
@@ -128,9 +128,9 @@
                             pli=parseInt(Number(localStorage.getItem("i1"))*100)/100;
                             if (localStorage.getItem("weapon")=="phone"){
                                 if(localStorage.getItem("phone")>=11){
-                                    plg=parseInt(plg+(Number(localStorage.getItem("phone"))*4));
+                                    pli=parseInt((pli+(Number(localStorage.getItem("phone"))*4))*100)/100;
                                 }else{
-                                    plg=parseInt(plg+(Number(localStorage.getItem("phone"))*3));
+                                    pli=parseInt((pli+(Number(localStorage.getItem("phone"))*3))*100)/100;
                                 }
                             }
                             document.write("智力："+pli);
