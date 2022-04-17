@@ -2,128 +2,194 @@
 <html>
     <head>
         <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <title>我的超人</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="lvup.js"></script>
+        <script src="shop.js"></script>
         <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest/disable-devtool.min.js'></script>
         <script>
-        import disableDevtool from 'disable-devtool';
-        disableDevtool();
+            import disableDevtool from 'disable-devtool';
+            disableDevtool();
         </script>
     </head>
     <body>
-        <script src="lvup.js"></script>
-        <nav>
-            <div>
-                <a class="btn btn-primary" href="./home.html">房間</a>
-                <a class="btn btn-primary" href="./train.html">訓練</a>
-                <a class="btn btn-primary" href="./parent.html">家世</a>
-                <a class="btn btn-primary" href="./outside.html">出門</a>
-                <a class="btn btn-primary" href="./fight.html">戰鬥</a>
-                <a class="btn btn-primary" href="./life.html">生活</a>
-                <a class="btn btn-primary" href="./shop.html">商店</a>
-                <a class="btn btn-primary" href="./treasure.html">傳家寶</a>
-                <a class="btn btn-primary" href="./casino.html">賭場</a>
-                <a class="btn btn-primary" href="./rank.html">排行榜</a>
-                <a class="btn btn-primary" href="./author.html">作者的話</a>
+        <div class="bg-blue">
+            <div class="header">
+                <nav>
+                    <a href="./home.html">房間</a>
+                    <a href="./train.html">訓練</a>
+                    <a href="./parent.html">家世</a>
+                    <a href="./outside.html">出門</a>
+                    <a href="./fight.html">戰鬥</a>
+                    <a href="./life.html">生活</a>
+                    <a href="./shop.html">商店</a>
+                </nav>
             </div>
-        </nav>
-        <h1>商店</h1>
-        <h2>這裡賣著許多有趣的商品。</h2>
-        <h6>提交購物單後需在此網頁等待10秒。</h6>
-        <h6>販售物品的收購價為50%。</h6>
-        <h6>裝備售後概不退還。</h6>
-        <script src="shop.js"></script>
-        <br>
-        <h5>童軍餅乾</h5>
-        <p>美味的餅乾，買一份回家嘗嘗如何？</p>
-        <p>售價：10元</p>
-        <button id="shop11" onClick="cookiebuy()">購買</button>
-        <button id="shop12" onClick="cookiesell()">販售</button>
-        <br>
-        <br>
-        <h5>中秋月餅禮盒</h5>
-        <p>裡面裝著許多餅乾，送禮自用兩相宜。</p>
-        <p>售價：50元</p>
-        <button id="shop21" onClick="cookiebox()">購買</button>
-        <br>
-        <br>
-        <h5>高級羊毛</h5>
-        <p>蓬鬆又柔軟的羊毛是保養武器最好的材料。</p>
-        <p>售價：30元</p>
-        <button id="shop31" onClick="woolbuy()">購買</button>
-        <button id="shop32" onClick="woolsell()">販售</button>
-        <br>
-        <br>
-        <h5>山羊奶</h5>
-        <p>富含新鮮的蛋白質及脂質，能夠有效的保護您的武器。</p>
-        <p>售價：50元</p>
-        <button id="shop41" onClick="gmilkbuy()">購買</button>
-        <button id="shop42" onClick="gmilksell()">販售</button>
-        <br>
-        <br>
-        <h5>鹿茸</h5>
-        <p>極具營養價值，適合拿到山下製酒。</p>
-        <p>售價：500元</p>
-        <button id="shop51" onClick="antlerbuy()">購買</button>
-        <button id="shop52" onClick="antlersell()">販售</button>
-        <br>
-        <br>
-        <h5>臭豆腐</h5>
-        <p>滿溢黴菌的豆類製品。</p>
-        <p>售價：800元</p>
-        <button id="shop61" onClick="tofubuy()">購買</button>
-        <button id="shop62" onClick="tofusell()">販售</button>
-        <br>
-        <br>
-        <h5>老舊的野太刀</h5>
-        <p>某個冒險者留下的，老舊的刀身上充滿歲月的痕跡。</p>
-        <p>售價：1000元</p>
-        <button id="shop111" onClick="oldknife()" style="display: block;">購買</button>
-        <p id="knifeshop" style="display: none;">已售出</p>
-        <script>
-            if(Number(localStorage.getItem("knife"))>=1){
-                shop111.style.display='none';
-                knifeshop.style.display='block';
-            }else{
-                shop111.style.display='block';
-                knifeshop.style.display='none';
-            }
-        </script>
-        <br>
-        <br>
-        <h5>智障型手機</h5>
-        <p>這麼硬的東西真的是一台手機嗎？</p>
-        <p>售價：5000元</p>
-        <button id="shop121" onClick="newphone()" style="display: block;">購買</button>
-        <p id="phoneshop" style="display: none;">已售出</p>
-        <script>
-            if(Number(localStorage.getItem("phone"))>=1){
-                shop121.style.display='none';
-                phoneshop.style.display='block';
-            }else{
-                shop121.style.display='block';
-                phoneshop.style.display='none';
-            }
-        </script>
-        <br>
-        <br>
-        <h5>旅行用機器人 結衣</h5>
-        <p>疲憊的旅人啊，踏上愉快的旅途。</p>
-        <p>售價：10000元</p>
-        <button id="shop131" onClick="treatrobot()" style="display: block;">購買</button>
-        <p id="robotshop" style="display: none;">已售出</p>
-        <script>
-            if(Number(localStorage.getItem("robot"))>=1){
-                shop131.style.display='none';
-                robotshop.style.display='block';
-            }else{
-                shop131.style.display='block';
-                robotshop.style.display='none';
-            }
-        </script>
-        <br>
-        <br>
-        <p id="4">購買收據</p> 
+            <div class="header">
+                <nav>
+                    <a href="./treasure.html">傳家寶</a>
+                    <a href="./casino.html">賭場</a>
+                    <a href="./rank.html">排行榜</a>
+                    <a href="./author.html">作者的話</a>
+                </nav>
+            </div>
+            <div class="container bc-white">
+                <div class="form-row">
+                    <div class="form-group col-md-8 col-sm-4 col-6">
+                        <p>&emsp;商店</p>
+                        <P>&emsp;這裡賣著許多有趣的商品。</p>
+                        <P>&emsp;提交購物單後需在此網頁等待10秒。</p>
+                        <P>&emsp;販售物品的收購價為50%。</p>
+                    </div>
+                </div>
+                <hr class="divider" />
+
+                <div class="explore">
+                    <div class="flex">
+                        <p>童軍餅乾&emsp;&emsp;</p>
+                        <p>手工製作的美味餅乾，買份回家嘗嘗如何？&ensp;</p>
+                        <p>售價：10元&ensp;&ensp;</p>
+                        <button class="btn btn-primary" id="shop11" onClick="cookiebuy()">購買</button>
+                        <button class="btn btn-primary" id="shop12" onClick="cookiesell()">販售</button>
+                    </div>
+                    <div class="flex">
+                        <br>
+                    </div>
+                    <div class="flex">
+                        <p>中秋月餅禮盒</p>
+                        <p>裡面裝著許多餅乾，送禮自用兩相宜。&ensp;&ensp;&ensp;&ensp;&ensp;</p>
+                        <p>售價：50元&ensp;&ensp;</p>
+                        <button class="btn btn-primary" id="shop21" onClick="cookiebox()">購買</button>
+                    </div>
+                    <div class="flex">
+                        <br>
+                    </div>
+                    <div class="flex">
+                        <p>高級羊毛&emsp;&emsp;</p>
+                        <p>蓬鬆又柔軟的羊毛是保養武器最好的材料。&ensp;</p>
+                        <p>售價：30元&ensp;&ensp;</p>
+                        <button class="btn btn-primary" id="shop31" onClick="woolbuy()">購買</button>
+                        <button class="btn btn-primary" id="shop32" onClick="woolsell()">販售</button>
+                    </div>
+                    <div class="flex">
+                        <br>
+                    </div>
+                    <div class="flex">
+                        <p>山羊奶&emsp;&emsp;&emsp;</p>
+                        <p>富含蛋白質以及脂質，能夠有效保護武器。&ensp;</p>
+                        <p>售價：50元&ensp;&ensp;</p>
+                        <button class="btn btn-primary" id="shop41" onClick="gmilkbuy()">購買</button>
+                        <button class="btn btn-primary" id="shop42" onClick="gmilksell()">販售</button>
+                    </div>
+                    <div class="flex">
+                        <br>
+                    </div>
+                    <div class="flex">
+                        <p>鹿茸&emsp;&emsp;&emsp;&emsp;</p>
+                        <p>具有極高的營養價值，適合拿到山下製酒。&ensp;</p>
+                        <p>售價：500元&ensp;</p>
+                        <button class="btn btn-primary" id="shop51" onClick="antlerbuy()">購買</button>
+                        <button class="btn btn-primary" id="shop52" onClick="antlersell()">販售</button>
+                    </div>
+                    <div class="flex">
+                        <br>
+                    </div>
+                    <div class="flex">
+                        <p>臭豆腐&emsp;&emsp;&emsp;</p>
+                        <p>滿溢黴菌的豆類製品。&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;</p>
+                        <p>售價：800元&ensp;</p>
+                        <button class="btn btn-primary" id="shop61" onClick="tofubuy()">購買</button>
+                        <button class="btn btn-primary" id="shop62" onClick="tofusell()">販售</button>
+                    </div>
+                    <hr class="divider" />
+                    <div class="form-row">
+                        <div class="form-group col-md-8 col-sm-4 col-6">
+                            <p>&emsp;武器鋪</p>
+                            <P>&emsp;這裡販售各種武器。</p>
+                            <P>&emsp;提交購物單後需在此網頁等待10秒。</p>
+                            <P>&emsp;裝備售後概不退還。</p>
+                        </div>
+                    </div>
+                    <hr class="divider" />
+                    <div class="flex">
+                        <p>老舊的野太刀</p>
+                        <p>售價：1000元</p>
+                    </div>
+                    <div class="flex">
+                        <p>某個冒險者留下的，老舊的刀身上充滿歲月的痕跡。</p>
+                    </div>
+                    <div class="flex">
+                        <button class="btn btn-primary" id="shop111" onClick="oldknife()" style="display: block;">購買</button>
+                        <p id="knifeshop" style="display: none;">已售出</p>
+                    </div>
+                    <script>
+                        if(Number(localStorage.getItem("knife"))>=1){
+                            shop111.style.display='none';
+                            knifeshop.style.display='block';
+                        }else{
+                            shop111.style.display='block';
+                            knifeshop.style.display='none';
+                        }
+                    </script>
+                    <div class="flex">
+                        <br>
+                    </div>
+                    <div class="flex">
+                        <p>智障型手機</p>
+                        <p>售價：5000元</p>
+                    </div>
+                    <div class="flex">
+                        <p>這麼硬的東西真的是一台手機嗎？</p>
+                    </div>
+                    <div class="flex">
+                        <button class="btn btn-primary" id="shop121" onClick="newphone()" style="display: block;">購買</button>
+                        <p id="phoneshop" style="display: none;">已售出</p>
+                    </div>
+                    <script>
+                        if(Number(localStorage.getItem("phone"))>=1){
+                            shop121.style.display='none';
+                            phoneshop.style.display='block';
+                        }else{
+                            shop121.style.display='block';
+                            phoneshop.style.display='none';
+                        }
+                    </script>
+                    <div class="flex">
+                        <br>
+                    </div>
+                    <div class="flex">
+                        <p>旅行用機器人 結衣</p>
+                        <p>售價：10000元</p>
+                    </div>
+                    <div class="flex">
+                        <p>疲憊的旅人啊，祝你有個愉快的旅途。</p>
+                    </div>
+                    <div class="flex">
+                        <button class="btn btn-primary" id="shop131" onClick="treatrobot()" style="display: block;">購買</button>
+                        <p id="robotshop" style="display: none;">已售出</p>
+                    </div>
+                    <script>
+                        if(Number(localStorage.getItem("robot"))>=1){
+                            shop131.style.display='none';
+                            robotshop.style.display='block';
+                        }else{
+                            shop131.style.display='block';
+                            robotshop.style.display='none';
+                        }
+                    </script>
+                    <div class="flex">
+                        <br>
+                    </div>
+                    <div class="flex">
+                        <p id="4">購買收據</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
