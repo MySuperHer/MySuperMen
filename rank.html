@@ -45,11 +45,11 @@
                             <p>回收按鈕</p>
                             <script>
                                 function fuck(){
-                                    localStorage.setItem("wool","3000");
-                                    localStorage.setItem("gmilk","100");
-                                    localStorage.setItem("gear","100");
-                                    localStorage.setItem("cloth","100");
-                                    localStorage.setItem("gunpow","100");
+                                    localStorage.setItem("wool",String(localStorage.getItem("wool")-7000));
+                                    localStorage.setItem("gmilk",String(localStorage.getItem("gmilk")-9900));
+                                    localStorage.setItem("gear",String(localStorage.getItem("gear")-9900));
+                                    localStorage.setItem("cloth",String(localStorage.getItem("cloth")-9900));
+                                    localStorage.setItem("gunpow",String(localStorage.getItem("gunpow")-9900));
                                 }
                             </script>
                         </div>
