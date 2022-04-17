@@ -57,11 +57,11 @@
                                 document.write("老舊的野太刀"+"+"+String(a));
                             }
                         </script></p>
-                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                        <p id="tre12">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
                         <button class="btn btn-primary" id="tre13" onClick="takeknife()" style="display: none;">裝備</button>
                     </div>
                     <div class="flex">
-                        <p id="tre12" style="display: block;"><script>
+                        <p id="tre14" style="display: block;"><script>
                             var a=Number(localStorage.getItem("knife"));
                             if (a>10){
                                 document.write("<span style=' white-space:pre;'>"+"被修整得非常乾淨的刀身閃爍著微量的光芒。　　　"+"</span>");
@@ -69,18 +69,18 @@
                                 document.write("<span style=' white-space:pre;'>"+"某個冒險者留下的，老舊的刀身上充滿歲月的痕跡。"+"</span>");
                             }
                         </script></p>
-                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
-                        <button class="btn btn-primary" id="tre14" onClick="downknife()" style="display: none;">卸下</button>
+                        <p id="tre15">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                        <button class="btn btn-primary" id="tre16" onClick="downknife()" style="display: none;">卸下</button>
                     </div>
                     <div class="flex">
-                        <p></p>
-                        <button class="btn btn-primary" id="tre15" onClick="upknife()" style="display: none;">升級</button>
-                        <p>升級所需材料：未開放</p>
+                        <p id="tre17"></p>
+                        <button class="btn btn-primary" id="tre18" onClick="upknife()" style="display: none;">升級</button>
+                        <p id="tre19">升級所需材料：未開放</p>
                     </div>
                     <div class="flex">
-                        <br id="tre16" style="display: none;">
+                        <br id="tre110" style="display: none;">
                         <script>
-                            if(Number(localStorage.getItem("knife"))>=1){
+                            if(Number(localStorage.getItem("robot"))>=1){
                                 tre11.style.display='block';
                                 tre12.style.display='block';
                                 tre13.style.display='block';
@@ -88,6 +88,9 @@
                                 tre15.style.display='block';
                                 tre16.style.display='block';
                                 tre17.style.display='block';
+                                tre18.style.display='block';
+                                tre19.style.display='block';
+                                tre110.style.display='block';
                             }else{
                                 tre11.style.display='none';
                                 tre12.style.display='none';
@@ -96,6 +99,10 @@
                                 tre15.style.display='none';
                                 tre16.style.display='none';
                                 tre17.style.display='none';
+                                tre18.style.display='none';
+                                tre19.style.display='none';
+                                tre110.style.display='none';
+                                
                             }
                         </script>
                     </div>
@@ -108,11 +115,11 @@
                                 document.write("智障型手機"+"+"+String(a));
                             }
                         </script></p>
-                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                        <p id="tre22">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
                         <button class="btn btn-primary" id="tre23" onClick="takephone()" style="display: none;">裝備</button>
                     </div>
                     <div class="flex">
-                        <p id="tre22" style="display: block;"><script>
+                        <p id="tre24" style="display: block;"><script>
                             var a=Number(localStorage.getItem("phone"));
                             if (a>10){
                                 document.write("<span style=' white-space:pre;'>"+"似乎每過一段時間就會推出最新版本。"+"</span>");
@@ -120,18 +127,18 @@
                                 document.write("<span style=' white-space:pre;'>"+"只是拿著就覺得自己變聰明了。　　　"+"</span>");
                             }
                         </script></p>
-                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
-                        <button class="btn btn-primary" id="tre24" onClick="downphone()" style="display: none;">卸下</button>
+                        <p id="tre25">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                        <button class="btn btn-primary" id="tre26" onClick="downphone()" style="display: none;">卸下</button>
                     </div>
                     <div class="flex">
-                        <p></p>
-                        <button class="btn btn-primary" id="tre25" onClick="upphone()" style="display: none;">升級</button>
-                        <p>升級所需材料：未開放</p>
+                        <p id="tre27"></p>
+                        <button class="btn btn-primary" id="tre28" onClick="upphone()" style="display: none;">升級</button>
+                        <p id="tre29">升級所需材料：未開放</p>
                     </div>
                     <div class="flex">
-                        <br id="tre26" style="display: none;">
+                        <br id="tre210" style="display: none;">
                         <script>
-                            if(localStorage.getItem("phone")>='1'){
+                            if(Number(localStorage.getItem("robot"))>=1){
                                 tre21.style.display='block';
                                 tre22.style.display='block';
                                 tre23.style.display='block';
@@ -139,6 +146,9 @@
                                 tre25.style.display='block';
                                 tre26.style.display='block';
                                 tre27.style.display='block';
+                                tre28.style.display='block';
+                                tre29.style.display='block';
+                                tre210.style.display='block';
                             }else{
                                 tre21.style.display='none';
                                 tre22.style.display='none';
@@ -147,11 +157,15 @@
                                 tre25.style.display='none';
                                 tre26.style.display='none';
                                 tre27.style.display='none';
+                                tre28.style.display='none';
+                                tre29.style.display='none';
+                                tre210.style.display='none';
+                                
                             }
                         </script>
                     </div>
                     <div class="flex">
-                        <p id="tre31" style="display: block;"><script>
+                        <p style="display: block;" id="tre31"><script>
                             var a=Number(localStorage.getItem("robot"))-1;
                             if (a>10){
                                 document.write("<span style=' white-space:pre;'>"+"人工智能 結衣　　 "+"+"+String(a-10)+"</span>");
@@ -159,11 +173,11 @@
                                 document.write("<span style=' white-space:pre;'>"+"旅行用機器人 結衣 "+"+"+String(a)+"</span>");
                             }
                         </script></p>
-                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                        <p id="tre32">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
                         <button class="btn btn-primary" id="tre33" onClick="takerobot()" style="display: none;">裝備</button>
                     </div>
                     <div class="flex">
-                        <p id="tre32" style="display: block;"><script>
+                        <p style="display: block;" id="tre34"><script>
                             var a=Number(localStorage.getItem("robot"));
                             if (a>10){
                                 document.write("<span style=' white-space:pre;'>"+"具有相當程度的智慧，能夠理解人類的語言　　　　　　　"+"</span>");
@@ -171,18 +185,18 @@
                                 document.write("<span style=' white-space:pre;'>"+"在戰鬥的時候帶上她吧，她能在戰鬥的時候幫你加油打氣。"+"</span>");
                             }
                         </script></p>
-                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
-                        <button class="btn btn-primary" id="tre34" onClick="downrobot()" style="display: none;">卸下</button>
+                        <p id="tre35">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                        <button class="btn btn-primary" id="tre36" onClick="downrobot()" style="display: none;">卸下</button>
                     </div>
                     <div class="flex">
-                        <p></p>
-                        <button class="btn btn-primary" id="tre35" onClick="uprobot()" style="display: none;">升級</button>
-                        <p>升級所需材料：未開放</p>
+                        <p id="tre37"></p>
+                        <button class="btn btn-primary" id="tre38" onClick="uprobot()" style="display: none;">升級</button>
+                        <p id="tre39">升級所需材料：未開放</p>
                     </div>
                     <div class="flex">
-                        <br id="tre36" style="display: none;">
+                        <br id="tre310" style="display: none;">
                         <script>
-                            if(localStorage.getItem("robot")>='1'){
+                            if(Number(localStorage.getItem("robot"))>=1){
                                 tre31.style.display='block';
                                 tre32.style.display='block';
                                 tre33.style.display='block';
@@ -190,6 +204,9 @@
                                 tre35.style.display='block';
                                 tre36.style.display='block';
                                 tre37.style.display='block';
+                                tre38.style.display='block';
+                                tre39.style.display='block';
+                                tre310.style.display='block';
                             }else{
                                 tre31.style.display='none';
                                 tre32.style.display='none';
@@ -198,28 +215,33 @@
                                 tre35.style.display='none';
                                 tre36.style.display='none';
                                 tre37.style.display='none';
+                                tre38.style.display='none';
+                                tre39.style.display='none';
+                                tre310.style.display='none';
+                                
+                            }
+                        </script>
+                        <script>
+                            $('#tre13').attr('disabled', true);
+                            $('#tre23').attr('disabled', true);
+                            $('#tre33').attr('disabled', true);
+                            $('#tre16').attr('disabled', true);
+                            $('#tre26').attr('disabled', true);
+                            $('#tre36').attr('disabled', true);
+                            if(localStorage.getItem("weapon")=="knife"){
+                                $('#tre16').attr('disabled', false);
+                            }else if(localStorage.getItem("weapon")=="phone"){
+                                $('#tre26').attr('disabled', false);
+                            }else if(localStorage.getItem("weapon")=="robot"){
+                                $('#tre36').attr('disabled', false);
+                            }else{
+                                $('#tre13').attr('disabled', false);
+                                $('#tre23').attr('disabled', false);
+                                $('#tre33').attr('disabled', false);
                             }
                         </script>
                     </div>
-                    <script>
-                        $('#tre13').attr('disabled', true);
-                        $('#tre23').attr('disabled', true);
-                        $('#tre33').attr('disabled', true);
-                        $('#tre14').attr('disabled', true);
-                        $('#tre24').attr('disabled', true);
-                        $('#tre34').attr('disabled', true);
-                        if(localStorage.getItem("weapon")=="knife"){
-                            $('#tre14').attr('disabled', false);
-                        }else if(localStorage.getItem("weapon")=="phone"){
-                            $('#tre24').attr('disabled', false);
-                        }else if(localStorage.getItem("weapon")=="robot"){
-                            $('#tre34').attr('disabled', false);
-                        }else{
-                            $('#tre13').attr('disabled', false);
-                            $('#tre23').attr('disabled', false);
-                            $('#tre33').attr('disabled', false);
-                        }
-                    </script>
+                    
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-8 col-sm-5 col-6">
