@@ -1,1 +1,1061 @@
-(function(_0x348901,_0x227082){var _0x4cee31=_0x2b4e,_0x3fe9f7=_0x348901();while(!![]){try{var _0x3c13ce=-parseInt(_0x4cee31(0x1f9))/0x1*(parseInt(_0x4cee31(0x1e1))/0x2)+-parseInt(_0x4cee31(0x218))/0x3+parseInt(_0x4cee31(0x1e4))/0x4+-parseInt(_0x4cee31(0x1b5))/0x5+parseInt(_0x4cee31(0x200))/0x6*(parseInt(_0x4cee31(0x1c8))/0x7)+parseInt(_0x4cee31(0x1af))/0x8*(parseInt(_0x4cee31(0x1f7))/0x9)+parseInt(_0x4cee31(0x1f2))/0xa*(parseInt(_0x4cee31(0x214))/0xb);if(_0x3c13ce===_0x227082)break;else _0x3fe9f7['push'](_0x3fe9f7['shift']());}catch(_0x300723){_0x3fe9f7['push'](_0x3fe9f7['shift']());}}}(_0x3fee,0xe0b6f));function goback(){var _0x1bb886=_0x2b4e;localStorage[_0x1bb886(0x1c5)](_0x1bb886(0x1f5))==null&&(localStorage[_0x1bb886(0x1c5)](_0x1bb886(0x1f8))==='和人'?localStorage['setItem'](_0x1bb886(0x1dc),_0x1bb886(0x1bf)):localStorage[_0x1bb886(0x1c0)](_0x1bb886(0x1dc),'無業'),localStorage['getItem']('cookie')===null&&localStorage[_0x1bb886(0x1c0)](_0x1bb886(0x1e3),'0'),localStorage[_0x1bb886(0x1c5)](_0x1bb886(0x1b3))===null&&localStorage[_0x1bb886(0x1c0)]('cookie','0'),localStorage[_0x1bb886(0x1c0)]('hp','10'),localStorage[_0x1bb886(0x1c0)]('g1',String(2.5+0.1*Number(localStorage[_0x1bb886(0x1c5)](_0x1bb886(0x1e9))))),localStorage[_0x1bb886(0x1c0)]('g2',String(0x1+Number(localStorage[_0x1bb886(0x1c5)](_0x1bb886(0x20f))))),localStorage['setItem']('g3',String(0x1+Number(localStorage['getItem'](_0x1bb886(0x1ba))))),localStorage[_0x1bb886(0x1c0)]('j1',String(0x5+Number(localStorage['getItem'](_0x1bb886(0x202))))),localStorage[_0x1bb886(0x1c0)]('l1',String(0xa+Number(localStorage[_0x1bb886(0x1c5)](_0x1bb886(0x1e0))))),localStorage['setItem']('l2',String(0x1+Number(localStorage[_0x1bb886(0x1c5)](_0x1bb886(0x1d6))))),localStorage[_0x1bb886(0x1c0)]('i1',String(0x1+Number(localStorage[_0x1bb886(0x1c5)](_0x1bb886(0x1d5))))),localStorage[_0x1bb886(0x1c0)]('m1',String(0x5+Number(localStorage['getItem'](_0x1bb886(0x20e))))),localStorage[_0x1bb886(0x1c0)](_0x1bb886(0x1fa),'100'),localStorage[_0x1bb886(0x1c0)](_0x1bb886(0x1c7),_0x1bb886(0x1be)),localStorage[_0x1bb886(0x1c0)](_0x1bb886(0x20c),'100'),localStorage['setItem']('j11',_0x1bb886(0x1be)),localStorage[_0x1bb886(0x1c0)](_0x1bb886(0x1c1),_0x1bb886(0x1be)),localStorage['setItem']('l21',_0x1bb886(0x1be)),localStorage[_0x1bb886(0x1c0)](_0x1bb886(0x1d4),'100'),localStorage[_0x1bb886(0x1c0)]('m11',_0x1bb886(0x1be)),localStorage[_0x1bb886(0x1c0)](_0x1bb886(0x1e9),'0'),localStorage[_0x1bb886(0x1c0)](_0x1bb886(0x1ba),'0'),localStorage['setItem']('getg2','0'),localStorage['setItem'](_0x1bb886(0x202),'0'),localStorage[_0x1bb886(0x1c0)](_0x1bb886(0x1e0),'0'),localStorage[_0x1bb886(0x1c0)](_0x1bb886(0x1eb),'0'),localStorage['setItem'](_0x1bb886(0x1d5),'0'),localStorage[_0x1bb886(0x1c0)]('getm1','0'),localStorage['setItem']('weapon','0'),localStorage[_0x1bb886(0x1c0)](_0x1bb886(0x217),'0'),localStorage[_0x1bb886(0x1c0)]('do','0'),localStorage[_0x1bb886(0x1c0)](_0x1bb886(0x1b1),'2'),localStorage[_0x1bb886(0x1c0)]('goback','0'));}function again(){var _0xd2dcf4=_0x2b4e;if(localStorage[_0xd2dcf4(0x1c5)](_0xd2dcf4(0x1c2))==null){localStorage[_0xd2dcf4(0x1c0)](_0xd2dcf4(0x215),localStorage[_0xd2dcf4(0x1c5)](_0xd2dcf4(0x217))),localStorage[_0xd2dcf4(0x1c0)](_0xd2dcf4(0x222),localStorage[_0xd2dcf4(0x1c5)](_0xd2dcf4(0x1dc))),localStorage[_0xd2dcf4(0x1c0)](_0xd2dcf4(0x20d),localStorage['getItem']('g1')),localStorage[_0xd2dcf4(0x1c0)](_0xd2dcf4(0x212),localStorage['getItem']('g2')),localStorage[_0xd2dcf4(0x1c0)](_0xd2dcf4(0x1d0),localStorage[_0xd2dcf4(0x1c5)]('g3')),localStorage[_0xd2dcf4(0x1c0)]('j01',localStorage['getItem']('j1')),localStorage[_0xd2dcf4(0x1c0)](_0xd2dcf4(0x1e2),localStorage[_0xd2dcf4(0x1c5)]('l1')),localStorage[_0xd2dcf4(0x1c0)](_0xd2dcf4(0x1f3),localStorage[_0xd2dcf4(0x1c5)]('l2')),localStorage[_0xd2dcf4(0x1c0)]('i01',localStorage[_0xd2dcf4(0x1c5)]('i1')),localStorage[_0xd2dcf4(0x1c0)](_0xd2dcf4(0x1f6),localStorage[_0xd2dcf4(0x1c5)]('m1')),localStorage[_0xd2dcf4(0x1c5)](_0xd2dcf4(0x1e8),'1'),localStorage['getItem']('part','1'),localStorage[_0xd2dcf4(0x1c5)](_0xd2dcf4(0x207),'0');localStorage[_0xd2dcf4(0x1c5)](_0xd2dcf4(0x1d9))==null&&localStorage[_0xd2dcf4(0x1c0)](_0xd2dcf4(0x1d9),'30');var _0x2e304f=Number(localStorage['getItem']('died'))+0x1;localStorage['setItem']('died',_0x2e304f[_0xd2dcf4(0x211)]()),localStorage['setItem'](_0xd2dcf4(0x1c2),0x0),localStorage[_0xd2dcf4(0x1bc)](_0xd2dcf4(0x1f5));var _0x3ccc5f=Number(localStorage[_0xd2dcf4(0x1c5)](_0xd2dcf4(0x1d9)))+0x1;Number(localStorage[_0xd2dcf4(0x1c5)](_0xd2dcf4(0x217)))>=0x1e&&localStorage['setItem'](_0xd2dcf4(0x1d9),_0x3ccc5f[_0xd2dcf4(0x211)]()),goback();}}async function gohigh(){var _0x2eeb74=_0x2b4e;down(),await delay(0x5);var _0x2acec0=localStorage[_0x2eeb74(0x1c5)](_0x2eeb74(0x1dc));work1(_0x2acec0);var _0x35fb53=Number(localStorage[_0x2eeb74(0x1c5)](_0x2eeb74(0x1fa)))+0x3,_0x3e8f06=Number(localStorage['getItem'](_0x2eeb74(0x1e5)))+0x1,_0x2a5024=Number(localStorage[_0x2eeb74(0x1c5)](_0x2eeb74(0x1c7)))-0x3,_0x58840c=Number(localStorage[_0x2eeb74(0x1c5)](_0x2eeb74(0x20c)))-0x1;$('#1')[_0x2eeb74(0x1cb)](_0x2eeb74(0x1c4)),gobig(_0x35fb53,_0x2a5024,_0x58840c,_0x3e8f06,-0x1,-0x1,-0x1,-0x1),open();}async function gofat(){var _0x37e2bf=_0x2b4e;down(),await delay(0x5);var _0x3bdbbc=localStorage['getItem'](_0x37e2bf(0x1dc));work1(_0x3bdbbc);var _0x1cd8fe=Number(localStorage['getItem']('g31'))+0x9,_0xabcc7e=Number(localStorage[_0x37e2bf(0x1c5)](_0x37e2bf(0x1d4)))-0x5,_0xdf94fa=Number(localStorage[_0x37e2bf(0x1c5)](_0x37e2bf(0x1fa)))-0x3,_0x2c24bf=Number(localStorage[_0x37e2bf(0x1c5)]('g21'))-0x1,_0x18514f=Number(localStorage['getItem']('m11'))-0x1;$('#1')['append']('<div>吃完垃圾食物更高興了。</div>'),gobig(_0xdf94fa,_0x2c24bf,_0x1cd8fe,-0x1,-0x1,-0x1,_0xabcc7e,_0x18514f),open();}async function backfat(){var _0x3be265=_0x2b4e;down(),await delay(0x5);var _0x53500b=localStorage[_0x3be265(0x1c5)](_0x3be265(0x1dc));work1(_0x53500b);var _0x4d3d5d=Number(localStorage[_0x3be265(0x1c5)](_0x3be265(0x1e5)))+0x4,_0x37d4d5=Number(localStorage[_0x3be265(0x1c5)]('g21'))+0x3,_0x5803ac=Number(localStorage['getItem']('l11'))+0x1,_0x540b2d=Number(localStorage[_0x3be265(0x1c5)]('m11'))+0x1,_0x1a7bff=Number(localStorage[_0x3be265(0x1c5)](_0x3be265(0x20c)))-0x7,_0x4a3872=Number(localStorage['getItem'](_0x3be265(0x1d4)))-0x1;$('#1')[_0x3be265(0x1cb)]('<div>到底有誰會想吃這鬼東西。</div>'),gobig(-0x1,_0x37d4d5,_0x1a7bff,_0x4d3d5d,_0x5803ac,-0x1,_0x4a3872,_0x540b2d),open();}async function badeye(){var _0x211636=_0x2b4e;down(),await delay(0x5);var _0x2fcb7b=localStorage[_0x211636(0x1c5)]('work');work1(_0x2fcb7b);var _0x24f3f8=Number(localStorage['getItem'](_0x211636(0x1d4)))+0x4,_0x1b23a7=Number(localStorage[_0x211636(0x1c5)](_0x211636(0x20c)))*1.1,_0x133354=Number(localStorage['getItem'](_0x211636(0x1c7)))*0.8,_0x252891=Number(localStorage[_0x211636(0x1c5)](_0x211636(0x1c1)))-0x7,_0x1395aa=Number(localStorage[_0x211636(0x1c5)]('j11'))-0x1;$('#1')[_0x211636(0x1cb)](_0x211636(0x1fc)),gobig(-0x1,_0x133354,_0x1b23a7,_0x1395aa,_0x252891,-0x1,_0x24f3f8,-0x1),$(_0x211636(0x1df))[_0x211636(0x1ce)](_0x211636(0x1dd),![]),open();}function _0x3fee(){var _0x377eae=['toString','g02','<div>你獲得了從','44COzByF','age0','<div>你在大學教書</div>','age','3432858ifiiMo','<div>你寫了一篇論文，但沒有通過考試</div>','個山羌糞便</div>','跳級生','#train8','塊錢</div>','<div>你還沒找到工作</div>','個山羊奶</div>','m11','<div>智力成長了','work0','j01','antler','kg</div>','<div>發家致富的料理。</div>','3434488CmzEWI','#train6','exp','gmilk','money','cloth','8018990yPKeKn','<div>你寫了一篇論文</div>','訓導主任','書呆子','個油漆</div>','getg3','splice','removeItem','i01','100','虛假的桐谷','setItem','l11','goagain','l21','<div>長長的高丸嘗起來真美味。</div>','getItem','初音幫','g21','7630BSBzQr','paint','<div>你可能得先把裝備卸下來。</div>','append','<div>一個大男人到底能化什麼妝。</div>','大學教授','attr','<div>身高成長了','g03','<div>幸運成長了','<div>請問，你的材料呢？</div>','<div>魅力成長了','i11','geti1','getj2','weapon','<div>跳躍力成長了','ageend','<div>你可能需要一些幫手。</div>','#train2','work','disabled','個玻璃碎片</div>','#train1','getl1','102gLPnvv','l01','cookie','6069364zMBGEU','j11','#train4','tofu','chapter','getg1','teech','getl2','cm</div>','個火藥</div>','#train3','<div>視力成長了','#train7','延畢生','4432830FYersb','l02','<div>你長大了，成果如下</div>','goback','m01','9CoKyjH','name','23019IYXROa','g11','<div>看三小還想星爆啊。</div>','<div>刀劍神域才不是卡通。</div>','gear','身上掉下來的','#train9','6180dQZTjT','random','getj1','研究生','wool','#train5','gunpow','did','畢業生','</div>','<div>體重成長了','stool','g31','g01','getm1','getg2','grass'];_0x3fee=function(){return _0x377eae;};return _0x3fee();}function _0x2b4e(_0x22b698,_0x2d4086){var _0x3feed6=_0x3fee();return _0x2b4e=function(_0x2b4eb8,_0xaa873d){_0x2b4eb8=_0x2b4eb8-0x1ab;var _0x3b4854=_0x3feed6[_0x2b4eb8];return _0x3b4854;},_0x2b4e(_0x22b698,_0x2d4086);}async function useeye(){var _0x3b35ce=_0x2b4e;down(),await delay(0x5);var _0x1b5189=localStorage[_0x3b35ce(0x1c5)](_0x3b35ce(0x1dc));work1(_0x1b5189);var _0xdc05b9=parseInt(Math[_0x3b35ce(0x201)]()*0x7),_0x16438c=[_0x3b35ce(0x1fa),_0x3b35ce(0x1c7),'g31','j11',_0x3b35ce(0x1c1),_0x3b35ce(0x1d4),'m11'],_0x5b7b48=parseInt(Number(localStorage[_0x3b35ce(0x1c5)](_0x16438c[_0xdc05b9]))*1.1);localStorage[_0x3b35ce(0x1c0)](_0x16438c[_0xdc05b9],_0x5b7b48[_0x3b35ce(0x211)]());var _0x50c863=_0x16438c[_0x3b35ce(0x1bb)](_0xdc05b9,0x1),_0x240e9b=parseInt(Math[_0x3b35ce(0x201)]()*0x7),_0x3940e7=parseInt(Number(localStorage[_0x3b35ce(0x1c5)](_0x50c863[_0x240e9b]))*0.7);localStorage['setItem'](_0x50c863[_0x240e9b],_0x3940e7[_0x3b35ce(0x211)]());var _0x11ca66=parseInt(Number(localStorage['getItem'](_0x3b35ce(0x1c3)))*1.1);$('#1')[_0x3b35ce(0x1cb)](_0x3b35ce(0x1fb)),gobig(-0x1,-0x1,-0x1,-0x1,-0x1,_0x11ca66,-0x1,-0x1),open();}async function gopretty(){var _0x22e2de=_0x2b4e;down(),await delay(0x5);var _0x4bca52=localStorage[_0x22e2de(0x1c5)](_0x22e2de(0x1dc));work1(_0x4bca52);var _0x229678=Number(localStorage['getItem'](_0x22e2de(0x220)))*1.2,_0x15fd33=Number(localStorage[_0x22e2de(0x1c5)]('g31'))-0x3,_0x12102d=Number(localStorage[_0x22e2de(0x1c5)](_0x22e2de(0x1c7)))-0x2,_0x52be03=Number(localStorage[_0x22e2de(0x1c5)](_0x22e2de(0x1fa)))-0x2,_0x39b62e=Number(localStorage[_0x22e2de(0x1c5)](_0x22e2de(0x1d4)))-0x1;$('#1')[_0x22e2de(0x1cb)](_0x22e2de(0x1cc)),gobig(_0x52be03,_0x12102d,_0x15fd33,-0x1,-0x1,-0x1,_0x39b62e,_0x229678),gobig(-0x1,-0x1,-0x1,-0x1,-0x1,-0x1,-0x1,-0x1),open();}async function getcookie(){var _0x4ad43c=_0x2b4e;down(),await delay(0x5);var _0x1907c6=localStorage[_0x4ad43c(0x1c5)](_0x4ad43c(0x1dc));if(_0x1907c6=='童子軍'){var _0xd5bf3e=Number(localStorage[_0x4ad43c(0x1c5)](_0x4ad43c(0x1e3)))+0xa;localStorage['setItem'](_0x4ad43c(0x1e3),String(_0xd5bf3e)),$('#1')['append']('<div>十塊香噴噴的餅乾出爐了。</div>'),gobig(-0x1,-0x1,-0x1,-0x1,-0x1,-0x1,-0x1,-0x1);}else $('#1')[_0x4ad43c(0x1cb)](_0x4ad43c(0x1da));open();}async function gettofu(){var _0x14ad91=_0x2b4e;down(),await delay(0x5);var _0x3e801f=localStorage[_0x14ad91(0x1c5)]('work'),_0xd0821f=Number(localStorage[_0x14ad91(0x1c5)](_0x14ad91(0x20b)));if(_0x3e801f=='廚師'){if(_0xd0821f>=0x1){var _0x13bb3f=Number(localStorage[_0x14ad91(0x1c5)](_0x14ad91(0x1e7)))+0x1;localStorage['setItem'](_0x14ad91(0x1e7),String(_0x13bb3f));var _0xd0821f=Number(localStorage[_0x14ad91(0x1c5)](_0x14ad91(0x20b)))-0x1;localStorage[_0x14ad91(0x1c0)]('stool',String(_0xd0821f));var _0x54a1c3=Number(localStorage[_0x14ad91(0x1c5)]('g21'))*0x2;$('#1')[_0x14ad91(0x1cb)](_0x14ad91(0x1ae)),gobig(-0x1,_0x54a1c3,-0x1,-0x1,-0x1,-0x1,-0x1,-0x1);}else $('#1')['append'](_0x14ad91(0x1d2));}else $('#1')['append']('<div>你可能需要一些專業訓練。</div>');open();}async function getg2g3(){var _0x40488b=_0x2b4e;down(),await delay(0x5);var _0x56c803=Number(localStorage[_0x40488b(0x1c5)]('g1')),_0x3330d8=Number(localStorage[_0x40488b(0x1c5)]('g2')),_0x14e5e1=Number(localStorage[_0x40488b(0x1c5)]('g3')),_0x1a3bed=Number(localStorage['getItem'](_0x40488b(0x1d7)));_0x1a3bed==0x0?(x=parseInt(0x64*_0x14e5e1/(_0x56c803+_0x3330d8+_0x14e5e1)),$('#1')[_0x40488b(0x1cb)]('<div>經過了精密的計算後，你的體脂率為'+String(x)+'%'+_0x40488b(0x209)),gobig(-0x1,-0x1,-0x1,-0x1,-0x1,-0x1,-0x1,-0x1)):$('#1')['append'](_0x40488b(0x1ca)),open();}function gobig(_0x1c12d3,_0x39b349,_0x58a8a3,_0x32968b,_0x76cd82,_0x486bc8,_0x2f909c,_0x16a6a0){var _0xe09546=_0x2b4e;g11correction(),g21correction(),g31correction(),j11correction(),l11correction(),l21correction(),i11correction(),m11correction();var _0x51c7a4=Number(localStorage[_0xe09546(0x1c5)]('do'))+0x1,_0x57c0cf=Number(localStorage['getItem']('age')),_0x367a49=Number(localStorage[_0xe09546(0x1c5)](_0xe09546(0x217)))+0x1,_0x49df86=Number(localStorage[_0xe09546(0x1c5)](_0xe09546(0x1d9)));if(_0x57c0cf>=0x23)var _0x2d244d=_0x57c0cf;else{if(_0x57c0cf>=0x14)var _0x2d244d=_0x57c0cf+0x14;else var _0x2d244d=_0x57c0cf*0x2+0x2;}if(_0x367a49>=0x23)var _0x206347=_0x367a49;else{if(_0x367a49>=0x14)var _0x206347=_0x367a49+0x14;else var _0x206347=_0x367a49*0x2+0x2;}if(_0x51c7a4>=_0x2d244d){g01=Number(localStorage[_0xe09546(0x1c5)](_0xe09546(0x20d))),g02=Number(localStorage[_0xe09546(0x1c5)](_0xe09546(0x212))),g03=Number(localStorage[_0xe09546(0x1c5)](_0xe09546(0x1d0))),j01=Number(localStorage[_0xe09546(0x1c5)](_0xe09546(0x1ab))),l01=Number(localStorage[_0xe09546(0x1c5)](_0xe09546(0x1e2))),l02=Number(localStorage[_0xe09546(0x1c5)](_0xe09546(0x1f3))),i01=Number(localStorage[_0xe09546(0x1c5)](_0xe09546(0x1bd))),m01=Number(localStorage[_0xe09546(0x1c5)](_0xe09546(0x1f6))),_0x1c12d3=parseInt(Number(localStorage[_0xe09546(0x1c5)]('g11'))/0x5),_0x39b349=parseInt(Number(localStorage[_0xe09546(0x1c5)](_0xe09546(0x1c7)))/0x5),_0x58a8a3=parseInt(Number(localStorage[_0xe09546(0x1c5)](_0xe09546(0x20c)))/0x5),_0x32968b=parseInt(Number(localStorage[_0xe09546(0x1c5)](_0xe09546(0x1e5)))/0x5),_0x76cd82=parseInt(Number(localStorage[_0xe09546(0x1c5)](_0xe09546(0x1c1)))/0x5),_0x486bc8=parseInt(Number(localStorage[_0xe09546(0x1c5)](_0xe09546(0x1c3)))/0x5),_0x2f909c=parseInt(Number(localStorage['getItem'](_0xe09546(0x1d4)))/0x5),_0x16a6a0=parseInt(Number(localStorage[_0xe09546(0x1c5)](_0xe09546(0x220)))/0x5);var _0x4d0c40=Number(localStorage['getItem']('g1')),_0x3758e4=Number(localStorage[_0xe09546(0x1c5)]('g2')),_0x1b5515=Number(localStorage[_0xe09546(0x1c5)]('g3')),_0x402e60=Number(localStorage[_0xe09546(0x1c5)]('j1')),_0x1f4a6b=Number(localStorage[_0xe09546(0x1c5)]('l1')),_0x50db4c=Number(localStorage['getItem']('l2')),_0x29d231=Number(localStorage[_0xe09546(0x1c5)]('i1')),_0x1bea0a=Number(localStorage[_0xe09546(0x1c5)]('m1')),_0x4d84a3=_0x4d0c40+_0x1c12d3*0.0095*(0x3e8+g01)/0x3e8,_0x5e9e39=_0x3758e4+_0x39b349*0.01*(0x2710+g02)*(0x64+g01)/0xf4240,_0x436142=_0x1b5515+_0x58a8a3*0.01*(0x2710+g03)*(0x64+g01)/0xf4240,_0x9791b=_0x402e60+_0x32968b*0.012*(0x2710+j01)*(0x64+g01)/0xf4240,_0x5abfb9=_0x1f4a6b+_0x76cd82*0.013*(0x2710+l02)*(0x64+g01)/0xf4240,_0x41ce7a=_0x50db4c+_0x486bc8*0.009*(0x2710+l02)*(0x64+g01)/0xf4240,_0x358976=_0x29d231+_0x2f909c*0.009*(0x2710+i01)*(0x64+g01)/0xf4240,_0xbbac5d=_0x1bea0a+_0x16a6a0*0.014*(0x2710+m01)*(0x64+g01)/0xf4240,_0x5bcb8c=Number(localStorage[_0xe09546(0x1c5)]('hp'))+0xa*(0x64+g01)/0x64;_0x4d84a3>0x11+g01&&(_0x4d84a3=0x11+g01);_0x5e9e39>0x2d+g02&&(_0x5e9e39=0x2d+g02);_0x436142>0x2d+g03&&(_0x436142=0x2d+g03);_0x5e9e39+_0x436142>_0x4d84a3*0x5&&(_0x436142=_0x436142*0.9,_0x5e9e39=_0x5e9e39*0.95);_0x9791b>0x3c+j01&&(_0x9791b=0x3c+j01);_0x5abfb9>0x3c+l01&&(_0x5abfb9=0x3c+l01);_0x41ce7a>0x32+l02&&(_0x41ce7a=0x32+l02);_0x358976>0xb4+i01&&(_0x358976=0xb4+i01);_0xbbac5d>0x64+m01&&(_0xbbac5d=0x64+m01);_0x57c0cf>_0x49df86&&(_0x4d84a3=_0x4d84a3*0.95,_0x5e9e39=_0x5e9e39*0.85,_0x436142=_0x436142*0.95,_0x5abfb9=_0x5abfb9*0.95,_0x358976=_0x358976*0.99,_0xbbac5d=_0xbbac5d*0.85);localStorage[_0xe09546(0x1c0)]('hp',_0x5bcb8c[_0xe09546(0x211)]()),localStorage[_0xe09546(0x1c0)]('g1',_0x4d84a3[_0xe09546(0x211)]()),localStorage[_0xe09546(0x1c0)]('g11',_0xe09546(0x1be)),localStorage['setItem']('g2',_0x5e9e39['toString']()),localStorage[_0xe09546(0x1c0)](_0xe09546(0x1c7),_0xe09546(0x1be)),localStorage[_0xe09546(0x1c0)]('g3',_0x436142[_0xe09546(0x211)]()),localStorage[_0xe09546(0x1c0)](_0xe09546(0x20c),_0xe09546(0x1be)),localStorage[_0xe09546(0x1c0)]('j1',_0x9791b['toString']()),localStorage['setItem'](_0xe09546(0x1e5),'100'),localStorage[_0xe09546(0x1c0)]('l1',_0x5abfb9[_0xe09546(0x211)]()),localStorage[_0xe09546(0x1c0)]('l11',_0xe09546(0x1be)),localStorage[_0xe09546(0x1c0)]('l2',_0x41ce7a[_0xe09546(0x211)]()),localStorage[_0xe09546(0x1c0)](_0xe09546(0x1c3),_0xe09546(0x1be)),localStorage['setItem']('i1',_0x358976[_0xe09546(0x211)]()),localStorage['setItem'](_0xe09546(0x1d4),'100'),localStorage[_0xe09546(0x1c0)]('m1',_0xbbac5d[_0xe09546(0x211)]()),localStorage[_0xe09546(0x1c0)](_0xe09546(0x220),_0xe09546(0x1be)),localStorage['setItem']('do','0'),localStorage['setItem'](_0xe09546(0x217),_0x367a49['toString']()),localStorage[_0xe09546(0x1c0)](_0xe09546(0x1b1),String(_0x206347));let _0x457f4b='';_0x457f4b+=_0xe09546(0x1f4),_0x457f4b+=_0xe09546(0x1cf)+String(parseInt((_0x4d84a3-_0x4d0c40)*0x3e8)/0x64)+'cm</div>',_0x457f4b+=_0xe09546(0x20a)+String(parseInt((_0x4d84a3+_0x5e9e39+_0x436142-_0x4d0c40-_0x3758e4-_0x1b5515)*0x64)/0x64)+_0xe09546(0x1ad),_0x457f4b+='<div>跳躍力成長了'+String(parseInt((_0x9791b-_0x402e60)*0x64)/0x64)+'</div>',_0x457f4b+=_0xe09546(0x1ef)+String(parseInt((_0x5abfb9-_0x1f4a6b)*0x64)/0x64)+_0xe09546(0x209),_0x457f4b+=_0xe09546(0x1d1)+String(parseInt((_0x41ce7a-_0x50db4c)*0x64)/0x64)+_0xe09546(0x209),_0x457f4b+='<div>智力成長了'+String(parseInt((_0x358976-_0x29d231)*0x64)/0x64)+_0xe09546(0x209),_0x457f4b+=_0xe09546(0x1d3)+String(parseInt((_0xbbac5d-_0x1bea0a)*0x64)/0x64)+_0xe09546(0x209),$('#1')[_0xe09546(0x1cb)](_0x457f4b);}else _0x1c12d3>=0x0&&localStorage[_0xe09546(0x1c0)](_0xe09546(0x1fa),String(_0x1c12d3)),_0x39b349>=0x0&&localStorage[_0xe09546(0x1c0)](_0xe09546(0x1c7),String(_0x39b349)),_0x58a8a3>=0x0&&localStorage[_0xe09546(0x1c0)](_0xe09546(0x20c),String(_0x58a8a3)),_0x32968b>=0x0&&localStorage[_0xe09546(0x1c0)](_0xe09546(0x1e5),String(_0x32968b)),_0x76cd82>=0x0&&localStorage[_0xe09546(0x1c0)](_0xe09546(0x1c1),String(_0x76cd82)),_0x486bc8>=0x0&&localStorage['setItem'](_0xe09546(0x1c3),String(_0x486bc8)),_0x2f909c>=0x0&&localStorage[_0xe09546(0x1c0)](_0xe09546(0x1d4),String(_0x2f909c)),_0x16a6a0>=0x0&&localStorage[_0xe09546(0x1c0)](_0xe09546(0x220),String(_0x16a6a0)),localStorage[_0xe09546(0x1c0)]('do',_0x51c7a4['toString']());}function work1(_0x524864){var _0x486973=_0x2b4e,_0x26f3c6=Number(localStorage['getItem'](_0x486973(0x217)));if(_0x524864===_0x486973(0x21b)){var _0x5ab02d=Number(localStorage[_0x486973(0x1c5)]('do'))+0x1,_0x17199d=Number(localStorage['getItem']('i11'))*1.5,_0x18dfe7=Number(localStorage['getItem'](_0x486973(0x20c)))-0x5;localStorage['setItem'](_0x486973(0x1d4),_0x17199d[_0x486973(0x211)]()),localStorage[_0x486973(0x1c0)](_0x486973(0x20c),_0x18dfe7[_0x486973(0x211)]()),localStorage[_0x486973(0x1c0)]('do',_0x5ab02d[_0x486973(0x211)]());if(_0x26f3c6==0x1b){var _0x1100b5=Number(localStorage['getItem']('i1'));if(_0x1100b5<0x46)localStorage[_0x486973(0x1c0)](_0x486973(0x1dc),_0x486973(0x1f1));else _0x1100b5<0x64?localStorage['setItem'](_0x486973(0x1dc),_0x486973(0x208)):localStorage[_0x486973(0x1c0)](_0x486973(0x1dc),_0x486973(0x1cd));}let _0x31eb75='';_0x31eb75+='<div>你寫了一篇論文</div>',$('#1')['append'](_0x31eb75);}else{if(_0x524864===_0x486973(0x203)){var _0x5ab02d=Number(localStorage['getItem']('do'))+0x1,_0x17199d=Number(localStorage['getItem'](_0x486973(0x1d4)))*1.2,_0x18dfe7=Number(localStorage[_0x486973(0x1c5)](_0x486973(0x20c)))-0xa;localStorage[_0x486973(0x1c0)](_0x486973(0x1d4),_0x17199d[_0x486973(0x211)]()),localStorage[_0x486973(0x1c0)](_0x486973(0x20c),_0x18dfe7['toString']()),localStorage[_0x486973(0x1c0)]('do',_0x5ab02d[_0x486973(0x211)]()),g31correction();if(_0x26f3c6==0x1b){var _0x1100b5=Number(localStorage['getItem']('i1'));_0x1100b5<0x46?localStorage[_0x486973(0x1c0)](_0x486973(0x1dc),_0x486973(0x1f1)):localStorage[_0x486973(0x1c0)](_0x486973(0x1dc),'畢業生');}let _0x1e9cf2='';_0x1e9cf2+='<div>你做了一篇研究</div>',$('#1')[_0x486973(0x1cb)](_0x1e9cf2);}else{if(_0x524864==='延畢生'){var _0x5ab02d=Number(localStorage[_0x486973(0x1c5)]('do'))+0x1,_0x17199d=Number(localStorage[_0x486973(0x1c5)]('i11'))*1.1,_0x18dfe7=Number(localStorage['getItem'](_0x486973(0x20c)))-0x14;localStorage[_0x486973(0x1c0)](_0x486973(0x1d4),_0x17199d[_0x486973(0x211)]()),localStorage[_0x486973(0x1c0)](_0x486973(0x20c),_0x18dfe7[_0x486973(0x211)]()),localStorage[_0x486973(0x1c0)]('do',_0x5ab02d[_0x486973(0x211)]()),g31correction();if(_0x26f3c6>=0x1b){var _0x1100b5=Number(localStorage['getItem']('i1'));if(_0x1100b5>0x46)localStorage['setItem'](_0x486973(0x1dc),_0x486973(0x208));else{let _0x3280b2='';_0x3280b2+=_0x486973(0x219),$('#1')[_0x486973(0x1cb)](_0x3280b2);}}else{let _0x332aec='';_0x332aec+=_0x486973(0x1b6),$('#1')['append'](_0x332aec);}}else{if(_0x524864===_0x486973(0x208)){var _0x5ab02d=Number(localStorage[_0x486973(0x1c5)]('do'))+0x1,_0x17199d=Number(localStorage[_0x486973(0x1c5)](_0x486973(0x1d4)))*1.15,_0x18dfe7=Number(localStorage['getItem'](_0x486973(0x20c)))-0x7;localStorage[_0x486973(0x1c0)](_0x486973(0x1d4),_0x17199d[_0x486973(0x211)]()),localStorage[_0x486973(0x1c0)](_0x486973(0x20c),_0x18dfe7[_0x486973(0x211)]()),localStorage['setItem']('do',_0x5ab02d['toString']()),g31correction();let _0x79e3f1='';_0x79e3f1+=_0x486973(0x21e),$('#1')[_0x486973(0x1cb)](_0x79e3f1);}else{if(_0x524864===_0x486973(0x1cd)){var _0x5ab02d=Number(localStorage[_0x486973(0x1c5)]('do'))+0x1,_0x17199d=Number(localStorage['getItem'](_0x486973(0x1d4)))*1.3,_0x18dfe7=Number(localStorage[_0x486973(0x1c5)](_0x486973(0x20c)))/0x2;localStorage['setItem'](_0x486973(0x1d4),_0x17199d[_0x486973(0x211)]()),localStorage[_0x486973(0x1c0)](_0x486973(0x20c),_0x18dfe7[_0x486973(0x211)]()),localStorage[_0x486973(0x1c0)]('do',_0x5ab02d['toString']());let _0x2db6fe='';_0x2db6fe+=_0x486973(0x216),$('#1')[_0x486973(0x1cb)](_0x2db6fe);}}}}}}function g11correction(){var _0x39bc78=_0x2b4e,_0x3dd7c8=Number(localStorage[_0x39bc78(0x1c5)](_0x39bc78(0x1fa))),_0x3f7c4e=Number(localStorage[_0x39bc78(0x1c5)](_0x39bc78(0x1c7)));_0x3dd7c8<0x0&&(_0x3f7c4e=_0x3f7c4e+_0x3dd7c8,_0x3f7c4e<0x0&&g21correction(),_0x3dd7c8=0x0),localStorage['setItem'](_0x39bc78(0x1fa),String(_0x3dd7c8)),localStorage['setItem'](_0x39bc78(0x1c7),String(_0x3f7c4e));}function g21correction(){var _0x298156=_0x2b4e,_0x30eb53=Number(localStorage[_0x298156(0x1c5)](_0x298156(0x1c7))),_0x24e867=Number(localStorage['getItem'](_0x298156(0x1e5)));_0x30eb53<0x0&&(_0x24e867=_0x24e867+_0x30eb53,_0x24e867<0x0&&j11correction(),_0x30eb53=0x0),localStorage[_0x298156(0x1c0)](_0x298156(0x1c7),String(_0x30eb53)),localStorage[_0x298156(0x1c0)]('j11',String(_0x24e867));}function j11correction(){var _0x440a09=_0x2b4e,_0x2079c8=Number(localStorage[_0x440a09(0x1c5)](_0x440a09(0x1e5))),_0x442a20=Number(localStorage['getItem']('i11'));_0x2079c8<0x0&&(_0x442a20=_0x442a20+_0x2079c8,_0x442a20<0x0&&(_0x442a20=0x0),_0x2079c8=0x0),localStorage[_0x440a09(0x1c0)]('j11',String(_0x2079c8)),localStorage[_0x440a09(0x1c0)](_0x440a09(0x1d4),String(_0x442a20));}function i11correction(){var _0x1ae494=_0x2b4e,_0x5debf8=Number(localStorage['getItem'](_0x1ae494(0x1d4))),_0x221831=Number(localStorage[_0x1ae494(0x1c5)]('g11'));_0x5debf8<0x0&&(_0x221831=_0x221831+_0x5debf8,_0x221831<0x0&&g11correction(),_0x5debf8=0x0),localStorage[_0x1ae494(0x1c0)](_0x1ae494(0x1d4),String(_0x5debf8)),localStorage[_0x1ae494(0x1c0)](_0x1ae494(0x1fa),String(_0x221831));}function g31correction(){var _0xe62fee=_0x2b4e,_0x1cf833=Number(localStorage[_0xe62fee(0x1c5)](_0xe62fee(0x20c))),_0x32068c=Number(localStorage[_0xe62fee(0x1c5)](_0xe62fee(0x1c7)));_0x1cf833<0x0&&(_0x32068c=_0x32068c+_0x1cf833,_0x32068c<0x0&&g21correction(),_0x1cf833=0x0),localStorage[_0xe62fee(0x1c0)](_0xe62fee(0x1c7),String(_0x32068c)),localStorage[_0xe62fee(0x1c0)]('g31',String(_0x1cf833));}function l11correction(){var _0x3e6186=_0x2b4e,_0x5284a7=Number(localStorage['getItem'](_0x3e6186(0x1c1))),_0x12788e=Number(localStorage[_0x3e6186(0x1c5)](_0x3e6186(0x1c7)));_0x5284a7<0x0&&(_0x12788e=_0x12788e+_0x5284a7,_0x12788e<0x0&&g21correction(),_0x5284a7=0x0),localStorage[_0x3e6186(0x1c0)](_0x3e6186(0x1c1),String(_0x5284a7)),localStorage['setItem']('g21',String(_0x12788e));}function l21correction(){var _0xd1f518=_0x2b4e,_0x24196e=Number(localStorage[_0xd1f518(0x1c5)](_0xd1f518(0x1c3))),_0x2cd920=Number(localStorage[_0xd1f518(0x1c5)]('i11'));_0x24196e<0x0&&(_0x2cd920=_0x2cd920+_0x24196e,_0x2cd920<0x0&&i11correction(),_0x24196e=0x0),localStorage['setItem'](_0xd1f518(0x1c3),String(_0x24196e)),localStorage[_0xd1f518(0x1c0)]('i11',String(_0x2cd920));}function m11correction(){var _0x540933=_0x2b4e,_0x9b3574=Number(localStorage[_0x540933(0x1c5)]('m11')),_0x37f132=Number(localStorage[_0x540933(0x1c5)](_0x540933(0x20c)));_0x9b3574<0x0&&(_0x37f132=_0x37f132+_0x9b3574,_0x37f132<0x0&&g31correction(),_0x9b3574=0x0),localStorage[_0x540933(0x1c0)](_0x540933(0x220),String(_0x9b3574)),localStorage[_0x540933(0x1c0)]('g31',String(_0x37f132));}goback(),again();function delay(_0xaa23ff){return new Promise(function(_0x474bc2){setTimeout(_0x474bc2,_0xaa23ff*0x3e8);});}function win(_0x1cf53a){var _0x4e1118=_0x2b4e,_0x19d28e=Number(localStorage[_0x4e1118(0x1c5)](_0x4e1118(0x1c7)))+0x9,_0x3afbc0=Number(localStorage[_0x4e1118(0x1c5)](_0x4e1118(0x1d4)))+0x5,_0x3640d3=Number(localStorage[_0x4e1118(0x1c5)](_0x4e1118(0x220)))-0x7,_0x1e436a=Number(localStorage[_0x4e1118(0x1c5)](_0x4e1118(0x1c3)))-0x4,_0x3e454e=Number(localStorage[_0x4e1118(0x1c5)]('l2'));if(_0x1cf53a==='動保委員'){var _0x59b73a=Number(localStorage['getItem']('getg2'))+0.75;localStorage[_0x4e1118(0x1c0)](_0x4e1118(0x20f),String(_0x59b73a)),localStorage[_0x4e1118(0x1c0)](_0x4e1118(0x1dc),'蝦仁飯');var _0x3058d1=parseInt((Math[_0x4e1118(0x201)]()*0x64+0x1)*(0x7d0+_0x3e454e)/0x7d0);if(_0x3058d1>=0x64){var _0x202731=parseInt((Math[_0x4e1118(0x201)]()*0x1+0x1)*(0x96+_0x3e454e)/0x96);antl=Number(localStorage[_0x4e1118(0x1c5)](_0x4e1118(0x1ac))),localStorage[_0x4e1118(0x1c0)](_0x4e1118(0x1ac),String(antl+_0x202731));var _0xe82b5f=_0x4e1118(0x213)+_0x1cf53a+_0x4e1118(0x1fe)+_0x202731+'個鹿茸</div>';$('#3')[_0x4e1118(0x1cb)](_0xe82b5f);}}else{if(_0x1cf53a==='山羌'){var _0x287304=Number(localStorage['getItem'](_0x4e1118(0x202)))+0.5;localStorage[_0x4e1118(0x1c0)](_0x4e1118(0x202),String(_0x287304));var _0x3058d1=parseInt((Math[_0x4e1118(0x201)]()*0x64+0x1)*(0x3e8+_0x3e454e)/0x3e8);if(_0x3058d1>=0x46){var _0x202731=parseInt((Math[_0x4e1118(0x201)]()*0x2+0x1)*(0x64+_0x3e454e)/0x64);sto=Number(localStorage['getItem'](_0x4e1118(0x20b))),localStorage[_0x4e1118(0x1c0)](_0x4e1118(0x20b),String(sto+_0x202731));var _0xe82b5f=_0x4e1118(0x213)+_0x1cf53a+_0x4e1118(0x1fe)+_0x202731+_0x4e1118(0x21a);$('#3')[_0x4e1118(0x1cb)](_0xe82b5f);}}else{if(_0x1cf53a==='山羊'){var _0x44b018=Number(localStorage[_0x4e1118(0x1c5)](_0x4e1118(0x1e9)))+0.1;localStorage[_0x4e1118(0x1c0)](_0x4e1118(0x1e9),String(_0x44b018));var _0x3058d1=parseInt((Math[_0x4e1118(0x201)]()*0x64+0x1)*(0x1f4+_0x3e454e)/0x1f4);if(_0x3058d1>=0x5a){var _0x202731=parseInt((Math[_0x4e1118(0x201)]()*0x4+0x1)*(0x64+_0x3e454e)/0x64);gmk=Number(localStorage[_0x4e1118(0x1c5)](_0x4e1118(0x1b2))),localStorage[_0x4e1118(0x1c0)]('gmilk',String(gmk+_0x202731));var _0xe82b5f=_0x4e1118(0x213)+_0x1cf53a+_0x4e1118(0x1fe)+_0x202731+_0x4e1118(0x21f);$('#3')[_0x4e1118(0x1cb)](_0xe82b5f);}}else{if(_0x1cf53a==='綿羊'){var _0x6c28e1=Number(localStorage[_0x4e1118(0x1c5)]('getg3'))+0.1;localStorage[_0x4e1118(0x1c0)](_0x4e1118(0x1ba),String(_0x6c28e1));var _0x3058d1=parseInt((Math[_0x4e1118(0x201)]()*0x64+0x1)*(0x64+_0x3e454e)/0x64);if(_0x3058d1>=0x50){var _0x202731=parseInt((Math['random']()*0x5+0x1)*(0x64+_0x3e454e)/0x64);woo=Number(localStorage['getItem'](_0x4e1118(0x204))),localStorage[_0x4e1118(0x1c0)]('wool',String(woo+_0x202731));var _0xe82b5f=_0x4e1118(0x213)+_0x1cf53a+_0x4e1118(0x1fe)+_0x202731+'個羊毛</div>';$('#3')['append'](_0xe82b5f);}}else{if(_0x1cf53a===_0x4e1118(0x1b7)){var _0x59b73a=Number(localStorage[_0x4e1118(0x1c5)]('getg2'))+1.75;localStorage['setItem'](_0x4e1118(0x20f),String(_0x59b73a)),localStorage[_0x4e1118(0x1c0)](_0x4e1118(0x1dc),'蝦仁飯');var _0x3058d1=parseInt((Math[_0x4e1118(0x201)]()*0x64+0x1)*(0xc8+_0x3e454e)/0xc8);if(_0x3058d1>=0x5a){var _0x202731=parseInt((Math[_0x4e1118(0x201)]()*0x1+0x1)*(0xfa+_0x3e454e)/0xfa);pan=Number(localStorage[_0x4e1118(0x1c5)](_0x4e1118(0x1c9))),localStorage[_0x4e1118(0x1c0)](_0x4e1118(0x1c9),String(pan+0x1));var _0xe82b5f=_0x4e1118(0x213)+_0x1cf53a+'身上掉下來的'+_0x202731+_0x4e1118(0x1b9);$('#3')[_0x4e1118(0x1cb)](_0xe82b5f);}}else{if(_0x1cf53a===_0x4e1118(0x1c6)){var _0x33be7a=Number(localStorage[_0x4e1118(0x1c5)](_0x4e1118(0x1eb)))+1.5;localStorage[_0x4e1118(0x1c0)](_0x4e1118(0x1eb),String(_0x33be7a));var _0x3058d1=parseInt((Math['random']()*0x64+0x1)*(0xc8+_0x3e454e)/0xc8);if(_0x3058d1>=0x5a){var _0x202731=parseInt((Math[_0x4e1118(0x201)]()*0x2+0x1)*(0xc8+_0x3e454e)/0xc8);gun=Number(localStorage['getItem'](_0x4e1118(0x206))),localStorage[_0x4e1118(0x1c0)]('gunpow',String(gun+0x1));var _0xe82b5f=_0x4e1118(0x213)+_0x1cf53a+_0x4e1118(0x1fe)+_0x202731+_0x4e1118(0x1ed);$('#3')[_0x4e1118(0x1cb)](_0xe82b5f);}var _0x3058d1=parseInt((Math[_0x4e1118(0x201)]()*0x64+0x1)*(0xc8+_0x3e454e)/0xc8);if(_0x3058d1>=0x46){var _0x202731=parseInt((Math[_0x4e1118(0x201)]()*0x6+0x1)*(0xc8+_0x3e454e)/0xc8);tee=Number(localStorage['getItem']('teech')),localStorage['setItem'](_0x4e1118(0x1ea),String(tee+_0x202731));var _0xe82b5f=_0x4e1118(0x213)+_0x1cf53a+_0x4e1118(0x1fe)+_0x202731+'個掉落牙齒</div>';$('#3')[_0x4e1118(0x1cb)](_0xe82b5f);}var _0x3058d1=parseInt((Math[_0x4e1118(0x201)]()*0x64+0x1)*(0xc8+_0x3e454e)/0xc8);if(_0x3058d1>=0x5a){var _0x202731=parseInt((Math['random']()*0x2+0x1)*(0xc8+_0x3e454e)/0xc8);gra=Number(localStorage['getItem'](_0x4e1118(0x210))),localStorage[_0x4e1118(0x1c0)]('grass',String(gra+_0x202731));var _0xe82b5f=_0x4e1118(0x213)+_0x1cf53a+_0x4e1118(0x1fe)+_0x202731+_0x4e1118(0x1de);$('#3')[_0x4e1118(0x1cb)](_0xe82b5f);}}else{if(_0x1cf53a===_0x4e1118(0x1b8)){var _0x536b79=Number(localStorage[_0x4e1118(0x1c5)](_0x4e1118(0x1d5)))+0.75;localStorage[_0x4e1118(0x1c0)]('geti1',String(_0x536b79));var _0x3058d1=parseInt((Math[_0x4e1118(0x201)]()*0x64+0x1)*(0xc8+_0x3e454e)/0xc8);if(_0x3058d1>=0x50){var _0x202731=parseInt((Math[_0x4e1118(0x201)]()*0x4+0x1)*(0xc8+_0x3e454e)/0xc8);clo=Number(localStorage[_0x4e1118(0x1c5)](_0x4e1118(0x1b4))),localStorage['setItem'](_0x4e1118(0x1b4),String(clo+_0x202731));var _0xe82b5f='<div>你獲得了從'+_0x1cf53a+'身上掉下來的'+_0x202731+'個眼鏡布</div>';$('#3')[_0x4e1118(0x1cb)](_0xe82b5f);}}else{if(_0x1cf53a==='肥宅'){var _0x6c28e1=Number(localStorage[_0x4e1118(0x1c5)](_0x4e1118(0x1ba)))+0.5;localStorage['setItem'](_0x4e1118(0x1ba),String(_0x6c28e1));var _0x3058d1=parseInt((Math[_0x4e1118(0x201)]()*0x64+0x1)*(0xc8+_0x3e454e)/0xc8);if(_0x3058d1>=0x46){var _0x202731=parseInt((Math['random']()*0x6+0x1)*(0xc8+_0x3e454e)/0xc8);ger=Number(localStorage['getItem']('gear')),localStorage[_0x4e1118(0x1c0)](_0x4e1118(0x1fd),String(ger+_0x202731));var _0xe82b5f=_0x4e1118(0x213)+_0x1cf53a+_0x4e1118(0x1fe)+_0x202731+'個合金齒輪</div>';$('#3')[_0x4e1118(0x1cb)](_0xe82b5f);}}}}}}}}}var _0x3e454e=Number(localStorage[_0x4e1118(0x1c5)]('l2')),_0x35d86b=Number(localStorage['getItem'](_0x4e1118(0x1b3))),_0x3058d1=parseInt((Math[_0x4e1118(0x201)]()*0xa+0x1)*(0x64+_0x3e454e)/0x64);localStorage[_0x4e1118(0x1c0)](_0x4e1118(0x1b3),String(_0x35d86b+_0x3058d1));var _0xe82b5f='<div>你獲得了從'+_0x1cf53a+'身上掉下來的'+String(_0x3058d1)+_0x4e1118(0x21d);$('#3')[_0x4e1118(0x1cb)](_0xe82b5f),gobig2(-0x1,_0x19d28e,-0x1,-0x1,-0x1,_0x1e436a,_0x3afbc0,_0x3640d3);}function lose(){var _0x4e0d71=_0x2b4e,_0x338e7a=Number(localStorage[_0x4e0d71(0x1c5)](_0x4e0d71(0x20c)))+0x4,_0x3e34f9=Number(localStorage['getItem'](_0x4e0d71(0x1e5)))+0x3,_0x509787=Number(localStorage['getItem'](_0x4e0d71(0x1c1)))+0x3,_0x11f209=Number(localStorage[_0x4e0d71(0x1c5)](_0x4e0d71(0x1d4)))-0x9;gobig2(-0x1,-0x1,_0x338e7a,_0x3e34f9,_0x509787,-0x1,_0x11f209,-0x1);}function tie(){var _0x507744=_0x2b4e,_0x2490ce=Number(localStorage[_0x507744(0x1c5)](_0x507744(0x1c3)))+0x4,_0x175909=Number(localStorage[_0x507744(0x1c5)](_0x507744(0x1d4)))+0x5,_0x46fbec=Number(localStorage[_0x507744(0x1c5)](_0x507744(0x220)))+0x3,_0xf894cf=Number(localStorage[_0x507744(0x1c5)](_0x507744(0x1fa)))-0x4;gobig2(_0xf894cf,-0x1,-0x1,-0x1,-0x1,_0x2490ce,_0x175909,_0x46fbec);}function gobig2(_0x405d66,_0x9866c0,_0x5dd008,_0x27ce81,_0x113f74,_0xcf2c21,_0x56ca65,_0x5135de){var _0x4bc32d=_0x2b4e;g11correction(),g21correction(),g31correction(),j11correction(),l11correction(),l21correction(),i11correction(),m11correction();var _0x1d120e=Number(localStorage[_0x4bc32d(0x1c5)]('do'))+0x1,_0x57ea76=Number(localStorage['getItem'](_0x4bc32d(0x217))),_0x473665=Number(localStorage[_0x4bc32d(0x1c5)](_0x4bc32d(0x217)))+0x1,_0x5aa039=Number(localStorage['getItem'](_0x4bc32d(0x1d9)));if(_0x57ea76>=0x23)var _0x5cbe66=_0x57ea76;else{if(_0x57ea76>=0x14)var _0x5cbe66=_0x57ea76+0x14;else var _0x5cbe66=_0x57ea76*0x2+0x2;}if(_0x473665>=0x23)var _0x31881a=_0x473665;else{if(_0x473665>=0x14)var _0x31881a=_0x473665+0x14;else var _0x31881a=_0x473665*0x2+0x2;}if(_0x1d120e>=_0x5cbe66){g01=Number(localStorage[_0x4bc32d(0x1c5)]('g01')),g02=Number(localStorage[_0x4bc32d(0x1c5)]('g02')),g03=Number(localStorage['getItem'](_0x4bc32d(0x1d0))),j01=Number(localStorage['getItem'](_0x4bc32d(0x1ab))),l01=Number(localStorage['getItem']('l01')),l02=Number(localStorage[_0x4bc32d(0x1c5)](_0x4bc32d(0x1f3))),i01=Number(localStorage[_0x4bc32d(0x1c5)]('i01')),m01=Number(localStorage['getItem'](_0x4bc32d(0x1f6))),_0x405d66=parseInt(Number(localStorage[_0x4bc32d(0x1c5)](_0x4bc32d(0x1fa)))/0x5),_0x9866c0=parseInt(Number(localStorage['getItem'](_0x4bc32d(0x1c7)))/0x5),_0x5dd008=parseInt(Number(localStorage[_0x4bc32d(0x1c5)]('g31'))/0x5),_0x27ce81=parseInt(Number(localStorage[_0x4bc32d(0x1c5)]('j11'))/0x5),_0x113f74=parseInt(Number(localStorage[_0x4bc32d(0x1c5)](_0x4bc32d(0x1c1)))/0x5),_0xcf2c21=parseInt(Number(localStorage['getItem'](_0x4bc32d(0x1c3)))/0x5),_0x56ca65=parseInt(Number(localStorage[_0x4bc32d(0x1c5)](_0x4bc32d(0x1d4)))/0x5),_0x5135de=parseInt(Number(localStorage['getItem'](_0x4bc32d(0x220)))/0x5);var _0xfd0a62=Number(localStorage[_0x4bc32d(0x1c5)]('g1')),_0xd8fa78=Number(localStorage[_0x4bc32d(0x1c5)]('g2')),_0x11dae6=Number(localStorage[_0x4bc32d(0x1c5)]('g3')),_0x5bbc03=Number(localStorage[_0x4bc32d(0x1c5)]('j1')),_0x1191e1=Number(localStorage[_0x4bc32d(0x1c5)]('l1')),_0x2be494=Number(localStorage['getItem']('l2')),_0x5372ba=Number(localStorage[_0x4bc32d(0x1c5)]('i1')),_0x727cf9=Number(localStorage['getItem']('m1')),_0x49ef40=_0xfd0a62+_0x405d66*0.0095*(0x3e8+g01)/0x3e8,_0x3f9d0f=_0xd8fa78+_0x9866c0*0.01*(0x2710+g02)*(0x64+g01)/0xf4240,_0x2eb2cc=_0x11dae6+_0x5dd008*0.01*(0x2710+g03)*(0x64+g01)/0xf4240,_0x4933d5=_0x5bbc03+_0x27ce81*0.012*(0x2710+j01)*(0x64+g01)/0xf4240,_0x3c6c89=_0x1191e1+_0x113f74*0.013*(0x2710+l02)*(0x64+g01)/0xf4240,_0x4aad6f=_0x2be494+_0xcf2c21*0.009*(0x2710+l02)*(0x64+g01)/0xf4240,_0x346e4c=_0x5372ba+_0x56ca65*0.009*(0x2710+i01)*(0x64+g01)/0xf4240,_0x51f086=_0x727cf9+_0x5135de*0.014*(0x2710+m01)*(0x64+g01)/0xf4240,_0x2a95f8=Number(localStorage[_0x4bc32d(0x1c5)]('hp'))+0xa*(0x64+g01)/0x64;_0x49ef40>0x11+g01&&(_0x49ef40=0x11+g01);_0x3f9d0f>0x2d+g02&&(_0x3f9d0f=0x2d+g02);_0x2eb2cc>0x2d+g03&&(_0x2eb2cc=0x2d+g03);_0x3f9d0f+_0x2eb2cc>_0x49ef40*0x5&&(_0x2eb2cc=_0x2eb2cc*0.9,_0x3f9d0f=_0x3f9d0f*0.95);_0x4933d5>0x3c+j01&&(_0x4933d5=0x3c+j01);_0x3c6c89>0x3c+l01&&(_0x3c6c89=0x3c+l01);_0x4aad6f>0x32+l02&&(_0x4aad6f=0x32+l02);_0x346e4c>0xb4+i01&&(_0x346e4c=0xb4+i01);_0x51f086>0x64+m01&&(_0x51f086=0x64+m01);_0x57ea76>_0x5aa039&&(_0x49ef40=_0x49ef40*0.95,_0x3f9d0f=_0x3f9d0f*0.85,_0x2eb2cc=_0x2eb2cc*0.95,_0x3c6c89=_0x3c6c89*0.95,_0x346e4c=_0x346e4c*0.99,_0x51f086=_0x51f086*0.85);localStorage[_0x4bc32d(0x1c0)]('hp',_0x2a95f8[_0x4bc32d(0x211)]()),localStorage[_0x4bc32d(0x1c0)]('g1',_0x49ef40[_0x4bc32d(0x211)]()),localStorage[_0x4bc32d(0x1c0)](_0x4bc32d(0x1fa),_0x4bc32d(0x1be)),localStorage[_0x4bc32d(0x1c0)]('g2',_0x3f9d0f[_0x4bc32d(0x211)]()),localStorage[_0x4bc32d(0x1c0)](_0x4bc32d(0x1c7),'100'),localStorage[_0x4bc32d(0x1c0)]('g3',_0x2eb2cc[_0x4bc32d(0x211)]()),localStorage[_0x4bc32d(0x1c0)](_0x4bc32d(0x20c),_0x4bc32d(0x1be)),localStorage['setItem']('j1',_0x4933d5[_0x4bc32d(0x211)]()),localStorage[_0x4bc32d(0x1c0)](_0x4bc32d(0x1e5),'100'),localStorage['setItem']('l1',_0x3c6c89[_0x4bc32d(0x211)]()),localStorage[_0x4bc32d(0x1c0)](_0x4bc32d(0x1c1),_0x4bc32d(0x1be)),localStorage[_0x4bc32d(0x1c0)]('l2',_0x4aad6f[_0x4bc32d(0x211)]()),localStorage[_0x4bc32d(0x1c0)]('l21',_0x4bc32d(0x1be)),localStorage[_0x4bc32d(0x1c0)]('i1',_0x346e4c[_0x4bc32d(0x211)]()),localStorage[_0x4bc32d(0x1c0)]('i11',_0x4bc32d(0x1be)),localStorage['setItem']('m1',_0x51f086[_0x4bc32d(0x211)]()),localStorage[_0x4bc32d(0x1c0)](_0x4bc32d(0x220),'100'),localStorage[_0x4bc32d(0x1c0)]('do','0'),localStorage[_0x4bc32d(0x1c0)](_0x4bc32d(0x217),_0x473665['toString']()),localStorage[_0x4bc32d(0x1c0)]('exp',String(_0x31881a));let _0x224c8a='';_0x224c8a+=_0x4bc32d(0x1f4),_0x224c8a+=_0x4bc32d(0x1cf)+String(parseInt((_0x49ef40-_0xfd0a62)*0x3e8)/0x64)+_0x4bc32d(0x1ec),_0x224c8a+=_0x4bc32d(0x20a)+String(parseInt((_0x49ef40+_0x3f9d0f+_0x2eb2cc-_0xfd0a62-_0xd8fa78-_0x11dae6)*0x64)/0x64)+_0x4bc32d(0x1ad),_0x224c8a+=_0x4bc32d(0x1d8)+String(parseInt((_0x4933d5-_0x5bbc03)*0x64)/0x64)+_0x4bc32d(0x209),_0x224c8a+=_0x4bc32d(0x1ef)+String(parseInt((_0x3c6c89-_0x1191e1)*0x64)/0x64)+_0x4bc32d(0x209),_0x224c8a+=_0x4bc32d(0x1d1)+String(parseInt((_0x4aad6f-_0x2be494)*0x64)/0x64)+_0x4bc32d(0x209),_0x224c8a+=_0x4bc32d(0x221)+String(parseInt((_0x346e4c-_0x5372ba)*0x64)/0x64)+_0x4bc32d(0x209),_0x224c8a+=_0x4bc32d(0x1d3)+String(parseInt((_0x51f086-_0x727cf9)*0x64)/0x64)+_0x4bc32d(0x209),$('#3')[_0x4bc32d(0x1cb)](_0x224c8a);}else _0x405d66>=0x0&&localStorage[_0x4bc32d(0x1c0)](_0x4bc32d(0x1fa),String(_0x405d66)),_0x9866c0>=0x0&&localStorage[_0x4bc32d(0x1c0)](_0x4bc32d(0x1c7),String(_0x9866c0)),_0x5dd008>=0x0&&localStorage['setItem'](_0x4bc32d(0x20c),String(_0x5dd008)),_0x27ce81>=0x0&&localStorage[_0x4bc32d(0x1c0)]('j11',String(_0x27ce81)),_0x113f74>=0x0&&localStorage[_0x4bc32d(0x1c0)](_0x4bc32d(0x1c1),String(_0x113f74)),_0xcf2c21>=0x0&&localStorage[_0x4bc32d(0x1c0)](_0x4bc32d(0x1c3),String(_0xcf2c21)),_0x56ca65>=0x0&&localStorage[_0x4bc32d(0x1c0)]('i11',String(_0x56ca65)),_0x5135de>=0x0&&localStorage['setItem'](_0x4bc32d(0x220),String(_0x5135de)),localStorage[_0x4bc32d(0x1c0)]('do',_0x1d120e[_0x4bc32d(0x211)]());}function gobig3(_0x11a0c3,_0x47a30f,_0x2feccf,_0x15ec27,_0x2fb861,_0x52ca26,_0x1518d4,_0x18bd53){var _0x994bcb=_0x2b4e;g11correction(),g21correction(),g31correction(),j11correction(),l11correction(),l21correction(),i11correction(),m11correction();var _0x3d2823=Number(localStorage[_0x994bcb(0x1c5)]('do'))+0x1,_0xcf8871=Number(localStorage[_0x994bcb(0x1c5)](_0x994bcb(0x217))),_0x33ecc1=Number(localStorage[_0x994bcb(0x1c5)]('age'))+0x1,_0x4887b9=Number(localStorage[_0x994bcb(0x1c5)]('ageend'));if(_0xcf8871>=0x23)var _0x1c3803=_0xcf8871;else{if(_0xcf8871>=0x14)var _0x1c3803=_0xcf8871+0x14;else var _0x1c3803=_0xcf8871*0x2+0x2;}if(_0x33ecc1>=0x23)var _0x79101c=_0x33ecc1;else{if(_0x33ecc1>=0x14)var _0x79101c=_0x33ecc1+0x14;else var _0x79101c=_0x33ecc1*0x2+0x2;}if(_0x3d2823>=_0x1c3803){g01=Number(localStorage[_0x994bcb(0x1c5)](_0x994bcb(0x20d))),g02=Number(localStorage[_0x994bcb(0x1c5)](_0x994bcb(0x212))),g03=Number(localStorage[_0x994bcb(0x1c5)]('g03')),j01=Number(localStorage[_0x994bcb(0x1c5)](_0x994bcb(0x1ab))),l01=Number(localStorage[_0x994bcb(0x1c5)](_0x994bcb(0x1e2))),l02=Number(localStorage[_0x994bcb(0x1c5)](_0x994bcb(0x1f3))),i01=Number(localStorage['getItem'](_0x994bcb(0x1bd))),m01=Number(localStorage[_0x994bcb(0x1c5)](_0x994bcb(0x1f6))),_0x11a0c3=parseInt(Number(localStorage[_0x994bcb(0x1c5)](_0x994bcb(0x1fa)))/0x5),_0x47a30f=parseInt(Number(localStorage[_0x994bcb(0x1c5)](_0x994bcb(0x1c7)))/0x5),_0x2feccf=parseInt(Number(localStorage[_0x994bcb(0x1c5)](_0x994bcb(0x20c)))/0x5),_0x15ec27=parseInt(Number(localStorage[_0x994bcb(0x1c5)](_0x994bcb(0x1e5)))/0x5),_0x2fb861=parseInt(Number(localStorage[_0x994bcb(0x1c5)]('l11'))/0x5),_0x52ca26=parseInt(Number(localStorage[_0x994bcb(0x1c5)](_0x994bcb(0x1c3)))/0x5),_0x1518d4=parseInt(Number(localStorage[_0x994bcb(0x1c5)]('i11'))/0x5),_0x18bd53=parseInt(Number(localStorage['getItem'](_0x994bcb(0x220)))/0x5);var _0x6ee026=Number(localStorage[_0x994bcb(0x1c5)]('g1')),_0x32e6c9=Number(localStorage[_0x994bcb(0x1c5)]('g2')),_0xb2b083=Number(localStorage[_0x994bcb(0x1c5)]('g3')),_0x249ebb=Number(localStorage[_0x994bcb(0x1c5)]('j1')),_0x33914c=Number(localStorage['getItem']('l1')),_0x40b352=Number(localStorage[_0x994bcb(0x1c5)]('l2')),_0x20cf77=Number(localStorage[_0x994bcb(0x1c5)]('i1')),_0x3f407b=Number(localStorage[_0x994bcb(0x1c5)]('m1')),_0x28a3c0=_0x6ee026+_0x11a0c3*0.0095*(0x3e8+g01)/0x3e8,_0x311d6f=_0x32e6c9+_0x47a30f*0.01*(0x2710+g02)*(0x64+g01)/0xf4240,_0x474712=_0xb2b083+_0x2feccf*0.01*(0x2710+g03)*(0x64+g01)/0xf4240,_0x425224=_0x249ebb+_0x15ec27*0.012*(0x2710+j01)*(0x64+g01)/0xf4240,_0x48bb91=_0x33914c+_0x2fb861*0.013*(0x2710+l02)*(0x64+g01)/0xf4240,_0x5223cc=_0x40b352+_0x52ca26*0.009*(0x2710+l02)*(0x64+g01)/0xf4240,_0x1fc4d6=_0x20cf77+_0x1518d4*0.009*(0x2710+i01)*(0x64+g01)/0xf4240,_0x4f7f50=_0x3f407b+_0x18bd53*0.014*(0x2710+m01)*(0x64+g01)/0xf4240,_0x1a92d5=Number(localStorage[_0x994bcb(0x1c5)]('hp'))+0xa*(0x64+g01)/0x64;_0x28a3c0>0x11+g01&&(_0x28a3c0=0x11+g01);_0x311d6f>0x2d+g02&&(_0x311d6f=0x2d+g02);_0x474712>0x2d+g03&&(_0x474712=0x2d+g03);_0x311d6f+_0x474712>_0x28a3c0*0x5&&(_0x474712=_0x474712*0.9,_0x311d6f=_0x311d6f*0.95);_0x425224>0x3c+j01&&(_0x425224=0x3c+j01);_0x48bb91>0x3c+l01&&(_0x48bb91=0x3c+l01);_0x5223cc>0x32+l02&&(_0x5223cc=0x32+l02);_0x1fc4d6>0xb4+i01&&(_0x1fc4d6=0xb4+i01);_0x4f7f50>0x64+m01&&(_0x4f7f50=0x64+m01);_0xcf8871>_0x4887b9&&(_0x28a3c0=_0x28a3c0*0.95,_0x311d6f=_0x311d6f*0.85,_0x474712=_0x474712*0.95,_0x48bb91=_0x48bb91*0.95,_0x1fc4d6=_0x1fc4d6*0.99,_0x4f7f50=_0x4f7f50*0.85);localStorage[_0x994bcb(0x1c0)]('hp',_0x1a92d5['toString']()),localStorage[_0x994bcb(0x1c0)]('g1',_0x28a3c0[_0x994bcb(0x211)]()),localStorage['setItem'](_0x994bcb(0x1fa),'100'),localStorage[_0x994bcb(0x1c0)]('g2',_0x311d6f[_0x994bcb(0x211)]()),localStorage[_0x994bcb(0x1c0)]('g21',_0x994bcb(0x1be)),localStorage[_0x994bcb(0x1c0)]('g3',_0x474712[_0x994bcb(0x211)]()),localStorage[_0x994bcb(0x1c0)](_0x994bcb(0x20c),_0x994bcb(0x1be)),localStorage['setItem']('j1',_0x425224[_0x994bcb(0x211)]()),localStorage['setItem'](_0x994bcb(0x1e5),_0x994bcb(0x1be)),localStorage[_0x994bcb(0x1c0)]('l1',_0x48bb91['toString']()),localStorage[_0x994bcb(0x1c0)](_0x994bcb(0x1c1),_0x994bcb(0x1be)),localStorage['setItem']('l2',_0x5223cc[_0x994bcb(0x211)]()),localStorage[_0x994bcb(0x1c0)]('l21',_0x994bcb(0x1be)),localStorage['setItem']('i1',_0x1fc4d6[_0x994bcb(0x211)]()),localStorage['setItem'](_0x994bcb(0x1d4),_0x994bcb(0x1be)),localStorage['setItem']('m1',_0x4f7f50['toString']()),localStorage['setItem']('m11',_0x994bcb(0x1be)),localStorage[_0x994bcb(0x1c0)]('do','0'),localStorage[_0x994bcb(0x1c0)](_0x994bcb(0x217),_0x33ecc1['toString']()),localStorage['setItem'](_0x994bcb(0x1b1),String(_0x79101c));let _0x4bc809='';_0x4bc809+=_0x994bcb(0x1f4),_0x4bc809+='<div>身高成長了'+String(parseInt((_0x28a3c0-_0x6ee026)*0x3e8)/0x64)+_0x994bcb(0x1ec),_0x4bc809+='<div>體重成長了'+String(parseInt((_0x28a3c0+_0x311d6f+_0x474712-_0x6ee026-_0x32e6c9-_0xb2b083)*0x64)/0x64)+_0x994bcb(0x1ad),_0x4bc809+='<div>跳躍力成長了'+String(parseInt((_0x425224-_0x249ebb)*0x64)/0x64)+_0x994bcb(0x209),_0x4bc809+=_0x994bcb(0x1ef)+String(parseInt((_0x48bb91-_0x33914c)*0x64)/0x64)+_0x994bcb(0x209),_0x4bc809+=_0x994bcb(0x1d1)+String(parseInt((_0x5223cc-_0x40b352)*0x64)/0x64)+'</div>',_0x4bc809+='<div>智力成長了'+String(parseInt((_0x1fc4d6-_0x20cf77)*0x64)/0x64)+'</div>',_0x4bc809+=_0x994bcb(0x1d3)+String(parseInt((_0x4f7f50-_0x3f407b)*0x64)/0x64)+_0x994bcb(0x209),$('#2')['append'](_0x4bc809);}else _0x11a0c3>=0x0&&localStorage[_0x994bcb(0x1c0)](_0x994bcb(0x1fa),String(_0x11a0c3)),_0x47a30f>=0x0&&localStorage[_0x994bcb(0x1c0)]('g21',String(_0x47a30f)),_0x2feccf>=0x0&&localStorage[_0x994bcb(0x1c0)]('g31',String(_0x2feccf)),_0x15ec27>=0x0&&localStorage[_0x994bcb(0x1c0)](_0x994bcb(0x1e5),String(_0x15ec27)),_0x2fb861>=0x0&&localStorage[_0x994bcb(0x1c0)](_0x994bcb(0x1c1),String(_0x2fb861)),_0x52ca26>=0x0&&localStorage['setItem'](_0x994bcb(0x1c3),String(_0x52ca26)),_0x1518d4>=0x0&&localStorage[_0x994bcb(0x1c0)](_0x994bcb(0x1d4),String(_0x1518d4)),_0x18bd53>=0x0&&localStorage['setItem']('m11',String(_0x18bd53)),localStorage[_0x994bcb(0x1c0)]('do',_0x3d2823[_0x994bcb(0x211)]());}async function down(){var _0x55354c=_0x2b4e;$(_0x55354c(0x1df))['attr']('disabled',!![]),$(_0x55354c(0x1db))[_0x55354c(0x1ce)]('disabled',!![]),$(_0x55354c(0x1ee))[_0x55354c(0x1ce)](_0x55354c(0x1dd),!![]),$(_0x55354c(0x1e6))[_0x55354c(0x1ce)](_0x55354c(0x1dd),!![]),$(_0x55354c(0x205))[_0x55354c(0x1ce)](_0x55354c(0x1dd),!![]),$(_0x55354c(0x1b0))[_0x55354c(0x1ce)](_0x55354c(0x1dd),!![]),$(_0x55354c(0x1f0))['attr'](_0x55354c(0x1dd),!![]),$(_0x55354c(0x21c))[_0x55354c(0x1ce)]('disabled',!![]),$('#train9')[_0x55354c(0x1ce)](_0x55354c(0x1dd),!![]);}async function open(){var _0x4143e6=_0x2b4e;$('#train1')[_0x4143e6(0x1ce)](_0x4143e6(0x1dd),![]),$(_0x4143e6(0x1db))[_0x4143e6(0x1ce)]('disabled',![]),$(_0x4143e6(0x1ee))['attr'](_0x4143e6(0x1dd),![]),$(_0x4143e6(0x1e6))[_0x4143e6(0x1ce)](_0x4143e6(0x1dd),![]),$(_0x4143e6(0x205))['attr'](_0x4143e6(0x1dd),![]),$(_0x4143e6(0x1b0))[_0x4143e6(0x1ce)](_0x4143e6(0x1dd),![]),$(_0x4143e6(0x1f0))[_0x4143e6(0x1ce)](_0x4143e6(0x1dd),![]),$('#train8')[_0x4143e6(0x1ce)]('disabled',![]),$(_0x4143e6(0x1ff))[_0x4143e6(0x1ce)](_0x4143e6(0x1dd),![]);}
+function goback(){
+    if(localStorage.getItem("goback")==null){
+        if(localStorage.getItem("name")==='和人'){
+            localStorage.setItem("work","虛假的桐谷");
+        }else{
+            localStorage.setItem("work","無業");
+        }
+        if(localStorage.getItem("cookie")===null){
+            localStorage.setItem("cookie","0");
+        }
+        if(localStorage.getItem("money")===null){
+            localStorage.setItem("cookie","0");
+        }
+        localStorage.setItem("hp","10");
+        localStorage.setItem("g1",String(2.5+0.1*Number(localStorage.getItem("getg1"))));
+        localStorage.setItem("g2",String(1+Number(localStorage.getItem("getg2"))));
+        localStorage.setItem("g3",String(1+Number(localStorage.getItem("getg3"))));
+        localStorage.setItem("j1",String(5+Number(localStorage.getItem("getj1"))));
+        localStorage.setItem("l1",String(10+Number(localStorage.getItem("getl1"))));
+        localStorage.setItem("l2",String(1+Number(localStorage.getItem("getj2"))));
+        localStorage.setItem("i1",String(1+Number(localStorage.getItem("geti1"))));
+        localStorage.setItem("m1",String(5+Number(localStorage.getItem("getm1"))));
+        localStorage.setItem("g11","100");
+        localStorage.setItem("g21","100");
+        localStorage.setItem("g31","100");
+        localStorage.setItem("j11","100");
+        localStorage.setItem("l11","100");
+        localStorage.setItem("l21","100");
+        localStorage.setItem("i11","100");
+        localStorage.setItem("m11","100");
+        localStorage.setItem("getg1","0");
+        localStorage.setItem("getg3","0");
+        localStorage.setItem("getg2","0");
+        localStorage.setItem("getj1","0");
+        localStorage.setItem("getl1","0"); 
+        localStorage.setItem("getl2","0");
+        localStorage.setItem("geti1","0");
+        localStorage.setItem("getm1","0");
+        localStorage.getItem("chapter","1");
+        localStorage.getItem("part","1");
+        localStorage.getItem("did","0");
+        localStorage.setItem("weapon","0");
+        localStorage.setItem("age","0");
+        localStorage.setItem("do","0");
+        localStorage.setItem("exp","2");
+        localStorage.setItem("goback","0");
+    }
+}
+
+function again(){
+    if(localStorage.getItem("goagain")==null){
+        localStorage.setItem("age0",localStorage.getItem("age"));
+        localStorage.setItem("work0",localStorage.getItem("work"));
+        localStorage.setItem("g01",localStorage.getItem("g1"));//轉生成長加成
+        localStorage.setItem("g02",localStorage.getItem("g2"));
+        localStorage.setItem("g03",localStorage.getItem("g3"));
+        localStorage.setItem("j01",localStorage.getItem("j1"));
+        localStorage.setItem("l01",localStorage.getItem("l1"));
+        localStorage.setItem("l02",localStorage.getItem("l2"));
+        localStorage.setItem("i01",localStorage.getItem("i1"));
+        localStorage.setItem("m01",localStorage.getItem("m1"));
+        if(localStorage.getItem("ageend")==null){
+            localStorage.setItem("ageend","30");
+        }
+        var died=Number(localStorage.getItem("died"))+1;
+        localStorage.setItem("died",died.toString());
+        localStorage.setItem("goagain",0);
+        localStorage.removeItem("goback");
+        var aged=Number(localStorage.getItem("ageend"))+1;
+        if (Number(localStorage.getItem("age"))>=30){
+            localStorage.setItem("ageend",aged.toString());
+        }
+        goback();
+    }
+}
+
+async function gohigh(){
+    down();
+    await delay(5);
+    var work=localStorage.getItem("work");
+    work1(work);
+    var g11=Number(localStorage.getItem("g11"))+3;
+    var j11=Number(localStorage.getItem("j11"))+1;
+    var g21=Number(localStorage.getItem("g21"))-3;
+    var g31=Number(localStorage.getItem("g31"))-1;
+    $("#1").append("<div>長長的高丸嘗起來真美味。</div>");
+    gobig(g11,g21,g31,j11,-1,-1,-1,-1);
+    open();
+}
+async function gofat(){
+    down();
+    await delay(5);
+    var work=localStorage.getItem("work");
+    work1(work);
+    var g31=Number(localStorage.getItem("g31"))+9;
+    var i11=Number(localStorage.getItem("i11"))-5;
+    var g11=Number(localStorage.getItem("g11"))-3;
+    var g21=Number(localStorage.getItem("g21"))-1;
+    var m11=Number(localStorage.getItem("m11"))-1;
+    $("#1").append("<div>吃完垃圾食物更高興了。</div>");
+    gobig(g11,g21,g31,-1,-1,-1,i11,m11);
+    open();
+}
+async function backfat(){
+    down();
+    await delay(5);
+    var work=localStorage.getItem("work");
+    work1(work);
+    var j11=Number(localStorage.getItem("j11"))+4;
+    var g21=Number(localStorage.getItem("g21"))+3;
+    var l11=Number(localStorage.getItem("l11"))+1;
+    var m11=Number(localStorage.getItem("m11"))+1;
+    var g31=Number(localStorage.getItem("g31"))-7;
+    var i11=Number(localStorage.getItem("i11"))-1;
+    $("#1").append("<div>到底有誰會想吃這鬼東西。</div>");
+    gobig(-1,g21,g31,j11,l11,-1,i11,m11);
+    open();
+}
+async function badeye(){
+    down();
+    await delay(5);
+    var work=localStorage.getItem("work");
+    work1(work);
+    var i11=Number(localStorage.getItem("i11"))+4;
+    var g31=Number(localStorage.getItem("g31"))*1.1;
+    var g21=Number(localStorage.getItem("g21"))*0.8;
+    var l11=Number(localStorage.getItem("l11"))-7;
+    var j11=Number(localStorage.getItem("j11"))-1;
+    $("#1").append("<div>刀劍神域才不是卡通。</div>");
+    gobig(-1,g21,g31,j11,l11,-1,i11,-1);
+    $('#train1').attr('disabled', false);
+    open();
+}
+async function useeye(){
+    down();
+    await delay(5);
+    var work=localStorage.getItem("work");
+    work1(work);
+    var a1 = parseInt(Math.random()*7);
+    var b1 = ["g11", "g21", "g31", "j11", "l11", "i11", "m11"];
+    var r1=parseInt(Number(localStorage.getItem(b1[a1]))*1.1);
+    localStorage.setItem(b1[a1],r1.toString());
+    var b2 = b1.splice(a1, 1);
+    var a2 = parseInt(Math.random()*7);
+    var r2=parseInt(Number(localStorage.getItem(b2[a2]))*0.7);
+    localStorage.setItem(b2[a2],r2.toString());
+    var l21=parseInt(Number(localStorage.getItem("l21"))*1.1);
+    $("#1").append("<div>看三小還想星爆啊。</div>");
+    gobig(-1,-1,-1,-1,-1,l21,-1,-1);
+    open();
+}
+async function gopretty(){
+    down();
+    await delay(5);
+    var work=localStorage.getItem("work");
+    work1(work);
+    var m11=Number(localStorage.getItem("m11"))*1.2;
+    var g31=Number(localStorage.getItem("g31"))-3;
+    var g21=Number(localStorage.getItem("g21"))-2;
+    var g11=Number(localStorage.getItem("g11"))-2;
+    var i11=Number(localStorage.getItem("i11"))-1;
+    $("#1").append("<div>一個大男人到底能化什麼妝。</div>");
+    gobig(g11,g21,g31,-1,-1,-1,i11,m11);
+    gobig(-1,-1,-1,-1,-1,-1,-1,-1);
+    open();
+}
+async function getcookie(){
+    down();
+    await delay(5);
+    var work=localStorage.getItem("work");
+    if (work=='童子軍'){
+        var coo=Number(localStorage.getItem("cookie"))+10;
+        localStorage.setItem("cookie",String(coo));
+        $("#1").append("<div>十塊香噴噴的餅乾出爐了。</div>");
+        gobig(-1,-1,-1,-1,-1,-1,-1,-1);
+    }else{
+        $("#1").append("<div>你可能需要一些幫手。</div>");
+    }
+    open();
+}
+
+async function gettofu(){
+    down();
+    await delay(5);
+    var work=localStorage.getItem("work");
+    var sto=Number(localStorage.getItem("stool"));
+    if (work=='廚師'){
+        if(sto>=1){
+            var tofu=Number(localStorage.getItem("tofu"))+1;
+            localStorage.setItem("tofu",String(tofu));
+            var sto=Number(localStorage.getItem("stool"))-1;
+            localStorage.setItem("stool",String(sto));
+            var g21=Number(localStorage.getItem("g21"))*2;
+            $("#1").append("<div>發家致富的料理。</div>");
+            gobig(-1,g21,-1,-1,-1,-1,-1,-1);
+        }else{
+            $("#1").append("<div>請問，你的材料呢？</div>");
+        }
+    }else{
+        $("#1").append("<div>你可能需要一些專業訓練。</div>");
+    }
+    open();
+}
+
+async function getg2g3(){
+    down();
+    await delay(5);
+    var g1=Number(localStorage.getItem("g1"));
+    var g2=Number(localStorage.getItem("g2"));
+    var g3=Number(localStorage.getItem("g3"));
+    var w=Number(localStorage.getItem("weapon"));
+    if (w==0){
+        x=parseInt(100*g3/(g1+g2+g3));
+        $("#1").append("<div>經過了精密的計算後，你的體脂率為"+String(x)+"%"+"</div>");
+        gobig(-1,-1,-1,-1,-1,-1,-1,-1);
+    }else{
+        $("#1").append("<div>你可能得先把裝備卸下來。</div>");
+    }
+    open();
+}
+
+function gobig(g11,g21,g31,j11,l11,l21,i11,m11){
+    g11correction();
+    g21correction();
+    g31correction();
+    j11correction();
+    l11correction();
+    l21correction();
+    i11correction();
+    m11correction();
+    var do1=Number(localStorage.getItem("do"))+1;
+    var age=Number(localStorage.getItem("age"));
+    var age1=Number(localStorage.getItem("age"))+1;
+    var aged=Number(localStorage.getItem("ageend"));
+    if(age>=35){
+        var line=age;
+    }else if(age>=20){
+        var line=age+20;
+    }else{
+        var line=age*2+2;
+    }
+    if(age1>=35){
+        var line1=age1;
+    }else if(age1>=20){
+        var line1=age1+20;
+    }else{
+        var line1=age1*2+2;
+    }
+    if (do1 >= line){
+        g01=Number(localStorage.getItem("g01"));
+        g02=Number(localStorage.getItem("g02"));
+        g03=Number(localStorage.getItem("g03"));
+        j01=Number(localStorage.getItem("j01"));
+        l01=Number(localStorage.getItem("l01"));
+        l02=Number(localStorage.getItem("l02"));
+        i01=Number(localStorage.getItem("i01"));
+        m01=Number(localStorage.getItem("m01"));
+        g11=parseInt(Number(localStorage.getItem("g11"))/5);
+        g21=parseInt(Number(localStorage.getItem("g21"))/5);
+        g31=parseInt(Number(localStorage.getItem("g31"))/5);
+        j11=parseInt(Number(localStorage.getItem("j11"))/5);
+        l11=parseInt(Number(localStorage.getItem("l11"))/5);
+        l21=parseInt(Number(localStorage.getItem("l21"))/5);
+        i11=parseInt(Number(localStorage.getItem("i11"))/5);
+        m11=parseInt(Number(localStorage.getItem("m11"))/5);
+        var g1n=Number(localStorage.getItem("g1"));
+        var g2n=Number(localStorage.getItem("g2"));
+        var g3n=Number(localStorage.getItem("g3"));
+        var j1n=Number(localStorage.getItem("j1"));
+        var l1n=Number(localStorage.getItem("l1"));
+        var l2n=Number(localStorage.getItem("l2"));
+        var i1n=Number(localStorage.getItem("i1"));
+        var m1n=Number(localStorage.getItem("m1"));
+        var g1=g1n+g11*0.0095*(1000+g01)/1000;
+        var g2=g2n+g21*0.01*(10000+g02)*(100+g01)/1000000;
+        var g3=g3n+g31*0.01*(10000+g03)*(100+g01)/1000000;
+        var j1=j1n+j11*0.012*(10000+j01)*(100+g01)/1000000;
+        var l1=l1n+l11*0.013*(10000+l02)*(100+g01)/1000000;
+        var l2=l2n+l21*0.009*(10000+l02)*(100+g01)/1000000;
+        var i1=i1n+i11*0.009*(10000+i01)*(100+g01)/1000000;
+        var m1=m1n+m11*0.014*(10000+m01)*(100+g01)/1000000;
+        var hp=Number(localStorage.getItem("hp"))+10*(100+g01)/100;
+        if (g1>17+g01){
+            g1=17+g01;
+        }
+        if (g2>45+g02){
+            g2=45+g02;
+        }
+        if (g3>45+g03){
+            g3=45+g03;
+        }
+        if (g2+g3 > g1*5){
+            g3=g3*0.9;
+            g2=g2*0.95;
+        }
+        if (j1>60+j01){
+            j1=60+j01;
+        }
+        if (l1>60+l01){
+            l1=60+l01;
+        }
+        if (l2>50+l02){
+            l2=50+l02;
+        }
+        if (i1>180+i01){
+            i1=180+i01;
+        }
+        if (m1>100+m01){
+            m1=100+m01;
+        }
+        if (age>aged){
+            g1=g1*0.95;
+            g2=g2*0.85;
+            g3=g3*0.95;
+            l1=l1*0.95;
+            i1=i1*0.99;
+            m1=m1*0.85;
+        }
+        localStorage.setItem("hp",hp.toString());
+        localStorage.setItem("g1",g1.toString());
+        localStorage.setItem("g11","100");
+        localStorage.setItem("g2",g2.toString());
+        localStorage.setItem("g21","100");
+        localStorage.setItem("g3",g3.toString());
+        localStorage.setItem("g31","100");
+        localStorage.setItem("j1",j1.toString());
+        localStorage.setItem("j11","100");
+        localStorage.setItem("l1",l1.toString());
+        localStorage.setItem("l11","100");
+        localStorage.setItem("l2",l2.toString());
+        localStorage.setItem("l21","100");
+        localStorage.setItem("i1",i1.toString());
+        localStorage.setItem("i11","100");
+        localStorage.setItem("m1",m1.toString());
+        localStorage.setItem("m11","100");
+        localStorage.setItem("do","0");
+        localStorage.setItem("age",age1.toString());
+        localStorage.setItem("exp",String(line1));
+        let content = '';
+        content += '<div>你長大了，成果如下</div>';
+        content += '<div>身高成長了' + String(parseInt((g1-g1n)*1000)/100)+ 'cm</div>';
+        content += '<div>體重成長了' + String(parseInt((g1+g2+g3-g1n-g2n-g3n)*100)/100) + 'kg</div>';
+        content += '<div>跳躍力成長了' + String(parseInt((j1-j1n)*100)/100) + '</div>';
+        content += '<div>視力成長了' + String(parseInt((l1-l1n)*100)/100) + '</div>';
+        content += '<div>幸運成長了' + String(parseInt((l2-l2n)*100)/100) + '</div>';
+        content += '<div>智力成長了' + String(parseInt((i1-i1n)*100)/100) + '</div>';
+        content += '<div>魅力成長了' + String(parseInt((m1-m1n)*100)/100) + '</div>';
+        $("#1").append(content);
+    } else {
+        if(g11>=0){
+            localStorage.setItem("g11",String(g11));
+        }
+        if(g21>=0){
+            localStorage.setItem("g21",String(g21));
+        }
+        if(g31>=0){
+            localStorage.setItem("g31",String(g31));
+        }
+        if(j11>=0){
+            localStorage.setItem("j11",String(j11));
+        }
+        if(l11>=0){
+            localStorage.setItem("l11",String(l11));
+        }
+        if(l21>=0){
+            localStorage.setItem("l21",String(l21));
+        }
+        if(i11>=0){
+            localStorage.setItem("i11",String(i11));
+        }
+        if(m11>=0){
+            localStorage.setItem("m11",String(m11));
+        }
+        localStorage.setItem("do",do1.toString());
+    }
+}
+
+
+function work1(work1){
+    var age=Number(localStorage.getItem("age"));
+    if (work1 === "跳級生"){
+        var do1=Number(localStorage.getItem("do"))+1;
+        var i11=Number(localStorage.getItem("i11"))*1.5;
+        var g31=Number(localStorage.getItem("g31"))-5;
+        localStorage.setItem("i11",i11.toString());
+        localStorage.setItem("g31",g31.toString());
+        localStorage.setItem("do",do1.toString());
+        if(age == 27){
+            var i1=Number(localStorage.getItem("i1"));
+            if(i1<70){
+                localStorage.setItem("work","延畢生");
+            }else if(i1<100){
+                localStorage.setItem("work","畢業生");
+            }else{
+                localStorage.setItem("work","大學教授");
+            }
+        }
+        let content = '';
+        content += '<div>你寫了一篇論文</div>';
+        $("#1").append(content);
+    }else if(work1 === "研究生"){
+        var do1=Number(localStorage.getItem("do"))+1;
+        var i11=Number(localStorage.getItem("i11"))*1.2;
+        var g31=Number(localStorage.getItem("g31"))-10;
+        localStorage.setItem("i11",i11.toString());
+        localStorage.setItem("g31",g31.toString());
+        localStorage.setItem("do",do1.toString());
+        g31correction();
+        if(age == 27){
+            var i1=Number(localStorage.getItem("i1"));
+            if(i1<70){
+                localStorage.setItem("work","延畢生");
+            }else{
+                localStorage.setItem("work","畢業生");
+            }
+        }
+        let content = '';
+        content += '<div>你做了一篇研究</div>';
+        $("#1").append(content);
+    }else if(work1 === "延畢生"){
+        var do1=Number(localStorage.getItem("do"))+1;
+        var i11=Number(localStorage.getItem("i11"))*1.1;
+        var g31=Number(localStorage.getItem("g31"))-20;
+        localStorage.setItem("i11",i11.toString());
+        localStorage.setItem("g31",g31.toString());
+        localStorage.setItem("do",do1.toString());
+        g31correction();
+        if(age >= 27){
+            var i1=Number(localStorage.getItem("i1"));
+            if(i1>70){
+                localStorage.setItem("work","畢業生");
+            }else{
+                let content = '';
+                content += '<div>你寫了一篇論文，但沒有通過考試</div>';
+                $("#1").append(content);
+            }
+        }else{
+            let content = '';
+            content += '<div>你寫了一篇論文</div>';
+            $("#1").append(content);
+        }
+    }else if(work1 === "畢業生"){
+        var do1=Number(localStorage.getItem("do"))+1;
+        var i11=Number(localStorage.getItem("i11"))*1.15;
+        var g31=Number(localStorage.getItem("g31"))-7;
+        localStorage.setItem("i11",i11.toString());
+        localStorage.setItem("g31",g31.toString());
+        localStorage.setItem("do",do1.toString());
+        g31correction();
+        let content = '';
+        content += '<div>你還沒找到工作</div>';
+        $("#1").append(content);
+    }else if(work1 === "大學教授"){
+        var do1=Number(localStorage.getItem("do"))+1;
+        var i11=Number(localStorage.getItem("i11"))*1.3;
+        var g31=Number(localStorage.getItem("g31"))/2;
+        localStorage.setItem("i11",i11.toString());
+        localStorage.setItem("g31",g31.toString());
+        localStorage.setItem("do",do1.toString());
+        let content = '';
+        content += '<div>你在大學教書</div>';
+        $("#1").append(content);
+    }
+}
+
+function g11correction(){
+    var g11=Number(localStorage.getItem("g11"));
+    var g21=Number(localStorage.getItem("g21"));
+    if (g11<0){
+        g21=g21+g11;
+        if(g21<0){
+            g21correction();
+        }
+        g11=0;
+    }
+    localStorage.setItem("g11",String(g11));
+    localStorage.setItem("g21",String(g21));
+}
+
+function g21correction(){
+    var g21=Number(localStorage.getItem("g21"));
+    var j11=Number(localStorage.getItem("j11"));
+    if (g21<0){
+        j11=j11+g21;
+        if(j11<0){
+            j11correction();
+        }
+        g21=0;
+    }
+    localStorage.setItem("g21",String(g21));
+    localStorage.setItem("j11",String(j11));
+}
+
+function j11correction(){
+    var j11=Number(localStorage.getItem("j11"));
+    var i11=Number(localStorage.getItem("i11"));
+    if (j11<0){
+        i11=i11+j11;
+        if(i11<0){
+            i11=0;
+        }
+        j11=0;
+    }
+    localStorage.setItem("j11",String(j11));
+    localStorage.setItem("i11",String(i11));
+}
+
+function i11correction(){
+    var i11=Number(localStorage.getItem("i11"));
+    var g11=Number(localStorage.getItem("g11"));
+    if (i11<0){
+        g11=g11+i11;
+        if(g11<0){
+            g11correction();
+        }
+        i11=0;
+    }
+    localStorage.setItem("i11",String(i11));
+    localStorage.setItem("g11",String(g11));
+}
+
+function g31correction(){
+    var g31=Number(localStorage.getItem("g31"));
+    var g21=Number(localStorage.getItem("g21"));
+    if (g31<0){
+        g21=g21+g31;
+        if(g21<0){
+            g21correction();
+        }
+        g31=0;
+    }
+    localStorage.setItem("g21",String(g21));
+    localStorage.setItem("g31",String(g31));
+}
+
+function l11correction(){
+    var l11=Number(localStorage.getItem("l11"));
+    var g21=Number(localStorage.getItem("g21"));
+    if (l11<0){
+        g21=g21+l11;
+        if(g21<0){
+            g21correction();
+        }
+        l11=0;
+    }
+    localStorage.setItem("l11",String(l11));
+    localStorage.setItem("g21",String(g21));
+}
+
+function l21correction(){
+    var l21=Number(localStorage.getItem("l21"));
+    var i11=Number(localStorage.getItem("i11"));
+    if (l21<0){
+        i11=i11+l21;
+        if(i11<0){
+            i11correction();
+        }
+        l21=0;
+    }
+    localStorage.setItem("l21",String(l21));
+    localStorage.setItem("i11",String(i11));
+}
+
+function m11correction(){
+    var m11=Number(localStorage.getItem("m11"));
+    var g31=Number(localStorage.getItem("g31"));
+    if (m11<0){
+        g31=g31+m11;
+        if(g31<0){
+            g31correction();
+        }
+        m11=0;
+    }
+    localStorage.setItem("m11",String(m11));
+    localStorage.setItem("g31",String(g31));
+}
+
+
+goback();
+
+again();
+
+function delay(n){
+    return new Promise(function(resolve){
+        setTimeout(resolve,n*1000);  //n*1000為毫秒
+    });
+}
+
+function win(n){
+    var g21=Number(localStorage.getItem("g21"))+9;
+    var i11=Number(localStorage.getItem("i11"))+5;
+    var m11=Number(localStorage.getItem("m11"))-7;
+    var l21=Number(localStorage.getItem("l21"))-4;
+    var l2=Number(localStorage.getItem("l2"));
+    if (n ==='動保委員'){
+        var getg2=Number(localStorage.getItem("getg2"))+0.75;
+        localStorage.setItem("getg2",String(getg2));
+        localStorage.setItem("work","蝦仁飯");
+        var a = parseInt((Math.random()*100+1)*(2000+l2)/2000);
+        if(a>=100){
+            var a1 = parseInt((Math.random()*1+1)*(150+l2)/150);
+            antl=Number(localStorage.getItem("antler"));
+            localStorage.setItem("antler",String(antl+a1));
+            var content = '<div>你獲得了從'+n+'身上掉下來的'+a1+'個鹿茸</div>';
+            $('#3').append(content);
+        }
+    }else if (n === '山羌'){
+        var getj1=Number(localStorage.getItem("getj1"))+0.5;
+        localStorage.setItem("getj1",String(getj1));
+        var a = parseInt((Math.random()*100+1)*(1000+l2)/1000);
+        if(a>=70){
+            var a1 = parseInt((Math.random()*2+1)*(100+l2)/100);
+            sto=Number(localStorage.getItem("stool"));
+            localStorage.setItem("stool",String(sto+a1));
+            var content = '<div>你獲得了從'+n+'身上掉下來的'+a1+'個山羌糞便</div>';
+            $('#3').append(content);
+        }
+    }else if (n === '山羊'){
+        var getg1=Number(localStorage.getItem("getg1"))+0.1;
+        localStorage.setItem("getg1",String(getg1));
+        var a = parseInt((Math.random()*100+1)*(500+l2)/500);
+        if(a>=90){
+            var a1 = parseInt((Math.random()*4+1)*(100+l2)/100);
+            gmk=Number(localStorage.getItem("gmilk"));
+            localStorage.setItem("gmilk",String(gmk+a1));
+            var content = '<div>你獲得了從'+n+'身上掉下來的'+a1+'個山羊奶</div>';
+            $('#3').append(content);
+        }
+    }else if (n === '綿羊'){
+        var getg3=Number(localStorage.getItem("getg3"))+0.1;
+        localStorage.setItem("getg3",String(getg3));
+        var a = parseInt((Math.random()*100+1)*(100+l2)/100);
+        if(a>=80){
+            var a1 = parseInt((Math.random()*5+1)*(100+l2)/100);
+            woo=Number(localStorage.getItem("wool"));
+            localStorage.setItem("wool",String(woo+a1));
+            var content = '<div>你獲得了從'+n+'身上掉下來的'+a1+'個羊毛</div>';
+            $('#3').append(content);
+        }
+    }else if(n ==='訓導主任'){
+        var getg2=Number(localStorage.getItem("getg2"))+1.75;
+        localStorage.setItem("getg2",String(getg2));
+        localStorage.setItem("work","蝦仁飯");
+        var a = parseInt((Math.random()*100+1)*(200+l2)/200);
+        if(a>=90){
+            var a1 = parseInt((Math.random()*1+1)*(250+l2)/250);
+            pan=Number(localStorage.getItem("paint"));
+            localStorage.setItem("paint",String(pan+1));
+            var content = '<div>你獲得了從'+n+'身上掉下來的'+a1+'個油漆</div>';
+            $('#3').append(content);
+        }
+    }else if (n === '初音幫'){
+        var getl2=Number(localStorage.getItem("getl2"))+1.5;
+        localStorage.setItem("getl2",String(getl2));
+        var a = parseInt((Math.random()*100+1)*(200+l2)/200);
+        if(a>=90){
+            var a1 = parseInt((Math.random()*2+1)*(200+l2)/200);
+            gun=Number(localStorage.getItem("gunpow"));
+            localStorage.setItem("gunpow",String(gun+1));
+            var content = '<div>你獲得了從'+n+'身上掉下來的'+a1+'個火藥</div>';
+            $('#3').append(content);
+        }
+        var a = parseInt((Math.random()*100+1)*(200+l2)/200);
+        if(a>=70){
+            var a1 = parseInt((Math.random()*6+1)*(200+l2)/200);
+            tee=Number(localStorage.getItem("teech"));
+            localStorage.setItem("teech",String(tee+a1));
+            var content = '<div>你獲得了從'+n+'身上掉下來的'+a1+'個掉落牙齒</div>';
+            $('#3').append(content);
+        }
+        var a = parseInt((Math.random()*100+1)*(200+l2)/200);
+        if(a>=90){
+            var a1 = parseInt((Math.random()*2+1)*(200+l2)/200);
+            gra=Number(localStorage.getItem("grass"));
+            localStorage.setItem("grass",String(gra+a1));
+            var content = '<div>你獲得了從'+n+'身上掉下來的'+a1+'個玻璃碎片</div>';
+            $('#3').append(content);
+        }
+    }else if (n === '書呆子'){
+        var geti1=Number(localStorage.getItem("geti1"))+0.75;
+        localStorage.setItem("geti1",String(geti1));
+        var a = parseInt((Math.random()*100+1)*(200+l2)/200);
+        if(a>=80){
+            var a1 = parseInt((Math.random()*4+1)*(200+l2)/200);
+            clo=Number(localStorage.getItem("cloth"));
+            localStorage.setItem("cloth",String(clo+a1));
+            var content = '<div>你獲得了從'+n+'身上掉下來的'+a1+'個眼鏡布</div>';
+            $('#3').append(content);
+        }
+    }else if (n === '肥宅'){
+        var getg3=Number(localStorage.getItem("getg3"))+0.5;
+        localStorage.setItem("getg3",String(getg3));
+        var a = parseInt((Math.random()*100+1)*(200+l2)/200);
+        if(a>=70){
+            var a1 = parseInt((Math.random()*6+1)*(200+l2)/200);
+            ger=Number(localStorage.getItem("gear"));
+            localStorage.setItem("gear",String(ger+a1));
+            var content = '<div>你獲得了從'+n+'身上掉下來的'+a1+'個合金齒輪</div>';
+            $('#3').append(content);
+        }
+    }
+    var l2=Number(localStorage.getItem("l2"))
+    var mon=Number(localStorage.getItem("money"));
+    var a = parseInt((Math.random()*10+1)*(100+l2)/100);
+    localStorage.setItem("money",String(mon+a));
+    var content = '<div>你獲得了從'+n+'身上掉下來的'+String(a)+'塊錢</div>';
+    $('#3').append(content);
+    gobig2(-1,g21,-1,-1,-1,l21,i11,m11);
+}
+
+function lose(){
+    var g31=Number(localStorage.getItem("g31"))+4;
+    var j11=Number(localStorage.getItem("j11"))+3;
+    var l11=Number(localStorage.getItem("l11"))+3;
+    var i11=Number(localStorage.getItem("i11"))-9;
+    gobig2(-1,-1,g31,j11,l11,-1,i11,-1);
+}
+
+function tie(){
+    var l21=Number(localStorage.getItem("l21"))+4;
+    var i11=Number(localStorage.getItem("i11"))+5;
+    var m11=Number(localStorage.getItem("m11"))+3;
+    var g11=Number(localStorage.getItem("g11"))-4;
+    gobig2(g11,-1,-1,-1,-1,l21,i11,m11);
+}
+
+function gobig2(g11,g21,g31,j11,l11,l21,i11,m11){
+    g11correction();
+    g21correction();
+    g31correction();
+    j11correction();
+    l11correction();
+    l21correction();
+    i11correction();
+    m11correction();
+    var do1=Number(localStorage.getItem("do"))+1;
+    var age=Number(localStorage.getItem("age"));
+    var age1=Number(localStorage.getItem("age"))+1;
+    var aged=Number(localStorage.getItem("ageend"));
+    if(age>=35){
+        var line=age;
+    }else if(age>=20){
+        var line=age+20;
+    }else{
+        var line=age*2+2;
+    }
+    if(age1>=35){
+        var line1=age1;
+    }else if(age1>=20){
+        var line1=age1+20;
+    }else{
+        var line1=age1*2+2;
+    }
+    if (do1 >= line){
+        g01=Number(localStorage.getItem("g01"));
+        g02=Number(localStorage.getItem("g02"));
+        g03=Number(localStorage.getItem("g03"));
+        j01=Number(localStorage.getItem("j01"));
+        l01=Number(localStorage.getItem("l01"));
+        l02=Number(localStorage.getItem("l02"));
+        i01=Number(localStorage.getItem("i01"));
+        m01=Number(localStorage.getItem("m01"));
+        g11=parseInt(Number(localStorage.getItem("g11"))/5);
+        g21=parseInt(Number(localStorage.getItem("g21"))/5);
+        g31=parseInt(Number(localStorage.getItem("g31"))/5);
+        j11=parseInt(Number(localStorage.getItem("j11"))/5);
+        l11=parseInt(Number(localStorage.getItem("l11"))/5);
+        l21=parseInt(Number(localStorage.getItem("l21"))/5);
+        i11=parseInt(Number(localStorage.getItem("i11"))/5);
+        m11=parseInt(Number(localStorage.getItem("m11"))/5);
+        var g1n=Number(localStorage.getItem("g1"));
+        var g2n=Number(localStorage.getItem("g2"));
+        var g3n=Number(localStorage.getItem("g3"));
+        var j1n=Number(localStorage.getItem("j1"));
+        var l1n=Number(localStorage.getItem("l1"));
+        var l2n=Number(localStorage.getItem("l2"));
+        var i1n=Number(localStorage.getItem("i1"));
+        var m1n=Number(localStorage.getItem("m1"));
+        var g1=g1n+g11*0.0095*(1000+g01)/1000;
+        var g2=g2n+g21*0.01*(10000+g02)*(100+g01)/1000000;
+        var g3=g3n+g31*0.01*(10000+g03)*(100+g01)/1000000;
+        var j1=j1n+j11*0.012*(10000+j01)*(100+g01)/1000000;
+        var l1=l1n+l11*0.013*(10000+l02)*(100+g01)/1000000;
+        var l2=l2n+l21*0.009*(10000+l02)*(100+g01)/1000000;
+        var i1=i1n+i11*0.009*(10000+i01)*(100+g01)/1000000;
+        var m1=m1n+m11*0.014*(10000+m01)*(100+g01)/1000000;
+        var hp=Number(localStorage.getItem("hp"))+10*(100+g01)/100;
+        if (g1>17+g01){
+            g1=17+g01;
+        }
+        if (g2>45+g02){
+            g2=45+g02;
+        }
+        if (g3>45+g03){
+            g3=45+g03;
+        }
+        if (g2+g3 > g1*5){
+            g3=g3*0.9;
+            g2=g2*0.95;
+        }
+        if (j1>60+j01){
+            j1=60+j01;
+        }
+        if (l1>60+l01){
+            l1=60+l01;
+        }
+        if (l2>50+l02){
+            l2=50+l02;
+        }
+        if (i1>180+i01){
+            i1=180+i01;
+        }
+        if (m1>100+m01){
+            m1=100+m01;
+        }
+        if (age>aged){
+            g1=g1*0.95;
+            g2=g2*0.85;
+            g3=g3*0.95;
+            l1=l1*0.95;
+            i1=i1*0.99;
+            m1=m1*0.85;
+        }
+        localStorage.setItem("hp",hp.toString());
+        localStorage.setItem("g1",g1.toString());
+        localStorage.setItem("g11","100");
+        localStorage.setItem("g2",g2.toString());
+        localStorage.setItem("g21","100");
+        localStorage.setItem("g3",g3.toString());
+        localStorage.setItem("g31","100");
+        localStorage.setItem("j1",j1.toString());
+        localStorage.setItem("j11","100");
+        localStorage.setItem("l1",l1.toString());
+        localStorage.setItem("l11","100");
+        localStorage.setItem("l2",l2.toString());
+        localStorage.setItem("l21","100");
+        localStorage.setItem("i1",i1.toString());
+        localStorage.setItem("i11","100");
+        localStorage.setItem("m1",m1.toString());
+        localStorage.setItem("m11","100");
+        localStorage.setItem("do","0");
+        localStorage.setItem("age",age1.toString());
+        localStorage.setItem("exp",String(line1));
+        let content = '';
+        content += '<div>你長大了，成果如下</div>';
+        content += '<div>身高成長了' + String(parseInt((g1-g1n)*1000)/100)+ 'cm</div>';
+        content += '<div>體重成長了' + String(parseInt((g1+g2+g3-g1n-g2n-g3n)*100)/100) + 'kg</div>';
+        content += '<div>跳躍力成長了' + String(parseInt((j1-j1n)*100)/100) + '</div>';
+        content += '<div>視力成長了' + String(parseInt((l1-l1n)*100)/100) + '</div>';
+        content += '<div>幸運成長了' + String(parseInt((l2-l2n)*100)/100) + '</div>';
+        content += '<div>智力成長了' + String(parseInt((i1-i1n)*100)/100) + '</div>';
+        content += '<div>魅力成長了' + String(parseInt((m1-m1n)*100)/100) + '</div>';
+        $("#3").append(content);
+    } else {
+        if(g11>=0){
+            localStorage.setItem("g11",String(g11));
+        }
+        if(g21>=0){
+            localStorage.setItem("g21",String(g21));
+        }
+        if(g31>=0){
+            localStorage.setItem("g31",String(g31));
+        }
+        if(j11>=0){
+            localStorage.setItem("j11",String(j11));
+        }
+        if(l11>=0){
+            localStorage.setItem("l11",String(l11));
+        }
+        if(l21>=0){
+            localStorage.setItem("l21",String(l21));
+        }
+        if(i11>=0){
+            localStorage.setItem("i11",String(i11));
+        }
+        if(m11>=0){
+            localStorage.setItem("m11",String(m11));
+        }
+        localStorage.setItem("do",do1.toString());
+    }
+}
+
+function gobig3(g11,g21,g31,j11,l11,l21,i11,m11){
+    g11correction();
+    g21correction();
+    g31correction();
+    j11correction();
+    l11correction();
+    l21correction();
+    i11correction();
+    m11correction();
+    var do1=Number(localStorage.getItem("do"))+1;
+    var age=Number(localStorage.getItem("age"));
+    var age1=Number(localStorage.getItem("age"))+1;
+    var aged=Number(localStorage.getItem("ageend"));
+    if(age>=35){
+        var line=age;
+    }else if(age>=20){
+        var line=age+20;
+    }else{
+        var line=age*2+2;
+    }
+    if(age1>=35){
+        var line1=age1;
+    }else if(age1>=20){
+        var line1=age1+20;
+    }else{
+        var line1=age1*2+2;
+    }
+    if (do1 >= line){
+        g01=Number(localStorage.getItem("g01"));
+        g02=Number(localStorage.getItem("g02"));
+        g03=Number(localStorage.getItem("g03"));
+        j01=Number(localStorage.getItem("j01"));
+        l01=Number(localStorage.getItem("l01"));
+        l02=Number(localStorage.getItem("l02"));
+        i01=Number(localStorage.getItem("i01"));
+        m01=Number(localStorage.getItem("m01"));
+        g11=parseInt(Number(localStorage.getItem("g11"))/5);
+        g21=parseInt(Number(localStorage.getItem("g21"))/5);
+        g31=parseInt(Number(localStorage.getItem("g31"))/5);
+        j11=parseInt(Number(localStorage.getItem("j11"))/5);
+        l11=parseInt(Number(localStorage.getItem("l11"))/5);
+        l21=parseInt(Number(localStorage.getItem("l21"))/5);
+        i11=parseInt(Number(localStorage.getItem("i11"))/5);
+        m11=parseInt(Number(localStorage.getItem("m11"))/5);
+        var g1n=Number(localStorage.getItem("g1"));
+        var g2n=Number(localStorage.getItem("g2"));
+        var g3n=Number(localStorage.getItem("g3"));
+        var j1n=Number(localStorage.getItem("j1"));
+        var l1n=Number(localStorage.getItem("l1"));
+        var l2n=Number(localStorage.getItem("l2"));
+        var i1n=Number(localStorage.getItem("i1"));
+        var m1n=Number(localStorage.getItem("m1"));
+        var g1=g1n+g11*0.0095*(1000+g01)/1000;
+        var g2=g2n+g21*0.01*(10000+g02)*(100+g01)/1000000;
+        var g3=g3n+g31*0.01*(10000+g03)*(100+g01)/1000000;
+        var j1=j1n+j11*0.012*(10000+j01)*(100+g01)/1000000;
+        var l1=l1n+l11*0.013*(10000+l02)*(100+g01)/1000000;
+        var l2=l2n+l21*0.009*(10000+l02)*(100+g01)/1000000;
+        var i1=i1n+i11*0.009*(10000+i01)*(100+g01)/1000000;
+        var m1=m1n+m11*0.014*(10000+m01)*(100+g01)/1000000;
+        var hp=Number(localStorage.getItem("hp"))+10*(100+g01)/100;
+        if (g1>17+g01){
+            g1=17+g01;
+        }
+        if (g2>45+g02){
+            g2=45+g02;
+        }
+        if (g3>45+g03){
+            g3=45+g03;
+        }
+        if (g2+g3 > g1*5){
+            g3=g3*0.9;
+            g2=g2*0.95;
+        }
+        if (j1>60+j01){
+            j1=60+j01;
+        }
+        if (l1>60+l01){
+            l1=60+l01;
+        }
+        if (l2>50+l02){
+            l2=50+l02;
+        }
+        if (i1>180+i01){
+            i1=180+i01;
+        }
+        if (m1>100+m01){
+            m1=100+m01;
+        }
+        if (age>aged){
+            g1=g1*0.95;
+            g2=g2*0.85;
+            g3=g3*0.95;
+            l1=l1*0.95;
+            i1=i1*0.99;
+            m1=m1*0.85;
+        }
+        localStorage.setItem("hp",hp.toString());
+        localStorage.setItem("g1",g1.toString());
+        localStorage.setItem("g11","100");
+        localStorage.setItem("g2",g2.toString());
+        localStorage.setItem("g21","100");
+        localStorage.setItem("g3",g3.toString());
+        localStorage.setItem("g31","100");
+        localStorage.setItem("j1",j1.toString());
+        localStorage.setItem("j11","100");
+        localStorage.setItem("l1",l1.toString());
+        localStorage.setItem("l11","100");
+        localStorage.setItem("l2",l2.toString());
+        localStorage.setItem("l21","100");
+        localStorage.setItem("i1",i1.toString());
+        localStorage.setItem("i11","100");
+        localStorage.setItem("m1",m1.toString());
+        localStorage.setItem("m11","100");
+        localStorage.setItem("do","0");
+        localStorage.setItem("age",age1.toString());
+        localStorage.setItem("exp",String(line1));
+        let content = '';
+        content += '<div>你長大了，成果如下</div>';
+        content += '<div>身高成長了' + String(parseInt((g1-g1n)*1000)/100)+ 'cm</div>';
+        content += '<div>體重成長了' + String(parseInt((g1+g2+g3-g1n-g2n-g3n)*100)/100) + 'kg</div>';
+        content += '<div>跳躍力成長了' + String(parseInt((j1-j1n)*100)/100) + '</div>';
+        content += '<div>視力成長了' + String(parseInt((l1-l1n)*100)/100) + '</div>';
+        content += '<div>幸運成長了' + String(parseInt((l2-l2n)*100)/100) + '</div>';
+        content += '<div>智力成長了' + String(parseInt((i1-i1n)*100)/100) + '</div>';
+        content += '<div>魅力成長了' + String(parseInt((m1-m1n)*100)/100) + '</div>';
+        $("#2").append(content);
+    } else {
+        if(g11>=0){
+            localStorage.setItem("g11",String(g11));
+        }
+        if(g21>=0){
+            localStorage.setItem("g21",String(g21));
+        }
+        if(g31>=0){
+            localStorage.setItem("g31",String(g31));
+        }
+        if(j11>=0){
+            localStorage.setItem("j11",String(j11));
+        }
+        if(l11>=0){
+            localStorage.setItem("l11",String(l11));
+        }
+        if(l21>=0){
+            localStorage.setItem("l21",String(l21));
+        }
+        if(i11>=0){
+            localStorage.setItem("i11",String(i11));
+        }
+        if(m11>=0){
+            localStorage.setItem("m11",String(m11));
+        }
+        localStorage.setItem("do",do1.toString());
+    }
+}
+
+async function down(){
+    $('#train1').attr('disabled', true);
+    $('#train2').attr('disabled', true);
+    $('#train3').attr('disabled', true);
+    $('#train4').attr('disabled', true);
+    $('#train5').attr('disabled', true);
+    $('#train6').attr('disabled', true);
+    $('#train7').attr('disabled', true);
+    $('#train8').attr('disabled', true);
+    $('#train9').attr('disabled', true);
+}
+
+async function open(){
+    $('#train1').attr('disabled', false);
+    $('#train2').attr('disabled', false);
+    $('#train3').attr('disabled', false);
+    $('#train4').attr('disabled', false);
+    $('#train5').attr('disabled', false);
+    $('#train6').attr('disabled', false);
+    $('#train7').attr('disabled', false);
+    $('#train8').attr('disabled', false);
+    $('#train9').attr('disabled', false);
+}
