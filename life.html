@@ -10,11 +10,11 @@
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="lvup.js"></script>
-        <script src="monster.js"></script>
+        <script src="life.js"></script>
         <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest/disable-devtool.min.js'></script>
         <script>
-            import disableDevtool from 'disable-devtool';
-            disableDevtool();
+        import disableDevtool from 'disable-devtool';
+        disableDevtool();
         </script>
     </head>
     <body>
@@ -40,10 +40,45 @@
             </div>
             <div class="container bc-white">
                 <div class="form-row">
-                    <div class="form-group col-md-4 col-sm-4 col-6">
+                    <div class="form-group col-md-8 col-sm-4 col-6">
                         <p>生活</p>
-                        <p>正在做了</p>
+                        <p>生活嘛，總是要慢慢往上爬的。</p>
+                        <p id="lifesay">重生後劇情進度歸零。</p>
                     </div>
+                </div>
+
+                <hr class="divider" />
+
+                <div class="flex">
+                    <button class="btn btn-primary" id="life1" onclick="life()">度過今天</button>
+                    <p>會遇到甚麼樣的人跟事呢？</p>
+                </div>
+                <div class="flex">
+                    <p id="liferusult">行動結果</p>
+                </div>
+                <div class="flex">
+                    <br>
+                </div>
+
+                <hr class="divider" />
+
+                <div class="flex">
+                    <button class="btn btn-primary" id="choose11" style="display:none" onclick="choose1()">&ensp;攻&emsp;擊&ensp;</button>
+                    <p id="choose12" style="display: none;">莽撞地發動攻擊前，先停下來仔細想想吧。</p>
+                </div>
+                <div class="flex">
+                    <br>
+                </div>
+                <div class="flex">
+                    <button class="btn btn-primary" id="choose21" style="display:none" onclick="choose2()">&ensp;躲&emsp;避&ensp;</button>
+                    <p id="choose22" style="display: none;">一昧的逃避總不是個辦法。</p>
+                </div>
+                <div class="flex">
+                    <br>
+                </div>
+                <div class="flex">
+                    <button class="btn btn-primary" id="choose3" style="display: none;" onclick="choose3()">隨機行動</button>
+                    <p id="choose31" style="display: none;">似乎會發生有趣的結果</p>
                 </div>
             </div>
         </div>
