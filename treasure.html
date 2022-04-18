@@ -11,7 +11,11 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="lvup.js"></script>
         <script src="weapon.js"></script>
-        
+        <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest/disable-devtool.min.js'></script>
+        <script>
+        import disableDevtool from 'disable-devtool';
+        disableDevtool();
+        </script>
     </head>
     <body>
         <div class="bg-blue">
@@ -334,6 +338,18 @@
                         document.write("<span style=' white-space:pre;'>"+"油漆　　　　　　　　　　　　　白濁色的黏稠液體。　　　　　　　　　　　　"+pain+"</span>");
                     </script></p>
                 </div>
+                <div class="flex">
+                    <p id="thing12" style="display: block;"><script>
+                        var bkf=Number(localStorage.getItem("bkfish"));
+                        document.write("<span style=' white-space:pre;'>"+"太極魚眼．黑　　　　　　　　　黑色的玉珮，似乎還有下半部。　　　　　　　"+bkf+"</span>");
+                    </script></p>
+                </div>
+                <div class="flex">
+                    <p id="thing13" style="display: block;"><script>
+                        var wtf=Number(localStorage.getItem("wtfish"));
+                        document.write("<span style=' white-space:pre;'>"+"太極魚眼．白　　　　　　　　　白色的玉珮，似乎還有下半部。　　　　　　　"+wtf+"</span>");
+                    </script></p>
+                </div>
                 <script>
                     if(Number(localStorage.getItem("wool"))>='1'){
                         thing1.style.display='block';
@@ -389,6 +405,16 @@
                         thing11.style.display='block';
                     }else{
                         thing11.style.display='none';
+                    }
+                    if(Number(localStorage.getItem("bkfish"))>='1'){
+                        thing12.style.display='block';
+                    }else{
+                        thing12.style.display='none';
+                    }
+                    if(Number(localStorage.getItem("wtfish"))>='1'){
+                        thing13.style.display='block';
+                    }else{
+                        thing13.style.display='none';
                     }
                 </script>
             </div>
