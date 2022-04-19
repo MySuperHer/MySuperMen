@@ -13,8 +13,8 @@
         <script src="weapon.js"></script>
         <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest/disable-devtool.min.js'></script>
         <script>
-        import disableDevtool from 'disable-devtool';
-        disableDevtool();
+            import disableDevtool from 'disable-devtool';
+            disableDevtool();
         </script>
     </head>
     <body>
@@ -213,10 +213,17 @@
                     <div class="flex">
                         <p id="tre37"></p>
                         <button class="btn btn-primary" id="tre38" onClick="uprobot()" style="display: none;">升級</button>
-                        <p id="tre39">升級所需材料：未開放</p>
+                        <p id="tre39" style="display: none;"><script>
+                            var a=Number(localStorage.getItem("robot"));
+                            if (a>=10){
+                                document.write("<span style=' white-space:pre;'>"+"升級所需材料：合金齒輪x"+Math.pow(a,3)*2+",玻璃碎片x"+Math.pow(a,2)+",火藥x"+Math.pow(a-8,3)+",青銅x"+Math.pow(a-9,2)+"</span>");
+                            }else{
+                                document.write("<span style=' white-space:pre;'>"+"升級所需材料：合金齒輪x"+Math.pow(a,4)+",玻璃碎片x"+Math.pow(a,2)*2+"</span>");
+                            }
+                        </script></p>
                     </div>
                     <div class="flex">
-                        <br id="tre310" style="display: none;">
+                        <p id="tre310" style="display: none;">
                         <script>
                             if(Number(localStorage.getItem("robot"))>=1){
                                 tre31.style.display='block';
@@ -243,27 +250,98 @@
                                 
                             }
                         </script>
+                    </div>
+                    <div class="flex">
+                        <p style="display: block;" id="tre41"><script>
+                            var a=Number(localStorage.getItem("gossip"))-1;
+                            if (a>10){
+                                document.write("<span style=' white-space:pre;'>"+"神機妙算 八卦陣"+"+"+String(a-10)+"</span>");
+                            }else{
+                                document.write("<span style=' white-space:pre;'>"+"未卜先知 八卦陣"+"+"+String(a)+"</span>");
+                            }
+                        </script></p>
+                        <p id="tre42">&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                        <button class="btn btn-primary" id="tre43" onClick="takegossip()" style="display: none;">裝備</button>
+                    </div>
+                    <div class="flex">
+                        <p style="display: block;" id="tre44"><script>
+                            var a=Number(localStorage.getItem("gossip"));
+                            if (a>10){
+                                document.write("<span style=' white-space:pre;'>"+"黑色與白色的光輝在其上流轉著，散發神秘的力量。　　　"+"</span>");
+                            }else{
+                                document.write("<span style=' white-space:pre;'>"+"黑白條紋相間的陣盤，據說擁有預知吉凶的能力。　　　　"+"</span>");
+                            }
+                        </script></p>
+                        <p id="tre45">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                        <button class="btn btn-primary" id="tre46" onClick="downgossip()" style="display: none;">卸下</button>
+                    </div>
+                    <div class="flex">
+                        <p id="tre47"></p>
+                        <button class="btn btn-primary" id="tre48" onClick="upgossip()" style="display: none;">升級</button>
+                        <p id="tre49" style="display: none;"><script>
+                            var a=Number(localStorage.getItem("gossip"));
+                            if (a>=10){
+                                document.write("<span style=' white-space:pre;'>"+"升級所需材料：太極魚眼．黑x"+Math.pow(a,3)+",太極魚眼．白x"+Math.pow(a,3)+",通天石x"+a+"</span>");
+                            }else{
+                                document.write("<span style=' white-space:pre;'>"+"升級所需材料：太極魚眼．黑x"+Math.pow(a,2)+",太極魚眼．白x"+Math.pow(a,2)+"</span>");
+                            }
+                        </script></p>
+                    </div>
+                    <div class="flex">
+                        <p id="tre410" style="display: none;">
+                        <script>
+                            if(Number(localStorage.getItem("gossip"))>=1){
+                                tre41.style.display='block';
+                                tre42.style.display='block';
+                                tre43.style.display='block';
+                                tre44.style.display='block';
+                                tre45.style.display='block';
+                                tre46.style.display='block';
+                                tre47.style.display='block';
+                                tre48.style.display='block';
+                                tre49.style.display='block';
+                                tre410.style.display='block';
+                            }else{
+                                tre41.style.display='none';
+                                tre42.style.display='none';
+                                tre43.style.display='none';
+                                tre44.style.display='none';
+                                tre45.style.display='none';
+                                tre46.style.display='none';
+                                tre47.style.display='none';
+                                tre48.style.display='none';
+                                tre49.style.display='none';
+                                tre410.style.display='none';
+                                
+                            }
+                        </script>
+                    </div>
+                    <div class="flex">
                         <script>
                             $('#tre13').attr('disabled', true);
                             $('#tre23').attr('disabled', true);
                             $('#tre33').attr('disabled', true);
+                            $('#tre43').attr('disabled', true);
                             $('#tre16').attr('disabled', true);
                             $('#tre26').attr('disabled', true);
                             $('#tre36').attr('disabled', true);
+                            $('#tre46').attr('disabled', true);
                             if(localStorage.getItem("weapon")=="knife"){
                                 $('#tre16').attr('disabled', false);
                             }else if(localStorage.getItem("weapon")=="phone"){
                                 $('#tre26').attr('disabled', false);
                             }else if(localStorage.getItem("weapon")=="robot"){
                                 $('#tre36').attr('disabled', false);
+                            }else if(localStorage.getItem("weapon")=="gossip"){
+                                $('#tre46').attr('disabled', false);
                             }else{
                                 $('#tre13').attr('disabled', false);
                                 $('#tre23').attr('disabled', false);
                                 $('#tre33').attr('disabled', false);
+                                $('#tre43').attr('disabled', false);
                             }
                         </script>
                     </div>
-                    
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-8 col-sm-5 col-6">
@@ -341,13 +419,13 @@
                 <div class="flex">
                     <p id="thing12" style="display: block;"><script>
                         var bkf=Number(localStorage.getItem("bkfish"));
-                        document.write("<span style=' white-space:pre;'>"+"太極魚眼．黑　　　　　　　　　黑色的玉珮，似乎還有下半部。　　　　　　　"+bkf+"</span>");
+                        document.write("<span style=' white-space:pre;'>"+"太極魚眼．黑　　　　　　　　　黑色的玉珮，充滿不祥的預兆。　　　　　　　"+bkf+"</span>");
                     </script></p>
                 </div>
                 <div class="flex">
                     <p id="thing13" style="display: block;"><script>
                         var wtf=Number(localStorage.getItem("wtfish"));
-                        document.write("<span style=' white-space:pre;'>"+"太極魚眼．白　　　　　　　　　白色的玉珮，似乎還有下半部。　　　　　　　"+wtf+"</span>");
+                        document.write("<span style=' white-space:pre;'>"+"太極魚眼．白　　　　　　　　　白色的玉珮，散發祥瑞的光芒。　　　　　　　"+wtf+"</span>");
                     </script></p>
                 </div>
                 <script>
@@ -391,7 +469,7 @@
                     }else{
                         thing8.style.display='none';
                     }
-                    if(Number(localStorage.getItem("gress"))>='1'){
+                    if(Number(localStorage.getItem("grass"))>='1'){
                         thing9.style.display='block';
                     }else{
                         thing9.style.display='none';

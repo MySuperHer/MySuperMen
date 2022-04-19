@@ -120,7 +120,7 @@
                     <div class="form-row">
                         <div class="form-group col-md-8 col-sm-4 col-6">
                             <p>&emsp;武器鋪</p>
-                            <P>&emsp;這裡販售各種武器。</p>
+                            <P>&emsp;這裡販售各種裝備。</p>
                             <P>&emsp;提交購物單後需在此網頁等待10秒。</p>
                             <P>&emsp;裝備售後概不退還。</p>
                         </div>
@@ -190,6 +190,29 @@
                         }else{
                             shop131.style.display='block';
                             robotshop.style.display='none';
+                        }
+                    </script>
+                    <div class="flex">
+                        <br>
+                    </div>
+                    <div class="flex">
+                        <p>未卜先知 八卦陣</p>
+                        <p>售價：15000元</p>
+                    </div>
+                    <div class="flex">
+                        <p>黑白條紋相間的陣盤，據說擁有預知吉凶的能力。</p>
+                    </div>
+                    <div class="flex">
+                        <button class="btn btn-primary" id="shop141" onClick="gossip()" style="display: block;">購買</button>
+                        <p id="gossipshop" style="display: none;">已售出</p>
+                    </div>
+                    <script>
+                        if(Number(localStorage.getItem("gossip"))>=1){
+                            shop141.style.display='none';
+                            gossipshop.style.display='block';
+                        }else{
+                            shop141.style.display='block';
+                            gossipshop.style.display='none';
                         }
                     </script>
                     <div class="flex">
