@@ -352,7 +352,12 @@ th {
 }
 
 .report_red {
-    color: #f00;
+    color: #AE0000;
+    font-weight: bold;
+}
+
+.report_yellow {
+    color: #C6A300;
     font-weight: bold;
 }
 
