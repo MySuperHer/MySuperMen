@@ -120,7 +120,7 @@
                     <div class="form-row">
                         <div class="form-group col-md-8 col-sm-4 col-6">
                             <p>&emsp;武器鋪</p>
-                            <P>&emsp;這裡販售各種裝備。</p>
+                            <P>&emsp;這裡販售各種武器。</p>
                             <P>&emsp;提交購物單後需在此網頁等待10秒。</p>
                             <P>&emsp;裝備售後概不退還。</p>
                         </div>
@@ -215,9 +215,63 @@
                             gossipshop.style.display='none';
                         }
                     </script>
+                    <hr class="divider" />
+                    <div class="form-row">
+                        <div class="form-group col-md-8 col-sm-4 col-6">
+                            <p>&emsp;防器鋪</p>
+                            <P>&emsp;這裡販售各種防具。</p>
+                            <P>&emsp;提交購物單後需在此網頁等待10秒。</p>
+                            <P>&emsp;裝備售後概不退還。</p>
+                        </div>
+                    </div>
+                    <hr class="divider" />
+                    <div class="flex">
+                        <p>阿嬤的假牙</p>
+                        <p>售價：3000元</p>
+                    </div>
+                    <div class="flex">
+                        <p>阿嬤的寶貝假牙，聽說還有點口臭。</p>
+                    </div>
+                    <div class="flex">
+                        <button class="btn btn-primary" id="shop211" onClick="denture()" style="display: block;">購買</button>
+                        <p id="dentureshop" style="display: none;">已售出</p>
+                    </div>
+                    <script>
+                        if(Number(localStorage.getItem("denture"))>=1){
+                            shop211.style.display='none';
+                            dentureshop.style.display='block';
+                        }else{
+                            shop211.style.display='block';
+                            dentureshop.style.display='none';
+                        }
+                    </script>
                     <div class="flex">
                         <br>
                     </div>
+                    <div class="flex">
+                        <p>不安全帽</p>
+                        <p>售價：12000元</p>
+                    </div>
+                    <div class="flex">
+                        <p>這種東西誰要買啊。</p>
+                    </div>
+                    <div class="flex">
+                        <button class="btn btn-primary" id="shop221" onClick="helmet()" style="display: block;">購買</button>
+                        <p id="helmetshop" style="display: none;">已售出</p>
+                    </div>
+                    <script>
+                        if(Number(localStorage.getItem("helmet"))>=1){
+                            shop221.style.display='none';
+                            helmetshop.style.display='block';
+                        }else{
+                            shop221.style.display='block';
+                            helmetshop.style.display='none';
+                        }
+                    </script>
+                    <div class="flex">
+                        <br>
+                    </div>
+                    <hr class="divider" />
                     <div class="flex">
                         <p id="4">購買收據</p>
                     </div>

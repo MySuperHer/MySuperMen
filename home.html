@@ -103,6 +103,20 @@
                                     plg=parseInt((plg+(Number(localStorage.getItem("knife"))*5))*100)/100;
                                 }
                             }
+                            if (localStorage.getItem("armor")=="denture"){
+                                if(localStorage.getItem("denture")>=11){
+                                    plg=parseInt((plg+Math.pow((Number(localStorage.getItem("denture")))+1,2))*100)/100;
+                                }else{
+                                    plg=parseInt((plg+(Number(localStorage.getItem("denture"))*10))*100)/100;
+                                }
+                            }
+                            if (localStorage.getItem("armor")=="helmet"){
+                                if(localStorage.getItem("helmet")>=11){
+                                    plg=parseInt((plg+Math.pow((Number(localStorage.getItem("helmet"))),2))*100)/100;
+                                }else{
+                                    plg=parseInt((plg+(Number(localStorage.getItem("helmet"))*7))*100)/100;
+                                }
+                            }
                             document.write("體重："+plg+"kg");
                         </script><p>
                     </div>

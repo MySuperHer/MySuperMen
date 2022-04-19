@@ -190,12 +190,12 @@
                         <p style="display: block;" id="tre31"><script>
                             var a=Number(localStorage.getItem("robot"))-1;
                             if (a>10){
-                                document.write("<span style=' white-space:pre;'>"+"人工智能 結衣　　 "+"+"+String(a-10)+"</span>");
+                                document.write("<span style=' white-space:pre;'>"+"人工智能 結衣"+"+"+String(a-10)+"　　</span>");
                             }else{
-                                document.write("<span style=' white-space:pre;'>"+"旅行用機器人 結衣 "+"+"+String(a)+"</span>");
+                                document.write("<span style=' white-space:pre;'>"+"旅行用機器人 結衣"+"+"+String(a)+"</span>");
                             }
                         </script></p>
-                        <p id="tre32">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                        <p id="tre32">&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
                         <button class="btn btn-primary" id="tre33" onClick="takerobot()" style="display: none;">裝備</button>
                     </div>
                     <div class="flex">
@@ -343,10 +343,169 @@
                         </script>
                     </div>
                 </div>
+                <hr class="divider" />
+                <div class="form-row">
+                    <div class="form-group col-md-8 col-sm-5 col-6">
+                        <p>&emsp;防具</p>
+                        <p>&emsp;似乎可以武裝到牙齒！？確實。</p>
+                    </div>
+                </div>
+        
+                <hr class="divider" />
+                
+                <div class="explore">
+                    <div class="flex">
+                        <p style="display: block;" id="tre111"><script>
+                            var a=Number(localStorage.getItem("denture"))-1;
+                            if (a>10){
+                                document.write("<span style=' white-space:pre;'>"+"阿嬤的真牙"+"+"+String(a-10)+"</span>");
+                            }else{
+                                document.write("<span style=' white-space:pre;'>"+"阿嬤的假牙"+"+"+String(a)+"</span>");
+                            }
+                        </script></p>
+                        <p id="tre112">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                        <button class="btn btn-primary" id="tre113" onClick="takedenture()" style="display: none;">裝備</button>
+                    </div>
+                    <div class="flex">
+                        <p style="display: block;" id="tre114"><script>
+                            var a=Number(localStorage.getItem("denture"));
+                            if (a>10){
+                                document.write("<span style=' white-space:pre;'>"+"這麼做真的好嗎？　　　　　　　　　　　　　　　　　　"+"</span>");
+                            }else{
+                                document.write("<span style=' white-space:pre;'>"+"上面還有沒清洗乾淨的洗潔劑，這東西真的能放進嘴巴嗎？"+"</span>");
+                            }
+                        </script></p>
+                        <p id="tre115">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                        <button class="btn btn-primary" id="tre116" onClick="downdenture()" style="display: none;">卸下</button>
+                    </div>
+                    <div class="flex">
+                        <p id="tre117"></p>
+                        <button class="btn btn-primary" id="tre118" onClick="updenture()" style="display: none;">升級</button>
+                        <p id="tre119" style="display: none;"><script>
+                            var a=Number(localStorage.getItem("denture"));
+                            if (a>=10){
+                                document.write("<span style=' white-space:pre;'>"+"升級所需材料：鹿茸x"+Math.pow(a,2)*3+",掉落牙齒x"+Math.pow(a,3)+",骨頭x"+Math.pow(a-8,3)+",古玉x"+Math.pow(a-9,2)+"</span>");
+                            }else{
+                                document.write("<span style=' white-space:pre;'>"+"升級所需材料：鹿茸x"+Math.pow(a,3)+",掉落牙齒x"+Math.pow(a,2)*3+"</span>");
+                            }
+                        </script></p>
+                    </div>
+                    <div class="flex">
+                        <p id="tre1110" style="display: none;">
+                        <script>
+                            if(Number(localStorage.getItem("denture"))>=1){
+                                tre111.style.display='block';
+                                tre112.style.display='block';
+                                tre113.style.display='block';
+                                tre114.style.display='block';
+                                tre115.style.display='block';
+                                tre116.style.display='block';
+                                tre117.style.display='block';
+                                tre118.style.display='block';
+                                tre119.style.display='block';
+                                tre1110.style.display='block';
+                            }else{
+                                tre111.style.display='none';
+                                tre112.style.display='none';
+                                tre113.style.display='none';
+                                tre114.style.display='none';
+                                tre115.style.display='none';
+                                tre116.style.display='none';
+                                tre117.style.display='none';
+                                tre118.style.display='none';
+                                tre119.style.display='none';
+                                tre1110.style.display='none';            
+                            }
+                        </script></p>
+                    </div>
+                </div>
+                <div class="explore">
+                    <div class="flex">
+                        <p style="display: block;" id="tre121"><script>
+                            var a=Number(localStorage.getItem("helmet"))-1;
+                            if (a>10){
+                                document.write("<span style=' white-space:pre;'>"+"好安全帽"+"+"+String(a-10)+"</span>");
+                            }else{
+                                document.write("<span style=' white-space:pre;'>"+"不安全帽"+"+"+String(a)+"</span>");
+                            }
+                        </script></p>
+                        <p id="tre122">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                        <button class="btn btn-primary" id="tre123" onClick="takehelmet()" style="display: none;">裝備</button>
+                    </div>
+                    <div class="flex">
+                        <p style="display: block;" id="tre124"><script>
+                            var a=Number(localStorage.getItem("helmet"));
+                            if (a>10){
+                                document.write("<span style=' white-space:pre;'>"+"一頂好的安全帽，不是頂好買來的。"+"</span>");
+                            }else{
+                                document.write("<span style=' white-space:pre;'>"+"一頂不安全的帽子，不是安全帽。　"+"</span>");
+                            }
+                        </script></p>
+                        <p id="tre125">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                        <button class="btn btn-primary" id="tre126" onClick="downhelmet()" style="display: none;">卸下</button>
+                    </div>
+                    <div class="flex">
+                        <p id="tre127"></p>
+                        <button class="btn btn-primary" id="tre128" onClick="uphelmet()" style="display: none;">升級</button>
+                        <p id="tre129" style="display: none;"><script>
+                            var a=Number(localStorage.getItem("helmet"));
+                            if (a>=10){
+                                document.write("<span style=' white-space:pre;'>"+"升級所需材料：玻璃碎片x"+Math.pow(a,2)*3+",油漆x"+Math.pow(a,3)+",青銅x"+Math.pow(a-8,3)+",龍珠x"+Math.pow(a-9,2)+"</span>");
+                            }else{
+                                document.write("<span style=' white-space:pre;'>"+"升級所需材料：玻璃碎片x"+Math.pow(a,3)+",油漆x"+Math.pow(a,2)*3+"</span>");
+                            }
+                        </script></p>
+                    </div>
+                    <div class="flex">
+                        <p id="tre1210" style="display: none;">
+                        <script>
+                            if(Number(localStorage.getItem("helmet"))>=1){
+                                tre121.style.display='block';
+                                tre122.style.display='block';
+                                tre123.style.display='block';
+                                tre124.style.display='block';
+                                tre125.style.display='block';
+                                tre126.style.display='block';
+                                tre127.style.display='block';
+                                tre128.style.display='block';
+                                tre129.style.display='block';
+                                tre1210.style.display='block';
+                            }else{
+                                tre121.style.display='none';
+                                tre122.style.display='none';
+                                tre123.style.display='none';
+                                tre124.style.display='none';
+                                tre125.style.display='none';
+                                tre126.style.display='none';
+                                tre127.style.display='none';
+                                tre128.style.display='none';
+                                tre129.style.display='none';
+                                tre1210.style.display='none';            
+                            }
+                        </script></p>
+                    </div>
+                </div>
+                <div class="flex">
+                    <script>
+                        $('#tre113').attr('disabled', true);
+                        $('#tre123').attr('disabled', true);
+                        $('#tre116').attr('disabled', true);
+                        $('#tre126').attr('disabled', true);
+                        if(localStorage.getItem("armor")=="denture"){
+                            $('#tre116').attr('disabled', false);
+                        }else if(localStorage.getItem("armor")=="helmet"){
+                            $('#tre126').attr('disabled', false);
+                        }else{
+                            $('#tre113').attr('disabled', false);
+                            $('#tre123').attr('disabled', false);
+                        }
+                    </script>
+                </div>
+                <hr class="divider" />
                 <div class="form-row">
                     <div class="form-group col-md-8 col-sm-5 col-6">
                         <p>&emsp;倉庫</p>
-                        <p>&emsp;擺放著雜物的老舊廢棄倉庫</p>
+                        <p>&emsp;擺放著雜物的老舊廢棄倉庫。</p>
                     </div>
                 </div>
                 <hr class="divider" />
