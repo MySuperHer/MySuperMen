@@ -170,7 +170,7 @@
                     <label for="testInput">
                     <span>小孩的名字 </span>
                     <input type="text" placeholder="test" id="testInput2" />
-                    <button class="btn btn-primary" onclick="FsubmitBtn()">生小孩</button>
+                    <button id="again" class="btn btn-primary" onclick="FsubmitBtn()">生小孩</button>
                     <button class="btn btn-primary" type="reset">還是不要好了...</button>
                     </label>
                 </form>
@@ -178,6 +178,7 @@
 
             <script>
                 function FsubmitBtn() {
+                    $('#again').attr('disabled', true);
                     var submitValue = $('#testInput2').val().toString();
                     localStorage.setItem("name0",localStorage.getItem("name"));
                     localStorage.setItem("name",submitValue);
