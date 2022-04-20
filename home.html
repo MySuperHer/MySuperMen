@@ -137,9 +137,9 @@
                             pll2=parseInt(Number(localStorage.getItem("l2"))*100)/100;
                             if (localStorage.getItem("weapon")=="gossip"){
                                 if(localStorage.getItem("gossip")>=11){
-                                    pll2=pll2+Math.pow((Number(localStorage.getItem("gossip"))),3);
+                                    pll2=parseInt((pll2+Math.pow((Number(localStorage.getItem("gossip"))),3))*100)/100;
                                 }else{
-                                    pll2=pll2+(Number(localStorage.getItem("gossip"))*10);
+                                    pll2=parseInt((pll2+(Number(localStorage.getItem("gossip"))*10))*100)/100;
                                 }
                             }
                             document.write("幸運："+pll2);
