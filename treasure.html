@@ -317,15 +317,61 @@
                         </script>
                     </div>
                     <div class="flex">
+                        <p style="display: block;" id="tre51"><script>
+                            document.write("<span style=' white-space:pre;'>殺人令</span>");
+                        </script></p>
+                        <p id="tre52">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                        <button class="btn btn-primary" id="tre53" onClick="takekiller()" style="display: none;">裝備</button>
+                    </div>
+                    <div class="flex">
+                        <p style="display: block;" id="tre54"><script>
+                            var a=Number(localStorage.getItem("killer"));
+                            document.write("<span style=' white-space:pre;'>"+"可以隨心所欲殺人的令牌。　　　　　　　　　　　　　　"+"</span>");
+                        </script></p>
+                        <p id="tre55">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                        <button class="btn btn-primary" id="tre56" onClick="downkiller()" style="display: none;">卸下</button>
+                    </div>
+                    <div class="flex">
+                        <p id="tre57" style="display: none;">
+                        <script>
+                            if(Number(localStorage.getItem("killer"))>=1){
+                                tre51.style.display='block';
+                                tre52.style.display='block';
+                                tre53.style.display='block';
+                                tre54.style.display='block';
+                                tre55.style.display='block';
+                                tre56.style.display='block';
+                                tre57.style.display='block';
+                                tre58.style.display='block';
+                                tre59.style.display='block';
+                                tre510.style.display='block';
+                            }else{
+                                tre51.style.display='none';
+                                tre52.style.display='none';
+                                tre53.style.display='none';
+                                tre54.style.display='none';
+                                tre55.style.display='none';
+                                tre56.style.display='none';
+                                tre57.style.display='none';
+                                tre58.style.display='none';
+                                tre59.style.display='none';
+                                tre510.style.display='none';
+                                
+                            }
+                        </script>
+                    </div>
+                    <div class="flex">
                         <script>
                             $('#tre13').attr('disabled', true);
                             $('#tre23').attr('disabled', true);
                             $('#tre33').attr('disabled', true);
                             $('#tre43').attr('disabled', true);
+                            $('#tre53').attr('disabled', true);
                             $('#tre16').attr('disabled', true);
                             $('#tre26').attr('disabled', true);
                             $('#tre36').attr('disabled', true);
                             $('#tre46').attr('disabled', true);
+                            $('#tre56').attr('disabled', true);
                             if(localStorage.getItem("weapon")=="knife"){
                                 $('#tre16').attr('disabled', false);
                             }else if(localStorage.getItem("weapon")=="phone"){
@@ -334,11 +380,14 @@
                                 $('#tre36').attr('disabled', false);
                             }else if(localStorage.getItem("weapon")=="gossip"){
                                 $('#tre46').attr('disabled', false);
+                            }else if(localStorage.getItem("weapon")=="killer"){
+                                $('#tre56').attr('disabled', false);
                             }else{
                                 $('#tre13').attr('disabled', false);
                                 $('#tre23').attr('disabled', false);
                                 $('#tre33').attr('disabled', false);
                                 $('#tre43').attr('disabled', false);
+                                $('#tre53').attr('disabled', false);
                             }
                         </script>
                     </div>
