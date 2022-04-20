@@ -1,1 +1,973 @@
-function _0x49e3(){var _0x5667bd=['使用槍托','抬起拳頭','揮舞鐵棒','<div\x20class=\x22report_blue\x22>那些警察開始頻繁地出現在你的居所。</div>','#life1','3766472fPGMvg','<div\x20class=\x22report_blue\x22>你二話不說就往馬保國頭上尻。</div>','<div>你目前的血量：','<div\x20class=\x22report_blue\x22>星爆氣流斬二連擊！對','被麻痺了</div>','混混槍手','：如果剛剛那一拳發力，你的鼻梁已經歪了。</div>','：唉呦，情況好像有點不太妙欸，本田，這裡就交給你了。</div>','<div>你獲得了從','wtfish','的時候爆炸了</div>','一起轉生到異世界去了</div>','ml2','轉生到異世界去了</div>','<div\x20class=\x22report_green\x22>結衣使用了清潔，','同歸於盡了</div>','開三槍','<div\x20class=\x22report_blue\x22>SWITCH!</div>','：現在該結束這場鬧劇了。</div>','：趕快處理完吧，我還要回去吃我的蝦仁飯。</div>','跌進了隕石坑，受到了','<div\x20class=\x22report_blue\x22>於是你開始屠殺混元形意門。</div>','雙刀劍士','開始有氧呼吸，恢復了','發動攻擊，對','幸運星','<div>智力：','39GhFIeY','使出了星爆氣流斬</div>','robot','混元形意門掌門馬保國','打出了致命一擊，但是沒有突破','money','#liferusult','<div\x20class=\x22report_blue\x22>在你打敗了馬保國以後。</div>','<div>防禦：','刮了一張彩卷，抽中了炸彈，炸彈爆炸對','denture','太極拳','身上掉下來的一個太極魚眼．白</div>','did','<div>對手資訊</div>','bkfish','：年輕人不講武德，偷襲！</div>','混元功法','倒下了，','sqrt','<div\x20class=\x22report_blue\x22>也許你的父親與其門派掌門人有何淵源。</div>','打出了致命一擊，對','run','馬上騎上腳踏車離開','精確打擊','block','helmet','精準打擊的小混混','498906bXANnM','<div\x20class=\x22report_green\x22>','<div>移動：','<div\x20class=\x22report_red\x22>天上掉下一顆流星，砸到了','獲得了','<div\x20class=\x22report_blue\x22>被門徒揍得鼻青臉腫的你非常憤怒。</div>','使出了星爆氣流斬，對','四度灼燒了</div>','<div\x20class=\x22report_red\x22>','投擲木屐','weapon','受到了驚嚇</div>','被暈眩了，但是感覺好一點了</div>','removeItem','3327541UUkgNR','name','用力地吹了吹口哨，沒什麼效果</div>','style','php','append','灼燒了</div>','gossip','<div\x20class=\x22report_blue\x22>星爆氣流斬二連擊！但是沒有命中</div>','armor','揮動球棒','卡車司機','閃電鞭','被麻痺了，但是感覺好一點了</div>','使出了水平立方斬，對','<div>','感到恐懼不敢行動，但是感覺好一點了</div>','<div\x20class=\x22report_blue\x22>你來到了混元形意門的門口。</div>','身上掉下來的一個通天石</div>','<div>你遇到了','刮了一張彩卷，抽中了','mi1','<div\x20class=\x22report_blue\x22>','<div\x20class=\x22report_blue\x22>你的大門被全天候的監察著。</div>','1593440qUBwEt','work','小混混','虛假的桐谷','。</div>','張彩卷</div>','<div\x20class=\x22report_blue\x22>你的日子並沒有變的比較平淡。</div>','#lifesay','<div\x20class=\x22report_blue\x22>星爆氣流斬','ml1','服務生','兩津勘吉巡查長','<div\x20class=\x22report_blue\x22>在你擊敗了那位巡查長之後。</div>','被暈眩了</div>','生命</div>','訓練有素的小混混','<div>血量：','phone','knife','part','<div\x20class=\x22report_blue\x22>你結束了這愉快的一天。</div>','moname','<div\x20class=\x22report_blue\x22>似乎只能殺出一條血海。</div>','<div\x20class=\x22report_blue\x22>天上降下了獅子座流星雨</div>','<div\x20class=\x22report_blue\x22>你逃回到了家，</div>','踩到了地上的香蕉皮滑倒了，受到了','開著卡車撞擊','塊錢</div>','：小朋友，來折折看我一根手指頭。</div>','<div\x20class=\x22report_blue\x22>於是你決定前去問個清楚。</div>','再次抓起','點生命</div>','游泳國手','pow','1000766DWPmvQ','彩卷行員工','發動攻擊，但是沒有突破','的防禦，對','連擊！但是沒有命中</div>','使用了瘋狂餐車，但是沒有突破','<div>幸運：','品嘗燒肉便當','被灼燒了，受到','160276TLQsra','：傳統功夫可是講化勁了的！</div>','二度灼燒了</div>','killer','閃電鞭五連鞭','<div>目前遊戲進度：','顆流星，砸到了','造成了','setItem','mhp','#choose12','點傷害</div>','：燒肉，我的燒肉。</div>','<div\x20class=\x22report_blue\x22>第','chapter','使用了瘋狂餐車，對','<div\x20class=\x22report_blue\x22>星爆氣流斬2連擊！對','混元形意門門徒','原始人打擊','把右拳放在了你的鼻子上</div>','<div\x20class=\x22report_yellow\x22>','mg3','<hr\x20class=\x22divider\x22\x20/>','<div\x20class=\x22report_blue\x22>你依然非常憤怒。</div>','眩暈了</div>','<div>力量：','<div\x20class=\x22report_blue\x22>成群的警察前仆後繼而來。</div>','<div\x20class=\x22report_blue\x22>在他失蹤以後。</div>','display','random','的頭上，造成了','使出了水平立方斬，但是沒有突破','<div\x20class=\x22report_blue\x22>也許你並沒有注意到。</div>','3876965UjMYKv','#choose21','刮了一張彩卷，抽中了藥水，藥水回復了','mg2','<div>你開始了新的一天。</div>','<div>一一一一</div>','回復了','<div>命中：','#choose11','disabled','往你的鼻梁狠狠的','attr','stone','：兩百多公斤的英國大力士都折不動我一根手指頭。</div>','掏槍射擊','#choose31','使出了星爆氣流斬，但是沒有突破','張彩券</div>','試圖發動攻擊，但是被','</div>','getItem','試圖發動攻擊，但是沒有命中</div>','mj1','身上掉下來的一個太極魚眼．黑</div>','感到恐懼不敢行動</div>','三度灼燒了</div>'];_0x49e3=function(){return _0x5667bd;};return _0x49e3();}(function(_0x8dd10a,_0x4a0b01){var _0x1b33bb=_0x31e3,_0x20b135=_0x8dd10a();while(!![]){try{var _0x567980=parseInt(_0x1b33bb(0x20d))/0x1+parseInt(_0x1b33bb(0x1eb))/0x2+parseInt(_0x1b33bb(0x1a9))/0x3*(parseInt(_0x1b33bb(0x216))/0x4)+-parseInt(_0x1b33bb(0x237))/0x5+-parseInt(_0x1b33bb(0x1c5))/0x6+-parseInt(_0x1b33bb(0x1d3))/0x7+-parseInt(_0x1b33bb(0x256))/0x8;if(_0x567980===_0x4a0b01)break;else _0x20b135['push'](_0x20b135['shift']());}catch(_0x22524f){_0x20b135['push'](_0x20b135['shift']());}}}(_0x49e3,0x7d683));async function life(){var _0x1d0c7b=_0x31e3,_0x33f8b3=Number(localStorage[_0x1d0c7b(0x24b)](_0x1d0c7b(0x224))),_0x41d4a6=Number(localStorage[_0x1d0c7b(0x24b)](_0x1d0c7b(0x1fe)));localStorage[_0x1d0c7b(0x21e)](_0x1d0c7b(0x1b6),'0');var _0xb3f3c6=Number(localStorage[_0x1d0c7b(0x24b)]('did'));sessionStorage['setItem']('php',String(parseInt(Number(localStorage[_0x1d0c7b(0x24b)]('hp'))))),$(_0x1d0c7b(0x255))[_0x1d0c7b(0x242)](_0x1d0c7b(0x240),!![]),await delay(0x0),$('#liferusult')[_0x1d0c7b(0x1d8)](_0x1d0c7b(0x23b)),choose11[_0x1d0c7b(0x1d6)][_0x1d0c7b(0x232)]=_0x1d0c7b(0x1c2),choose12['style'][_0x1d0c7b(0x232)]=_0x1d0c7b(0x1c2),choose21[_0x1d0c7b(0x1d6)][_0x1d0c7b(0x232)]='block',choose22[_0x1d0c7b(0x1d6)][_0x1d0c7b(0x232)]=_0x1d0c7b(0x1c2),gonext(_0x33f8b3,_0x41d4a6,_0xb3f3c6),$(_0x1d0c7b(0x255))[_0x1d0c7b(0x242)](_0x1d0c7b(0x240),![]),$(_0x1d0c7b(0x23f))[_0x1d0c7b(0x242)](_0x1d0c7b(0x240),![]),$(_0x1d0c7b(0x238))[_0x1d0c7b(0x242)](_0x1d0c7b(0x240),![]),$('#choose31')[_0x1d0c7b(0x242)](_0x1d0c7b(0x240),![]);}async function taichi(_0x5d3500,_0x59a890){var _0x4222bb=_0x31e3;let _0x2c8529='';if(_0x5d3500==0x1&&_0x59a890==0x0)_0x2c8529+='<div\x20class=\x22report_blue\x22>你的父親拋棄了你。</div>',_0x2c8529+=_0x4222bb(0x231),_0x2c8529+='<div\x20class=\x22report_blue\x22>討債的小混混天天找上門來。</div>';else{if(_0x5d3500==0x5&&_0x59a890==0x0)_0x2c8529+='<div\x20class=\x22report_blue\x22>你在小混混中發現了一些混元形意門的門徒。</div>',_0x2c8529+=_0x4222bb(0x1bd),_0x2c8529+=_0x4222bb(0x208);else{if(_0x5d3500==0xa&&_0x59a890==0x0)_0x2c8529+=_0x4222bb(0x1e4),_0x2c8529+=_0x4222bb(0x1ca),_0x2c8529+=_0x4222bb(0x208);else{if(_0x5d3500==0xb&&_0x59a890==0x0)_0x2c8529+='<div\x20class=\x22report_blue\x22>在擊敗了落荒而逃的馬保國後。</div>',_0x2c8529+=_0x4222bb(0x22d),_0x2c8529+=_0x4222bb(0x1a3);else{}}}}_0x5d3500>=0xf&&($('#liferusult')[_0x4222bb(0x1d8)](_0x2c8529),$(_0x4222bb(0x220))[_0x4222bb(0x242)]('disabled',!![]),choose31['style'][_0x4222bb(0x232)]=_0x4222bb(0x1c2),choose32[_0x4222bb(0x1d6)][_0x4222bb(0x232)]=_0x4222bb(0x1c2));if(_0x5d3500==0xb&&_0x59a890==0x5){var _0x59a890=Number(localStorage[_0x4222bb(0x24b)](_0x4222bb(0x1b6)))+0x1,_0x4dcfdb=parseInt(Math['random']()*0x5);sessionStorage[_0x4222bb(0x21e)](_0x4222bb(0x200),'混元形意門掌門馬保國'),sessionStorage[_0x4222bb(0x21e)](_0x4222bb(0x23a),0x64),sessionStorage['setItem'](_0x4222bb(0x22b),0x64),sessionStorage['setItem'](_0x4222bb(0x24d),0x5a),sessionStorage['setItem'](_0x4222bb(0x1f4),0x32),sessionStorage['setItem'](_0x4222bb(0x19a),0x96),sessionStorage[_0x4222bb(0x21e)]('mi1',0x4b),sessionStorage[_0x4222bb(0x21e)]('mhp',0xbb8),_0x2c8529+=_0x4222bb(0x22c),_0x2c8529+=_0x4222bb(0x1e6)+sessionStorage[_0x4222bb(0x24b)]('moname')+_0x4222bb(0x1ef),_0x2c8529+=_0x4222bb(0x1b7),_0x2c8529+=_0x4222bb(0x1fb)+sessionStorage['getItem']('mhp')+_0x4222bb(0x24a),_0x2c8529+=_0x4222bb(0x22f)+sessionStorage[_0x4222bb(0x24b)]('mg2')+'</div>',_0x2c8529+=_0x4222bb(0x1b1)+sessionStorage[_0x4222bb(0x24b)](_0x4222bb(0x22b))+_0x4222bb(0x24a),_0x2c8529+=_0x4222bb(0x1c7)+sessionStorage[_0x4222bb(0x24b)](_0x4222bb(0x24d))+'</div>',_0x2c8529+=_0x4222bb(0x23e)+sessionStorage[_0x4222bb(0x24b)](_0x4222bb(0x1f4))+_0x4222bb(0x24a),_0x2c8529+=_0x4222bb(0x213)+sessionStorage[_0x4222bb(0x24b)](_0x4222bb(0x19a))+_0x4222bb(0x24a),_0x2c8529+=_0x4222bb(0x1a8)+sessionStorage[_0x4222bb(0x24b)]('mi1')+_0x4222bb(0x24a),_0x2c8529+=_0x4222bb(0x23c),$(_0x4222bb(0x1af))['append'](_0x2c8529);let _0x4d6493='';_0x4d6493+=_0x4222bb(0x21b)+localStorage['getItem']('chapter')+'-'+localStorage[_0x4222bb(0x24b)](_0x4222bb(0x1fe))+'-'+localStorage[_0x4222bb(0x24b)](_0x4222bb(0x1b6))+_0x4222bb(0x24a),_0x4d6493+='<div>你目前的血量：'+sessionStorage[_0x4222bb(0x24b)](_0x4222bb(0x1d7))+'</div>',$(_0x4222bb(0x1f2))[_0x4222bb(0x1d8)](_0x4d6493);}else{var _0x59a890=Number(localStorage[_0x4222bb(0x24b)]('did'))+0x1,_0x4dcfdb=parseInt(Math['random']()*0x5);_0x5d3500>=0xa&&(_0x4dcfdb=0x4);var _0x1bde42=[_0x4222bb(0x1ed),'精準打擊的小混混',_0x4222bb(0x1fa),_0x4222bb(0x25b),_0x4222bb(0x227)];sessionStorage[_0x4222bb(0x21e)](_0x4222bb(0x200),_0x1bde42[_0x4dcfdb]),sessionStorage[_0x4222bb(0x21e)](_0x4222bb(0x23a),String(_0x5d3500*0xa+_0x59a890+_0x4dcfdb*0x3)),sessionStorage[_0x4222bb(0x21e)](_0x4222bb(0x22b),String(_0x5d3500*0x7+_0x59a890+_0x4dcfdb*0x5)),sessionStorage['setItem'](_0x4222bb(0x24d),String(_0x5d3500*0x5+_0x59a890+_0x4dcfdb*0x3)),sessionStorage['setItem'](_0x4222bb(0x1f4),String(_0x5d3500*0x5+_0x59a890*0x3+_0x4dcfdb*0x3)),sessionStorage[_0x4222bb(0x21e)](_0x4222bb(0x19a),String(_0x5d3500*0xa+_0x59a890+_0x4dcfdb*0x5)),sessionStorage[_0x4222bb(0x21e)](_0x4222bb(0x1e8),String(_0x5d3500*0x4+_0x59a890+_0x4dcfdb*0x7)),sessionStorage[_0x4222bb(0x21e)]('mhp',String(_0x5d3500*0xc8+_0x59a890+_0x4dcfdb*0xa)),_0x2c8529+=_0x4222bb(0x22c),_0x2c8529+=_0x4222bb(0x1e6)+sessionStorage[_0x4222bb(0x24b)](_0x4222bb(0x200))+_0x4222bb(0x1ef),_0x2c8529+='<div>對手資訊</div>',_0x2c8529+=_0x4222bb(0x1fb)+sessionStorage[_0x4222bb(0x24b)](_0x4222bb(0x21f))+_0x4222bb(0x24a),_0x2c8529+='<div>力量：'+sessionStorage[_0x4222bb(0x24b)](_0x4222bb(0x23a))+_0x4222bb(0x24a),_0x2c8529+=_0x4222bb(0x1b1)+sessionStorage['getItem'](_0x4222bb(0x22b))+_0x4222bb(0x24a),_0x2c8529+=_0x4222bb(0x1c7)+sessionStorage[_0x4222bb(0x24b)](_0x4222bb(0x24d))+_0x4222bb(0x24a),_0x2c8529+=_0x4222bb(0x23e)+sessionStorage['getItem'](_0x4222bb(0x1f4))+_0x4222bb(0x24a),_0x2c8529+=_0x4222bb(0x213)+sessionStorage[_0x4222bb(0x24b)](_0x4222bb(0x19a))+'</div>',_0x2c8529+=_0x4222bb(0x1a8)+sessionStorage[_0x4222bb(0x24b)](_0x4222bb(0x1e8))+'</div>',_0x2c8529+='<hr\x20class=\x22divider\x22\x20/>',$(_0x4222bb(0x1af))[_0x4222bb(0x1d8)](_0x2c8529);let _0x156945='';_0x156945+=_0x4222bb(0x21b)+localStorage[_0x4222bb(0x24b)]('chapter')+'-'+localStorage['getItem'](_0x4222bb(0x1fe))+'-'+localStorage[_0x4222bb(0x24b)](_0x4222bb(0x1b6))+_0x4222bb(0x24a),_0x156945+=_0x4222bb(0x258)+sessionStorage[_0x4222bb(0x24b)](_0x4222bb(0x1d7))+_0x4222bb(0x24a),$(_0x4222bb(0x1f2))['append'](_0x156945);}}async function police(_0x197fd0,_0x570d1b){var _0x37a808=_0x31e3;let _0x4e3628='';if(_0x197fd0==0x1&&_0x570d1b==0x0)_0x4e3628+=_0x37a808(0x1b0),_0x4e3628+=_0x37a808(0x1f1),_0x4e3628+='<div\x20class=\x22report_blue\x22>討債的小混混還是天天找上門來。</div>';else{if(_0x197fd0==0x5&&_0x570d1b==0x0)_0x4e3628+=_0x37a808(0x236),_0x4e3628+='<div\x20class=\x22report_blue\x22>但也可能你已經注意到了。</div>',_0x4e3628+=_0x37a808(0x254);else{if(_0x197fd0==0xa&&_0x570d1b==0x0)_0x4e3628+=_0x37a808(0x1ea),_0x4e3628+='<div\x20class=\x22report_blue\x22>從你門口停著的警車來看應該很難不被發現。</div>',_0x4e3628+=_0x37a808(0x208);else{if(_0x197fd0==0xb&&_0x570d1b==0x0)_0x4e3628+=_0x37a808(0x1f7),_0x4e3628+=_0x37a808(0x230),_0x4e3628+=_0x37a808(0x201);else{}}}}_0x197fd0>=0xf&&($(_0x37a808(0x1af))[_0x37a808(0x1d8)](_0x4e3628),$(_0x37a808(0x220))['attr'](_0x37a808(0x240),!![]),choose31[_0x37a808(0x1d6)][_0x37a808(0x232)]=_0x37a808(0x1c2),choose32[_0x37a808(0x1d6)][_0x37a808(0x232)]='block');if(_0x197fd0==0xb&&_0x570d1b==0x5){var _0x570d1b=Number(localStorage[_0x37a808(0x24b)]('did'))+0x1,_0x49a0b4=parseInt(Math[_0x37a808(0x233)]()*0x5);sessionStorage[_0x37a808(0x21e)](_0x37a808(0x200),_0x37a808(0x1f6)),sessionStorage[_0x37a808(0x21e)]('mg2',0x12c),sessionStorage[_0x37a808(0x21e)](_0x37a808(0x22b),0x118),sessionStorage['setItem'](_0x37a808(0x24d),0x5a),sessionStorage[_0x37a808(0x21e)]('ml1',0x50),sessionStorage[_0x37a808(0x21e)]('ml2',0x96),sessionStorage[_0x37a808(0x21e)](_0x37a808(0x1e8),0x5a),sessionStorage['setItem'](_0x37a808(0x21f),0x1f40),_0x4e3628+=_0x37a808(0x22c),_0x4e3628+='<div>你遇到了'+sessionStorage[_0x37a808(0x24b)](_0x37a808(0x200))+_0x37a808(0x1ef),_0x4e3628+=_0x37a808(0x1b7),_0x4e3628+=_0x37a808(0x1fb)+sessionStorage[_0x37a808(0x24b)](_0x37a808(0x21f))+_0x37a808(0x24a),_0x4e3628+=_0x37a808(0x22f)+sessionStorage[_0x37a808(0x24b)](_0x37a808(0x23a))+_0x37a808(0x24a),_0x4e3628+='<div>防禦：'+sessionStorage[_0x37a808(0x24b)]('mg3')+_0x37a808(0x24a),_0x4e3628+=_0x37a808(0x1c7)+sessionStorage['getItem'](_0x37a808(0x24d))+'</div>',_0x4e3628+=_0x37a808(0x23e)+sessionStorage['getItem'](_0x37a808(0x1f4))+_0x37a808(0x24a),_0x4e3628+=_0x37a808(0x213)+sessionStorage[_0x37a808(0x24b)](_0x37a808(0x19a))+_0x37a808(0x24a),_0x4e3628+=_0x37a808(0x1a8)+sessionStorage['getItem'](_0x37a808(0x1e8))+_0x37a808(0x24a),_0x4e3628+=_0x37a808(0x23c),$(_0x37a808(0x1af))[_0x37a808(0x1d8)](_0x4e3628);let _0x8271c2='';_0x8271c2+=_0x37a808(0x21b)+localStorage['getItem']('chapter')+'-'+localStorage[_0x37a808(0x24b)]('part')+'-'+localStorage[_0x37a808(0x24b)](_0x37a808(0x1b6))+_0x37a808(0x24a),_0x8271c2+='<div>你目前的血量：'+sessionStorage[_0x37a808(0x24b)](_0x37a808(0x1d7))+_0x37a808(0x24a),$(_0x37a808(0x1f2))[_0x37a808(0x1d8)](_0x8271c2);}else{var _0x570d1b=Number(localStorage[_0x37a808(0x24b)](_0x37a808(0x1b6)))+0x1,_0x2ff984=Number(localStorage[_0x37a808(0x24b)](_0x37a808(0x224)))+0x1,_0x49a0b4=parseInt(Math[_0x37a808(0x233)]()*0x5);_0x197fd0>=0xa&&(_0x49a0b4=0x4);var _0x3f3e58=[_0x37a808(0x1ed),_0x37a808(0x1c4),_0x37a808(0x1fa),'混混槍手','警察'];sessionStorage[_0x37a808(0x21e)](_0x37a808(0x200),_0x3f3e58[_0x49a0b4]),sessionStorage[_0x37a808(0x21e)](_0x37a808(0x23a),String(0x64+_0x197fd0*0xa+_0x570d1b+_0x49a0b4*0x3)),sessionStorage[_0x37a808(0x21e)](_0x37a808(0x22b),String(0x64+_0x197fd0*0x7+_0x570d1b+_0x49a0b4*0x5)),sessionStorage[_0x37a808(0x21e)](_0x37a808(0x24d),String(0x32+_0x197fd0*0x5+_0x570d1b+_0x49a0b4*0x3)),sessionStorage[_0x37a808(0x21e)]('ml1',String(0x32+_0x197fd0*0x5+_0x570d1b*0x3+_0x49a0b4*0x3)),sessionStorage['setItem'](_0x37a808(0x19a),String(0x64+_0x197fd0*0xa+_0x570d1b+_0x49a0b4*0x5)),sessionStorage[_0x37a808(0x21e)](_0x37a808(0x1e8),String(0x46+_0x197fd0*0x4+_0x570d1b+_0x49a0b4*0x7)),sessionStorage['setItem']('mhp',String(0xc8+_0x197fd0*0xc8+_0x570d1b+_0x49a0b4*0xa)),_0x4e3628+=_0x37a808(0x22c),_0x4e3628+=_0x37a808(0x1e6)+sessionStorage[_0x37a808(0x24b)](_0x37a808(0x200))+_0x37a808(0x1ef),_0x4e3628+=_0x37a808(0x1b7),_0x4e3628+='<div>血量：'+sessionStorage[_0x37a808(0x24b)]('mhp')+'</div>',_0x4e3628+='<div>力量：'+sessionStorage[_0x37a808(0x24b)](_0x37a808(0x23a))+'</div>',_0x4e3628+=_0x37a808(0x1b1)+sessionStorage[_0x37a808(0x24b)](_0x37a808(0x22b))+'</div>',_0x4e3628+=_0x37a808(0x1c7)+sessionStorage[_0x37a808(0x24b)](_0x37a808(0x24d))+'</div>',_0x4e3628+=_0x37a808(0x23e)+sessionStorage[_0x37a808(0x24b)](_0x37a808(0x1f4))+_0x37a808(0x24a),_0x4e3628+=_0x37a808(0x213)+sessionStorage[_0x37a808(0x24b)](_0x37a808(0x19a))+_0x37a808(0x24a),_0x4e3628+=_0x37a808(0x1a8)+sessionStorage[_0x37a808(0x24b)](_0x37a808(0x1e8))+'</div>',_0x4e3628+=_0x37a808(0x22c),$(_0x37a808(0x1af))[_0x37a808(0x1d8)](_0x4e3628);let _0x4c8cd0='';_0x4c8cd0+=_0x37a808(0x21b)+localStorage[_0x37a808(0x24b)](_0x37a808(0x224))+'-'+localStorage[_0x37a808(0x24b)](_0x37a808(0x1fe))+'-'+localStorage['getItem'](_0x37a808(0x1b6))+_0x37a808(0x24a),_0x4c8cd0+=_0x37a808(0x258)+sessionStorage['getItem']('php')+_0x37a808(0x24a),$('#lifesay')[_0x37a808(0x1d8)](_0x4c8cd0);}}function choose1(){var _0x29b0a6=_0x31e3;moname=sessionStorage[_0x29b0a6(0x24b)](_0x29b0a6(0x200)),php=Number(sessionStorage['getItem']('php')),plname=localStorage[_0x29b0a6(0x24b)](_0x29b0a6(0x1d4)),work=localStorage['getItem'](_0x29b0a6(0x1ec)),taichifight(moname,php,plname,work);}function choose2(){var _0x4e752d=_0x31e3;let _0x10905d='';_0x10905d+=_0x4e752d(0x203),localStorage['setItem'](_0x4e752d(0x224),'1'),localStorage['setItem'](_0x4e752d(0x1fe),'1'),localStorage[_0x4e752d(0x21e)](_0x4e752d(0x1b6),'0'),$(_0x4e752d(0x1af))['append'](_0x10905d),taichi(0x1,0x0);}function choose3(){var _0x389e3e=_0x31e3;let _0x33278c='';_0x33278c+=_0x389e3e(0x1ff),_0x33278c+='<div\x20class=\x22report_blue\x22>盡管可能不是這麼的愉悅。</div>',localStorage[_0x389e3e(0x21e)](_0x389e3e(0x224),String(Number(localStorage[_0x389e3e(0x24b)]('chapter'))+0x1)),localStorage[_0x389e3e(0x21e)](_0x389e3e(0x1fe),'1'),localStorage['setItem'](_0x389e3e(0x1b6),'0'),String(Number(localStorage['getItem'](_0x389e3e(0x224)))=='3')&&(localStorage['setItem']('chapter',String(Number(localStorage['getItem'](_0x389e3e(0x224)))-0x1)),_0x33278c+='<div\x20class=\x22report_blue\x22>後續內容，敬請期待。</div>'),$(_0x389e3e(0x1af))['append'](_0x33278c);}function taichifight(_0x5e5c21,_0x1bd0f7,_0x21b626,_0x211731){var _0x314792=_0x31e3,_0x349f56=Number(localStorage[_0x314792(0x24b)]('g2'));localStorage[_0x314792(0x24b)](_0x314792(0x1cf))==_0x314792(0x1fd)&&(localStorage[_0x314792(0x24b)]('knife')>=0xb?_0x349f56=_0x349f56+Math['pow'](Number(localStorage[_0x314792(0x24b)](_0x314792(0x1fd))),0x2):_0x349f56=_0x349f56+Number(localStorage[_0x314792(0x24b)](_0x314792(0x1fd)))*0x5);localStorage['getItem'](_0x314792(0x1dc))==_0x314792(0x1b3)&&(localStorage[_0x314792(0x24b)](_0x314792(0x1b3))>=0xb?_0x349f56=parseInt((_0x349f56+Math[_0x314792(0x20c)](Number(localStorage[_0x314792(0x24b)](_0x314792(0x1b3)))+0x1,0x2))*0x64)/0x64:_0x349f56=parseInt((_0x349f56+Number(localStorage['getItem'](_0x314792(0x1b3)))*0xa)*0x64)/0x64);var _0x253930=Number(localStorage[_0x314792(0x24b)]('g3'));localStorage[_0x314792(0x24b)](_0x314792(0x1dc))==_0x314792(0x1c3)&&(localStorage[_0x314792(0x24b)]('helmet')>=0xb?_0x253930=parseInt((_0x253930+Math[_0x314792(0x20c)](Number(localStorage['getItem'](_0x314792(0x1c3))),0x2))*0x64)/0x64:_0x253930=parseInt((_0x253930+Number(localStorage['getItem'](_0x314792(0x1c3)))*0x7)*0x64)/0x64);var _0x519333=Number(localStorage[_0x314792(0x24b)]('j1')),_0x36183b=Number(localStorage[_0x314792(0x24b)]('l1')),_0x4e8aa3=Number(localStorage['getItem']('l2'));localStorage[_0x314792(0x24b)](_0x314792(0x1cf))=='gossip'&&(localStorage[_0x314792(0x24b)]('gossip')>=0xb?_0x4e8aa3=_0x4e8aa3+Math[_0x314792(0x20c)](Number(localStorage[_0x314792(0x24b)](_0x314792(0x1da))),0x3):_0x4e8aa3=_0x4e8aa3+Number(localStorage[_0x314792(0x24b)](_0x314792(0x1da)))*0xa);var _0x2c7017=Number(localStorage[_0x314792(0x24b)]('i1'));localStorage['getItem']('weapon')==_0x314792(0x1fc)&&(localStorage[_0x314792(0x24b)]('phone')>=0xb?_0x2c7017=_0x2c7017+Number(localStorage[_0x314792(0x24b)]('phone'))*0x4:_0x2c7017=_0x2c7017+Number(localStorage[_0x314792(0x24b)](_0x314792(0x1fc)))*0x3);_0x211731==='無業'&&(_0x211731='');var _0x5223fe=0x1,_0x17d7f7=0x1,_0x5c3375=0x1,_0x103363=0x0,_0x2ffe29=0x1,_0x184d95=0x1,_0x5d4a8a=0x1,_0x401192=Number(sessionStorage[_0x314792(0x24b)](_0x314792(0x23a))),_0x234f31=Number(sessionStorage[_0x314792(0x24b)](_0x314792(0x22b))),_0x201b66=Number(sessionStorage[_0x314792(0x24b)]('mj1')),_0x548d21=Number(sessionStorage['getItem'](_0x314792(0x1f4))),_0x28d459=Number(sessionStorage['getItem'](_0x314792(0x19a))),_0x320e94=Number(sessionStorage['getItem']('mi1')),_0x284d92=Number(sessionStorage[_0x314792(0x24b)](_0x314792(0x21f))),_0x116516=0x0,_0x351885='';_0x351885+=_0x314792(0x1e2)+_0x211731+_0x21b626+'攻擊了'+_0x5e5c21+'</div>';if(_0x5e5c21==_0x314792(0x1ac))_0x351885+=_0x314792(0x257),_0x351885+='<div\x20class=\x22report_blue\x22>我也不知道是誰給你的勇氣。</div>',_0x351885+='<div\x20class=\x22report_blue\x22>梁靜茹嗎？</div>',_0x351885+='<div\x20class=\x22report_red\x22>'+_0x5e5c21+_0x314792(0x1b9),sessionStorage[_0x314792(0x21e)]('run','0');else _0x5e5c21==_0x314792(0x1f6)?(_0x351885+=_0x314792(0x1cd)+_0x5e5c21+_0x314792(0x1a1),sessionStorage[_0x314792(0x21e)]('run','0')):sessionStorage[_0x314792(0x1d2)]('run');$(_0x314792(0x1af))[_0x314792(0x1d8)](_0x351885);while(_0x1bd0f7>0x0&&_0x284d92>0x0&&_0x116516<0x64){if(_0x36183b>_0x4e8aa3){var _0x4c31d4=playerattack(_0x349f56,_0x253930,_0x519333,_0x36183b,_0x4e8aa3,_0x2c7017,_0x1bd0f7,_0x234f31,_0x201b66,_0x28d459,_0x320e94,_0x284d92,_0x211731,_0x21b626,_0x5e5c21,_0x5223fe,_0x2ffe29,_0x184d95,_0x5d4a8a,_0x17d7f7,_0x116516,_0x5c3375,_0x103363);_0x1bd0f7=_0x4c31d4[0x0],_0x284d92=_0x4c31d4[0x1],_0x5223fe=_0x4c31d4[0x2],_0x2ffe29=_0x4c31d4[0x3],_0x184d95=_0x4c31d4[0x4],_0x5d4a8a=_0x4c31d4[0x5],_0x17d7f7=_0x4c31d4[0x6],_0x116516=_0x116516+0x1;if(_0x1bd0f7>0x0&&_0x284d92>0x0){var _0x5d513f=monstorattack11(_0x401192,_0x548d21,_0x28d459,_0x320e94,_0x284d92,_0x349f56,_0x253930,_0x519333,_0x4e8aa3,_0x2c7017,_0x1bd0f7,_0x211731,_0x21b626,_0x5e5c21,_0x5223fe,_0x2ffe29,_0x184d95,_0x5d4a8a,_0x17d7f7,_0x5c3375);_0x1bd0f7=_0x5d513f[0x0],_0x284d92=_0x5d513f[0x1],_0x5223fe=_0x5d513f[0x2],_0x2ffe29=_0x5d513f[0x3],_0x184d95=_0x5d513f[0x4],_0x5d4a8a=_0x5d513f[0x5],_0x201b66=_0x5d513f[0x6],_0x17d7f7=_0x5d513f[0x7],_0x5c3375=_0x5d513f[0x8],_0x116516=_0x116516+0x1;}}else{var _0x5d513f=monstorattack11(_0x401192,_0x548d21,_0x28d459,_0x320e94,_0x284d92,_0x349f56,_0x253930,_0x519333,_0x4e8aa3,_0x2c7017,_0x1bd0f7,_0x211731,_0x21b626,_0x5e5c21,_0x5223fe,_0x2ffe29,_0x184d95,_0x5d4a8a,_0x17d7f7,_0x5c3375,_0x103363);_0x1bd0f7=_0x5d513f[0x0],_0x284d92=_0x5d513f[0x1],_0x5223fe=_0x5d513f[0x2],_0x2ffe29=_0x5d513f[0x3],_0x184d95=_0x5d513f[0x4],_0x5d4a8a=_0x5d513f[0x5],_0x201b66=_0x5d513f[0x6],_0x17d7f7=_0x5d513f[0x7],_0x5c3375=_0x5d513f[0x8],_0x116516=_0x116516+0x1;if(_0x1bd0f7>0x0&&_0x284d92>0x0){var _0x4c31d4=playerattack(_0x349f56,_0x253930,_0x519333,_0x36183b,_0x4e8aa3,_0x2c7017,_0x1bd0f7,_0x234f31,_0x201b66,_0x28d459,_0x320e94,_0x284d92,_0x211731,_0x21b626,_0x5e5c21,_0x5223fe,_0x2ffe29,_0x184d95,_0x5d4a8a,_0x17d7f7,_0x116516,_0x5c3375);_0x1bd0f7=_0x4c31d4[0x0],_0x284d92=_0x4c31d4[0x1],_0x5223fe=_0x4c31d4[0x2],_0x2ffe29=_0x4c31d4[0x3],_0x184d95=_0x4c31d4[0x4],_0x5d4a8a=_0x4c31d4[0x5],_0x17d7f7=_0x4c31d4[0x6],_0x116516=_0x116516+0x1;}}}var _0x351885='';if(_0x1bd0f7>0x0&&_0x284d92<=0x0){var _0x351885=_0x314792(0x1e2)+_0x5e5c21+'倒下了，'+_0x211731+_0x21b626+'還有'+String(parseInt(_0x1bd0f7))+_0x314792(0x1f9);$(_0x314792(0x1af))[_0x314792(0x1d8)](_0x351885),win2(_0x5e5c21),sessionStorage[_0x314792(0x21e)](_0x314792(0x1d7),String(parseInt(_0x1bd0f7)));var _0x13886a=Number(localStorage[_0x314792(0x24b)]('did'))+0x1,_0x4dda0a=Number(localStorage[_0x314792(0x24b)](_0x314792(0x1fe)));_0x13886a>0x5&&(_0x13886a=0x0,localStorage[_0x314792(0x21e)]('part',_0x4dda0a+0x1));localStorage['setItem'](_0x314792(0x1b6),String(_0x13886a));var _0x55b9b8=localStorage[_0x314792(0x24b)]('chapter');gonext(_0x55b9b8,_0x4dda0a+0x1,_0x13886a);}else{if(_0x1bd0f7<=0x0&&_0x284d92>0x0){var _0x351885=_0x314792(0x1e2)+_0x211731+_0x21b626+_0x314792(0x1bb)+_0x5e5c21+'還有'+String(parseInt(_0x284d92))+_0x314792(0x1f9);$('#liferusult')[_0x314792(0x1d8)](_0x351885),$('#choose11')['attr'](_0x314792(0x240),!![]),$(_0x314792(0x238))[_0x314792(0x242)](_0x314792(0x240),!![]),$('#choose31')[_0x314792(0x242)](_0x314792(0x240),!![]);}else{if(_0x1bd0f7<=0x0&&_0x284d92<=0x0){var _0x351885=_0x314792(0x1e2)+_0x211731+_0x21b626+'和'+_0x5e5c21+_0x314792(0x19d);$('#liferusult')[_0x314792(0x1d8)](_0x351885),$(_0x314792(0x23f))[_0x314792(0x242)](_0x314792(0x240),!![]),$(_0x314792(0x238))['attr'](_0x314792(0x240),!![]),$(_0x314792(0x246))[_0x314792(0x242)](_0x314792(0x240),!![]);}else{var _0x351885='<div>'+_0x211731+_0x21b626+'和'+_0x5e5c21+'打得難分難捨</div>';$(_0x314792(0x1af))[_0x314792(0x1d8)](_0x351885);}}}}function playerattack(_0x1977b3,_0x4ba342,_0x4dc5c4,_0x8d919f,_0x3ae2ef,_0x4b1ba0,_0x43ac8d,_0x1e4455,_0x1f46c7,_0x531cf1,_0x15e414,_0xb23cd6,_0x515522,_0x62857a,_0x498090,_0x5ccd44,_0x52bea5,_0x53970a,_0x2bb6cd,_0x328b74,_0x1982bf,_0x5965fe){var _0x25012e=_0x31e3,_0x160510='',_0x37692b=parseInt(Math['random']()*0x65)*(0xa+_0x8d919f)/0xa,_0x4b2afd=parseInt(Math[_0x25012e(0x233)]()*0x65)*(0x64+_0x531cf1)*(0x64+_0x1f46c7)/0x2710;if(_0x37692b>=0x32&&_0x5ccd44>0x0&&_0x328b74>0x0){if(_0x37692b>=_0x4b2afd){var _0x348133=parseInt(Math[_0x25012e(0x233)]()*0x65)*(0x3e8+_0x3ae2ef)/0x3e8,_0x5c67f5=parseInt(Math[_0x25012e(0x233)]()*0x65)*(0x3e8+_0x15e414)/0x3e8,_0x508033=parseInt(Math[_0x25012e(0x233)]()*0x65)*(0x3e8+_0x4b1ba0)/0x3e8,_0x1825ae=parseInt(Math[_0x25012e(0x233)]()*0x65)*(0x3e8+_0x1e4455)/0x3e8;if(_0x515522==='救生員'){var _0xe1f4da=parseInt(Math[_0x25012e(0x233)]()*0x64+_0x4b1ba0/0xa);_0xe1f4da>0x32?(_0x160510+=_0x25012e(0x1e9)+_0x515522+_0x62857a+'用力地吹了吹口哨'+_0x498090+_0x25012e(0x1d0),_0x160510+=_0x25012e(0x1e2)+_0x498090+'感到了恐懼</div>',_0x2bb6cd=_0x2bb6cd-0x2):_0x160510+=_0x25012e(0x1e9)+_0x515522+_0x62857a+_0x25012e(0x1d5);}if(_0x515522===_0x25012e(0x20e)&&_0x508033>=_0x1825ae){var _0xe1f4da=parseInt(Math['random']()*_0x3ae2ef/0x64+0x1);_0x160510+='<div\x20class=\x22report_blue\x22>'+_0x515522+_0x62857a+_0x25012e(0x1c9)+String(_0xe1f4da)+_0x25012e(0x1f0),$(_0x25012e(0x1af))[_0x25012e(0x1d8)](_0x160510);var _0x160510='';for(_0x40968e=0x1;_0x40968e<=_0xe1f4da;_0x40968e++){var _0x2d16c5=lotto2(_0x3ae2ef,_0x43ac8d,_0xb23cd6,_0x62857a,_0x498090);_0x43ac8d=_0x2d16c5[0x0],_0xb23cd6=_0x2d16c5[0x1];}$(_0x25012e(0x1af))[_0x25012e(0x1d8)](_0x160510);var _0x160510='';}if(_0x515522===_0x25012e(0x1a4)){var _0xe1f4da=parseInt(Math['random']()*0x65*(0x3e8+_0x4dc5c4)/0x3e8);if(_0xe1f4da<0x46){var _0x9f7de=parseInt((Math[_0x25012e(0x233)]()*0xa+0x1)*(Math[_0x25012e(0x1bc)](_0x1977b3*_0x4dc5c4)-Math[_0x25012e(0x1bc)](_0x4ba342*_0x1e4455)));_0x9f7de<=0x0?(_0x9f7de=parseInt(Math[_0x25012e(0x233)]()*0xa+0x1),_0x160510+='<div\x20class=\x22report_blue\x22>'+_0x515522+_0x62857a+_0x25012e(0x235)+_0x498090+_0x25012e(0x210)+_0x498090+_0x25012e(0x21d)+String(_0x9f7de)+_0x25012e(0x221),_0xb23cd6=_0xb23cd6-_0x9f7de):(_0x160510+=_0x25012e(0x1e9)+_0x515522+_0x62857a+_0x25012e(0x1e1)+_0x498090+_0x25012e(0x21d)+String(_0x9f7de)+_0x25012e(0x221),_0xb23cd6=_0xb23cd6-_0x9f7de);}else{if(_0xe1f4da<0x64){var _0x9f7de=parseInt((Math[_0x25012e(0x233)]()*0xa+0x1)*(Math['sqrt'](_0x1977b3*_0x4dc5c4)-Math[_0x25012e(0x1bc)](_0x4ba342*_0x1e4455)));_0x9f7de<=0x0?(_0x9f7de=parseInt(Math[_0x25012e(0x233)]()*0xa+0x1),_0x160510+=_0x25012e(0x1e9)+_0x515522+_0x62857a+_0x25012e(0x247)+_0x498090+_0x25012e(0x210)+_0x498090+_0x25012e(0x21d)+String(_0x9f7de)+_0x25012e(0x221),_0xb23cd6=_0xb23cd6-_0x9f7de):(_0x160510+=_0x25012e(0x1e9)+_0x515522+_0x62857a+_0x25012e(0x1cb)+_0x498090+_0x25012e(0x21d)+String(_0x9f7de)+_0x25012e(0x221),_0xb23cd6=_0xb23cd6-_0x9f7de);var _0x37692b=parseInt(Math[_0x25012e(0x233)]()*0x65)*(0xa+_0x8d919f)*(0x64+_0x4dc5c4)/0x3e8,_0x4b2afd=parseInt(Math['random']()*0x65)*(0x64+_0x531cf1)*(0x64+_0x1f46c7)/0x2710;if(_0x37692b>=_0x4b2afd){var _0x9f7de=parseInt((Math[_0x25012e(0x233)]()*0xa+0x1)*(Math[_0x25012e(0x1bc)](_0x1977b3*_0x4dc5c4)-Math[_0x25012e(0x1bc)](_0x4ba342*_0x1e4455)));_0x9f7de<=0x0?(_0x9f7de=parseInt(Math[_0x25012e(0x233)]()*0xa+0x1),_0x160510+='<div\x20class=\x22report_blue\x22>星爆氣流斬二連擊！但是沒有突破'+_0x498090+'的防禦，對'+_0x498090+_0x25012e(0x21d)+String(_0x9f7de)+_0x25012e(0x221),_0xb23cd6=_0xb23cd6-_0x9f7de):(_0x160510+=_0x25012e(0x259)+_0x498090+_0x25012e(0x21d)+String(_0x9f7de)+_0x25012e(0x221),_0xb23cd6=_0xb23cd6-_0x9f7de);}else _0x160510+=_0x25012e(0x1db);}else{_0x160510+=_0x25012e(0x19f),_0x160510+=_0x25012e(0x1e9)+_0x515522+_0x62857a+_0x25012e(0x1aa);var _0x40968e=0x0;for(_0x40968e=0x1;_0x40968e<0x11;_0x40968e++){var _0x37692b=parseInt(Math[_0x25012e(0x233)]()*0x65)*(0x64+_0x8d919f)*(0x64+_0x4b1ba0)/0x2710,_0x4b2afd=parseInt(Math[_0x25012e(0x233)]()*0x65)*(0x3e8+_0x1f46c7)*(0x3e8+_0x4ba342)/0xf4240;if(_0x37692b>=_0x4b2afd){var _0x9f7de=parseInt((Math[_0x25012e(0x233)]()*0xa+0x1)*(Math[_0x25012e(0x1bc)](_0x1977b3*_0x4dc5c4)-Math['sqrt'](_0x4ba342)));_0x9f7de<=0x0&&(_0x9f7de=parseInt(Math[_0x25012e(0x233)]()*0xa+0x1)),_0x160510+='<div\x20class=\x22report_blue\x22>星爆氣流斬'+String(_0x40968e)+'連擊！對'+_0x498090+_0x25012e(0x21d)+String(_0x9f7de)+_0x25012e(0x221),_0xb23cd6=_0xb23cd6-_0x9f7de;}else _0x160510+=_0x25012e(0x1f3)+String(_0x40968e)+_0x25012e(0x211);}}}}else{if(_0x515522===_0x25012e(0x1ee)&&_0x508033>=_0x1825ae){var _0xe1f4da=parseInt(Math[_0x25012e(0x233)]()*0x65+_0x4b1ba0/0xa);if(_0xe1f4da<=0x46){var _0x9f7de=parseInt((Math[_0x25012e(0x233)]()*0xa+_0x4b1ba0/0xa+0x1)*(Math[_0x25012e(0x1bc)](_0x1977b3*_0x4b1ba0)-_0x1e4455));_0x9f7de<=0x0?(_0x9f7de=parseInt(Math['random']()*0xa+0x1),_0x160510+=_0x25012e(0x1e9)+_0x515522+_0x62857a+_0x25012e(0x235)+_0x498090+_0x25012e(0x210)+_0x498090+_0x25012e(0x21d)+String(_0x9f7de)+_0x25012e(0x221),_0xb23cd6=_0xb23cd6-_0x9f7de):(_0x160510+=_0x25012e(0x1e9)+_0x515522+_0x62857a+'使出了水平立方斬，對'+_0x498090+_0x25012e(0x21d)+String(_0x9f7de)+_0x25012e(0x221),_0xb23cd6=_0xb23cd6-_0x9f7de);}else{var _0x9f7de=parseInt((Math['random']()*0xa+0x1)*(Math[_0x25012e(0x1bc)](_0x1977b3*_0x4b1ba0)-_0x1e4455));_0x9f7de<=0x0?(_0x9f7de=parseInt(Math['random']()*0xa+0x1),_0x160510+=_0x25012e(0x1e9)+_0x515522+_0x62857a+'使出了星爆氣流斬，但是沒有突破'+_0x498090+_0x25012e(0x210)+_0x498090+_0x25012e(0x21d)+String(_0x9f7de)+_0x25012e(0x221),_0xb23cd6=_0xb23cd6-_0x9f7de):(_0x160510+=_0x25012e(0x1e9)+_0x515522+_0x62857a+_0x25012e(0x1cb)+_0x498090+'造成了'+String(_0x9f7de)+_0x25012e(0x221),_0xb23cd6=_0xb23cd6-_0x9f7de);var _0x9f7de=parseInt((Math[_0x25012e(0x233)]()*0xa+0x1)*Math[_0x25012e(0x1bc)](_0x1977b3*_0x4b1ba0));_0x160510+=_0x25012e(0x226)+_0x498090+_0x25012e(0x21d)+String(_0x9f7de)+_0x25012e(0x221),_0xb23cd6=_0xb23cd6-_0x9f7de;}}else{if(_0x515522===_0x25012e(0x1f5)&&_0x508033>=_0x1825ae){var _0x9f7de=parseInt((Math[_0x25012e(0x233)]()*0xa+0x1)*Math[_0x25012e(0x1bc)](_0x1977b3*_0x4b1ba0));_0x9f7de<=0x0?(_0x9f7de=parseInt(Math['random']()*0xa),_0x160510+=_0x25012e(0x1e9)+_0x515522+_0x62857a+_0x25012e(0x212)+_0x498090+_0x25012e(0x210)+_0x498090+'造成了'+String(_0x9f7de)+_0x25012e(0x221),_0xb23cd6=_0xb23cd6-_0x9f7de):(_0x160510+=_0x25012e(0x1e9)+_0x515522+_0x62857a+_0x25012e(0x225)+_0x498090+'造成了'+String(_0x9f7de)+_0x25012e(0x221),_0xb23cd6=_0xb23cd6-_0x9f7de);var _0xe1f4da=parseInt(Math[_0x25012e(0x233)]()*0x64+_0x4b1ba0/0x64);_0xe1f4da>0x46&&(_0x160510+=_0x25012e(0x1e2)+_0x498090+'眩暈了</div>',_0x52bea5=_0x52bea5-0x1);}else{if(_0x515522==='廚師'){_0x160510+=_0x25012e(0x1e9)+_0x515522+_0x62857a+'開始料理'+_0x498090+_0x25012e(0x24a);var _0xe1f4da=parseInt(Math['random']()*0x64*_0x1977b3/0xa);if(_0xe1f4da>0x32){var _0x3633ff=parseInt(Math[_0x25012e(0x233)]()*0xb+_0x4b1ba0/0xa);if(_0x3633ff>=0xc8)_0x160510+=_0x25012e(0x1e2)+_0x498090+_0x25012e(0x1cc),_0x53970a=_0x53970a-0x4;else{if(_0x3633ff>=0x64)_0x160510+=_0x25012e(0x1e2)+_0x498090+_0x25012e(0x250),_0x53970a=_0x53970a-0x3;else _0x3633ff>=0x32?(_0x160510+=_0x25012e(0x1e2)+_0x498090+_0x25012e(0x218),_0x53970a=_0x53970a-0x2):(_0x160510+=_0x25012e(0x1e2)+_0x498090+_0x25012e(0x1d9),_0x53970a=_0x53970a-0x1);}}}else{if(_0x515522===_0x25012e(0x20b)&&_0x508033>=_0x1825ae){var _0x9f7de=parseInt((Math[_0x25012e(0x233)]()*0x64+_0x4b1ba0/0xa+0x1)*Math[_0x25012e(0x1bc)](_0x1977b3*_0x4b1ba0));_0x160510+=_0x25012e(0x1c6)+_0x515522+_0x62857a+_0x25012e(0x1a5)+String(_0x9f7de)+_0x25012e(0x24a),_0x43ac8d=_0x43ac8d+_0x9f7de;}else{if(_0x515522===_0x25012e(0x1de)&&_0x508033>=_0x1825ae*0x2){var _0x9f7de=parseInt(Math['random']()*0x64)+0x1,_0x17ced0=parseInt(Math[_0x25012e(0x233)]()*0xa)+0x5;_0x9f7de>0x32&&_0x1982bf>=_0x17ced0?(_0x160510+=_0x25012e(0x1cd)+_0x515522+_0x62857a+_0x25012e(0x205)+_0x498090+_0x25012e(0x24a),_0x160510+=_0x25012e(0x1cd)+_0x498090+_0x25012e(0x19b),_0xb23cd6=-0x1):(_0x160510+=_0x25012e(0x1cd)+_0x515522+_0x62857a+_0x25012e(0x205)+_0x498090+_0x25012e(0x198),_0x160510+=_0x25012e(0x1cd)+_0x515522+_0x62857a+'和'+_0x498090+_0x25012e(0x199),_0x43ac8d=-0x1,_0xb23cd6=-0x1);}else{if(_0x348133>=_0x5c67f5){var _0x9f7de=parseInt((Math[_0x25012e(0x233)]()*0x6+_0x4b1ba0/0xa+0x5)*(Math[_0x25012e(0x1bc)](_0x1977b3*_0x4b1ba0)-_0x1e4455));_0x9f7de<=0x0?(_0x9f7de=parseInt(Math[_0x25012e(0x233)]()*0xa),_0x160510+='<div>'+_0x515522+_0x62857a+_0x25012e(0x1ad)+_0x498090+_0x25012e(0x210)+_0x498090+'造成了'+String(_0x9f7de)+_0x25012e(0x221),_0xb23cd6=_0xb23cd6-_0x9f7de):(_0x160510+=_0x25012e(0x1e2)+_0x515522+_0x62857a+_0x25012e(0x1be)+_0x498090+_0x25012e(0x21d)+String(_0x9f7de)+_0x25012e(0x221),_0xb23cd6=_0xb23cd6-_0x9f7de);}else{var _0x9f7de=parseInt(Math[_0x25012e(0x233)]()*0xa*(Math['sqrt'](_0x1977b3*_0x4b1ba0)-_0x1e4455));_0x9f7de<=0x0?(_0x9f7de=parseInt(Math[_0x25012e(0x233)]()*0xa),_0x160510+=_0x25012e(0x1e2)+_0x515522+_0x62857a+_0x25012e(0x20f)+_0x498090+_0x25012e(0x210)+_0x498090+_0x25012e(0x21d)+String(_0x9f7de)+'點傷害</div>',_0xb23cd6=_0xb23cd6-_0x9f7de):(_0x160510+=_0x25012e(0x1e2)+_0x515522+_0x62857a+_0x25012e(0x1a6)+_0x498090+_0x25012e(0x21d)+String(_0x9f7de)+_0x25012e(0x221),_0xb23cd6=_0xb23cd6-_0x9f7de);}}}}}}}}else _0x160510+='<div>'+_0x515522+_0x62857a+_0x25012e(0x249)+_0x498090+'發現了</div>';}else{if(_0x5ccd44<=0x0){var _0x2b9614=parseInt(Math[_0x25012e(0x233)]()*0x65)*(0x3e8+_0x4b1ba0)/0x3e8;_0x2b9614>0x32?(_0x160510+=_0x25012e(0x1e2)+_0x515522+_0x62857a+_0x25012e(0x1d1),_0x5ccd44=_0x5ccd44+0x1):_0x160510+='<div>'+_0x515522+_0x62857a+_0x25012e(0x1f8);}else{if(_0x328b74<=0x0){var _0x2b9614=parseInt(Math[_0x25012e(0x233)]()*0x65)*(0x3e8+_0x4b1ba0)/0x3e8;_0x2b9614>0x32?(_0x160510+=_0x25012e(0x1e2)+_0x515522+_0x62857a+_0x25012e(0x1e0),_0x328b74=_0x328b74+0x1):_0x160510+=_0x25012e(0x1e2)+_0x515522+_0x62857a+_0x25012e(0x25a);}else _0x160510+=_0x25012e(0x1e2)+_0x515522+_0x62857a+_0x25012e(0x24c);}}if(_0x515522===_0x25012e(0x1a7)){var _0xe1f4da=parseInt(Math[_0x25012e(0x233)]()*0x65*_0x3ae2ef/0x64)-parseInt(Math[_0x25012e(0x233)]()*0x65*_0x531cf1/0x64);if(_0xe1f4da>=0x96){_0x160510+=_0x25012e(0x202);var _0x3633ff=parseInt(Math['random']()*0x7+_0x3ae2ef/0xc8);for(_0x40968e=0x1;_0x40968e<_0x3633ff;_0x40968e++){var _0x9f7de=parseInt((Math[_0x25012e(0x233)]()*0x5+0x1)*_0x3ae2ef/0xa);_0x160510+=_0x25012e(0x223)+String(_0x40968e)+_0x25012e(0x21c)+_0x498090+'的頭上，造成了'+String(_0x9f7de)+_0x25012e(0x221),_0xb23cd6=_0xb23cd6-_0x9f7de,_0x160510+=_0x25012e(0x1e2)+_0x498090+_0x25012e(0x22e),_0x52bea5=_0x52bea5-0x3;}}else{if(_0xe1f4da>=0x63){var _0x9f7de=parseInt((Math[_0x25012e(0x233)]()*0xa+0x5)*_0x3ae2ef/0xf);_0x160510+=_0x25012e(0x1c8)+_0x498090+_0x25012e(0x234)+String(_0x9f7de)+_0x25012e(0x221),_0xb23cd6=_0xb23cd6-_0x9f7de,_0x160510+='<div>'+_0x498090+_0x25012e(0x22e),_0x52bea5=_0x52bea5-0x2;}else{if(_0xe1f4da>=0x50){var _0x9f7de=parseInt((Math['random']()*0x5+0x1)*(_0x3ae2ef/0x14+0x1));_0x160510+=_0x25012e(0x1e2)+_0x498090+_0x25012e(0x1a2)+String(_0x9f7de)+'點傷害</div>',_0xb23cd6=_0xb23cd6-_0x9f7de;}else{if(_0xe1f4da>=0x32){var _0x9f7de=parseInt((Math[_0x25012e(0x233)]()*0xa+0x1)*(_0x3ae2ef/0x32+0x1));_0x160510+=_0x25012e(0x1e2)+_0x498090+_0x25012e(0x204)+String(_0x9f7de)+_0x25012e(0x221),_0xb23cd6=_0xb23cd6-_0x9f7de;var _0x3633ff=parseInt(Math[_0x25012e(0x233)]()*0x64+_0x3ae2ef/0x64);_0x3633ff>=0x46&&(_0x160510+=_0x25012e(0x1e2)+_0x498090+_0x25012e(0x22e),_0x52bea5=_0x52bea5-0x1);}else{var _0x9f7de=parseInt((Math['random']()*0xa+0x1)*(_0x3ae2ef/0x96+0x1));_0x160510+=_0x25012e(0x1e2)+_0x498090+'被樹上的椰子砸到了，受到了'+String(_0x9f7de)+'點傷害</div>',_0xb23cd6=_0xb23cd6-_0x9f7de;}}}}}if(_0x5965fe<=0x0){var _0x9f7de=parseInt(Math[_0x25012e(0x233)]()*0xa+_0x15e414/0xa+0x1+_0x15e414/0x3e8)*(-0x1*(_0x5965fe-0x1));_0x160510+=_0x25012e(0x1e2)+_0x515522+_0x62857a+'被灼燒了，受到'+String(_0x9f7de)+_0x25012e(0x221),_0x43ac8d=_0x43ac8d-_0x9f7de;}if(localStorage[_0x25012e(0x24b)](_0x25012e(0x1cf))==_0x25012e(0x1ab)){var _0x9f7de=parseInt(0x5*Number(localStorage[_0x25012e(0x24b)](_0x25012e(0x1ab))));_0x160510+=_0x25012e(0x19c)+_0x515522+_0x62857a+_0x25012e(0x23d)+String(_0x9f7de)+_0x25012e(0x20a),_0x43ac8d=_0x43ac8d+_0x9f7de;}return $(_0x25012e(0x1af))[_0x25012e(0x1d8)](_0x160510),[_0x43ac8d,_0xb23cd6,_0x5ccd44,_0x52bea5,_0x53970a,_0x2bb6cd,_0x328b74];}function _0x31e3(_0x108251,_0xf392f1){var _0x49e339=_0x49e3();return _0x31e3=function(_0x31e3e0,_0x306b5b){_0x31e3e0=_0x31e3e0-0x194;var _0x2a2b37=_0x49e339[_0x31e3e0];return _0x2a2b37;},_0x31e3(_0x108251,_0xf392f1);}function gonext(_0x26c0aa,_0x7967f1,_0x17cadf){if(_0x26c0aa==0x1)taichi(_0x7967f1,_0x17cadf);else _0x26c0aa==0x2&&police(_0x7967f1,_0x17cadf);}function monstorattack11(_0x6f175d,_0x1cc16a,_0x21839a,_0x2b7599,_0x2d44ab,_0x5588d6,_0x28fe1f,_0x4ca06f,_0x4a47fe,_0x5d700f,_0x3e2ed2,_0xd2fcf,_0x51cda9,_0x20477d,_0x7695a6,_0x5a7305,_0x32675d,_0x4c5b2a,_0x7a5f3,_0x526a0e,_0x47df55){var _0x5b3ce0=_0x31e3,_0x27e014='',_0x324987=parseInt(Math['random']()*0x65)*(0xa+_0x1cc16a)*(0x64+_0x2b7599)/0x3e8,_0x2463a8=parseInt(Math[_0x5b3ce0(0x233)]()*0x65)*(0x64+_0x4ca06f)/0x64;if(_0x324987>=0x32&&_0x5a7305>0x0&&_0x4c5b2a>0x0){if(_0x324987>=_0x2463a8){var _0x59d48b=parseInt(Math['random']()*0x65)*(0x3e8+_0x21839a)/0x3e8,_0x4bf14a=parseInt(Math[_0x5b3ce0(0x233)]()*0x65)*(0x3e8+_0x5d700f)/0x3e8,_0x3d0377=parseInt(Math[_0x5b3ce0(0x233)]()*0x65)*(0x3e8+_0x2b7599)/0x3e8,_0xe28d9=parseInt(Math[_0x5b3ce0(0x233)]()*0x65)*(0x3e8+_0x28fe1f)/0x3e8;if(_0x20477d===_0x5b3ce0(0x1ed)){var _0x47948f=[_0x5b3ce0(0x252),_0x5b3ce0(0x1dd)],_0x489bff=[0x14,0x1e];if(_0x3d0377>_0xe28d9)var _0x8acd50=_0x47948f[0x1],_0x155f3e=_0x489bff[0x1];else var _0x8acd50=_0x47948f[0x0],_0x155f3e=_0x489bff[0x0];}else{if(_0x20477d===_0x5b3ce0(0x1c4)){var _0x47948f=[_0x5b3ce0(0x1dd),'精確打擊'],_0x489bff=[0x1e,0x14];if(_0x3d0377>_0xe28d9)var _0x8acd50=_0x47948f[0x1],_0x155f3e=_0x489bff[0x1];else var _0x8acd50=_0x47948f[0x0],_0x155f3e=_0x489bff[0x0];}else{if(_0x20477d===_0x5b3ce0(0x25b)||_0x20477d==='警察'){var _0x47948f=[_0x5b3ce0(0x19e),_0x5b3ce0(0x245)],_0x489bff=[0x0,0x2d];if(_0x3d0377>_0xe28d9)var _0x8acd50=_0x47948f[0x0],_0x155f3e=_0x489bff[0x0];else var _0x8acd50=_0x47948f[0x1],_0x155f3e=_0x489bff[0x1];}else{if(_0x20477d==='訓練有素的小混混'){var _0x47948f=['揮舞鐵棒',_0x5b3ce0(0x251),_0x5b3ce0(0x245)],_0x489bff=[0x14,0xa,0x2d],_0x149578=parseInt(Math[_0x5b3ce0(0x233)]()*0x2);if(_0x3d0377>_0xe28d9)var _0x8acd50=_0x47948f[0x2],_0x155f3e=_0x489bff[0x2];else var _0x8acd50=_0x47948f[_0x149578],_0x155f3e=_0x489bff[_0x149578];}else{if(_0x20477d===_0x5b3ce0(0x227)){var _0x47948f=[_0x5b3ce0(0x1ba),_0x5b3ce0(0x1b4),'閃電鞭'],_0x489bff=[0x0,0xf,0x3c],_0x149578=parseInt(Math[_0x5b3ce0(0x233)]()*0x2);if(_0x3d0377>_0xe28d9)var _0x8acd50=_0x47948f[0x2],_0x155f3e=_0x489bff[0x2];else var _0x8acd50=_0x47948f[_0x149578],_0x155f3e=_0x489bff[_0x149578];}else{if(_0x20477d===_0x5b3ce0(0x1ac))var _0x47948f=[_0x5b3ce0(0x1ba),_0x5b3ce0(0x241),_0x5b3ce0(0x1df),_0x5b3ce0(0x21a)],_0x489bff=[0x0,0x32,0x64,0x64],_0x149578=parseInt(Math[_0x5b3ce0(0x233)]()*0x3),_0x8acd50=_0x47948f[_0x149578],_0x155f3e=_0x489bff[_0x149578];else{if(_0x20477d==='兩津勘吉巡查長')var _0x47948f=[_0x5b3ce0(0x214),_0x5b3ce0(0x1ce),_0x5b3ce0(0x228),'騎上腳踏車'],_0x489bff=[0x0,0x32,0x64,0x64],_0x149578=parseInt(Math[_0x5b3ce0(0x233)]()*0x4),_0x8acd50=_0x47948f[_0x149578],_0x155f3e=_0x489bff[_0x149578];}}}}}}if(_0x20477d==_0x5b3ce0(0x1ac))_0x2d44ab<0x9c4&&sessionStorage[_0x5b3ce0(0x24b)](_0x5b3ce0(0x1bf))=='0'&&(_0x27e014+='<div\x20class=\x22report_blue\x22>'+_0x20477d+_0x5b3ce0(0x207),sessionStorage[_0x5b3ce0(0x21e)](_0x5b3ce0(0x1bf),'1')),_0x2d44ab<0x7d0&&sessionStorage[_0x5b3ce0(0x24b)](_0x5b3ce0(0x1bf))=='1'&&(_0x27e014+='<div\x20class=\x22report_blue\x22>'+_0x20477d+_0x5b3ce0(0x217),_0x27e014+=_0x5b3ce0(0x1e9)+_0x20477d+_0x5b3ce0(0x244),sessionStorage['setItem'](_0x5b3ce0(0x1bf),'2')),_0x2d44ab<0x3e8&&sessionStorage[_0x5b3ce0(0x24b)](_0x5b3ce0(0x1bf))=='2'&&(_0x27e014+=_0x5b3ce0(0x1cd)+_0x20477d+_0x5b3ce0(0x229),sessionStorage[_0x5b3ce0(0x21e)]('run','3')),_0x2d44ab<0x1f4&&sessionStorage[_0x5b3ce0(0x24b)](_0x5b3ce0(0x1bf))=='3'&&(_0x27e014+='<div\x20class=\x22report_blue\x22>'+_0x20477d+'：根據傳統功夫的點到為止，你已經輸了。</div>',_0x27e014+=_0x5b3ce0(0x1e9)+_0x20477d+_0x5b3ce0(0x194),_0x27e014+=_0x5b3ce0(0x1cd)+_0x20477d+_0x5b3ce0(0x1a0),_0x8acd50=_0x5b3ce0(0x21a),sessionStorage[_0x5b3ce0(0x21e)](_0x5b3ce0(0x1bf),'4'));else _0x20477d==_0x5b3ce0(0x1f6)&&(_0x2d44ab<0x9c4&&sessionStorage['getItem']('run')=='0'&&(_0x27e014+='<div\x20class=\x22report_blue\x22>'+_0x20477d+_0x5b3ce0(0x222),_0x8acd50='品嘗燒肉便當',sessionStorage['setItem']('run','1')),_0x2d44ab<0x7d0&&sessionStorage['getItem']('run')=='1'&&(_0x27e014+=_0x5b3ce0(0x1cd)+_0x20477d+'：他媽的！我看你是沒被打過。</div>',_0x8acd50=_0x5b3ce0(0x228),sessionStorage[_0x5b3ce0(0x21e)](_0x5b3ce0(0x1bf),'2')),_0x2d44ab<0x1f4&&sessionStorage[_0x5b3ce0(0x24b)]('run')=='2'&&(_0x27e014+='<div\x20class=\x22report_blue\x22>'+_0x20477d+_0x5b3ce0(0x195),_0x8acd50='馬上騎上腳踏車離開',sessionStorage[_0x5b3ce0(0x21e)](_0x5b3ce0(0x1bf),'3')));if(_0x8acd50===_0x5b3ce0(0x1dd)||_0x8acd50===_0x5b3ce0(0x1c1)||_0x8acd50===_0x5b3ce0(0x253)||_0x8acd50===_0x5b3ce0(0x241)||_0x8acd50==='投擲木屐'){var _0xeea1e1=parseInt(Math[_0x5b3ce0(0x233)]()*0xa*Math[_0x5b3ce0(0x1bc)](_0x6f175d*_0x2b7599));_0xeea1e1<=0x0?(_0xeea1e1=parseInt(Math[_0x5b3ce0(0x233)]()*0xa),_0x27e014+=_0x5b3ce0(0x1e9)+_0x20477d+_0x8acd50+_0x5b3ce0(0x20f)+_0xd2fcf+_0x51cda9+'的防禦，對'+_0xd2fcf+_0x51cda9+_0x5b3ce0(0x21d)+String(_0xeea1e1)+_0x5b3ce0(0x221),_0x3e2ed2=_0x3e2ed2-_0xeea1e1):(_0x27e014+=_0x5b3ce0(0x1e9)+_0x20477d+_0x8acd50+_0x5b3ce0(0x1a6)+_0xd2fcf+_0x51cda9+_0x5b3ce0(0x21d)+String(_0xeea1e1)+_0x5b3ce0(0x221),_0x3e2ed2=_0x3e2ed2-_0xeea1e1);var _0x3d0377=parseInt(Math[_0x5b3ce0(0x233)]()*0xa-_0x4a47fe/0x3e8);_0x3d0377>=0x4&&(_0x27e014+=_0x5b3ce0(0x1e2)+_0xd2fcf+_0x51cda9+_0x5b3ce0(0x22e),_0x7695a6=_0x7695a6-0x1);}else{if(_0x8acd50===_0x5b3ce0(0x1df)){var _0xeea1e1=parseInt(Math[_0x5b3ce0(0x233)]()*0xa*Math['sqrt'](_0x6f175d*_0x2b7599));_0xeea1e1<=0x0?(_0xeea1e1=parseInt(Math['random']()*0xa),_0x27e014+=_0x5b3ce0(0x22a)+_0x20477d+_0x8acd50+_0x5b3ce0(0x20f)+_0xd2fcf+_0x51cda9+'的防禦，對'+_0xd2fcf+_0x51cda9+_0x5b3ce0(0x21d)+String(_0xeea1e1)+_0x5b3ce0(0x221),_0x3e2ed2=_0x3e2ed2-_0xeea1e1):(_0x27e014+=_0x5b3ce0(0x22a)+_0x20477d+_0x8acd50+_0x5b3ce0(0x1a6)+_0xd2fcf+_0x51cda9+_0x5b3ce0(0x21d)+String(_0xeea1e1)+'點傷害</div>',_0x3e2ed2=_0x3e2ed2-_0xeea1e1);var _0x3d0377=parseInt(Math[_0x5b3ce0(0x233)]()*0xa-_0x4a47fe/0x3e8);_0x3d0377>=0x4&&(_0x27e014+=_0x5b3ce0(0x1e2)+_0xd2fcf+_0x51cda9+_0x5b3ce0(0x25a),_0x7a5f3=_0x7a5f3-0x1);}else{if(_0x8acd50==='閃電鞭五連鞭')for(_0x521047=0x1;_0x521047<0x6;_0x521047++){var _0xeea1e1=parseInt(Math[_0x5b3ce0(0x233)]()*0xa*Math['sqrt'](_0x6f175d*_0x2b7599));_0xeea1e1<=0x0?(_0xeea1e1=parseInt(Math[_0x5b3ce0(0x233)]()*0xa),_0x27e014+='<div\x20class=\x22report_yellow\x22>'+_0x20477d+_0x8acd50+'發動攻擊，但是沒有突破'+_0xd2fcf+_0x51cda9+'的防禦，對'+_0xd2fcf+_0x51cda9+_0x5b3ce0(0x21d)+String(_0xeea1e1)+_0x5b3ce0(0x221),_0x3e2ed2=_0x3e2ed2-_0xeea1e1):(_0x27e014+=_0x5b3ce0(0x22a)+_0x20477d+_0x8acd50+_0x5b3ce0(0x1a6)+_0xd2fcf+_0x51cda9+_0x5b3ce0(0x21d)+String(_0xeea1e1)+_0x5b3ce0(0x221),_0x3e2ed2=_0x3e2ed2-_0xeea1e1);var _0x3d0377=parseInt(Math[_0x5b3ce0(0x233)]()*0xa-_0x4a47fe/0x3e8);_0x3d0377>=0x4&&(_0x27e014+=_0x5b3ce0(0x1e2)+_0xd2fcf+_0x51cda9+_0x5b3ce0(0x25a),_0x7a5f3=_0x7a5f3-0x1);}else{if(_0x8acd50===_0x5b3ce0(0x228)){_0x27e014+='<div\x20class=\x22report_red\x22>'+_0x20477d+'使出了'+_0x8acd50+_0x5b3ce0(0x1ef);var _0x1111d8=['抓起','甩出',_0x5b3ce0(0x209),'痛扁'];for(var _0x521047=0x0;_0x521047<0x4;_0x521047++){var _0xeea1e1=parseInt(Math[_0x5b3ce0(0x233)]()*0xa*Math[_0x5b3ce0(0x1bc)](_0x6f175d*_0x2b7599));_0x27e014+=_0x5b3ce0(0x1e9)+_0x20477d+_0x1111d8[_0x521047]+_0xd2fcf+_0x51cda9+'，對'+_0xd2fcf+_0x51cda9+_0x5b3ce0(0x21d)+String(_0xeea1e1)+_0x5b3ce0(0x221),_0x3e2ed2=_0x3e2ed2-_0xeea1e1;}}else{if(_0x8acd50===_0x5b3ce0(0x1c0))_0x27e014+='<div\x20class=\x22report_red\x22>'+_0x20477d+_0x8acd50+_0x5b3ce0(0x24a),_0x3e2ed2=-0xf4240,_0x2d44ab=-0xf4240;else{if(_0x8acd50===_0x5b3ce0(0x1ba)||_0x8acd50==='品嘗燒肉便當'){var _0xeea1e1=parseInt((Math['random']()*0xa+_0x2b7599/0xa)*Math[_0x5b3ce0(0x1bc)](_0x6f175d*_0x2b7599));_0x27e014+=_0x5b3ce0(0x1c6)+_0x20477d+_0x8acd50+'回復了'+String(_0xeea1e1)+'點生命</div>',_0x2d44ab=_0x2d44ab+_0xeea1e1;}else{if(_0x59d48b>=_0x4bf14a){var _0xeea1e1=parseInt((Math['random']()*0x6+_0x2b7599/0xa+0x5)*(Math[_0x5b3ce0(0x1bc)](_0x6f175d*_0x2b7599)-_0x28fe1f));_0xeea1e1<=0x0?(_0xeea1e1=parseInt(Math[_0x5b3ce0(0x233)]()*0xa),_0x27e014+=_0x5b3ce0(0x1e2)+_0x20477d+_0x8acd50+_0x5b3ce0(0x1ad)+_0xd2fcf+_0x51cda9+_0x5b3ce0(0x210)+_0xd2fcf+_0x51cda9+_0x5b3ce0(0x21d)+String(_0xeea1e1)+_0x5b3ce0(0x221),_0x3e2ed2=_0x3e2ed2-_0xeea1e1):(_0x27e014+='<div>'+_0x20477d+_0x8acd50+_0x5b3ce0(0x1be)+_0xd2fcf+_0x51cda9+'造成了'+String(_0xeea1e1)+'點傷害</div>',_0x3e2ed2=_0x3e2ed2-_0xeea1e1);}else{var _0xeea1e1=parseInt(Math[_0x5b3ce0(0x233)]()*0xa*(Math[_0x5b3ce0(0x1bc)](_0x6f175d*_0x2b7599)-_0x28fe1f));_0xeea1e1<=0x0?(_0xeea1e1=parseInt(Math[_0x5b3ce0(0x233)]()*0xa),_0x27e014+=_0x5b3ce0(0x1e2)+_0x20477d+_0x8acd50+_0x5b3ce0(0x20f)+_0xd2fcf+_0x51cda9+_0x5b3ce0(0x210)+_0xd2fcf+_0x51cda9+_0x5b3ce0(0x21d)+String(_0xeea1e1)+'點傷害</div>',_0x3e2ed2=_0x3e2ed2-_0xeea1e1):(_0x27e014+=_0x5b3ce0(0x1e2)+_0x20477d+_0x8acd50+_0x5b3ce0(0x1a6)+_0xd2fcf+_0x51cda9+_0x5b3ce0(0x21d)+String(_0xeea1e1)+_0x5b3ce0(0x221),_0x3e2ed2=_0x3e2ed2-_0xeea1e1);}}}}}}}}else _0x27e014+='<div>'+_0x20477d+_0x5b3ce0(0x249)+_0xd2fcf+_0x51cda9+'發現了</div>';}else{if(_0x5a7305<=0x0)_0xbec42b=parseInt(Math[_0x5b3ce0(0x233)]()*0x65)*(0x3e8+_0x5d700f)/0x3e8,_0xbec42b>0x32?(_0x27e014+=_0x5b3ce0(0x1e2)+_0x20477d+_0x5b3ce0(0x1d1),_0x5a7305=_0x5a7305+0x1):_0x27e014+=_0x5b3ce0(0x1e2)+_0x20477d+_0x5b3ce0(0x1f8);else{if(_0x4c5b2a<=0x0){var _0xbec42b=parseInt(Math[_0x5b3ce0(0x233)]()*0x65)*(0x3e8+_0x5d700f)/0x3e8;_0xbec42b>0x32?(_0x27e014+=_0x5b3ce0(0x1e2)+_0x20477d+_0x5b3ce0(0x1e3),_0x4c5b2a=_0x4c5b2a+0x1):_0x27e014+=_0x5b3ce0(0x1e2)+_0x20477d+_0x5b3ce0(0x24f);}else _0x27e014+=_0x5b3ce0(0x1e2)+_0x20477d+_0x5b3ce0(0x24c);}}if(_0x32675d<=0x0){var _0xeea1e1=parseInt((Math[_0x5b3ce0(0x233)]()*(-0x1*_0x32675d+0x1)+0x1)*Math['sqrt'](_0x5588d6*_0x5d700f))*(-0x1*_0x32675d+0x1);_0x27e014+='<div>'+_0x20477d+_0x5b3ce0(0x215)+String(_0xeea1e1)+'點傷害</div>',_0x2d44ab=_0x2d44ab-_0xeea1e1;}return $('#liferusult')[_0x5b3ce0(0x1d8)](_0x27e014),[_0x3e2ed2,_0x2d44ab,_0x7695a6,_0x5a7305,_0x32675d,_0x4c5b2a,_0x155f3e,_0x7a5f3,_0x526a0e];}function win2(_0x2ea9e7){var _0x17454c=_0x31e3,_0xcfc585=Number(localStorage['getItem']('l2')),_0x34ade0=localStorage[_0x17454c(0x24b)](_0x17454c(0x1ec));localStorage[_0x17454c(0x24b)](_0x17454c(0x1cf))==_0x17454c(0x1da)&&(localStorage[_0x17454c(0x24b)](_0x17454c(0x1da))>=0xb?_0xcfc585=_0xcfc585+Math['pow'](Number(localStorage['getItem'](_0x17454c(0x1da))),0x3):_0xcfc585=_0xcfc585+Number(localStorage[_0x17454c(0x24b)](_0x17454c(0x1da)))*0xa);if(_0x2ea9e7==_0x17454c(0x227)){var _0x2063c0=parseInt((Math['random']()*0x64+0x1)*(0x7d0+_0xcfc585)/0x7d0);if(_0x2063c0>0x64){bkf=Number(localStorage[_0x17454c(0x24b)](_0x17454c(0x1b8))),localStorage[_0x17454c(0x21e)](_0x17454c(0x1b8),String(bkf+0x1));var _0x3ee30f='<div>你獲得了從'+_0x2ea9e7+_0x17454c(0x24e);$(_0x17454c(0x1af))[_0x17454c(0x1d8)](_0x3ee30f);}var _0x30025f=parseInt((Math['random']()*0x64+0x1)*(0x7d0+_0xcfc585)/0x7d0);if(_0x30025f>0x64){wtf=Number(localStorage[_0x17454c(0x24b)](_0x17454c(0x197))),localStorage['setItem']('wtfish',String(wtf+0x1));var _0x55504c=_0x17454c(0x196)+_0x2ea9e7+_0x17454c(0x1b5);$('#liferusult')[_0x17454c(0x1d8)](_0x55504c);}}if(_0x2ea9e7==_0x17454c(0x1ac)){var _0x2063c0=parseInt(Math[_0x17454c(0x233)]()*0x64+(0x7d0+_0xcfc585)/0x7d0);if(_0x2063c0>=0x64){ston=Number(localStorage[_0x17454c(0x24b)](_0x17454c(0x243))),localStorage['setItem'](_0x17454c(0x243),String(ston+0x1));var _0x3ee30f=_0x17454c(0x196)+_0x2ea9e7+_0x17454c(0x1e5);$(_0x17454c(0x1af))[_0x17454c(0x1d8)](_0x3ee30f);}}if(_0x2ea9e7==_0x17454c(0x1f6)&&_0x34ade0=='蝦仁飯'){var _0x2063c0=parseInt(Math[_0x17454c(0x233)]()*0x64+(0x7d0+_0xcfc585)/0x7d0);if(_0x2063c0>=0x64){if(localStorage[_0x17454c(0x24b)](_0x17454c(0x219))==null){localStorage['setItem'](_0x17454c(0x219),'1');var _0x3ee30f='<div>你獲得了從'+_0x2ea9e7+'身上掉下來的殺人令/div>';}$('#liferusult')[_0x17454c(0x1d8)](_0x3ee30f);}}var _0x24315c=Number(localStorage['getItem'](_0x17454c(0x1ae))),_0x30025f=parseInt((Math[_0x17454c(0x233)]()*0x14+0x5)*(0x96+_0xcfc585)/0x96);localStorage[_0x17454c(0x21e)](_0x17454c(0x1ae),String(_0x24315c+_0x30025f));var _0x3ee30f='<div>你獲得了從'+_0x2ea9e7+'身上掉下來的'+String(_0x30025f)+_0x17454c(0x206);$(_0x17454c(0x1af))[_0x17454c(0x1d8)](_0x3ee30f);}function lotto2(_0x5d739b,_0x455528,_0x15360e,_0x32bf6a,_0x5d041a){var _0x1d61da=_0x31e3,_0x503927=String(localStorage['getItem'](_0x1d61da(0x1ec))),_0x25a1d7=parseInt(Math[_0x1d61da(0x233)]()*0x64)+0x1;if(_0x25a1d7>0x50){var _0x4a196e=parseInt(Math[_0x1d61da(0x233)]()*0xa*(_0x5d739b/0x14));content=_0x1d61da(0x1e2)+_0x503927+_0x32bf6a+_0x1d61da(0x239)+_0x503927+_0x32bf6a+String(_0x4a196e)+'點生命</div>',_0x455528=_0x455528+_0x4a196e,$(_0x1d61da(0x1af))['append'](content);}else{if(_0x25a1d7>0x3c){var _0x4a196e=parseInt(Math['random']()*0xa*(_0x5d739b/0x14));content=_0x1d61da(0x1e2)+_0x503927+_0x32bf6a+_0x1d61da(0x239)+_0x5d041a+String(_0x4a196e)+'點生命</div>',_0x15360e=_0x15360e+_0x4a196e,$(_0x1d61da(0x1af))[_0x1d61da(0x1d8)](content);}else{if(_0x25a1d7>0x32){var _0x4a196e=parseInt(Math[_0x1d61da(0x233)]()*_0x5d739b/0x96+0x1);content=_0x1d61da(0x1e2)+_0x503927+_0x32bf6a+_0x1d61da(0x1e7)+String(_0x4a196e)+_0x1d61da(0x248),$(_0x1d61da(0x1af))[_0x1d61da(0x1d8)](content);for(i=0x1;i<=_0x4a196e;i++){var _0x57a7a9=lotto(_0x5d739b,_0x455528,_0x15360e,_0x32bf6a,_0x5d041a);_0x455528=_0x57a7a9[0x0],_0x15360e=_0x57a7a9[0x1];}}else{if(_0x25a1d7>0x28){var _0x4a196e=parseInt(Math[_0x1d61da(0x233)]()*0xa*(_0x5d739b/0x64));content=_0x1d61da(0x1e2)+_0x503927+_0x32bf6a+'刮了一張彩卷，抽出了一把生鏽的刀對'+_0x5d041a+'造成了'+String(_0x4a196e)+_0x1d61da(0x221);;$('#liferusult')['append'](content);}else{if(_0x25a1d7>0x14){var _0x4a196e=parseInt(Math['random']()*0xa*(_0x5d739b/0x14));content='<div>'+_0x503927+_0x32bf6a+_0x1d61da(0x1b2)+_0x5d041a+_0x1d61da(0x21d)+String(_0x4a196e)+_0x1d61da(0x221),_0x15360e=_0x15360e-_0x4a196e,$(_0x1d61da(0x1af))[_0x1d61da(0x1d8)](content);}else{var _0x4a196e=parseInt(Math[_0x1d61da(0x233)]()*0xa*(_0x5d739b/0x14));content=_0x1d61da(0x1e2)+_0x503927+_0x32bf6a+_0x1d61da(0x1b2)+_0x503927+_0x32bf6a+'造成了'+String(_0x4a196e)+'點傷害</div>',_0x455528=_0x455528-_0x4a196e,$('#liferusult')[_0x1d61da(0x1d8)](content);}}}}}return[_0x455528,_0x15360e];}
+async function life(){
+    var a =Number(localStorage.getItem("chapter"));
+    var b =Number(localStorage.getItem("part"));
+    localStorage.setItem("did","0");
+    var n =Number(localStorage.getItem("did"));
+    sessionStorage.setItem("php",String(parseInt(Number(localStorage.getItem("hp")))));
+    $('#life1').attr('disabled', true);
+    await delay(0);
+    $("#liferusult").append("<div>你開始了新的一天。</div>");
+    choose11.style.display='block';
+    choose12.style.display='block';
+    choose21.style.display='block';
+    choose22.style.display='block';
+    gonext(a,b,n);
+    $('#life1').attr('disabled', false);
+    $('#choose11').attr('disabled', false);
+    $('#choose21').attr('disabled', false);
+    $('#choose31').attr('disabled', false);
+}
+
+async function taichi(b,n){
+    let content = '';
+    if (b==1 && n==0){    
+        content += '<div class="report_blue">你的父親拋棄了你。</div>';
+        content += '<div class="report_blue">在他失蹤以後。</div>';
+        content += '<div class="report_blue">討債的小混混天天找上門來。</div>';
+    }else if(b==5 && n==0){
+        content += '<div class="report_blue">你在小混混中發現了一些混元形意門的門徒。</div>';
+        content += '<div class="report_blue">也許你的父親與其門派掌門人有何淵源。</div>';
+        content += '<div class="report_blue">於是你決定前去問個清楚。</div>';
+    }else if(b==10 && n==0){
+        content += '<div class="report_blue">你來到了混元形意門的門口。</div>';
+        content += '<div class="report_blue">被門徒揍得鼻青臉腫的你非常憤怒。</div>';
+        content += '<div class="report_blue">於是你決定前去問個清楚。</div>';
+    }else if(b==11 && n==0){
+        content += '<div class="report_blue">在擊敗了落荒而逃的馬保國後。</div>';
+        content += '<div class="report_blue">你依然非常憤怒。</div>';
+        content += '<div class="report_blue">於是你開始屠殺混元形意門。</div>';
+    }else{
+
+    }
+    if (b>=15){
+        $("#liferusult").append(content);
+        $('#choose12').attr('disabled', true);
+        choose31.style.display='block';
+        choose32.style.display='block';
+    }
+    if(b==11 && n==5){
+        var n =Number(localStorage.getItem("did"))+1;
+        var x = parseInt(Math.random()*5)
+        sessionStorage.setItem("moname","混元形意門掌門馬保國");
+        sessionStorage.setItem("mg2",100);
+        sessionStorage.setItem("mg3",100);
+        sessionStorage.setItem("mj1",90);
+        sessionStorage.setItem("ml1",50);
+        sessionStorage.setItem("ml2",150);
+        sessionStorage.setItem("mi1",75);
+        sessionStorage.setItem("mhp",3000);
+        content += '<hr class="divider" />';
+        content += '<div>你遇到了'+sessionStorage.getItem("moname")+'。</div>';
+        content += '<div>對手資訊</div>';
+        content += '<div>血量：' + sessionStorage.getItem("mhp") + '</div>';
+        content += '<div>力量：' + sessionStorage.getItem("mg2") + '</div>';
+        content += '<div>防禦：' + sessionStorage.getItem("mg3") + '</div>';
+        content += '<div>移動：' + sessionStorage.getItem("mj1") + '</div>';
+        content += '<div>命中：' + sessionStorage.getItem("ml1") + '</div>';
+        content += '<div>幸運：' + sessionStorage.getItem("ml2") + '</div>';
+        content += '<div>智力：' + sessionStorage.getItem("mi1") + '</div>';
+        content += '<div>一一一一</div>';
+        $("#liferusult").append(content);
+        let content3 = '';
+        content3 += '<div>目前遊戲進度：' + localStorage.getItem("chapter") +'-'+ localStorage.getItem("part") +'-'+localStorage.getItem("did")+ '</div>';
+        content3 += '<div>你目前的血量：' + sessionStorage.getItem("php") + '</div>';
+        $("#lifesay").append(content3);
+    }else{
+        var n =Number(localStorage.getItem("did"))+1;
+        var x = parseInt(Math.random()*5);
+        if(b>=10){
+            x=4;
+        }
+        var list =['小混混','精準打擊的小混混','訓練有素的小混混','混混槍手','混元形意門門徒']
+        sessionStorage.setItem("moname",list[x]);
+        sessionStorage.setItem("mg2",String(b*10+n+x*3));
+        sessionStorage.setItem("mg3",String(b*7+n+x*5));
+        sessionStorage.setItem("mj1",String(b*5+n+x*3));
+        sessionStorage.setItem("ml1",String(b*5+n*3+x*3));
+        sessionStorage.setItem("ml2",String(b*10+n+x*5));
+        sessionStorage.setItem("mi1",String(b*4+n+x*7));
+        sessionStorage.setItem("mhp",String(b*200+n+x*10));
+        content += '<hr class="divider" />';
+        content += '<div>你遇到了'+sessionStorage.getItem("moname")+'。</div>';
+        content += '<div>對手資訊</div>';
+        content += '<div>血量：' + sessionStorage.getItem("mhp") + '</div>';
+        content += '<div>力量：' + sessionStorage.getItem("mg2") + '</div>';
+        content += '<div>防禦：' + sessionStorage.getItem("mg3") + '</div>';
+        content += '<div>移動：' + sessionStorage.getItem("mj1") + '</div>';
+        content += '<div>命中：' + sessionStorage.getItem("ml1") + '</div>';
+        content += '<div>幸運：' + sessionStorage.getItem("ml2") + '</div>';
+        content += '<div>智力：' + sessionStorage.getItem("mi1") + '</div>';
+        content += '<hr class="divider" />';
+        $("#liferusult").append(content);
+        let content3 = '';
+        content3 += '<div>目前遊戲進度：' + localStorage.getItem("chapter") +'-'+ localStorage.getItem("part") +'-'+localStorage.getItem("did")+ '</div>';
+        content3 += '<div>你目前的血量：' + sessionStorage.getItem("php") + '</div>';
+        $("#lifesay").append(content3);
+    }
+    
+    
+}
+
+async function police(b,n){
+    let content = '';
+    if (b==1 && n==0){    
+        content += '<div class="report_blue">在你打敗了馬保國以後。</div>';
+        content += '<div class="report_blue">你的日子並沒有變的比較平淡。</div>';
+        content += '<div class="report_blue">討債的小混混還是天天找上門來。</div>';
+    }else if(b==5 && n==0){
+        content += '<div class="report_blue">也許你並沒有注意到。</div>';
+        content += '<div class="report_blue">但也可能你已經注意到了。</div>';
+        content += '<div class="report_blue">那些警察開始頻繁地出現在你的居所。</div>';
+    }else if(b==10 && n==0){
+        content += '<div class="report_blue">你的大門被全天候的監察著。</div>';
+        content += '<div class="report_blue">從你門口停著的警車來看應該很難不被發現。</div>';
+        content += '<div class="report_blue">於是你決定前去問個清楚。</div>';
+    }else if(b==11 && n==0){
+        content += '<div class="report_blue">在你擊敗了那位巡查長之後。</div>';
+        content += '<div class="report_blue">成群的警察前仆後繼而來。</div>';
+        content += '<div class="report_blue">似乎只能殺出一條血海。</div>';
+    }else{
+
+    }
+    if (b>=15){
+        $("#liferusult").append(content);
+        $('#choose12').attr('disabled', true);
+        choose31.style.display='block';
+        choose32.style.display='block';
+    }
+    if(b==11 && n==5){
+        var n =Number(localStorage.getItem("did"))+1;
+        var x = parseInt(Math.random()*5)
+        sessionStorage.setItem("moname","兩津勘吉巡查長");
+        sessionStorage.setItem("mg2",300);
+        sessionStorage.setItem("mg3",280);
+        sessionStorage.setItem("mj1",90);
+        sessionStorage.setItem("ml1",80);
+        sessionStorage.setItem("ml2",150);
+        sessionStorage.setItem("mi1",90);
+        sessionStorage.setItem("mhp",8000);
+        content += '<hr class="divider" />';
+        content += '<div>你遇到了'+sessionStorage.getItem("moname")+'。</div>';
+        content += '<div>對手資訊</div>';
+        content += '<div>血量：' + sessionStorage.getItem("mhp") + '</div>';
+        content += '<div>力量：' + sessionStorage.getItem("mg2") + '</div>';
+        content += '<div>防禦：' + sessionStorage.getItem("mg3") + '</div>';
+        content += '<div>移動：' + sessionStorage.getItem("mj1") + '</div>';
+        content += '<div>命中：' + sessionStorage.getItem("ml1") + '</div>';
+        content += '<div>幸運：' + sessionStorage.getItem("ml2") + '</div>';
+        content += '<div>智力：' + sessionStorage.getItem("mi1") + '</div>';
+        content += '<div>一一一一</div>';
+        $("#liferusult").append(content);
+        let content3 = '';
+        content3 += '<div>目前遊戲進度：' + localStorage.getItem("chapter") +'-'+ localStorage.getItem("part") +'-'+localStorage.getItem("did")+ '</div>';
+        content3 += '<div>你目前的血量：' + sessionStorage.getItem("php") + '</div>';
+        $("#lifesay").append(content3);
+    }else{
+        var n =Number(localStorage.getItem("did"))+1;
+        var a =Number(localStorage.getItem("chapter"))+1;
+        var x = parseInt(Math.random()*5);
+        if(b>=10){
+            x=4;
+        }
+        var list =['小混混','精準打擊的小混混','訓練有素的小混混','混混槍手','警察']
+        sessionStorage.setItem("moname",list[x]);
+        sessionStorage.setItem("mg2",String(100+b*10+n+x*3));
+        sessionStorage.setItem("mg3",String(100+b*7+n+x*5));
+        sessionStorage.setItem("mj1",String(50+b*5+n+x*3));
+        sessionStorage.setItem("ml1",String(50+b*5+n*3+x*3));
+        sessionStorage.setItem("ml2",String(100+b*10+n+x*5));
+        sessionStorage.setItem("mi1",String(70+b*4+n+x*7));
+        sessionStorage.setItem("mhp",String(200+b*200+n+x*10));
+        content += '<hr class="divider" />';
+        content += '<div>你遇到了'+sessionStorage.getItem("moname")+'。</div>';
+        content += '<div>對手資訊</div>';
+        content += '<div>血量：' + sessionStorage.getItem("mhp") + '</div>';
+        content += '<div>力量：' + sessionStorage.getItem("mg2") + '</div>';
+        content += '<div>防禦：' + sessionStorage.getItem("mg3") + '</div>';
+        content += '<div>移動：' + sessionStorage.getItem("mj1") + '</div>';
+        content += '<div>命中：' + sessionStorage.getItem("ml1") + '</div>';
+        content += '<div>幸運：' + sessionStorage.getItem("ml2") + '</div>';
+        content += '<div>智力：' + sessionStorage.getItem("mi1") + '</div>';
+        content += '<hr class="divider" />';
+        $("#liferusult").append(content);
+        let content3 = '';
+        content3 += '<div>目前遊戲進度：' + localStorage.getItem("chapter") +'-'+ localStorage.getItem("part") +'-'+localStorage.getItem("did")+ '</div>';
+        content3 += '<div>你目前的血量：' + sessionStorage.getItem("php") + '</div>';
+        $("#lifesay").append(content3);
+    }
+    
+    
+}
+
+function choose1(){
+    moname=sessionStorage.getItem("moname");
+    php=Number(sessionStorage.getItem("php"));
+    plname=localStorage.getItem("name");
+    work=localStorage.getItem("work");
+    taichifight(moname,php,plname,work);
+}
+
+function choose2(){
+    let content2 = '';
+    content2 += '<div class="report_blue">你逃回到了家，</div>';
+    localStorage.setItem("chapter","1");
+    localStorage.setItem("part","1");
+    localStorage.setItem("did","0");
+    $("#liferusult").append(content2);
+    taichi(1,0);
+}
+
+function choose3(){
+    let content2 = '';
+    content2 += '<div class="report_blue">你結束了這愉快的一天。</div>';
+    content2 += '<div class="report_blue">盡管可能不是這麼的愉悅。</div>';
+    localStorage.setItem("chapter",String(2));
+    localStorage.setItem("part","1");
+    localStorage.setItem("did","0");
+    if(String(Number(localStorage.getItem("chapter"))=='3')){
+        localStorage.setItem("chapter",String(Number(localStorage.getItem("chapter"))-1));
+        content2 += '<div class="report_blue">後續內容，敬請期待。</div>';
+    }
+    $("#liferusult").append(content2);
+}
+
+function taichifight(moname,php,plname,work){
+    var pg2=Number(localStorage.getItem("g2"));
+    if (localStorage.getItem("weapon")=="knife"){
+        if(localStorage.getItem("knife")>=11){
+            pg2=pg2+Math.pow((Number(localStorage.getItem("knife"))),2);
+        }else{
+            pg2=pg2+(Number(localStorage.getItem("knife"))*5);
+        }
+    }
+    if (localStorage.getItem("armor")=="denture"){
+        if(localStorage.getItem("denture")>=11){
+            pg2=parseInt((pg2+Math.pow((Number(localStorage.getItem("denture")))+1,2))*100)/100;
+        }else{
+            pg2=parseInt((pg2+(Number(localStorage.getItem("denture"))*10))*100)/100;
+        }
+    }
+    var pg3=Number(localStorage.getItem("g3"));
+    if (localStorage.getItem("armor")=="helmet"){
+        if(localStorage.getItem("helmet")>=11){
+            pg3=parseInt((pg3+Math.pow((Number(localStorage.getItem("helmet"))),2))*100)/100;
+        }else{
+            pg3=parseInt((pg3+(Number(localStorage.getItem("helmet"))*7))*100)/100;
+        }
+    }
+    var pj1=Number(localStorage.getItem("j1"));
+    var pl1=Number(localStorage.getItem("l1"));
+    var pl2=Number(localStorage.getItem("l2"));
+    if (localStorage.getItem("weapon")=="gossip"){
+        if(localStorage.getItem("gossip")>=11){
+            pl2=pl2+Math.pow((Number(localStorage.getItem("gossip"))),3);
+        }else{
+            pl2=pl2+(Number(localStorage.getItem("gossip"))*10);
+        }
+    }
+    var pi1=Number(localStorage.getItem("i1"));
+    if (localStorage.getItem("weapon")=="phone"){
+        if(localStorage.getItem("phone")>=11){
+            pi1=pi1+(Number(localStorage.getItem("phone"))*4);
+        }else{
+            pi1=pi1+(Number(localStorage.getItem("phone"))*3);
+        }
+    }
+    if(work==='無業'){
+        work='';
+    }
+    var pgosh=1;
+    var pgosh1=1;
+    var pfire=1;
+    var pkill=0;
+    var mgosh=1;
+    var mfire=1;
+    var mgosh2=1;
+    var mg2=Number(sessionStorage.getItem("mg2"));//肌力
+    var mg3=Number(sessionStorage.getItem("mg3"));//脂肪
+    var mj1=Number(sessionStorage.getItem("mj1"));//移動
+    var ml1=Number(sessionStorage.getItem("ml1"));//視力
+    var ml2=Number(sessionStorage.getItem("ml2"));//幸運
+    var mi1=Number(sessionStorage.getItem("mi1"));//智力
+    var mhp=Number(sessionStorage.getItem("mhp"));
+    var turn = 0
+    var content = '';
+    content += '<div>'+work+plname+'攻擊了'+moname+'</div>';
+    if(moname=='混元形意門掌門馬保國'){
+        content += '<div class="report_blue">你二話不說就往馬保國頭上尻。</div>';
+        content += '<div class="report_blue">我也不知道是誰給你的勇氣。</div>';
+        content += '<div class="report_blue">梁靜茹嗎？</div>';
+        content += '<div class="report_red">'+moname+'：年輕人不講武德，偷襲！</div>';
+        sessionStorage.setItem("run","0");
+    }else if(moname=='兩津勘吉巡查長'){
+        content += '<div class="report_red">'+moname+'：趕快處理完吧，我還要回去吃我的蝦仁飯。</div>';
+        sessionStorage.setItem("run","0");
+    }else{
+        sessionStorage.removeItem("run");
+    }
+    $('#liferusult').append(content);
+    while(php>0 && mhp>0 && turn<100){
+        if(pl1>pl2){
+            var x =playerattack(pg2,pg3,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work,plname,moname,pgosh,mgosh,mfire,mgosh2,pgosh1,turn,pfire,pkill);
+            php = x[0];
+            mhp = x[1];
+            pgosh = x[2];
+            mgosh = x[3];
+            mfire = x[4];
+            mgosh2 = x[5];
+            pgosh1 = x[6];
+            turn=turn+1;
+            if (php>0 && mhp>0){
+                var y =monstorattack11(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work,plname,moname,pgosh,mgosh,mfire,mgosh2,pgosh1,pfire);
+                php = y[0];
+                mhp = y[1];
+                pgosh = y[2];
+                mgosh = y[3];
+                mfire = y[4];
+                mgosh2 = y[5];
+                mj1=y[6];
+                pgosh1 = y[7];
+                pfire = y[8];
+                turn=turn+1;
+            }
+        }else{
+            var y =monstorattack11(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work,plname,moname,pgosh,mgosh,mfire,mgosh2,pgosh1,pfire,pkill);
+            php = y[0];
+            mhp = y[1];
+            pgosh = y[2];
+            mgosh = y[3];
+            mfire = y[4];
+            mgosh2 = y[5];
+            mj1=y[6];
+            pgosh1 = y[7];
+            pfire = y[8];
+            turn=turn+1;
+            if (php>0 && mhp>0){
+                var x =playerattack(pg2,pg3,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work,plname,moname,pgosh,mgosh,mfire,mgosh2,pgosh1,turn,pfire);
+                php = x[0];
+                mhp = x[1];
+                pgosh = x[2];
+                mgosh = x[3];
+                mfire = x[4];
+                mgosh2 = x[5];
+                pgosh1 = x[6];
+                turn=turn+1;
+            }
+        }
+    }
+    var content='';
+    if (php>0 && mhp<=0){
+        var content = '<div>'+moname+'倒下了，'+work+plname+'還有'+String(parseInt(php))+'生命</div>';
+        $('#liferusult').append(content);
+        win2(moname);
+        sessionStorage.setItem("php",String(parseInt(php)));
+        var n =Number(localStorage.getItem("did"))+1;
+        var b =Number(localStorage.getItem("part"));
+        if(n>5){
+            n=0;
+            localStorage.setItem("part",b+1);
+        }
+        localStorage.setItem("did",String(n));
+        var a= localStorage.getItem("chapter");
+        gonext(a,b+1,n);
+    }else if (php<=0 && mhp>0){
+        var content = '<div>'+work+plname+'倒下了，'+moname+'還有'+String(parseInt(mhp))+'生命</div>';
+        $('#liferusult').append(content);
+        $('#choose11').attr('disabled', true);
+        $('#choose21').attr('disabled', true);
+        $('#choose31').attr('disabled', true);
+    }else if (php<=0 && mhp<=0){
+        var content = '<div>'+work+plname+'和'+moname+'同歸於盡了</div>';
+        $('#liferusult').append(content);
+        $('#choose11').attr('disabled', true);
+        $('#choose21').attr('disabled', true);
+        $('#choose31').attr('disabled', true);
+    }else{
+        var content = '<div>'+work+plname+'和'+moname+'打得難分難捨</div>';
+        $('#liferusult').append(content);
+    }
+}
+
+function playerattack(pg2,pg3,pj1,pl1,pl2,pi1,php,mg3,mj1,ml2,mi1,mhp,work1,plname,moname,pgosh,mgosh,mfire,mgosh2,pgosh1,turn,pfire){
+    var content = '';
+    var pm1 = parseInt(Math.random()*101)*(10+pl1)/10;//命中判定
+    var pm2 = parseInt(Math.random()*101)*(100+ml2)*(100+mj1)/10000;//閃避判定
+    if(pm1>=50 && pgosh>0 && pgosh1>0){//命中
+        if(pm1>=pm2){
+            var pm3 = parseInt(Math.random()*101)*(1000+pl2)/1000;//爆擊判定
+            var pm4 = parseInt(Math.random()*101)*(1000+mi1)/1000;//爆擊抵抗
+            var pm5 = parseInt(Math.random()*101)*(1000+pi1)/1000;//技能判定
+            var pm6 = parseInt(Math.random()*101)*(1000+mg3)/1000;//技能抵抗
+            if(work1 ==='救生員'){
+                var pm7 = parseInt(Math.random()*100+(pi1/10))
+                if(pm7>50){
+                    content += '<div class="report_blue">'+work1+plname+'用力地吹了吹口哨'+moname+'受到了驚嚇</div>';
+                    content += '<div>'+moname+'感到了恐懼</div>';
+                    mgosh2 = mgosh2-2;
+                }else{
+                    content += '<div class="report_blue">'+work1+plname+'用力地吹了吹口哨，沒什麼效果</div>';
+                }
+            }
+            if(work1 ==='彩卷行員工' && pm5>=pm6){
+                var pm7 = parseInt(Math.random()*pl2/100+1);
+                content += '<div class="report_blue">'+work1+plname+'獲得了'+String(pm7)+'張彩卷</div>';
+                $('#liferusult').append(content);
+                var content = '';
+                for (i = 1; i <= pm7; i++) {
+                    var aa =lotto2(pl2,php,mhp,plname,moname);
+                    php = aa[0];
+                    mhp = aa[1];
+                }
+                $('#liferusult').append(content);
+                var content = '';
+            }
+            if(work1 === '雙刀劍士'){
+                var pm7 = parseInt(Math.random()*101*(1000+pj1)/1000);
+                if(pm7<70){
+                    var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-Math.sqrt(pg3*mg3)));
+                    if (harm<=0){
+                        harm=parseInt(Math.random()*10+1);
+                        content += '<div class="report_blue">'+work1+plname+'使出了水平立方斬，但是沒有突破'+moname+'的防禦，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                        mhp = mhp - harm;
+                    }else{
+                        content += '<div class="report_blue">'+work1+plname+'使出了水平立方斬，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                        mhp = mhp - harm;
+                    }
+                }else if(pm7<100){
+                    var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-Math.sqrt(pg3*mg3)));
+                    if (harm<=0){
+                        harm=parseInt(Math.random()*10+1);
+                        content += '<div class="report_blue">'+work1+plname+'使出了星爆氣流斬，但是沒有突破'+moname+'的防禦，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                        mhp = mhp - harm;
+                    }else{
+                        content += '<div class="report_blue">'+work1+plname+'使出了星爆氣流斬，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                        mhp = mhp - harm;
+                    }
+                    var pm1 = parseInt(Math.random()*101)*(10+pl1)*(100+pj1)/1000;//命中判定
+                    var pm2 = parseInt(Math.random()*101)*(100+ml2)*(100+mj1)/10000;//閃避判定
+                    if (pm1>=pm2){
+                        var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-Math.sqrt(pg3*mg3)));
+                        if (harm<=0){
+                            harm=parseInt(Math.random()*10+1);
+                            content += '<div class="report_blue">星爆氣流斬二連擊！但是沒有突破'+moname+'的防禦，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                            mhp = mhp - harm;
+                        }else{
+                            content += '<div class="report_blue">星爆氣流斬二連擊！對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                            mhp = mhp - harm;
+                        }
+                    }else{
+                        content += '<div class="report_blue">星爆氣流斬二連擊！但是沒有命中</div>';
+                    }
+                }else{
+                    content += '<div class="report_blue">SWITCH!</div>';
+                    content += '<div class="report_blue">'+work1+plname+'使出了星爆氣流斬</div>';
+                    var i=0;
+                    for (i = 1; i < 17; i++) {
+                        var pm1 = parseInt(Math.random()*101)*(100+pl1)*(100+pi1)/10000;//命中判定
+                        var pm2 = parseInt(Math.random()*101)*(1000+mj1)*(1000+pg3)/1000000;
+                        if (pm1>=pm2){
+                            var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pj1)-Math.sqrt(pg3)));
+                            if (harm<=0){
+                                harm=parseInt(Math.random()*10+1);
+                            }
+                            content += '<div class="report_blue">星爆氣流斬'+String(i)+'連擊！對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                            mhp = mhp - harm;
+                        }else{
+                            content += '<div class="report_blue">星爆氣流斬'+String(i)+'連擊！但是沒有命中</div>';
+                        }
+                        
+                    }
+                }
+            }else if(work1 === '虛假的桐谷' && pm5>=pm6){
+                var pm7 = parseInt(Math.random()*101+(pi1/10));
+                if(pm7<=70){
+                    var harm=parseInt((Math.random()*10+(pi1/10)+1)*(Math.sqrt(pg2*pi1)-mg3));
+                    if (harm<=0){
+                        harm=parseInt(Math.random()*10+1);
+                        content += '<div class="report_blue">'+work1+plname+'使出了水平立方斬，但是沒有突破'+moname+'的防禦，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                        mhp = mhp - harm;
+                    }else{
+                        content += '<div class="report_blue">'+work1+plname+'使出了水平立方斬，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                        mhp = mhp - harm;
+                    }
+                }else {
+                    var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pi1)-mg3));
+                    if (harm<=0){
+                        harm=parseInt(Math.random()*10+1);
+                        content += '<div class="report_blue">'+work1+plname+'使出了星爆氣流斬，但是沒有突破'+moname+'的防禦，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                        mhp = mhp - harm;
+                    }else{
+                        content += '<div class="report_blue">'+work1+plname+'使出了星爆氣流斬，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                        mhp = mhp - harm;
+                    }
+                    var harm=parseInt((Math.random()*10+1)*Math.sqrt(pg2*pi1));
+                    content += '<div class="report_blue">星爆氣流斬2連擊！對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                    mhp = mhp - harm;
+                }                
+            }else if(work1 ==='服務生' && pm5>=pm6){
+                var harm=parseInt((Math.random()*10+1)*(Math.sqrt(pg2*pi1)));
+                if (harm<=0){
+                    harm=parseInt(Math.random()*10);
+                    content += '<div class="report_blue">'+work1+plname+'使用了瘋狂餐車，但是沒有突破'+moname+'的防禦，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                    mhp = mhp - harm;
+                }else{
+                    content += '<div class="report_blue">'+work1+plname+'使用了瘋狂餐車，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                    mhp = mhp - harm;
+                }
+                var pm7 = parseInt(Math.random()*100+pi1/100);
+                if(pm7>70){
+                    content += '<div>'+moname+'眩暈了</div>';
+                    mgosh = mgosh-1;
+                }
+            }else if(work1 ==='廚師'){
+                content += '<div class="report_blue">'+work1+plname+'開始料理'+moname+'</div>';
+                var pm7 = parseInt(Math.random()*100*pg2/10);
+                if(pm7>50){
+                    var pm8 = parseInt(Math.random()*11+(pi1/10));
+                    if(pm8>=200){
+                        content += '<div>'+moname+'四度灼燒了</div>';
+                        mfire = mfire-4;
+                    }else if(pm8>=100){
+                        content += '<div>'+moname+'三度灼燒了</div>';
+                        mfire = mfire-3;
+                    }else if(pm8>=50){
+                        content += '<div>'+moname+'二度灼燒了</div>';
+                        mfire = mfire-2;
+                    }else{
+                        content += '<div>'+moname+'灼燒了</div>';
+                        mfire = mfire-1;
+                    }
+                }
+            }else if(work1 ==='游泳國手' && pm5>=pm6){
+                var harm=parseInt((Math.random()*100+(pi1/10)+1)*(Math.sqrt(pg2*pi1)));
+                content += '<div class="report_green">'+work1+plname+'開始有氧呼吸，恢復了'+String(harm)+'</div>';
+                php = php + harm;
+            }else if(work1 ==='卡車司機' && pm5>=pm6*2){
+                var harm=parseInt(Math.random()*100)+1;
+                var turn2=parseInt(Math.random()*10)+5;
+                if(harm>50 && turn>=turn2){
+                    content += '<div class="report_red">'+work1+plname+'開著卡車撞擊'+moname+'</div>';
+                    content += '<div class="report_red">'+moname+'轉生到異世界去了</div>';
+                    mhp = -1;
+                }else{
+                    content += '<div class="report_red">'+work1+plname+'開著卡車撞擊'+moname+'的時候爆炸了</div>';
+                    content += '<div class="report_red">'+work1+plname+'和'+moname+'一起轉生到異世界去了</div>';
+                    php = -1;
+                    mhp = -1;
+                }
+            }else if(pm3>=pm4){//爆擊
+                var harm=parseInt((Math.random()*6+(pi1/10)+5)*(Math.sqrt(pg2*pi1)-mg3));
+                if (harm<=0){
+                    harm=parseInt(Math.random()*10);
+                    content += '<div>'+work1+plname+'打出了致命一擊，但是沒有突破'+moname+'的防禦，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                    mhp = mhp - harm;
+                }else{
+                    content += '<div>'+work1+plname+'打出了致命一擊，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                    mhp = mhp - harm;
+                }
+            }else{
+                var harm=parseInt((Math.random()*10)*(Math.sqrt(pg2*pi1)-mg3));
+                if (harm<=0){
+                    harm=parseInt(Math.random()*10);
+                    content += '<div>'+work1+plname+'發動攻擊，但是沒有突破'+moname+'的防禦，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                    mhp = mhp - harm;
+                }else{
+                    content += '<div>'+work1+plname+'發動攻擊，對'+moname+'造成了'+String(harm)+'點傷害</div>';
+                    mhp = mhp - harm;
+                }
+            }
+        }else{
+            content += '<div>'+work1+plname+'試圖發動攻擊，但是被'+moname+'發現了</div>';
+        }
+    }else if(pgosh<=0){
+        var pm10 = parseInt(Math.random()*101)*(1000+pi1)/1000;
+        if(pm10>50){
+            content += '<div>'+work1+plname+'被暈眩了，但是感覺好一點了</div>';
+            pgosh=pgosh+1;
+        }else{
+            content += '<div>'+work1+plname+'被暈眩了</div>';
+        }
+    }else if(pgosh1<=0){
+        var pm10 = parseInt(Math.random()*101)*(1000+pi1)/1000;
+        if(pm10>50){
+            content += '<div>'+work1+plname+'被麻痺了，但是感覺好一點了</div>';
+            pgosh1=pgosh1+1;
+        }else{
+            content += '<div>'+work1+plname+'被麻痺了</div>';
+        }
+    }else{
+        content += '<div>'+work1+plname+'試圖發動攻擊，但是沒有命中</div>';
+    }
+    if(work1 ==='幸運星'){
+        var pm7 = parseInt(Math.random()*101*pl2/100)-parseInt(Math.random()*101*ml2/100)
+        if (pm7>=150){
+            content += '<div class="report_blue">天上降下了獅子座流星雨</div>';
+            var pm8=parseInt(Math.random()*7+pl2/200);
+            for (i = 1; i < pm8; i++) {
+                var harm=parseInt((Math.random()*5+1)*pl2/10);
+                content += '<div class="report_blue">第'+String(i)+'顆流星，砸到了'+moname+'的頭上，造成了'+String(harm)+'點傷害</div>';
+                mhp=mhp-harm;
+                content += '<div>'+moname+'眩暈了</div>';
+                mgosh = mgosh-3;
+            }
+        }else if(pm7>=99){
+            var harm=parseInt((Math.random()*10+5)*pl2/15);
+            content += '<div class="report_red">天上掉下一顆流星，砸到了'+moname+'的頭上，造成了'+String(harm)+'點傷害</div>';
+            mhp=mhp-harm;
+            content += '<div>'+moname+'眩暈了</div>';
+            mgosh = mgosh-2;
+        }else if(pm7>=80){
+            var harm=parseInt((Math.random()*5+1)*(pl2/20+1));
+            content += '<div>'+moname+'跌進了隕石坑，受到了'+String(harm)+'點傷害</div>';
+            mhp=mhp-harm;
+        }else if(pm7>=50){
+            var harm=parseInt((Math.random()*10+1)*(pl2/50+1));
+            content += '<div>'+moname+'踩到了地上的香蕉皮滑倒了，受到了'+String(harm)+'點傷害</div>';
+            mhp=mhp-harm;
+            var pm8 = parseInt(Math.random()*100+pl2/100);
+            if(pm8>=70){
+                content += '<div>'+moname+'眩暈了</div>';
+                mgosh = mgosh-1;
+            }
+        }else{
+            var harm=parseInt((Math.random()*10+1)*(pl2/150+1));
+            content += '<div>'+moname+'被樹上的椰子砸到了，受到了'+String(harm)+'點傷害</div>';
+            mhp=mhp-harm;
+        }
+    }
+    if(pfire<=0){
+        var harm=parseInt((Math.random()*10+(mi1/10)+1)+mi1/1000)*(-1*(pfire-1));
+        content += '<div>'+work1+plname+'被灼燒了，受到'+String(harm)+'點傷害</div>';
+        php = php - harm;
+    }
+    if (localStorage.getItem("weapon")=="robot"){
+        var harm=parseInt(5*Number(localStorage.getItem("robot")));
+        content += '<div class="report_green">結衣使用了清潔，'+work1+plname+'回復了'+String(harm)+'點生命</div>';
+        php=php+harm;
+    }
+    $('#liferusult').append(content);
+    return [php,mhp,pgosh,mgosh,mfire,mgosh2,pgosh1]
+}
+
+function gonext(a,b,n){
+    if(a==1){
+        taichi(b,n);
+    }else if(a==2){
+        police(b,n);
+    }
+}
+
+function monstorattack11(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname,moname,pgosh,mgosh,mfire,mgosh2,pgosh1,pfire,pkill){
+    var content = '';
+    var mp1 = parseInt(Math.random()*101)*(10+ml1)*(100+mi1)/1000;//命中判定
+    var mp2 = parseInt(Math.random()*101)*(100+pj1)/100;//閃避判定
+    if(mp1>=50 && mgosh>0 && mgosh2>0){//命中
+        if(mp1>=mp2){
+            var mp3 = parseInt(Math.random()*101)*(1000+ml2)/1000;//爆擊判定
+            var mp4 = parseInt(Math.random()*101)*(1000+pi1)/1000;//爆擊抵抗
+            var mp5 = parseInt(Math.random()*101)*(1000+mi1)/1000;//技能判定
+            var mp6 = parseInt(Math.random()*101)*(1000+pg3)/1000;//技能抵抗
+            if(moname==='小混混'){
+                var arm = ['抬起拳頭','揮動球棒'];
+                var armj = [20,30];
+                if(mp5>mp6){
+                    var newm = arm[1];
+                    var newj = armj[1];
+                }else{
+                    var newm = arm[0];
+                    var newj = armj[0];
+                }
+            }else if(moname==='精準打擊的小混混'){
+                var arm = ['揮動球棒','精確打擊'];
+                var armj = [30,20];
+                if(mp5>mp6){
+                    var newm = arm[1];
+                    var newj = armj[1];
+                }else{
+                    var newm = arm[0];
+                    var newj = armj[0];
+                }
+            }else if(moname==='混混槍手' || moname==='警察'){
+                var arm = ['開三槍','掏槍射擊'];
+                var armj = [0,45];
+                if(mp5>mp6){
+                    var newm = arm[0];
+                    var newj = armj[0];
+                }else{
+                    var newm = arm[1];
+                    var newj = armj[1];
+                }
+            }else if(moname==='訓練有素的小混混'){
+                var arm = ['揮舞鐵棒','使用槍托','掏槍射擊'];
+                var armj = [20,10,45];
+                var which = parseInt(Math.random()*2);
+                if(mp5>mp6){
+                    var newm = arm[2];
+                    var newj = armj[2];
+                }else{
+                    var newm = arm[which];
+                    var newj = armj[which];
+                }
+            }else if(moname==='混元形意門門徒'){
+                var arm = ['混元功法','太極拳','閃電鞭'];
+                var armj = [0,15,60];
+                var which = parseInt(Math.random()*2);
+                if(mp5>mp6){
+                    var newm = arm[2];
+                    var newj = armj[2];
+                }else{
+                    var newm = arm[which];
+                    var newj = armj[which];
+                }
+            }else if(moname==='混元形意門掌門馬保國'){
+                var arm = ['混元功法','往你的鼻梁狠狠的','閃電鞭','閃電鞭五連鞭'];
+                var armj = [0,50,100,100];
+                var which = parseInt(Math.random()*3);
+                var newm = arm[which];
+                var newj = armj[which]; 
+            }else if(moname==='兩津勘吉巡查長'){
+                var arm = ['品嘗燒肉便當','投擲木屐','原始人打擊','騎上腳踏車'];
+                var armj = [0,50,100,100];
+                var which = parseInt(Math.random()*4);
+                var newm = arm[which];
+                var newj = armj[which]; 
+            }
+            if(moname=='混元形意門掌門馬保國'){
+                if(mhp<2500 && sessionStorage.getItem("run")=="0"){
+                    content += '<div class="report_blue">'+moname+'：小朋友，來折折看我一根手指頭。</div>';
+                    sessionStorage.setItem("run","1");
+                }if(mhp<2000 && sessionStorage.getItem("run")=="1"){
+                    content += '<div class="report_blue">'+moname+'：傳統功夫可是講化勁了的！</div>';
+                    content += '<div class="report_blue">'+moname+'：兩百多公斤的英國大力士都折不動我一根手指頭。</div>';
+                    sessionStorage.setItem("run","2");
+                }if(mhp<1000  && sessionStorage.getItem("run")=="2"){
+                    content += '<div class="report_red">'+moname+'把右拳放在了你的鼻子上</div>';
+                    sessionStorage.setItem("run","3");
+                }if(mhp<500  && sessionStorage.getItem("run")=="3"){
+                    content += '<div class="report_blue">'+moname+'：根據傳統功夫的點到為止，你已經輸了。</div>';
+                    content += '<div class="report_blue">'+moname+'：如果剛剛那一拳發力，你的鼻梁已經歪了。</div>';
+                    content += '<div class="report_red">'+moname+'：現在該結束這場鬧劇了。</div>';
+                    newm='閃電鞭五連鞭';
+                    sessionStorage.setItem("run","4");
+                }
+            }else if(moname=='兩津勘吉巡查長'){
+                if(mhp<2500 && sessionStorage.getItem("run")=="0"){
+                    content += '<div class="report_blue">'+moname+'：燒肉，我的燒肉。</div>';
+                    newm='品嘗燒肉便當';
+                    sessionStorage.setItem("run","1");
+                }if(mhp<2000 && sessionStorage.getItem("run")=="1"){
+                    content += '<div class="report_red">'+moname+'：他媽的！我看你是沒被打過。</div>';
+                    newm='原始人打擊';
+                    sessionStorage.setItem("run","2");
+                }if(mhp<500  && sessionStorage.getItem("run")=="2"){
+                    content += '<div class="report_blue">'+moname+'：唉呦，情況好像有點不太妙欸，本田，這裡就交給你了。</div>';
+                    newm='馬上騎上腳踏車離開';
+                    sessionStorage.setItem("run","3");
+                }
+            }
+            if (newm==='揮動球棒'||newm==='精確打擊'||newm==='揮舞鐵棒'||newm==='往你的鼻梁狠狠的'||newm==='投擲木屐'){
+                var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)));
+                if (harm<=0){
+                    harm=parseInt(Math.random()*10);
+                    content += '<div class="report_blue">'+moname+newm+'發動攻擊，但是沒有突破'+work1+plname+'的防禦，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+                    php=php-harm;
+                }else{
+                    content += '<div class="report_blue">'+moname+newm+'發動攻擊，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+                    php=php-harm;
+                }
+                var mp5=parseInt(Math.random()*10-pl2/1000);
+                if(mp5>=4){
+                    content += '<div>'+work1+plname+'眩暈了</div>';
+                    pgosh = pgosh-1;
+                }
+            }else if (newm==='閃電鞭'){
+                var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)));
+                if (harm<=0){
+                    harm=parseInt(Math.random()*10);
+                    content += '<div class="report_yellow">'+moname+newm+'發動攻擊，但是沒有突破'+work1+plname+'的防禦，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+                    php=php-harm;
+                }else{
+                    content += '<div class="report_yellow">'+moname+newm+'發動攻擊，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+                    php=php-harm;
+                }
+                var mp5=parseInt(Math.random()*10-pl2/1000);
+                if(mp5>=4){
+                    content += '<div>'+work1+plname+'被麻痺了</div>';
+                    pgosh1 = pgosh1-1;
+                }
+            }else if(newm==='閃電鞭五連鞭'){
+                for (i = 1; i < 6; i++) {
+                    var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)));
+                    if (harm<=0){
+                        harm=parseInt(Math.random()*10);
+                        content += '<div class="report_yellow">'+moname+newm+'發動攻擊，但是沒有突破'+work1+plname+'的防禦，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+                        php=php-harm;
+                    }else{
+                        content += '<div class="report_yellow">'+moname+newm+'發動攻擊，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+                        php=php-harm;
+                    }
+                    var mp5=parseInt(Math.random()*10-pl2/1000);
+                    if(mp5>=4){
+                        content += '<div>'+work1+plname+'被麻痺了</div>';
+                        pgosh1 = pgosh1-1;
+                    }
+                }
+            }else if (newm==='原始人打擊'){
+                content += '<div class="report_red">'+moname+'使出了'+newm+'。</div>';
+                var x =['抓起','甩出','再次抓起','痛扁']
+                for (var i=0; i<4; i++){
+                    var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)));
+                    content += '<div class="report_blue">'+moname+x[i]+work1+plname+'，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+                    php=php-harm;
+                }
+            }else if (newm==='馬上騎上腳踏車離開'){
+                content += '<div class="report_red">'+moname+newm+'</div>';
+                php=-1000000;
+                mhp=-1000000;
+            }else if (newm==='混元功法'|| newm==='品嘗燒肉便當'){
+                var harm=parseInt((Math.random()*10+(mi1/10))*(Math.sqrt(mg2*mi1)));
+                content += '<div class="report_green">'+moname+newm+'回復了'+String(harm)+'點生命</div>';
+                mhp=mhp+harm;
+            }else if(mp3>=mp4){//爆擊
+                var harm=parseInt((Math.random()*6+(mi1/10)+5)*(Math.sqrt(mg2*mi1)-pg3));
+                if (harm<=0){
+                    harm=parseInt(Math.random()*10);
+                    content += '<div>'+moname+newm+'打出了致命一擊，但是沒有突破'+work1+plname+'的防禦，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+                    php=php-harm;
+                }else{
+                    content += '<div>'+moname+newm+'打出了致命一擊，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+                    php=php-harm;
+                }
+            }else{
+                var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)-pg3));
+                if (harm<=0){
+                    harm=parseInt(Math.random()*10);
+                    content += '<div>'+moname+newm+'發動攻擊，但是沒有突破'+work1+plname+'的防禦，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+                    php=php-harm;
+                }else{
+                    content += '<div>'+moname+newm+'發動攻擊，對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+                    php=php-harm;
+                }
+            }
+        }else{
+            content += '<div>'+moname+'試圖發動攻擊，但是被'+work1+plname+'發現了</div>';
+        }
+    }else if(mgosh<=0){
+        mp10 = parseInt(Math.random()*101)*(1000+pi1)/1000;
+        if(mp10>50){
+            content += '<div>'+moname+'被暈眩了，但是感覺好一點了</div>';
+            mgosh=mgosh+1;
+        }else{
+            content += '<div>'+moname+'被暈眩了</div>';
+        }
+    }else if(mgosh2<=0){
+        var mp10 = parseInt(Math.random()*101)*(1000+pi1)/1000;
+        if(mp10>50){
+            content += '<div>'+moname+'感到恐懼不敢行動，但是感覺好一點了</div>';
+            mgosh2=mgosh2+1;
+        }else{
+            content += '<div>'+moname+'感到恐懼不敢行動</div>';
+        }
+    }else{
+        content += '<div>'+moname+'試圖發動攻擊，但是沒有命中</div>';
+    }
+    if (mfire<=0){
+        var harm=parseInt((Math.random()*(-1*mfire+1)+1)*(Math.sqrt(pg2*pi1)))*(-1*mfire+1);
+        content += '<div>'+moname+'被灼燒了，受到'+String(harm)+'點傷害</div>';
+        mhp = mhp - harm;
+    }
+    $('#liferusult').append(content);
+    return [php,mhp,pgosh,mgosh,mfire,mgosh2,newj,pgosh1,pfire];
+}
+
+function win2(n){
+    var l2=Number(localStorage.getItem("l2"));
+    var work=localStorage.getItem("work");
+    if (localStorage.getItem("weapon")=="gossip"){
+        if(localStorage.getItem("gossip")>=11){
+            l2=l2+Math.pow((Number(localStorage.getItem("gossip"))),3);
+        }else{
+            l2=l2+(Number(localStorage.getItem("gossip"))*10);
+        }
+    }
+    if(n=='混元形意門門徒'){
+        var a = parseInt((Math.random()*100+1)*(2000+l2)/2000);
+        if(a>100){
+            bkf=Number(localStorage.getItem("bkfish"));
+            localStorage.setItem("bkfish",String(bkf+1));
+            var content = '<div>你獲得了從'+n+'身上掉下來的一個太極魚眼．黑</div>';
+            $('#liferusult').append(content);
+        }
+        var a2 = parseInt((Math.random()*100+1)*(2000+l2)/2000);
+        if(a2>100){
+            wtf=Number(localStorage.getItem("wtfish"));
+            localStorage.setItem("wtfish",String(wtf+1));
+            var content2 = '<div>你獲得了從'+n+'身上掉下來的一個太極魚眼．白</div>';
+            $('#liferusult').append(content2);
+        }
+    }
+    if(n=='混元形意門掌門馬保國'){
+        var a = parseInt((Math.random()*100)+(2000+l2)/2000);
+        if(a>=100){
+            ston=Number(localStorage.getItem("stone"));
+            localStorage.setItem("stone",String(ston+1));
+            var content = '<div>你獲得了從'+n+'身上掉下來的一個通天石</div>';
+            $('#liferusult').append(content);
+        }
+    }
+    if(n=='兩津勘吉巡查長' && work=='蝦仁飯'){
+        var a = parseInt((Math.random()*100)+(2000+l2)/2000);
+        if(a>=100){
+            if (localStorage.getItem("killer")==null){
+                localStorage.setItem("killer","1");
+                var content = '<div>你獲得了從'+n+'身上掉下來的殺人令/div>';
+            }
+            $('#liferusult').append(content);
+        }
+    }
+    var mon=Number(localStorage.getItem("money"));
+    var a2 = parseInt((Math.random()*20+5)*(150+l2)/150);
+    localStorage.setItem("money",String(mon+a2));
+    var content = '<div>你獲得了從'+n+'身上掉下來的'+String(a2)+'塊錢</div>';
+    $('#liferusult').append(content);
+}
+
+function lotto2(pl2,php,mhp,plname,moname){
+    var work1=String(localStorage.getItem("work"));
+    var a = parseInt(Math.random()*100)+1;
+    if(a>80){
+        var harm=parseInt(Math.random()*10*(pl2/20));
+        content = '<div>'+work1+plname+'刮了一張彩卷，抽中了藥水，藥水回復了'+work1+plname+String(harm)+'點生命</div>';
+        php=php+harm;
+        $('#liferusult').append(content);
+    }else if(a>60){
+        var harm=parseInt(Math.random()*10*(pl2/20));
+        content = '<div>'+work1+plname+'刮了一張彩卷，抽中了藥水，藥水回復了'+moname+String(harm)+'點生命</div>';
+        mhp=mhp+harm;
+        $('#liferusult').append(content);
+    }else if(a>50){
+        var harm = parseInt(Math.random()*pl2/150+1);
+        content = '<div>'+work1+plname+'刮了一張彩卷，抽中了'+String(harm)+'張彩券</div>';
+        $('#liferusult').append(content);
+        for (i = 1; i <= harm; i++) {
+            var aa = lotto(pl2,php,mhp,plname,moname);
+            php = aa[0];
+            mhp = aa[1];
+        }
+    }else if(a>40){
+        var harm=parseInt(Math.random()*10*(pl2/100));
+        content = '<div>'+work1+plname+'刮了一張彩卷，抽出了一把生鏽的刀對'+moname+'造成了'+String(harm)+'點傷害</div>';;
+        $('#liferusult').append(content);
+    }else if(a>20){
+        var harm=parseInt(Math.random()*10*(pl2/20));
+        content = '<div>'+work1+plname+'刮了一張彩卷，抽中了炸彈，炸彈爆炸對'+moname+'造成了'+String(harm)+'點傷害</div>';
+        mhp=mhp-harm;
+        $('#liferusult').append(content);
+    }else{
+        var harm=parseInt(Math.random()*10*(pl2/20));
+        content = '<div>'+work1+plname+'刮了一張彩卷，抽中了炸彈，炸彈爆炸對'+work1+plname+'造成了'+String(harm)+'點傷害</div>';
+        php=php-harm;
+        $('#liferusult').append(content);
+    }
+    return [php,mhp];
+}
