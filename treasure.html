@@ -281,7 +281,7 @@
                         <p id="tre49" style="display: none;"><script>
                             var a=Number(localStorage.getItem("gossip"));
                             if (a>=10){
-                                document.write("<span style=' white-space:pre;'>"+"升級所需材料：太極魚眼．黑x"+Math.pow(a,3)+",太極魚眼．白x"+Math.pow(a,3)+",通天石x"+a+"</span>");
+                                document.write("<span style=' white-space:pre;'>"+"升級所需材料：太極魚眼．黑x"+Math.pow(a,3)+",太極魚眼．白x"+Math.pow(a,3)+",通天石x"+(a-9)+"</span>");
                             }else{
                                 document.write("<span style=' white-space:pre;'>"+"升級所需材料：太極魚眼．黑x"+Math.pow(a,2)+",太極魚眼．白x"+Math.pow(a,2)+"</span>");
                             }
@@ -587,6 +587,12 @@
                         document.write("<span style=' white-space:pre;'>"+"太極魚眼．白　　　　　　　　　白色的玉珮，散發祥瑞的光芒。　　　　　　　"+wtf+"</span>");
                     </script></p>
                 </div>
+                <div class="flex">
+                    <p id="thing14" style="display: block;"><script>
+                        var ston=Number(localStorage.getItem("stone"));
+                        document.write("<span style=' white-space:pre;'>"+"通天石　　　　　　　　　　　　相傳是女媧補天所餘。　　　　　　　　　　　"+ston+"</span>");
+                    </script></p>
+                </div>
                 <script>
                     if(Number(localStorage.getItem("wool"))>='1'){
                         thing1.style.display='block';
@@ -649,6 +655,11 @@
                         thing12.style.display='none';
                     }
                     if(Number(localStorage.getItem("wtfish"))>='1'){
+                        thing13.style.display='block';
+                    }else{
+                        thing13.style.display='none';
+                    }
+                    if(Number(localStorage.getItem("stone"))>='1'){
                         thing13.style.display='block';
                     }else{
                         thing13.style.display='none';
