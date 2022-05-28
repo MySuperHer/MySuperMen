@@ -538,7 +538,7 @@ function win(n){
     if (n ==='動保委員'){
         var getg2=Number(localStorage.getItem("getg2"))+0.75;
         localStorage.setItem("getg2",String(getg2));
-        if (localStorage.getItem("weapon")=="gossip"){
+        if (localStorage.getItem("weapon")=="killer"){
             var content = '<div class="report_red">殺人令保護了你免於成為蝦仁飯的命運。</div>';
             $('#3').append(content);
         }else{
@@ -600,7 +600,7 @@ function win(n){
     }else if(n ==='訓導主任'){
         var getg2=Number(localStorage.getItem("getg2"))+1.75;
         localStorage.setItem("getg2",String(getg2));
-        if (localStorage.getItem("weapon")=="gossip"){
+        if (localStorage.getItem("weapon")=="killer"){
             var content = '<div class="report_red">殺人令保護了你免於成為蝦仁飯的命運。</div>';
             $('#3').append(content);
         }else{
@@ -746,30 +746,32 @@ function gobig2(g11,g21,g31,j11,l11,l21,i11,m11){
         var i1=i1n+i11;
         var m1=m1n+m11;
         var hp=Number(localStorage.getItem("hp"))+g1;
-        if (g1>200){
-            g1=g1-20;
-        }
-        if (g2+g3>g1){
-            g2=g2-15;
-            g3=g3-20;
-        }
-        if (j1>g1){
-            j1=j1-25;
-        }
-        if (l1>100){
-            l1=l1-10;
-        }
-        if (l2>i1){
-            l2=l2-35;
-        }
-        if (i1>l1){
-            i1=i1-25;
-        }
-        if (m1>i1){
-            m1=m1-15;
-        }
-        if (hp>g1*5){
-            hp=g1*5;
+        if (age>5){
+            if (g1>200){
+                g1=g1-20;
+            }
+            if (g2+g3>g1){
+                g2=g2-15;
+                g3=g3-20;
+            }
+            if (j1>g1){
+                j1=j1-25;
+            }
+            if (l1>100){
+                l1=l1-10;
+            }
+            if (l2>i1){
+                l2=l2-35;
+            }
+            if (i1>l1){
+                i1=i1-25;
+            }
+            if (m1>i1){
+                m1=m1-15;
+            }
+            if (hp>g1*5){
+                hp=g1*5;
+            }
         }
         if (age>aged){
             g1=g1-50;
