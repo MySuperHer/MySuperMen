@@ -1,1 +1,410 @@
-(function(_0x275124,_0x4bac89){var _0x17de53=_0x1c53,_0x147bca=_0x275124();while(!![]){try{var _0x17306a=parseInt(_0x17de53(0xbd))/0x1+parseInt(_0x17de53(0xd9))/0x2+parseInt(_0x17de53(0xe4))/0x3*(-parseInt(_0x17de53(0xc5))/0x4)+parseInt(_0x17de53(0xb7))/0x5*(parseInt(_0x17de53(0xd8))/0x6)+parseInt(_0x17de53(0xbc))/0x7*(-parseInt(_0x17de53(0xd3))/0x8)+parseInt(_0x17de53(0xb8))/0x9*(parseInt(_0x17de53(0xbe))/0xa)+-parseInt(_0x17de53(0xdb))/0xb*(parseInt(_0x17de53(0xaf))/0xc);if(_0x17306a===_0x4bac89)break;else _0x147bca['push'](_0x147bca['shift']());}catch(_0x4d2798){_0x147bca['push'](_0x147bca['shift']());}}}(_0x151e,0x1d7c6));async function takeknife(){var _0x1aa3de=_0x1c53;$(_0x1aa3de(0xd4))['attr'](_0x1aa3de(0xc9),!![]),$(_0x1aa3de(0xac))['attr'](_0x1aa3de(0xc9),!![]),$(_0x1aa3de(0xd1))[_0x1aa3de(0xc1)](_0x1aa3de(0xc9),!![]),$(_0x1aa3de(0xa5))['attr'](_0x1aa3de(0xc9),!![]),$(_0x1aa3de(0xd6))['attr'](_0x1aa3de(0xc9),!![]),$(_0x1aa3de(0xce))[_0x1aa3de(0xc1)](_0x1aa3de(0xc9),!![]),$(_0x1aa3de(0xd7))['attr']('disabled',!![]),$(_0x1aa3de(0xcd))[_0x1aa3de(0xc1)](_0x1aa3de(0xc9),!![]),$(_0x1aa3de(0xc2))[_0x1aa3de(0xc1)](_0x1aa3de(0xc9),!![]),$(_0x1aa3de(0xcf))[_0x1aa3de(0xc1)](_0x1aa3de(0xc9),![]),localStorage[_0x1aa3de(0xbf)](_0x1aa3de(0xd5),_0x1aa3de(0xae));}async function takephone(){var _0x1fd038=_0x1c53;$(_0x1fd038(0xd4))[_0x1fd038(0xc1)]('disabled',!![]),$(_0x1fd038(0xac))[_0x1fd038(0xc1)](_0x1fd038(0xc9),!![]),$('#tre33')['attr'](_0x1fd038(0xc9),!![]),$(_0x1fd038(0xa5))[_0x1fd038(0xc1)]('disabled',!![]),$(_0x1fd038(0xd6))[_0x1fd038(0xc1)](_0x1fd038(0xc9),!![]),$(_0x1fd038(0xce))[_0x1fd038(0xc1)](_0x1fd038(0xc9),!![]),$(_0x1fd038(0xd7))[_0x1fd038(0xc1)](_0x1fd038(0xc9),!![]),$(_0x1fd038(0xcd))[_0x1fd038(0xc1)](_0x1fd038(0xc9),!![]),$(_0x1fd038(0xc2))[_0x1fd038(0xc1)](_0x1fd038(0xc9),!![]),$('#tre26')[_0x1fd038(0xc1)](_0x1fd038(0xc9),![]),localStorage['setItem'](_0x1fd038(0xd5),_0x1fd038(0xb3));}async function takerobot(){var _0x5893a3=_0x1c53;$('#tre13')[_0x5893a3(0xc1)](_0x5893a3(0xc9),!![]),$(_0x5893a3(0xac))[_0x5893a3(0xc1)]('disabled',!![]),$(_0x5893a3(0xd1))[_0x5893a3(0xc1)](_0x5893a3(0xc9),!![]),$('#tre43')[_0x5893a3(0xc1)](_0x5893a3(0xc9),!![]),$(_0x5893a3(0xd6))[_0x5893a3(0xc1)](_0x5893a3(0xc9),!![]),$('#tre26')['attr']('disabled',!![]),$(_0x5893a3(0xd7))['attr'](_0x5893a3(0xc9),!![]),$(_0x5893a3(0xcd))[_0x5893a3(0xc1)]('disabled',!![]),$(_0x5893a3(0xc2))[_0x5893a3(0xc1)](_0x5893a3(0xc9),!![]),$(_0x5893a3(0xd7))[_0x5893a3(0xc1)]('disabled',![]),localStorage[_0x5893a3(0xbf)](_0x5893a3(0xd5),_0x5893a3(0xca));}async function takegossip(){var _0x1333ca=_0x1c53;$(_0x1333ca(0xd4))[_0x1333ca(0xc1)](_0x1333ca(0xc9),!![]),$(_0x1333ca(0xac))[_0x1333ca(0xc1)](_0x1333ca(0xc9),!![]),$(_0x1333ca(0xd1))[_0x1333ca(0xc1)](_0x1333ca(0xc9),!![]),$(_0x1333ca(0xa5))[_0x1333ca(0xc1)]('disabled',!![]),$(_0x1333ca(0xd6))[_0x1333ca(0xc1)](_0x1333ca(0xc9),!![]),$(_0x1333ca(0xce))[_0x1333ca(0xc1)](_0x1333ca(0xc9),!![]),$(_0x1333ca(0xd7))['attr'](_0x1333ca(0xc9),!![]),$(_0x1333ca(0xcd))['attr']('disabled',!![]),$(_0x1333ca(0xc2))[_0x1333ca(0xc1)]('disabled',!![]),$('#tre46')[_0x1333ca(0xc1)](_0x1333ca(0xc9),![]),localStorage[_0x1333ca(0xbf)](_0x1333ca(0xd5),_0x1333ca(0xba));}function _0x1c53(_0x5eafb7,_0x257445){var _0x151e61=_0x151e();return _0x1c53=function(_0x1c53e8,_0x9f6d90){_0x1c53e8=_0x1c53e8-0xa2;var _0x4c302c=_0x151e61[_0x1c53e8];return _0x4c302c;},_0x1c53(_0x5eafb7,_0x257445);}async function takekiller(){var _0x21327c=_0x1c53;$(_0x21327c(0xd4))['attr'](_0x21327c(0xc9),!![]),$(_0x21327c(0xac))[_0x21327c(0xc1)]('disabled',!![]),$(_0x21327c(0xd1))[_0x21327c(0xc1)](_0x21327c(0xc9),!![]),$('#tre43')[_0x21327c(0xc1)](_0x21327c(0xc9),!![]),$(_0x21327c(0xd6))[_0x21327c(0xc1)]('disabled',!![]),$(_0x21327c(0xce))['attr']('disabled',!![]),$(_0x21327c(0xd7))[_0x21327c(0xc1)](_0x21327c(0xc9),!![]),$(_0x21327c(0xcd))['attr'](_0x21327c(0xc9),!![]),$(_0x21327c(0xc2))[_0x21327c(0xc1)]('disabled',!![]),$(_0x21327c(0xc2))[_0x21327c(0xc1)](_0x21327c(0xc9),![]),localStorage[_0x21327c(0xbf)](_0x21327c(0xd5),'killer');}async function downknife(){var _0x512f1a=_0x1c53;$(_0x512f1a(0xd4))['attr'](_0x512f1a(0xc9),![]),$('#tre23')[_0x512f1a(0xc1)]('disabled',![]),$(_0x512f1a(0xd1))[_0x512f1a(0xc1)](_0x512f1a(0xc9),![]),$(_0x512f1a(0xa5))[_0x512f1a(0xc1)](_0x512f1a(0xc9),![]),$(_0x512f1a(0xd6))[_0x512f1a(0xc1)](_0x512f1a(0xc9),![]),$('#tre16')[_0x512f1a(0xc1)]('disabled',!![]),localStorage[_0x512f1a(0xbf)]('weapon','0');}async function downphone(){var _0x51b35e=_0x1c53;$(_0x51b35e(0xd4))[_0x51b35e(0xc1)](_0x51b35e(0xc9),![]),$(_0x51b35e(0xac))[_0x51b35e(0xc1)]('disabled',![]),$(_0x51b35e(0xd1))[_0x51b35e(0xc1)]('disabled',![]),$(_0x51b35e(0xa5))[_0x51b35e(0xc1)](_0x51b35e(0xc9),![]),$('#tre53')['attr'](_0x51b35e(0xc9),![]),$(_0x51b35e(0xce))[_0x51b35e(0xc1)](_0x51b35e(0xc9),!![]),localStorage[_0x51b35e(0xbf)](_0x51b35e(0xd5),'0');}async function downrobot(){var _0x4d66dc=_0x1c53;$(_0x4d66dc(0xd4))[_0x4d66dc(0xc1)](_0x4d66dc(0xc9),![]),$(_0x4d66dc(0xac))[_0x4d66dc(0xc1)](_0x4d66dc(0xc9),![]),$('#tre33')['attr'](_0x4d66dc(0xc9),![]),$(_0x4d66dc(0xa5))[_0x4d66dc(0xc1)](_0x4d66dc(0xc9),![]),$(_0x4d66dc(0xd6))[_0x4d66dc(0xc1)]('disabled',![]),$(_0x4d66dc(0xd7))[_0x4d66dc(0xc1)](_0x4d66dc(0xc9),!![]),localStorage[_0x4d66dc(0xbf)]('weapon','0');}function _0x151e(){var _0x8dd69d=['4lGdlHo','append','gmilk','#tre128','disabled','robot','antler','gear','#tre46','#tre26','#tre16','teech','#tre33','#tre123','47136IynsbD','#tre13','weapon','#tre53','#tre36','120ZmBoza','326094vhwwty','<div>恭喜你，升級成功！</div>','11GVaSVi','#tre126','grass','#tre118','#tre110','getItem','wool','cloth','denture','579795gRQhPa','random','#tre28','stone','#tre43','pow','#tre210','#tre113','#tre48','paint','#tre1110','#tre23','gunpow','knife','964692sPhusS','#tre1210','#tre410','wtfish','phone','bkfish','#tre38','#tre116','24610vxfKUx','56151xtzAAC','helmet','gossip','armor','238sIIqde','146101JHFzbk','300CbKfyW','setItem','<div>很遺憾，升級失敗了。</div>','attr','#tre56','<div>你的材料準備好了嗎？</div>','#tre310'];_0x151e=function(){return _0x8dd69d;};return _0x151e();}async function downgossip(){var _0xb1d880=_0x1c53;$(_0xb1d880(0xd4))[_0xb1d880(0xc1)](_0xb1d880(0xc9),![]),$(_0xb1d880(0xac))[_0xb1d880(0xc1)](_0xb1d880(0xc9),![]),$(_0xb1d880(0xd1))[_0xb1d880(0xc1)](_0xb1d880(0xc9),![]),$(_0xb1d880(0xa5))[_0xb1d880(0xc1)]('disabled',![]),$(_0xb1d880(0xd6))['attr'](_0xb1d880(0xc9),![]),$(_0xb1d880(0xcd))[_0xb1d880(0xc1)]('disabled',!![]),localStorage[_0xb1d880(0xbf)](_0xb1d880(0xd5),'0');}async function downkiller(){var _0x49fb50=_0x1c53;$('#tre13')[_0x49fb50(0xc1)](_0x49fb50(0xc9),![]),$(_0x49fb50(0xac))[_0x49fb50(0xc1)]('disabled',![]),$(_0x49fb50(0xd1))['attr']('disabled',![]),$('#tre43')[_0x49fb50(0xc1)](_0x49fb50(0xc9),![]),$(_0x49fb50(0xd6))[_0x49fb50(0xc1)](_0x49fb50(0xc9),![]),$('#tre56')['attr'](_0x49fb50(0xc9),!![]),localStorage[_0x49fb50(0xbf)](_0x49fb50(0xd5),'0');}async function takedenture(){var _0x496375=_0x1c53;$('#tre113')[_0x496375(0xc1)](_0x496375(0xc9),!![]),$('#tre123')[_0x496375(0xc1)](_0x496375(0xc9),!![]),$(_0x496375(0xb6))[_0x496375(0xc1)]('disabled',![]),localStorage[_0x496375(0xbf)](_0x496375(0xbb),'denture');}async function downdenture(){var _0xa60685=_0x1c53;$(_0xa60685(0xa8))[_0xa60685(0xc1)](_0xa60685(0xc9),![]),$(_0xa60685(0xd2))[_0xa60685(0xc1)](_0xa60685(0xc9),![]),$('#tre116')[_0xa60685(0xc1)](_0xa60685(0xc9),!![]),localStorage[_0xa60685(0xbf)](_0xa60685(0xbb),'0');}async function takehelmet(){var _0x5a90bf=_0x1c53;$('#tre113')[_0x5a90bf(0xc1)](_0x5a90bf(0xc9),!![]),$(_0x5a90bf(0xd2))['attr'](_0x5a90bf(0xc9),!![]),$(_0x5a90bf(0xdc))[_0x5a90bf(0xc1)](_0x5a90bf(0xc9),![]),localStorage[_0x5a90bf(0xbf)](_0x5a90bf(0xbb),_0x5a90bf(0xb9));}async function downhelmet(){var _0x14824e=_0x1c53;$(_0x14824e(0xa8))[_0x14824e(0xc1)](_0x14824e(0xc9),![]),$(_0x14824e(0xd2))[_0x14824e(0xc1)]('disabled',![]),$(_0x14824e(0xdc))[_0x14824e(0xc1)](_0x14824e(0xc9),!![]),localStorage[_0x14824e(0xbf)](_0x14824e(0xbb),'0');}async function upknife(){var _0x15e9bd=_0x1c53;$('#tre18')[_0x15e9bd(0xc1)](_0x15e9bd(0xc9),!![]),await delay(0x0);var _0x25d86d=Number(localStorage[_0x15e9bd(0xe0)](_0x15e9bd(0xae))),_0x48e4e3=Number(localStorage[_0x15e9bd(0xe0)](_0x15e9bd(0xe1))),_0x51692a=Number(localStorage[_0x15e9bd(0xe0)](_0x15e9bd(0xc7))),_0x2f5251=Number(localStorage[_0x15e9bd(0xe0)](_0x15e9bd(0xe2))),_0x26a2c5=Number(localStorage[_0x15e9bd(0xe0)]('gunpow')),_0x34fc52=Number(localStorage['getItem']('l2'));localStorage[_0x15e9bd(0xe0)](_0x15e9bd(0xd5))==_0x15e9bd(0xba)&&(localStorage[_0x15e9bd(0xe0)](_0x15e9bd(0xba))>=0xb?_0x34fc52=_0x34fc52+Math[_0x15e9bd(0xa6)](Number(localStorage[_0x15e9bd(0xe0)](_0x15e9bd(0xba))),0x3):_0x34fc52=_0x34fc52+Number(localStorage[_0x15e9bd(0xe0)](_0x15e9bd(0xba)))*0xa);var _0x1bde60=parseInt(Math['random']()*0x65)+_0x34fc52/0x64;if(_0x25d86d<0xa)_0x48e4e3>=Math['pow'](_0x25d86d,0x3)&&_0x51692a>=Math[_0x15e9bd(0xa6)](_0x25d86d,0x2)*0x3?(_0x48e4e3=_0x48e4e3-Math['pow'](_0x25d86d,0x3),_0x51692a=_0x51692a-Math[_0x15e9bd(0xa6)](_0x25d86d,0x2)*0x3,localStorage['setItem'](_0x15e9bd(0xe1),String(_0x48e4e3)),localStorage[_0x15e9bd(0xbf)](_0x15e9bd(0xc7),String(_0x51692a)),_0x1bde60<=0xa?(localStorage['setItem'](_0x15e9bd(0xae),String(_0x25d86d)),$('#tre110')[_0x15e9bd(0xc6)]('<div>很遺憾，升級失敗了。</div>')):(localStorage[_0x15e9bd(0xbf)](_0x15e9bd(0xae),String(_0x25d86d+0x1)),$('#tre110')[_0x15e9bd(0xc6)](_0x15e9bd(0xda)))):$(_0x15e9bd(0xdf))[_0x15e9bd(0xc6)](_0x15e9bd(0xc3));else _0x25d86d<0x14?_0x48e4e3>=Math[_0x15e9bd(0xa6)](_0x25d86d,0x2)*0x2&&_0x51692a>=Math['pow'](_0x25d86d,0x2)&&_0x2f5251>=Math['pow'](_0x25d86d-0x8,0x3)&&_0x26a2c5>=Math[_0x15e9bd(0xa6)](_0x25d86d-0x9,0x2)?(_0x48e4e3=_0x48e4e3-Math[_0x15e9bd(0xa6)](_0x25d86d,0x2)*0x2,_0x51692a=_0x51692a-Math[_0x15e9bd(0xa6)](_0x25d86d,0x2),_0x2f5251=_0x2f5251-Math['pow'](_0x25d86d-0x8,0x3),_0x26a2c5=_0x26a2c5-Math[_0x15e9bd(0xa6)](_0x25d86d-0x9,0x2),localStorage[_0x15e9bd(0xbf)](_0x15e9bd(0xe1),String(_0x48e4e3)),localStorage[_0x15e9bd(0xbf)](_0x15e9bd(0xc7),String(_0x51692a)),localStorage[_0x15e9bd(0xbf)](_0x15e9bd(0xe2),String(_0x2f5251)),localStorage[_0x15e9bd(0xbf)](_0x15e9bd(0xad),String(_0x26a2c5)),_0x1bde60<=0xa?(localStorage['setItem'](_0x15e9bd(0xae),String(_0x25d86d)),$(_0x15e9bd(0xdf))['append']('<div>很遺憾，升級失敗了。</div>')):(localStorage['setItem']('knife',String(_0x25d86d+0x1)),$('#tre110')['append'](_0x15e9bd(0xda)))):$('#tre110')['append'](_0x15e9bd(0xc3)):$(_0x15e9bd(0xdf))[_0x15e9bd(0xc6)](_0x15e9bd(0xc3));$('#tre18')['attr']('disabled',![]);}async function upphone(){var _0x324c1a=_0x1c53;$(_0x324c1a(0xa3))[_0x324c1a(0xc1)]('disabled',!![]),await delay(0x0);var _0x3d05d4=Number(localStorage['getItem']('phone')),_0x15c401=Number(localStorage['getItem'](_0x324c1a(0xe1))),_0x258f79=Number(localStorage['getItem'](_0x324c1a(0xcc))),_0x23b3af=Number(localStorage[_0x324c1a(0xe0)]('l2'));localStorage[_0x324c1a(0xe0)](_0x324c1a(0xd5))==_0x324c1a(0xba)&&(localStorage[_0x324c1a(0xe0)](_0x324c1a(0xba))>=0xb?_0x23b3af=_0x23b3af+Math[_0x324c1a(0xa6)](Number(localStorage[_0x324c1a(0xe0)](_0x324c1a(0xba))),0x3):_0x23b3af=_0x23b3af+Number(localStorage['getItem'](_0x324c1a(0xba)))*0xa);var _0x121dff=parseInt(Math[_0x324c1a(0xa2)]()*0x65)+_0x23b3af/0x64;_0x3d05d4<0xa?_0x15c401>=Math['pow'](_0x3d05d4,0x4)&&_0x258f79>=Math[_0x324c1a(0xa6)](_0x3d05d4,0x2)*0x2?(_0x15c401=_0x15c401-Math[_0x324c1a(0xa6)](_0x3d05d4,0x4),_0x258f79=_0x258f79-Math[_0x324c1a(0xa6)](_0x3d05d4,0x2)*0x2,localStorage[_0x324c1a(0xbf)]('wool',String(_0x15c401)),localStorage[_0x324c1a(0xbf)]('gear',String(_0x258f79)),_0x121dff<=0xa?(localStorage[_0x324c1a(0xbf)](_0x324c1a(0xb3),String(_0x3d05d4)),$(_0x324c1a(0xa7))[_0x324c1a(0xc6)]('<div>很遺憾，升級失敗了。</div>')):(localStorage[_0x324c1a(0xbf)](_0x324c1a(0xb3),String(_0x3d05d4+0x1)),$('#tre210')['append']('<div>恭喜你，升級成功！</div>'))):$(_0x324c1a(0xa7))[_0x324c1a(0xc6)](_0x324c1a(0xc3)):$('#tre210')['append'](_0x324c1a(0xc3)),$(_0x324c1a(0xa3))[_0x324c1a(0xc1)](_0x324c1a(0xc9),![]);}async function uprobot(){var _0x34d0f4=_0x1c53;$('#tre38')[_0x34d0f4(0xc1)]('disabled',!![]),await delay(0x0);var _0x25258c=Number(localStorage[_0x34d0f4(0xe0)](_0x34d0f4(0xca))),_0xdfbee=Number(localStorage[_0x34d0f4(0xe0)](_0x34d0f4(0xcc))),_0x46eb5a=Number(localStorage[_0x34d0f4(0xe0)](_0x34d0f4(0xdd))),_0x2e9276=Number(localStorage['getItem']('l2'));localStorage[_0x34d0f4(0xe0)](_0x34d0f4(0xd5))==_0x34d0f4(0xba)&&(localStorage[_0x34d0f4(0xe0)](_0x34d0f4(0xba))>=0xb?_0x2e9276=_0x2e9276+Math[_0x34d0f4(0xa6)](Number(localStorage[_0x34d0f4(0xe0)](_0x34d0f4(0xba))),0x3):_0x2e9276=_0x2e9276+Number(localStorage[_0x34d0f4(0xe0)](_0x34d0f4(0xba)))*0xa);var _0x51fc97=parseInt(Math[_0x34d0f4(0xa2)]()*0x65)+_0x2e9276/0x64;_0x25258c<0xa?_0xdfbee>=Math[_0x34d0f4(0xa6)](_0x25258c,0x4)&&_0x46eb5a>=Math['pow'](_0x25258c,0x2)*0x2?(_0xdfbee=_0xdfbee-Math[_0x34d0f4(0xa6)](_0x25258c,0x4),_0x46eb5a=_0x46eb5a-Math[_0x34d0f4(0xa6)](_0x25258c,0x2)*0x2,localStorage[_0x34d0f4(0xbf)](_0x34d0f4(0xcc),String(_0xdfbee)),localStorage[_0x34d0f4(0xbf)](_0x34d0f4(0xdd),String(_0x46eb5a)),_0x51fc97<=0xa?(localStorage[_0x34d0f4(0xbf)](_0x34d0f4(0xca),String(_0x25258c)),$(_0x34d0f4(0xc4))['append'](_0x34d0f4(0xc0))):(localStorage[_0x34d0f4(0xbf)](_0x34d0f4(0xca),String(_0x25258c+0x1)),$(_0x34d0f4(0xc4))[_0x34d0f4(0xc6)](_0x34d0f4(0xda)))):$(_0x34d0f4(0xc4))['append'](_0x34d0f4(0xc3)):$(_0x34d0f4(0xc4))[_0x34d0f4(0xc6)](_0x34d0f4(0xc3)),$(_0x34d0f4(0xb5))[_0x34d0f4(0xc1)](_0x34d0f4(0xc9),![]);}async function upgossip(){var _0x519d04=_0x1c53;$(_0x519d04(0xa9))[_0x519d04(0xc1)](_0x519d04(0xc9),!![]),await delay(0x0);var _0x1e0190=Number(localStorage['getItem'](_0x519d04(0xba))),_0x30b3f0=Number(localStorage[_0x519d04(0xe0)](_0x519d04(0xb4))),_0x4480c7=Number(localStorage[_0x519d04(0xe0)]('wtfish')),_0x3c0c69=Number(localStorage['getItem'](_0x519d04(0xa4))),_0x4a5a6a=Number(localStorage[_0x519d04(0xe0)]('l2'));localStorage['getItem'](_0x519d04(0xd5))==_0x519d04(0xba)&&(localStorage[_0x519d04(0xe0)](_0x519d04(0xba))>=0xb?_0x4a5a6a=_0x4a5a6a+Math[_0x519d04(0xa6)](Number(localStorage['getItem'](_0x519d04(0xba))),0x3):_0x4a5a6a=_0x4a5a6a+Number(localStorage[_0x519d04(0xe0)](_0x519d04(0xba)))*0xa);var _0xd19414=parseInt(Math[_0x519d04(0xa2)]()*0x65)+_0x4a5a6a/0x64;if(_0x1e0190<0xa)_0x30b3f0>=Math['pow'](_0x1e0190,0x2)&&_0x4480c7>=Math['pow'](_0x1e0190,0x2)?(_0x30b3f0=_0x30b3f0-Math[_0x519d04(0xa6)](_0x1e0190,0x2),_0x4480c7=_0x4480c7-Math[_0x519d04(0xa6)](_0x1e0190,0x2),localStorage[_0x519d04(0xbf)](_0x519d04(0xb4),String(_0x30b3f0)),localStorage[_0x519d04(0xbf)](_0x519d04(0xb2),String(_0x4480c7)),_0xd19414<=0xa?(localStorage[_0x519d04(0xbf)]('gossip',String(_0x1e0190)),$(_0x519d04(0xb1))['append']('<div>很遺憾，升級失敗了。</div>')):(localStorage[_0x519d04(0xbf)](_0x519d04(0xba),String(_0x1e0190+0x1)),$(_0x519d04(0xb1))[_0x519d04(0xc6)](_0x519d04(0xda)))):$(_0x519d04(0xb1))[_0x519d04(0xc6)](_0x519d04(0xc3));else _0x1e0190<0x14?_0x30b3f0>=Math[_0x519d04(0xa6)](_0x1e0190,0x2)&&_0x4480c7>=Math[_0x519d04(0xa6)](_0x1e0190,0x2)&&_0x3c0c69>=_0x1e0190-0x9?(_0x30b3f0=_0x30b3f0-Math[_0x519d04(0xa6)](_0x1e0190,0x2),_0x4480c7=_0x4480c7-Math[_0x519d04(0xa6)](_0x1e0190,0x2),_0x3c0c69=_0x3c0c69-(_0x1e0190-0x9),localStorage[_0x519d04(0xbf)]('bkfish',String(_0x30b3f0)),localStorage['setItem'](_0x519d04(0xb2),String(_0x4480c7)),localStorage['getItem'](_0x519d04(0xa4),String(_0x3c0c69)),_0xd19414<=0xa?(localStorage[_0x519d04(0xbf)]('gossip',String(_0x1e0190)),$(_0x519d04(0xb1))['append']('<div>很遺憾，升級失敗了。</div>')):(localStorage[_0x519d04(0xbf)]('gossip',String(_0x1e0190+0x1)),$(_0x519d04(0xb1))[_0x519d04(0xc6)]('<div>恭喜你，升級成功！</div>'))):$(_0x519d04(0xb1))[_0x519d04(0xc6)](_0x519d04(0xc3)):$(_0x519d04(0xb1))['append'](_0x519d04(0xc3));$(_0x519d04(0xa9))[_0x519d04(0xc1)]('disabled',![]);}async function updenture(){var _0x95e7a8=_0x1c53;$(_0x95e7a8(0xde))['attr'](_0x95e7a8(0xc9),!![]),await delay(0x0);var _0x21300b=Number(localStorage[_0x95e7a8(0xe0)]('denture')),_0x336969=Number(localStorage[_0x95e7a8(0xe0)](_0x95e7a8(0xcb))),_0x11aa44=Number(localStorage[_0x95e7a8(0xe0)](_0x95e7a8(0xd0))),_0x5c8a02=Number(localStorage[_0x95e7a8(0xe0)]('l2'));localStorage[_0x95e7a8(0xe0)]('weapon')=='gossip'&&(localStorage['getItem'](_0x95e7a8(0xba))>=0xb?_0x5c8a02=_0x5c8a02+Math[_0x95e7a8(0xa6)](Number(localStorage[_0x95e7a8(0xe0)](_0x95e7a8(0xba))),0x3):_0x5c8a02=_0x5c8a02+Number(localStorage[_0x95e7a8(0xe0)](_0x95e7a8(0xba)))*0xa);var _0x2c5fef=parseInt(Math[_0x95e7a8(0xa2)]()*0x65)+_0x5c8a02/0x64;_0x21300b<0xa?_0x336969>=Math[_0x95e7a8(0xa6)](_0x21300b,0x3)&&_0x11aa44>=Math[_0x95e7a8(0xa6)](_0x21300b,0x2)*0x3?(_0x336969=_0x336969-Math[_0x95e7a8(0xa6)](_0x21300b,0x3),_0x11aa44=_0x11aa44-Math[_0x95e7a8(0xa6)](_0x21300b,0x2)*0x3,localStorage[_0x95e7a8(0xbf)](_0x95e7a8(0xcb),String(_0x336969)),localStorage[_0x95e7a8(0xbf)](_0x95e7a8(0xd0),String(_0x11aa44)),_0x2c5fef<=0xa?(localStorage['setItem'](_0x95e7a8(0xe3),String(_0x21300b)),$('#tre1110')[_0x95e7a8(0xc6)](_0x95e7a8(0xc0))):(localStorage[_0x95e7a8(0xbf)]('denture',String(_0x21300b+0x1)),$(_0x95e7a8(0xab))[_0x95e7a8(0xc6)](_0x95e7a8(0xda)))):$(_0x95e7a8(0xab))[_0x95e7a8(0xc6)](_0x95e7a8(0xc3)):$(_0x95e7a8(0xab))[_0x95e7a8(0xc6)](_0x95e7a8(0xc3)),$(_0x95e7a8(0xde))[_0x95e7a8(0xc1)]('disabled',![]);}async function uphelmet(){var _0x225ed7=_0x1c53;$(_0x225ed7(0xc8))[_0x225ed7(0xc1)](_0x225ed7(0xc9),!![]),await delay(0x0);var _0x32e120=Number(localStorage['getItem'](_0x225ed7(0xb9))),_0x412ce8=Number(localStorage[_0x225ed7(0xe0)](_0x225ed7(0xdd))),_0x6cccf0=Number(localStorage[_0x225ed7(0xe0)](_0x225ed7(0xaa))),_0x16d379=Number(localStorage[_0x225ed7(0xe0)]('l2'));localStorage[_0x225ed7(0xe0)](_0x225ed7(0xd5))==_0x225ed7(0xba)&&(localStorage[_0x225ed7(0xe0)](_0x225ed7(0xba))>=0xb?_0x16d379=_0x16d379+Math[_0x225ed7(0xa6)](Number(localStorage['getItem']('gossip')),0x3):_0x16d379=_0x16d379+Number(localStorage['getItem'](_0x225ed7(0xba)))*0xa);var _0x5932aa=parseInt(Math[_0x225ed7(0xa2)]()*0x65)+_0x16d379/0x64;_0x32e120<0xa?_0x412ce8>=Math['pow'](_0x32e120,0x3)&&_0x6cccf0>=Math[_0x225ed7(0xa6)](_0x32e120,0x2)*0x3?(_0x412ce8=_0x412ce8-Math['pow'](_0x32e120,0x3),_0x6cccf0=_0x6cccf0-Math['pow'](_0x32e120,0x2)*0x3,localStorage['setItem'](_0x225ed7(0xdd),String(_0x412ce8)),localStorage[_0x225ed7(0xbf)](_0x225ed7(0xaa),String(_0x6cccf0)),_0x5932aa<=0xa?(localStorage[_0x225ed7(0xbf)](_0x225ed7(0xb9),String(_0x32e120)),$(_0x225ed7(0xb0))[_0x225ed7(0xc6)](_0x225ed7(0xc0))):(localStorage[_0x225ed7(0xbf)](_0x225ed7(0xb9),String(_0x32e120+0x1)),$(_0x225ed7(0xb0))[_0x225ed7(0xc6)](_0x225ed7(0xda)))):$('#tre1210')[_0x225ed7(0xc6)](_0x225ed7(0xc3)):$('#tre1210')[_0x225ed7(0xc6)](_0x225ed7(0xc3)),$('#tre128')[_0x225ed7(0xc1)](_0x225ed7(0xc9),![]);}
+async function takeknife(){
+    $('#tre13').attr('disabled', true);
+    $('#tre23').attr('disabled', true);
+    $('#tre33').attr('disabled', true);
+    $('#tre43').attr('disabled', true);
+    $('#tre53').attr('disabled', true);
+    $('#tre26').attr('disabled', true);
+    $('#tre36').attr('disabled', true);
+    $('#tre46').attr('disabled', true);
+    $('#tre56').attr('disabled', true);
+    $('#tre16').attr('disabled', false);
+    localStorage.setItem("weapon","knife");
+}
+
+async function takephone(){
+    $('#tre13').attr('disabled', true);
+    $('#tre23').attr('disabled', true);
+    $('#tre33').attr('disabled', true);
+    $('#tre43').attr('disabled', true);
+    $('#tre53').attr('disabled', true);
+    $('#tre26').attr('disabled', true);
+    $('#tre36').attr('disabled', true);
+    $('#tre46').attr('disabled', true);
+    $('#tre56').attr('disabled', true);
+    $('#tre26').attr('disabled', false);
+    localStorage.setItem("weapon","phone");
+}
+
+async function takerobot(){
+    $('#tre13').attr('disabled', true);
+    $('#tre23').attr('disabled', true);
+    $('#tre33').attr('disabled', true);
+    $('#tre43').attr('disabled', true);
+    $('#tre53').attr('disabled', true);
+    $('#tre26').attr('disabled', true);
+    $('#tre36').attr('disabled', true);
+    $('#tre46').attr('disabled', true);
+    $('#tre56').attr('disabled', true);
+    $('#tre36').attr('disabled', false);
+    localStorage.setItem("weapon","robot");
+}
+
+async function takegossip(){
+    $('#tre13').attr('disabled', true);
+    $('#tre23').attr('disabled', true);
+    $('#tre33').attr('disabled', true);
+    $('#tre43').attr('disabled', true);
+    $('#tre53').attr('disabled', true);
+    $('#tre26').attr('disabled', true);
+    $('#tre36').attr('disabled', true);
+    $('#tre46').attr('disabled', true);
+    $('#tre56').attr('disabled', true);
+    $('#tre46').attr('disabled', false);
+    localStorage.setItem("weapon","gossip");
+}
+
+async function takekiller(){
+    $('#tre13').attr('disabled', true);
+    $('#tre23').attr('disabled', true);
+    $('#tre33').attr('disabled', true);
+    $('#tre43').attr('disabled', true);
+    $('#tre53').attr('disabled', true);
+    $('#tre26').attr('disabled', true);
+    $('#tre36').attr('disabled', true);
+    $('#tre46').attr('disabled', true);
+    $('#tre56').attr('disabled', true);
+    $('#tre56').attr('disabled', false);
+    localStorage.setItem("weapon","killer");
+}
+
+async function downknife(){
+    $('#tre13').attr('disabled', false);
+    $('#tre23').attr('disabled', false);
+    $('#tre33').attr('disabled', false);
+    $('#tre43').attr('disabled', false);
+    $('#tre53').attr('disabled', false);
+    $('#tre16').attr('disabled', true);
+    localStorage.setItem("weapon","0");
+}
+
+async function downphone(){
+    $('#tre13').attr('disabled', false);
+    $('#tre23').attr('disabled', false);
+    $('#tre33').attr('disabled', false);
+    $('#tre43').attr('disabled', false);
+    $('#tre53').attr('disabled', false);
+    $('#tre26').attr('disabled', true);
+    localStorage.setItem("weapon","0");
+}
+
+async function downrobot(){
+    $('#tre13').attr('disabled', false);
+    $('#tre23').attr('disabled', false);
+    $('#tre33').attr('disabled', false);
+    $('#tre43').attr('disabled', false);
+    $('#tre53').attr('disabled', false);
+    $('#tre36').attr('disabled', true);
+    localStorage.setItem("weapon","0");
+}
+
+async function downgossip(){
+    $('#tre13').attr('disabled', false);
+    $('#tre23').attr('disabled', false);
+    $('#tre33').attr('disabled', false);
+    $('#tre43').attr('disabled', false);
+    $('#tre53').attr('disabled', false);
+    $('#tre46').attr('disabled', true);
+    localStorage.setItem("weapon","0");
+}
+
+async function downkiller(){
+    $('#tre13').attr('disabled', false);
+    $('#tre23').attr('disabled', false);
+    $('#tre33').attr('disabled', false);
+    $('#tre43').attr('disabled', false);
+    $('#tre53').attr('disabled', false);
+    $('#tre56').attr('disabled', true);
+    localStorage.setItem("weapon","0");
+}
+
+async function takedenture(){
+    $('#tre113').attr('disabled', true);
+    $('#tre123').attr('disabled', true);
+    $('#tre116').attr('disabled', false);
+    localStorage.setItem("armor","denture");
+}
+
+async function downdenture(){
+    $('#tre113').attr('disabled', false);
+    $('#tre123').attr('disabled', false);
+    $('#tre116').attr('disabled', true);
+    localStorage.setItem("armor","0");
+}
+
+async function takehelmet(){
+    $('#tre113').attr('disabled', true);
+    $('#tre123').attr('disabled', true);
+    $('#tre126').attr('disabled', false);
+    localStorage.setItem("armor","helmet");
+}
+
+async function downhelmet(){
+    $('#tre113').attr('disabled', false);
+    $('#tre123').attr('disabled', false);
+    $('#tre126').attr('disabled', true);
+    localStorage.setItem("armor","0");
+}
+
+async function upknife(){
+    $('#tre18').attr('disabled', true);
+    await delay(0);
+    var a=Number(localStorage.getItem("knife"));
+    var woo=Number(localStorage.getItem("wool"));
+    var gmk=Number(localStorage.getItem("gmilk"));
+    var clo=Number(localStorage.getItem("cloth"));
+    var gun=Number(localStorage.getItem("gunpow"));
+    var l2=Number(localStorage.getItem("l2"));
+    if (localStorage.getItem("weapon")=="gossip"){
+        if(localStorage.getItem("gossip")>=11){
+            l2=l2+Math.pow((Number(localStorage.getItem("gossip"))),3);
+        }else{
+            l2=l2+(Number(localStorage.getItem("gossip"))*10);
+        }
+    }
+    var up=parseInt(Math.random()*101)+l2/100;
+    if(a<10){
+        if(woo>=Math.pow(a,3) && gmk>=Math.pow(a,2)*3){
+            woo=woo-Math.pow(a,3);
+            gmk=gmk-Math.pow(a,2)*3;
+            localStorage.setItem("wool",String(woo));
+            localStorage.setItem("gmilk",String(gmk));
+            if(up<=10){
+                localStorage.setItem("knife",String(a));
+                $("#tre110").append("<div>很遺憾，升級失敗了。</div>");
+            }else{
+                localStorage.setItem("knife",String(a+1));
+                $("#tre110").append("<div>恭喜你，升級成功！</div>");
+            }
+        }else{
+            $("#tre110").append("<div>你的材料準備好了嗎？</div>");
+        }
+    }else if(a<20){
+        if(woo>=Math.pow(a,2)*2 && gmk>=Math.pow(a,2) && clo>=Math.pow(a-8,3) && gun>=Math.pow(a-9,2)){
+            woo=woo-Math.pow(a,2)*2;
+            gmk=gmk-Math.pow(a,2);
+            clo=clo-Math.pow(a-8,3);
+            gun=gun-Math.pow(a-9,2);
+            localStorage.setItem("wool",String(woo));
+            localStorage.setItem("gmilk",String(gmk));
+            localStorage.setItem("cloth",String(clo));
+            localStorage.setItem("gunpow",String(gun));
+            if(up<=10){
+                localStorage.setItem("knife",String(a));
+                $("#tre110").append("<div>很遺憾，升級失敗了。</div>");
+            }else{
+                localStorage.setItem("knife",String(a+1));
+                $("#tre110").append("<div>恭喜你，升級成功！</div>");
+            }
+        }else{
+            $("#tre110").append("<div>你的材料準備好了嗎？</div>");
+        }
+    }else{
+        $("#tre110").append("<div>你的材料準備好了嗎？</div>");
+    }
+    $('#tre18').attr('disabled', false);
+}
+
+async function upphone(){
+    $('#tre28').attr('disabled', true);
+    await delay(0);
+    var a=Number(localStorage.getItem("phone"));
+    var woo=Number(localStorage.getItem("wool"));
+    var ger=Number(localStorage.getItem("gear"));
+    var l2=Number(localStorage.getItem("l2"));
+    if (localStorage.getItem("weapon")=="gossip"){
+        if(localStorage.getItem("gossip")>=11){
+            l2=l2+Math.pow((Number(localStorage.getItem("gossip"))),3);
+        }else{
+            l2=l2+(Number(localStorage.getItem("gossip"))*10);
+        }
+    }
+    var up=parseInt(Math.random()*101)+l2/100;
+    if(a<10){
+        if(woo>=Math.pow(a,4) && ger>=Math.pow(a,2)*2){
+            woo=woo-Math.pow(a,4);
+            ger=ger-Math.pow(a,2)*2;
+            localStorage.setItem("wool",String(woo));
+            localStorage.setItem("gear",String(ger));
+            if(up<=10){
+                localStorage.setItem("phone",String(a));
+                $("#tre210").append("<div>很遺憾，升級失敗了。</div>");
+            }else{
+                localStorage.setItem("phone",String(a+1));
+                $("#tre210").append("<div>恭喜你，升級成功！</div>");
+            }
+        }else{
+            $("#tre210").append("<div>你的材料準備好了嗎？</div>");
+        }
+    }else{
+        $("#tre210").append("<div>你的材料準備好了嗎？</div>");
+    }
+    $('#tre28').attr('disabled', false);
+}
+
+async function uprobot(){
+    $('#tre38').attr('disabled', true);
+    await delay(0);
+    var a=Number(localStorage.getItem("robot"));
+    var ger=Number(localStorage.getItem("gear"));
+    var gra=Number(localStorage.getItem("grass"));
+    var l2=Number(localStorage.getItem("l2"));
+    if (localStorage.getItem("weapon")=="gossip"){
+        if(localStorage.getItem("gossip")>=11){
+            l2=l2+Math.pow((Number(localStorage.getItem("gossip"))),3);
+        }else{
+            l2=l2+(Number(localStorage.getItem("gossip"))*10);
+        }
+    }
+    var up=parseInt(Math.random()*101)+l2/100;
+    if(a<10){
+        if(ger>=Math.pow(a,4) && gra>=Math.pow(a,2)*2){
+            ger=ger-Math.pow(a,4);
+            gra=gra-Math.pow(a,2)*2;
+            localStorage.setItem("gear",String(ger));
+            localStorage.setItem("grass",String(gra));
+            if(up<=10){
+                localStorage.setItem("robot",String(a));
+                $("#tre310").append("<div>很遺憾，升級失敗了。</div>");
+            }else{
+                localStorage.setItem("robot",String(a+1));
+                $("#tre310").append("<div>恭喜你，升級成功！</div>");
+            }
+        }else{
+            $("#tre310").append("<div>你的材料準備好了嗎？</div>");
+        }
+    }else{
+        $("#tre310").append("<div>你的材料準備好了嗎？</div>");
+    }
+    $('#tre38').attr('disabled', false);
+}
+
+async function upgossip(){
+    $('#tre48').attr('disabled', true);
+    await delay(0);
+    var a=Number(localStorage.getItem("gossip"));
+    var bkf=Number(localStorage.getItem("bkfish"));
+    var wtf=Number(localStorage.getItem("wtfish"));
+    var ston=Number(localStorage.getItem("stone"));
+    var l2=Number(localStorage.getItem("l2"));
+    if (localStorage.getItem("weapon")=="gossip"){
+        if(localStorage.getItem("gossip")>=11){
+            l2=l2+Math.pow((Number(localStorage.getItem("gossip"))),3);
+        }else{
+            l2=l2+(Number(localStorage.getItem("gossip"))*10);
+        }
+    }
+    var up=parseInt(Math.random()*101)+l2/100;
+    if(a<10){
+        if(bkf>=Math.pow(a,2) && wtf>=Math.pow(a,2)){
+            bkf=bkf-Math.pow(a,2);
+            wtf=wtf-Math.pow(a,2);
+            localStorage.setItem("bkfish",String(bkf));
+            localStorage.setItem("wtfish",String(wtf));
+            if(up<=10){
+                localStorage.setItem("gossip",String(a));
+                $("#tre410").append("<div>很遺憾，升級失敗了。</div>");
+            }else{
+                localStorage.setItem("gossip",String(a+1));
+                $("#tre410").append("<div>恭喜你，升級成功！</div>");
+            }
+        }else{
+            $("#tre410").append("<div>你的材料準備好了嗎？</div>");
+        }
+    }else if(a<20){
+        if(bkf>=Math.pow(a,2) && wtf>=Math.pow(a,2) && ston>=(a-9)){
+            bkf=bkf-Math.pow(a,2);
+            wtf=wtf-Math.pow(a,2);
+            ston=ston-(a-9)
+            localStorage.setItem("bkfish",String(bkf));
+            localStorage.setItem("wtfish",String(wtf));
+            localStorage.getItem("stone",String(ston));
+            if(up<=10){
+                localStorage.setItem("gossip",String(a));
+                $("#tre410").append("<div>很遺憾，升級失敗了。</div>");
+            }else{
+                localStorage.setItem("gossip",String(a+1));
+                $("#tre410").append("<div>恭喜你，升級成功！</div>");
+            }
+        }else{
+            $("#tre410").append("<div>你的材料準備好了嗎？</div>");
+        }
+    }else{
+        $("#tre410").append("<div>你的材料準備好了嗎？</div>");
+    }
+    $('#tre48').attr('disabled', false);
+}
+
+async function updenture(){
+    $('#tre118').attr('disabled', true);
+    await delay(0);
+    var a=Number(localStorage.getItem("denture"));
+    var antl=Number(localStorage.getItem("antler"));
+    var tee=Number(localStorage.getItem("teech"));
+    var l2=Number(localStorage.getItem("l2"));
+    if (localStorage.getItem("weapon")=="gossip"){
+        if(localStorage.getItem("gossip")>=11){
+            l2=l2+Math.pow((Number(localStorage.getItem("gossip"))),3);
+        }else{
+            l2=l2+(Number(localStorage.getItem("gossip"))*10);
+        }
+    }
+    var up=parseInt(Math.random()*101)+l2/100;
+    if(a<10){
+        if(antl>=Math.pow(a,3) && tee>=Math.pow(a,2)*3){
+            antl=antl-Math.pow(a,3);
+            tee=tee-Math.pow(a,2)*3;
+            localStorage.setItem("antler",String(antl));
+            localStorage.setItem("teech",String(tee));
+            if(up<=10){
+                localStorage.setItem("denture",String(a));
+                $("#tre1110").append("<div>很遺憾，升級失敗了。</div>");
+            }else{
+                localStorage.setItem("denture",String(a+1));
+                $("#tre1110").append("<div>恭喜你，升級成功！</div>");
+            }
+        }else{
+            $("#tre1110").append("<div>你的材料準備好了嗎？</div>");
+        }
+    }else{
+        $("#tre1110").append("<div>你的材料準備好了嗎？</div>");
+    }
+    $('#tre118').attr('disabled', false);
+}
+
+async function uphelmet(){
+    $('#tre128').attr('disabled', true);
+    await delay(0);
+    var a=Number(localStorage.getItem("helmet"));
+    var gra=Number(localStorage.getItem("grass"));
+    var pai=Number(localStorage.getItem("paint"));
+    var l2=Number(localStorage.getItem("l2"));
+    if (localStorage.getItem("weapon")=="gossip"){
+        if(localStorage.getItem("gossip")>=11){
+            l2=l2+Math.pow((Number(localStorage.getItem("gossip"))),3);
+        }else{
+            l2=l2+(Number(localStorage.getItem("gossip"))*10);
+        }
+    }
+    var up=parseInt(Math.random()*101)+l2/100;
+    if(a<10){
+        if(gra>=Math.pow(a,3) && pai>=Math.pow(a,2)*3){
+            gra=gra-Math.pow(a,3);
+            pai=pai-Math.pow(a,2)*3;
+            localStorage.setItem("grass",String(gra));
+            localStorage.setItem("paint",String(pai));
+            if(up<=10){
+                localStorage.setItem("helmet",String(a));
+                $("#tre1210").append("<div>很遺憾，升級失敗了。</div>");
+            }else{
+                localStorage.setItem("helmet",String(a+1));
+                $("#tre1210").append("<div>恭喜你，升級成功！</div>");
+            }
+        }else{
+            $("#tre1210").append("<div>你的材料準備好了嗎？</div>");
+        }
+    }else{
+        $("#tre1210").append("<div>你的材料準備好了嗎？</div>");
+    }
+    $('#tre128').attr('disabled', false);
+}

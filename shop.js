@@ -1,1 +1,351 @@
-(function(_0x11dbe4,_0x546ff3){var _0x1f85ca=_0x30bb,_0x3351dd=_0x11dbe4();while(!![]){try{var _0x8c10dd=parseInt(_0x1f85ca(0xa3))/0x1*(-parseInt(_0x1f85ca(0xb8))/0x2)+parseInt(_0x1f85ca(0xc8))/0x3*(-parseInt(_0x1f85ca(0x9c))/0x4)+parseInt(_0x1f85ca(0xca))/0x5*(-parseInt(_0x1f85ca(0xcc))/0x6)+-parseInt(_0x1f85ca(0xb0))/0x7*(-parseInt(_0x1f85ca(0xa7))/0x8)+parseInt(_0x1f85ca(0xcd))/0x9*(-parseInt(_0x1f85ca(0xa8))/0xa)+parseInt(_0x1f85ca(0xab))/0xb*(parseInt(_0x1f85ca(0xb2))/0xc)+parseInt(_0x1f85ca(0xa4))/0xd;if(_0x8c10dd===_0x546ff3)break;else _0x3351dd['push'](_0x3351dd['shift']());}catch(_0x415323){_0x3351dd['push'](_0x3351dd['shift']());}}}(_0x59de,0xcd2d5));function _0x59de(){var _0x497499=['11mKptxa','#shop32','<div>您似乎沒有這麼多臭豆腐。</div>','<div>歡迎使用我們的產品。</div>','#shop62','126QouDMR','append','20159064whmHdH','money','#shop131','getItem','#shop211','knife','4uXXwXT','#shop12','helmet','cookie','<div>您似乎沒有這麼多高級羊毛。</div>','#shop42','<div>您的金錢不夠。</div>','block','<div>您購買了一份月餅禮盒，裡面裝有','denture','gear','<div>您販售了一份合金齒輪。</div>','#shop61','<div>您似乎沒有這麼多山羊奶。</div>','attr','#shop52','4836819tMFtxU','#shop11','2464640FygjFc','wool','6qWdkuC','207sAwWQF','#shop141','<div>您似乎沒有這麼多鹿茸。</div>','#shop221','<div>您購買了一塊童軍餅乾。</div>','<div>您購買了一份臭豆腐。</div>','#shop41','phone','antler','style','robot','none','<div>您販售了一份高級羊毛。</div>','#shop111','<div>您似乎沒有這麼多合金齒輪。</div>','#shop21','#shop71','disabled','#shop121','4cWJxie','#shop31','setItem','#shop51','display','<div>您似乎沒有這麼多童軍餅乾。</div>','#shop72','146899KsEOil','17626271jDUFOC','tofu','<div>您購買了一份山羊奶。</div>','600104eQMlXu','498530lLCUXU','<div>您購買了一份高級羊毛。</div>','gmilk'];_0x59de=function(){return _0x497499;};return _0x59de();}async function cookiebuy(){var _0xe2fcbc=_0x30bb;$(_0xe2fcbc(0xc9))[_0xe2fcbc(0xc6)]('disabled',!![]),$('#shop12')[_0xe2fcbc(0xc6)](_0xe2fcbc(0x9a),!![]),await delay(0x0),mon=Number(localStorage[_0xe2fcbc(0xb5)](_0xe2fcbc(0xb3))),coo=Number(localStorage[_0xe2fcbc(0xb5)](_0xe2fcbc(0xbb))),mon>=0xa?(mon=mon-0xa,coo=coo+0x1,localStorage[_0xe2fcbc(0x9e)](_0xe2fcbc(0xb3),String(mon)),localStorage[_0xe2fcbc(0x9e)]('cookie',String(coo)),$('#4')['append'](_0xe2fcbc(0xd1))):$('#4')[_0xe2fcbc(0xb1)](_0xe2fcbc(0xbe)),$(_0xe2fcbc(0xc9))[_0xe2fcbc(0xc6)](_0xe2fcbc(0x9a),![]),$(_0xe2fcbc(0xb9))[_0xe2fcbc(0xc6)](_0xe2fcbc(0x9a),![]);}async function cookiesell(){var _0x25a3bc=_0x30bb;$(_0x25a3bc(0xc9))[_0x25a3bc(0xc6)](_0x25a3bc(0x9a),!![]),$(_0x25a3bc(0xb9))[_0x25a3bc(0xc6)]('disabled',!![]),await delay(0x0),mon=Number(localStorage[_0x25a3bc(0xb5)](_0x25a3bc(0xb3))),coo=Number(localStorage[_0x25a3bc(0xb5)](_0x25a3bc(0xbb))),coo>=0x1?(mon=mon+0x5,coo=coo-0x1,localStorage[_0x25a3bc(0x9e)](_0x25a3bc(0xb3),String(mon)),localStorage['setItem'](_0x25a3bc(0xbb),String(coo)),$('#4')['append']('<div>您販售了一塊童軍餅乾。</div>')):$('#4')[_0x25a3bc(0xb1)](_0x25a3bc(0xa1)),$(_0x25a3bc(0xc9))['attr'](_0x25a3bc(0x9a),![]),$(_0x25a3bc(0xb9))[_0x25a3bc(0xc6)](_0x25a3bc(0x9a),![]);}async function cookiebox(){var _0x25fe39=_0x30bb;$(_0x25fe39(0x98))[_0x25fe39(0xc6)]('disabled',!![]),await delay(0x0),mon=Number(localStorage[_0x25fe39(0xb5)](_0x25fe39(0xb3))),coo=Number(localStorage['getItem'](_0x25fe39(0xbb))),mon>=0x32?(mon=mon-0x32,add=parseInt(Math['random']()*0x5)+0x5,coo=coo+add,localStorage[_0x25fe39(0x9e)](_0x25fe39(0xb3),String(mon)),localStorage[_0x25fe39(0x9e)]('cookie',String(coo)),$('#4')[_0x25fe39(0xb1)](_0x25fe39(0xc0)+String(add)+'塊餅乾。</div>')):$('#4')['append'](_0x25fe39(0xbe)),$('#shop21')[_0x25fe39(0xc6)]('disabled',![]);}async function oldknife(){var _0x162720=_0x30bb;$(_0x162720(0x96))[_0x162720(0xc6)](_0x162720(0x9a),!![]),await delay(0x0),mon=Number(localStorage[_0x162720(0xb5)](_0x162720(0xb3))),mon>=0x3e8?(mon=mon-0x3e8,localStorage[_0x162720(0x9e)](_0x162720(0xb3),String(mon)),localStorage['setItem'](_0x162720(0xb7),0x1),shop111[_0x162720(0xd6)]['display']=_0x162720(0xd8),knifeshop[_0x162720(0xd6)][_0x162720(0xa0)]=_0x162720(0xbf),$('#4')[_0x162720(0xb1)]('<div>歡迎使用我們的產品。</div>')):$('#4')[_0x162720(0xb1)]('<div>您的金錢不夠。</div>'),$('#shop111')[_0x162720(0xc6)]('disabled',![]);}async function newphone(){var _0x2678d7=_0x30bb;$(_0x2678d7(0x9b))[_0x2678d7(0xc6)](_0x2678d7(0x9a),!![]),await delay(0x0),mon=Number(localStorage[_0x2678d7(0xb5)](_0x2678d7(0xb3))),mon>=0x1388?(mon=mon-0x1388,localStorage[_0x2678d7(0x9e)]('money',String(mon)),localStorage[_0x2678d7(0x9e)](_0x2678d7(0xd4),0x1),shop121['style']['display']='none',phoneshop[_0x2678d7(0xd6)]['display']=_0x2678d7(0xbf),$('#4')['append'](_0x2678d7(0xae))):$('#4')[_0x2678d7(0xb1)]('<div>您的金錢不夠。</div>'),$(_0x2678d7(0x9b))[_0x2678d7(0xc6)]('disabled',![]);}async function treatrobot(){var _0x248192=_0x30bb;$(_0x248192(0xb4))[_0x248192(0xc6)](_0x248192(0x9a),!![]),await delay(0x0),mon=Number(localStorage['getItem'](_0x248192(0xb3))),mon>=0x2710?(mon=mon-0x2710,localStorage['setItem']('money',String(mon)),localStorage[_0x248192(0x9e)](_0x248192(0xd7),0x1),shop131[_0x248192(0xd6)][_0x248192(0xa0)]=_0x248192(0xd8),robotshop[_0x248192(0xd6)]['display']=_0x248192(0xbf),$('#4')['append'](_0x248192(0xae))):$('#4')[_0x248192(0xb1)](_0x248192(0xbe)),$('#shop131')[_0x248192(0xc6)](_0x248192(0x9a),![]);}async function gossip(){var _0x478f58=_0x30bb;$(_0x478f58(0xce))[_0x478f58(0xc6)]('disabled',!![]),await delay(0x0),mon=Number(localStorage[_0x478f58(0xb5)](_0x478f58(0xb3))),mon>=0x3a98?(mon=mon-0x3a98,localStorage[_0x478f58(0x9e)](_0x478f58(0xb3),String(mon)),localStorage['setItem']('gossip',0x1),shop141[_0x478f58(0xd6)][_0x478f58(0xa0)]=_0x478f58(0xd8),robotshop['style'][_0x478f58(0xa0)]=_0x478f58(0xbf),$('#4')[_0x478f58(0xb1)](_0x478f58(0xae))):$('#4')['append'](_0x478f58(0xbe)),$(_0x478f58(0xce))['attr'](_0x478f58(0x9a),![]);}async function denture(){var _0x4b5b82=_0x30bb;$('#shop211')['attr'](_0x4b5b82(0x9a),!![]),await delay(0x0),mon=Number(localStorage[_0x4b5b82(0xb5)](_0x4b5b82(0xb3))),mon>=0xbb8?(mon=mon-0xbb8,localStorage['setItem']('money',String(mon)),localStorage[_0x4b5b82(0x9e)](_0x4b5b82(0xc1),0x1),shop211[_0x4b5b82(0xd6)][_0x4b5b82(0xa0)]=_0x4b5b82(0xd8),dentureshop['style'][_0x4b5b82(0xa0)]=_0x4b5b82(0xbf),$('#4')['append'](_0x4b5b82(0xae))):$('#4')[_0x4b5b82(0xb1)]('<div>您的金錢不夠。</div>'),$(_0x4b5b82(0xb6))['attr'](_0x4b5b82(0x9a),![]);}async function helmet(){var _0x51b6c3=_0x30bb;$('#shop221')[_0x51b6c3(0xc6)]('disabled',!![]),await delay(0x0),mon=Number(localStorage['getItem']('money')),mon>=0x2ee0?(mon=mon-0x2ee0,localStorage[_0x51b6c3(0x9e)](_0x51b6c3(0xb3),String(mon)),localStorage['setItem'](_0x51b6c3(0xba),0x1),shop221['style'][_0x51b6c3(0xa0)]=_0x51b6c3(0xd8),dentureshop[_0x51b6c3(0xd6)][_0x51b6c3(0xa0)]='block',$('#4')['append']('<div>歡迎使用我們的產品。</div>')):$('#4')[_0x51b6c3(0xb1)](_0x51b6c3(0xbe)),$(_0x51b6c3(0xd0))[_0x51b6c3(0xc6)](_0x51b6c3(0x9a),![]);}async function woolbuy(){var _0x33da81=_0x30bb;$(_0x33da81(0x9d))[_0x33da81(0xc6)](_0x33da81(0x9a),!![]),$(_0x33da81(0xac))['attr']('disabled',!![]),await delay(0x0),mon=Number(localStorage[_0x33da81(0xb5)](_0x33da81(0xb3))),woo=Number(localStorage['getItem'](_0x33da81(0xcb))),mon>=0x1e?(mon=mon-0x1e,woo=woo+0x1,localStorage['setItem'](_0x33da81(0xb3),String(mon)),localStorage[_0x33da81(0x9e)](_0x33da81(0xcb),String(woo)),$('#4')[_0x33da81(0xb1)](_0x33da81(0xa9))):$('#4')[_0x33da81(0xb1)](_0x33da81(0xbe)),$(_0x33da81(0x9d))[_0x33da81(0xc6)](_0x33da81(0x9a),![]),$(_0x33da81(0xac))[_0x33da81(0xc6)](_0x33da81(0x9a),![]);}async function woolsell(){var _0x2f92a8=_0x30bb;$(_0x2f92a8(0x9d))[_0x2f92a8(0xc6)](_0x2f92a8(0x9a),!![]),$(_0x2f92a8(0xac))[_0x2f92a8(0xc6)]('disabled',!![]),await delay(0x0),mon=Number(localStorage['getItem'](_0x2f92a8(0xb3))),woo=Number(localStorage['getItem'](_0x2f92a8(0xcb))),woo>=0x1?(mon=mon+0xf,woo=woo-0x1,localStorage[_0x2f92a8(0x9e)](_0x2f92a8(0xb3),String(mon)),localStorage['setItem']('wool',String(woo)),$('#4')[_0x2f92a8(0xb1)](_0x2f92a8(0xd9))):$('#4')[_0x2f92a8(0xb1)](_0x2f92a8(0xbc)),$(_0x2f92a8(0x9d))['attr'](_0x2f92a8(0x9a),![]),$('#shop32')['attr'](_0x2f92a8(0x9a),![]);}async function gmilkbuy(){var _0x1a1079=_0x30bb;$(_0x1a1079(0xd3))[_0x1a1079(0xc6)]('disabled',!![]),$('#shop42')[_0x1a1079(0xc6)](_0x1a1079(0x9a),!![]),await delay(0x0),mon=Number(localStorage[_0x1a1079(0xb5)]('money')),gmk=Number(localStorage[_0x1a1079(0xb5)](_0x1a1079(0xaa))),mon>=0x32?(mon=mon-0x32,gmk=gmk+0x1,localStorage[_0x1a1079(0x9e)]('money',String(mon)),localStorage['setItem']('gmilk',String(gmk)),$('#4')[_0x1a1079(0xb1)](_0x1a1079(0xa6))):$('#4')[_0x1a1079(0xb1)]('<div>您的金錢不夠。</div>'),$(_0x1a1079(0xd3))[_0x1a1079(0xc6)]('disabled',![]),$('#shop42')['attr'](_0x1a1079(0x9a),![]);}function _0x30bb(_0x21dfb4,_0x309925){var _0x59deb2=_0x59de();return _0x30bb=function(_0x30bb20,_0x5ef393){_0x30bb20=_0x30bb20-0x96;var _0x2a17ea=_0x59deb2[_0x30bb20];return _0x2a17ea;},_0x30bb(_0x21dfb4,_0x309925);}async function gmilksell(){var _0x514735=_0x30bb;$('#shop41')[_0x514735(0xc6)](_0x514735(0x9a),!![]),$(_0x514735(0xbd))['attr']('disabled',!![]),await delay(0x0),mon=Number(localStorage['getItem'](_0x514735(0xb3))),gmk=Number(localStorage[_0x514735(0xb5)](_0x514735(0xaa))),gmk>=0x1?(mon=mon+0x19,gmk=gmk-0x1,localStorage[_0x514735(0x9e)]('money',String(mon)),localStorage[_0x514735(0x9e)]('gmilk',String(gmk)),$('#4')['append']('<div>您販售了一份山羊奶。</div>')):$('#4')[_0x514735(0xb1)](_0x514735(0xc5)),$('#shop41')[_0x514735(0xc6)]('disabled',![]),$('#shop42')[_0x514735(0xc6)](_0x514735(0x9a),![]);}async function antlerbuy(){var _0xf5f36e=_0x30bb;$(_0xf5f36e(0x9f))[_0xf5f36e(0xc6)]('disabled',!![]),$(_0xf5f36e(0xc7))[_0xf5f36e(0xc6)](_0xf5f36e(0x9a),!![]),await delay(0x0),mon=Number(localStorage[_0xf5f36e(0xb5)]('money')),antl=Number(localStorage[_0xf5f36e(0xb5)]('antler')),mon>=0x1f4?(mon=mon-0x1f4,antl=antl+0x1,localStorage[_0xf5f36e(0x9e)](_0xf5f36e(0xb3),String(mon)),localStorage[_0xf5f36e(0x9e)](_0xf5f36e(0xd5),String(antl)),$('#4')[_0xf5f36e(0xb1)]('<div>您購買了一份鹿茸。</div>')):$('#4')[_0xf5f36e(0xb1)](_0xf5f36e(0xbe)),$(_0xf5f36e(0x9f))['attr'](_0xf5f36e(0x9a),![]),$(_0xf5f36e(0xc7))['attr'](_0xf5f36e(0x9a),![]);}async function antlersell(){var _0xbb0e50=_0x30bb;$('#shop51')['attr']('disabled',!![]),$(_0xbb0e50(0xc7))[_0xbb0e50(0xc6)](_0xbb0e50(0x9a),!![]),await delay(0x0),mon=Number(localStorage[_0xbb0e50(0xb5)](_0xbb0e50(0xb3))),antl=Number(localStorage['getItem'](_0xbb0e50(0xd5))),antl>=0x1?(mon=mon+0xfa,antl=antl-0x1,localStorage['setItem'](_0xbb0e50(0xb3),String(mon)),localStorage[_0xbb0e50(0x9e)](_0xbb0e50(0xd5),String(antl)),$('#4')[_0xbb0e50(0xb1)]('<div>您販售了一份鹿茸。</div>')):$('#4')[_0xbb0e50(0xb1)](_0xbb0e50(0xcf)),$(_0xbb0e50(0x9f))[_0xbb0e50(0xc6)]('disabled',![]),$(_0xbb0e50(0xc7))[_0xbb0e50(0xc6)](_0xbb0e50(0x9a),![]);}async function tofubuy(){var _0xb0d941=_0x30bb;$(_0xb0d941(0xc4))['attr'](_0xb0d941(0x9a),!![]),$(_0xb0d941(0xaf))[_0xb0d941(0xc6)]('disabled',!![]),await delay(0x0),mon=Number(localStorage['getItem'](_0xb0d941(0xb3))),tofu=Number(localStorage[_0xb0d941(0xb5)](_0xb0d941(0xa5))),mon>=0x320?(mon=mon-0x320,tofu=tofu+0x1,localStorage[_0xb0d941(0x9e)]('money',String(mon)),localStorage[_0xb0d941(0x9e)](_0xb0d941(0xa5),String(tofu)),$('#4')[_0xb0d941(0xb1)](_0xb0d941(0xd2))):$('#4')['append'](_0xb0d941(0xbe)),$('#shop61')[_0xb0d941(0xc6)](_0xb0d941(0x9a),![]),$(_0xb0d941(0xaf))[_0xb0d941(0xc6)]('disabled',![]);}async function tofusell(){var _0xf4a7ab=_0x30bb;$('#shop61')[_0xf4a7ab(0xc6)]('disabled',!![]),$(_0xf4a7ab(0xaf))[_0xf4a7ab(0xc6)](_0xf4a7ab(0x9a),!![]),await delay(0x0),mon=Number(localStorage['getItem'](_0xf4a7ab(0xb3))),tofu=Number(localStorage[_0xf4a7ab(0xb5)](_0xf4a7ab(0xa5))),tofu>=0x1?(mon=mon+0x190,tofu=tofu-0x1,localStorage[_0xf4a7ab(0x9e)](_0xf4a7ab(0xb3),String(mon)),localStorage[_0xf4a7ab(0x9e)]('tofu',String(tofu)),$('#4')['append']('<div>您販售了一份臭豆腐。</div>')):$('#4')[_0xf4a7ab(0xb1)](_0xf4a7ab(0xad)),$('#shop61')['attr'](_0xf4a7ab(0x9a),![]),$(_0xf4a7ab(0xaf))[_0xf4a7ab(0xc6)]('disabled',![]);}async function gearbuy(){var _0x57f7a7=_0x30bb;$(_0x57f7a7(0x99))['attr'](_0x57f7a7(0x9a),!![]),$(_0x57f7a7(0xa2))[_0x57f7a7(0xc6)](_0x57f7a7(0x9a),!![]),await delay(0x0),mon=Number(localStorage[_0x57f7a7(0xb5)](_0x57f7a7(0xb3))),ger=Number(localStorage[_0x57f7a7(0xb5)](_0x57f7a7(0xc2))),mon>=0x3e8?(mon=mon-0x3e8,ger=ger+0x1,localStorage[_0x57f7a7(0x9e)]('money',String(mon)),localStorage[_0x57f7a7(0x9e)](_0x57f7a7(0xc2),String(ger)),$('#4')[_0x57f7a7(0xb1)]('<div>您購買了一份合金齒輪。</div>')):$('#4')[_0x57f7a7(0xb1)]('<div>您的金錢不夠。</div>'),$(_0x57f7a7(0x99))['attr'](_0x57f7a7(0x9a),![]),$(_0x57f7a7(0xa2))[_0x57f7a7(0xc6)]('disabled',![]);}async function gearsell(){var _0x5a1bc5=_0x30bb;$(_0x5a1bc5(0x99))[_0x5a1bc5(0xc6)](_0x5a1bc5(0x9a),!![]),$(_0x5a1bc5(0xa2))[_0x5a1bc5(0xc6)](_0x5a1bc5(0x9a),!![]),await delay(0x0),mon=Number(localStorage[_0x5a1bc5(0xb5)](_0x5a1bc5(0xb3))),ger=Number(localStorage[_0x5a1bc5(0xb5)](_0x5a1bc5(0xc2))),ger>=0x1?(mon=mon+0x1f4,ger=ger-0x1,localStorage[_0x5a1bc5(0x9e)](_0x5a1bc5(0xb3),String(mon)),localStorage[_0x5a1bc5(0x9e)]('gear',String(ger)),$('#4')[_0x5a1bc5(0xb1)](_0x5a1bc5(0xc3))):$('#4')['append'](_0x5a1bc5(0x97)),$(_0x5a1bc5(0x99))[_0x5a1bc5(0xc6)](_0x5a1bc5(0x9a),![]),$(_0x5a1bc5(0xa2))[_0x5a1bc5(0xc6)]('disabled',![]);}
+async function cookiebuy(){
+    $('#shop11').attr('disabled', true);
+    $('#shop12').attr('disabled', true);
+    await delay(0);
+    mon=Number(localStorage.getItem("money"));
+    coo=Number(localStorage.getItem("cookie"));
+    if(mon>=10){
+        mon=mon-10;
+        coo=coo+1;
+        localStorage.setItem("money",String(mon));
+        localStorage.setItem("cookie",String(coo));
+        $("#4").append("<div>您購買了一塊童軍餅乾。</div>");
+    }else{
+        $("#4").append("<div>您的金錢不夠。</div>");
+    }
+    $('#shop11').attr('disabled', false);
+    $('#shop12').attr('disabled', false);
+}
+
+async function cookiesell(){
+    $('#shop11').attr('disabled', true);
+    $('#shop12').attr('disabled', true);
+    await delay(0);
+    mon=Number(localStorage.getItem("money"));
+    coo=Number(localStorage.getItem("cookie"));
+    if(coo>=1){
+        mon=mon+5;
+        coo=coo-1;
+        localStorage.setItem("money",String(mon));
+        localStorage.setItem("cookie",String(coo));
+        $("#4").append("<div>您販售了一塊童軍餅乾。</div>");
+    }else{
+        $("#4").append("<div>您似乎沒有這麼多童軍餅乾。</div>");
+    }
+    $('#shop11').attr('disabled', false);
+    $('#shop12').attr('disabled', false);
+}
+
+async function cookiebox(){
+    $('#shop21').attr('disabled', true);
+    await delay(0);
+    mon=Number(localStorage.getItem("money"));
+    coo=Number(localStorage.getItem("cookie"));
+    if(mon>=50){
+        mon=mon-50;
+        add=parseInt(Math.random()*5)+5;
+        coo=coo+add;
+        localStorage.setItem("money",String(mon));
+        localStorage.setItem("cookie",String(coo));
+        $("#4").append("<div>您購買了一份月餅禮盒，裡面裝有"+String(add)+"塊餅乾。</div>");
+    }else{
+        $("#4").append("<div>您的金錢不夠。</div>");
+    }
+    $('#shop21').attr('disabled', false);
+}
+
+async function oldknife(){
+    $('#shop111').attr('disabled', true);
+    await delay(0);
+    mon=Number(localStorage.getItem("money"));
+    if(mon>=1000){
+        mon=mon-1000;
+        localStorage.setItem("money",String(mon));
+        localStorage.setItem("knife",1);
+        shop111.style.display='none';
+        knifeshop.style.display='block';
+        $("#4").append("<div>歡迎使用我們的產品。</div>");
+    }else{
+        $("#4").append("<div>您的金錢不夠。</div>");
+    }
+    $('#shop111').attr('disabled', false);
+}
+
+async function newphone(){
+    $('#shop121').attr('disabled', true);
+    await delay(0);
+    mon=Number(localStorage.getItem("money"));
+    if(mon>=5000){
+        mon=mon-5000;
+        localStorage.setItem("money",String(mon));
+        localStorage.setItem("phone",1);
+        shop121.style.display='none';
+        phoneshop.style.display='block';
+        $("#4").append("<div>歡迎使用我們的產品。</div>");
+    }else{
+        $("#4").append("<div>您的金錢不夠。</div>");
+    }
+    $('#shop121').attr('disabled', false);
+}
+
+async function treatrobot(){
+    $('#shop131').attr('disabled', true);
+    await delay(0);
+    mon=Number(localStorage.getItem("money"));
+    if(mon>=10000){
+        mon=mon-10000;
+        localStorage.setItem("money",String(mon));
+        localStorage.setItem("robot",1);
+        shop131.style.display='none';
+        robotshop.style.display='block';
+        $("#4").append("<div>歡迎使用我們的產品。</div>");
+    }else{
+        $("#4").append("<div>您的金錢不夠。</div>");
+    }
+    $('#shop131').attr('disabled', false);
+}
+
+async function gossip(){
+    $('#shop141').attr('disabled', true);
+    await delay(0);
+    mon=Number(localStorage.getItem("money"));
+    if(mon>=15000){
+        mon=mon-15000;
+        localStorage.setItem("money",String(mon));
+        localStorage.setItem("gossip",1);
+        shop141.style.display='none';
+        robotshop.style.display='block';
+        $("#4").append("<div>歡迎使用我們的產品。</div>");
+    }else{
+        $("#4").append("<div>您的金錢不夠。</div>");
+    }
+    $('#shop141').attr('disabled', false);
+}
+
+
+
+async function denture(){
+    $('#shop211').attr('disabled', true);
+    await delay(0);
+    mon=Number(localStorage.getItem("money"));
+    if(mon>=3000){
+        mon=mon-3000;
+        localStorage.setItem("money",String(mon));
+        localStorage.setItem("denture",1);
+        shop211.style.display='none';
+        dentureshop.style.display='block';
+        $("#4").append("<div>歡迎使用我們的產品。</div>");
+    }else{
+        $("#4").append("<div>您的金錢不夠。</div>");
+    }
+    $('#shop211').attr('disabled', false);
+}
+
+async function helmet(){
+    $('#shop221').attr('disabled', true);
+    await delay(0);
+    mon=Number(localStorage.getItem("money"));
+    if(mon>=12000){
+        mon=mon-12000;
+        localStorage.setItem("money",String(mon));
+        localStorage.setItem("helmet",1);
+        shop221.style.display='none';
+        dentureshop.style.display='block';
+        $("#4").append("<div>歡迎使用我們的產品。</div>");
+    }else{
+        $("#4").append("<div>您的金錢不夠。</div>");
+    }
+    $('#shop221').attr('disabled', false);
+}
+
+
+async function woolbuy(){
+    $('#shop31').attr('disabled', true);
+    $('#shop32').attr('disabled', true);
+    await delay(0);
+    mon=Number(localStorage.getItem("money"));
+    woo=Number(localStorage.getItem("wool"));
+    if(mon>=30){
+        mon=mon-30;
+        woo=woo+1;
+        localStorage.setItem("money",String(mon));
+        localStorage.setItem("wool",String(woo));
+        $("#4").append("<div>您購買了一份高級羊毛。</div>");
+    }else{
+        $("#4").append("<div>您的金錢不夠。</div>");
+    }
+    $('#shop31').attr('disabled', false);
+    $('#shop32').attr('disabled', false);
+}
+
+async function woolsell(){
+    $('#shop31').attr('disabled', true);
+    $('#shop32').attr('disabled', true);
+    await delay(0);
+    mon=Number(localStorage.getItem("money"));
+    woo=Number(localStorage.getItem("wool"));
+    if(woo>=1){
+        mon=mon+15;
+        woo=woo-1;
+        localStorage.setItem("money",String(mon));
+        localStorage.setItem("wool",String(woo));
+        $("#4").append("<div>您販售了一份高級羊毛。</div>");
+    }else{
+        $("#4").append("<div>您似乎沒有這麼多高級羊毛。</div>");
+    }
+    $('#shop31').attr('disabled', false);
+    $('#shop32').attr('disabled', false);
+}
+
+async function gmilkbuy(){
+    $('#shop41').attr('disabled', true);
+    $('#shop42').attr('disabled', true);
+    await delay(0);
+    mon=Number(localStorage.getItem("money"));
+    gmk=Number(localStorage.getItem("gmilk"));
+    if(mon>=50){
+        mon=mon-50;
+        gmk=gmk+1;
+        localStorage.setItem("money",String(mon));
+        localStorage.setItem("gmilk",String(gmk));
+        $("#4").append("<div>您購買了一份山羊奶。</div>");
+    }else{
+        $("#4").append("<div>您的金錢不夠。</div>");
+    }
+    $('#shop41').attr('disabled', false);
+    $('#shop42').attr('disabled', false);
+}
+
+async function gmilksell(){
+    $('#shop41').attr('disabled', true);
+    $('#shop42').attr('disabled', true);
+    await delay(0);
+    mon=Number(localStorage.getItem("money"));
+    gmk=Number(localStorage.getItem("gmilk"));
+    if(gmk>=1){
+        mon=mon+25;
+        gmk=gmk-1;
+        localStorage.setItem("money",String(mon));
+        localStorage.setItem("gmilk",String(gmk));
+        $("#4").append("<div>您販售了一份山羊奶。</div>");
+    }else{
+        $("#4").append("<div>您似乎沒有這麼多山羊奶。</div>");
+    }
+    $('#shop41').attr('disabled', false);
+    $('#shop42').attr('disabled', false);
+}
+
+async function antlerbuy(){
+    $('#shop51').attr('disabled', true);
+    $('#shop52').attr('disabled', true);
+    await delay(0);
+    mon=Number(localStorage.getItem("money"));
+    antl=Number(localStorage.getItem("antler"));
+    if(mon>=500){
+        mon=mon-500;
+        antl=antl+1;
+        localStorage.setItem("money",String(mon));
+        localStorage.setItem("antler",String(antl));
+        $("#4").append("<div>您購買了一份鹿茸。</div>");
+    }else{
+        $("#4").append("<div>您的金錢不夠。</div>");
+    }
+    $('#shop51').attr('disabled', false);
+    $('#shop52').attr('disabled', false);
+}
+
+async function antlersell(){
+    $('#shop51').attr('disabled', true);
+    $('#shop52').attr('disabled', true);
+    await delay(0);
+    mon=Number(localStorage.getItem("money"));
+    antl=Number(localStorage.getItem("antler"));
+    if(antl>=1){
+        mon=mon+250;
+        antl=antl-1;
+        localStorage.setItem("money",String(mon));
+        localStorage.setItem("antler",String(antl));
+        $("#4").append("<div>您販售了一份鹿茸。</div>");
+    }else{
+        $("#4").append("<div>您似乎沒有這麼多鹿茸。</div>");
+    }
+    $('#shop51').attr('disabled', false);
+    $('#shop52').attr('disabled', false);
+}
+
+async function tofubuy(){
+    $('#shop61').attr('disabled', true);
+    $('#shop62').attr('disabled', true);
+    await delay(0);
+    mon=Number(localStorage.getItem("money"));
+    tofu=Number(localStorage.getItem("tofu"));
+    if(mon>=800){
+        mon=mon-800;
+        tofu=tofu+1;
+        localStorage.setItem("money",String(mon));
+        localStorage.setItem("tofu",String(tofu));
+        $("#4").append("<div>您購買了一份臭豆腐。</div>");
+    }else{
+        $("#4").append("<div>您的金錢不夠。</div>");
+    }
+    $('#shop61').attr('disabled', false);
+    $('#shop62').attr('disabled', false);
+}
+
+async function tofusell(){
+    $('#shop61').attr('disabled', true);
+    $('#shop62').attr('disabled', true);
+    await delay(0);
+    mon=Number(localStorage.getItem("money"));
+    tofu=Number(localStorage.getItem("tofu"));
+    if(tofu>=1){
+        mon=mon+400;
+        tofu=tofu-1;
+        localStorage.setItem("money",String(mon));
+        localStorage.setItem("tofu",String(tofu));
+        $("#4").append("<div>您販售了一份臭豆腐。</div>");
+    }else{
+        $("#4").append("<div>您似乎沒有這麼多臭豆腐。</div>");
+    }
+    $('#shop61').attr('disabled', false);
+    $('#shop62').attr('disabled', false);
+}
+
+async function gearbuy(){
+    $('#shop71').attr('disabled', true);
+    $('#shop72').attr('disabled', true);
+    await delay(0);
+    mon=Number(localStorage.getItem("money"));
+    ger=Number(localStorage.getItem("gear"));
+    if(mon>=1000){
+        mon=mon-1000;
+        ger=ger+1;
+        localStorage.setItem("money",String(mon));
+        localStorage.setItem("gear",String(ger));
+        $("#4").append("<div>您購買了一份合金齒輪。</div>");
+    }else{
+        $("#4").append("<div>您的金錢不夠。</div>");
+    }
+    $('#shop71').attr('disabled', false);
+    $('#shop72').attr('disabled', false);
+}
+
+async function gearsell(){
+    $('#shop71').attr('disabled', true);
+    $('#shop72').attr('disabled', true);
+    await delay(0);
+    mon=Number(localStorage.getItem("money"));
+    ger=Number(localStorage.getItem("gear"));
+    if(ger>=1){
+        mon=mon+500;
+        ger=ger-1;
+        localStorage.setItem("money",String(mon));
+        localStorage.setItem("gear",String(ger));
+        $("#4").append("<div>您販售了一份合金齒輪。</div>");
+    }else{
+        $("#4").append("<div>您似乎沒有這麼多合金齒輪。</div>");
+    }
+    $('#shop71').attr('disabled', false);
+    $('#shop72').attr('disabled', false);
+}
+
