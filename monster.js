@@ -13,11 +13,11 @@ async function grassland(){
     var a1 = parseInt(Math.random()*100)*(100+l2)/100+1;
     var a2 = parseInt(Math.random()*100+1);
     if (a1<15){
-        grassfight('動保委員',php,700+a2,plname,work);
+        grassfight('動保委員',php,900+a2,plname,work);
     }else if(a1<50){
         grassfight('山羌',php,400+a2,plname,work);
     }else if(a1<90){
-        grassfight('山羊',php,100+a2,plname,work);
+        grassfight('山羊',php,150+a2,plname,work);
     }else{
         grassfight('綿羊',php,50+a2,plname,work);
     }
@@ -41,11 +41,11 @@ async function school(){
     var plname=localStorage.getItem("name");
     var work=String(localStorage.getItem("work"));
     var a1 = parseInt(Math.random()*100)*(1000+l2)/1000+1;
-    var a2 = parseInt(Math.random()*200+1);
+    var a2 = parseInt(Math.random()*1000+1);
     if (a1<15){
-        schoolfight('訓導主任',php,1500+a2,plname,work);
+        schoolfight('訓導主任',php,5000+a2,plname,work);
     }else if(a1<50){
-        schoolfight('初音幫',php,1200+a2,plname,work);
+        schoolfight('初音幫',php,2600+a2,plname,work);
     }else if(a1<90){
         schoolfight('書呆子',php,500+a2,plname,work);
     }else{
@@ -108,42 +108,42 @@ function grassfight(moname,php,mhp,plname,work){
     var pgosh=1;
     var pgosh1=1;
     if(moname==='動保委員'){
-        var mg2=50+parseInt(Math.random()*7)-2;//肌力
-        var mg3=20+parseInt(Math.random()*7)-2;//脂肪
-        var mj1=10+parseInt(Math.random()*7)-2;//移動
-        var ml1=10+parseInt(Math.random()*7)-2;//視力
-        var ml2=20+parseInt(Math.random()*7)-2;//幸運
-        var mi1=15+parseInt(Math.random()*7)-2;//智力
+        var mg2=70;//肌力
+        var mg3=30;//脂肪
+        var mj1=25;//移動
+        var ml1=70;//視力
+        var ml2=40;//幸運
+        var mi1=45;//智力
         var mgosh=1;
         var mfire=1;
         var mgosh2=1;
     }else if(moname==='山羌'){
-        var mg2=20+parseInt(Math.random()*9)-3;//肌力
-        var mg3=15+parseInt(Math.random()*9)-3;//脂肪
-        var mj1=20+parseInt(Math.random()*9)-3;//移動
-        var ml1=5+parseInt(Math.random()*9)-3;//視力
-        var ml2=20+parseInt(Math.random()*9)-3;//幸運
-        var mi1=10+parseInt(Math.random()*9)-3;//智力
+        var mg2=55;//肌力
+        var mg3=35;//脂肪
+        var mj1=40;//移動
+        var ml1=60;//視力
+        var ml2=33;//幸運
+        var mi1=24;//智力
         var mgosh=1;
         var mfire=1;
         var mgosh2=1;
     }else if(moname==='山羊'){
-        var mg2=10+parseInt(Math.random()*11)-5;//肌力
-        var mg3=5+parseInt(Math.random()*9)-4;//脂肪
-        var mj1=10+parseInt(Math.random()*11)-5;//移動
-        var ml1=5+parseInt(Math.random()*9)-4;//視力
-        var ml2=10+parseInt(Math.random()*11)-5;//幸運
-        var mi1=10+parseInt(Math.random()*11)-5;//智力
+        var mg2=10;//肌力
+        var mg3=9;//脂肪
+        var mj1=10;//移動
+        var ml1=10;//視力
+        var ml2=12;//幸運
+        var mi1=6;//智力
         var mgosh=1;
         var mfire=1;
         var mgosh2=1;
     }else if(moname==='綿羊'){
-        var mg2=5+parseInt(Math.random()*3)-1;;//肌力
-        var mg3=10+parseInt(Math.random()*3)-1;//脂肪
-        var mj1=5+parseInt(Math.random()*3)-1;//移動
-        var ml1=5+parseInt(Math.random()*3)-1;//視力
-        var ml2=5+parseInt(Math.random()*3)-1;//幸運
-        var mi1=10+parseInt(Math.random()*3)-1;//智力
+        var mg2=5;;//肌力
+        var mg3=3;//脂肪
+        var mj1=3;//移動
+        var ml1=4;//視力
+        var ml2=5;//幸運
+        var mi1=3;//智力
         var mgosh=1;
         var mfire=1;
         var mgosh2=1;
@@ -352,33 +352,33 @@ function schoolfight(moname,php,mhp,plname,work){
     var mfire=1;
     var mgosh2=1;
     if(moname==='訓導主任'){
-        var mg2=130+parseInt(Math.random()*11)-5;//肌力
-        var mg3=80+parseInt(Math.random()*11)-5;//脂肪
-        var mj1=55+parseInt(Math.random()*11)-5;//移動
-        var ml1=60+parseInt(Math.random()*21)-15;//視力
-        var ml2=70+parseInt(Math.random()*11)-5;//幸運
-        var mi1=30+parseInt(Math.random()*11)-5;//智力
+        var mg2=300;//肌力
+        var mg3=340;//脂肪
+        var mj1=70;//移動
+        var ml1=70;//視力
+        var ml2=100;//幸運
+        var mi1=100;//智力
     }else if(moname==='初音幫'){
-        var mg2=40+parseInt(Math.random()*15)-7;//肌力
-        var mg3=60+parseInt(Math.random()*11)-5;//脂肪
-        var mj1=35+parseInt(Math.random()*11)-5;//移動
-        var ml1=60+parseInt(Math.random()*11)-5;//視力
-        var ml2=35+parseInt(Math.random()*11)-5;//幸運
-        var mi1=40+parseInt(Math.random()*11)-5;//智力
+        var mg2=120;//肌力
+        var mg3=100;//脂肪
+        var mj1=50;//移動
+        var ml1=70;//視力
+        var ml2=50;//幸運
+        var mi1=60;//智力
     }else if(moname==='書呆子'){
-        var mg2=12+parseInt(Math.random()*15)-10;//肌力
-        var mg3=12+parseInt(Math.random()*11)-5;//脂肪
-        var mj1=25+parseInt(Math.random()*11)-5;//移動
-        var ml1=35+parseInt(Math.random()*11)-5;//視力
-        var ml2=25+parseInt(Math.random()*11)-5;//幸運
-        var mi1=150+parseInt(Math.random()*51)-20;//智力
+        var mg2=50;//肌力
+        var mg3=30;//脂肪
+        var mj1=40;//移動
+        var ml1=35;//視力
+        var ml2=25;//幸運
+        var mi1=150;//智力
     }else if(moname==='肥宅'){
-        var mg2=20+parseInt(Math.random()*11)-5;//肌力
-        var mg3=200+parseInt(Math.random()*21)-10;//脂肪
-        var mj1=10+parseInt(Math.random()*11)-5;//移動
-        var ml1=20+parseInt(Math.random()*11)-5;//視力
-        var ml2=50+parseInt(Math.random()*11)-5;//幸運
-        var mi1=25+parseInt(Math.random()*11)-5;//智力
+        var mg2=20;//肌力
+        var mg3=70;//脂肪
+        var mj1=30;//移動
+        var ml1=50;//視力
+        var ml2=30;//幸運
+        var mi1=35;//智力
     }
     var turn = 0
     var content = '';
@@ -768,7 +768,7 @@ function monstorattack2(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname
                 var newj = armj[which];
             }else if(moname==='肥宅'){
                 var arm = ['上課偷吃東西','腳底抹油','揮拳'];
-                var armj = [0,60,35];
+                var armj = [0,45,25];
                 var which = parseInt(Math.random()*2+1);
                 if(mp5>mp6){
                     var newm = arm[0];
@@ -779,7 +779,7 @@ function monstorattack2(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname
             }
             if(moname==='初音幫'){
                 var arm = ['小王','放人','尊'];
-                var armj = [20,60,300];
+                var armj = [20,35,70];
                 var i=0;
                 for (i = 1; i < 4; i++) {
                     var which = parseInt(Math.random()*3);
@@ -935,42 +935,42 @@ function monstorattack(mg2,ml1,ml2,mi1,mhp,pg2,pg3,pj1,pl2,pi1,php,work1,plname,
             var mp6 = parseInt(Math.random()*101)*(1000+pg3)/1000;//技能抵抗
             if(moname==='動保委員'){
                 var arm = ['掏出電擊棒','掏出警棍','掏出持槍'];
-                var armj = [0,10,20];
+                var armj = [0,10,40];
                 var which = parseInt(Math.random()*2);
+                var newm = arm[which];
+                var newj = armj[which];
                 if(mp5>mp6){
                     var newm = arm[2];
                     var newj = armj[2];
                 }
-                var newm = arm[which];
-                var newj = armj[which];
             }else if(moname==='山羌'){
                 var arm = ['用角撞擊','踢擊','跳躍攻擊'];
                 var armj = [0,15,40];
                 var which = parseInt(Math.random()*2+1);
-                if(mp5>mp6){
-                    var newm = arm[0];
-                    var newj = armj[0];
-                }
                 var newm = arm[which];
                 var newj = armj[which];
-            }else if(moname==='山羊'){
-                var arm = ['撞擊','吐口水'];
-                var armj = [0,15];
                 if(mp5>mp6){
                     var newm = arm[0];
                     var newj = armj[0];
                 }
+            }else if(moname==='山羊'){
+                var arm = ['撞擊','吐口水'];
+                var armj = [5,15];
                 var newm = arm[1];
                 var newj = armj[1];
+                if(mp5>mp6){
+                    var newm = arm[0];
+                    var newj = armj[0];
+                }
             }else if(moname==='綿羊'){
                 var arm = ['吃草','跑步'];
                 var armj = [0,10];
+                var newm = arm[1];
+                var newj = armj[1];
                 if(mp5>mp6){
                     var newm = arm[0];
                     var newj = armj[0];
                 }
-                var newm = arm[1];
-                var newj = armj[1];
             }
             if (newm==='掏出警棍'||newm==='用角撞擊'||newm==='撞擊'){
                 var harm=parseInt((Math.random()*10)*(Math.sqrt(mg2*mi1)-pg3));

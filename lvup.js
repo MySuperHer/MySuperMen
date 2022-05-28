@@ -679,7 +679,7 @@ function win(n){
     localStorage.setItem("money",String(mon+a2));
     var content = '<div>你獲得了從'+n+'身上掉下來的'+String(a2)+'塊錢</div>';
     $('#3').append(content);
-    gobig2(-1,g21,-1,-1,-1,l21,i11,m11);
+    `gobig2(-1,g21,-1,-1,-1,l21,i11,m11);`
 }
 
 function lose(){
@@ -687,7 +687,7 @@ function lose(){
     var j11=Number(localStorage.getItem("j11"))+3;
     var l11=Number(localStorage.getItem("l11"))+3;
     var i11=Number(localStorage.getItem("i11"))-9;
-    gobig2(-1,-1,g31,j11,l11,-1,i11,-1);
+    `gobig2(-1,-1,g31,j11,l11,-1,i11,-1);`
 }
 
 function tie(){
@@ -695,7 +695,7 @@ function tie(){
     var i11=Number(localStorage.getItem("i11"))+5;
     var m11=Number(localStorage.getItem("m11"))+3;
     var g11=Number(localStorage.getItem("g11"))-4;
-    gobig2(g11,-1,-1,-1,-1,l21,i11,m11);
+    `gobig2(g11,-1,-1,-1,-1,l21,i11,m11);`
 }
 
 
