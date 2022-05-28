@@ -23,10 +23,10 @@ async function waiter(){
     var a=parseInt(Math.random()*100)+m1/10+l2/100;
     let content = '';
     if (age>=18){
-        if(m1>45 && a>60){
+        if(m1>70 && a>60){
             content = '<div>恭喜您被錄取了。</div>';
             localStorage.setItem("work","服務生");
-        }else if(g2>35 && g1>15 && a>90){
+        }else if(g2>80 && g1>150 && a>90){
             content = '<div>我們剛好缺一個廚師，恭喜您被錄取了。</div>';
             localStorage.setItem("work","廚師");
         }else{
@@ -35,7 +35,7 @@ async function waiter(){
     }else{
         content = '<div>很抱歉，本場所不雇傭童工。</div>';
     }
-    gobig3(-1,-1,-1,-1,-1,-1,-1,-1);
+    gobig2(-1,-1,-1,-1,-1,-1,-1,-1);
     $('#2').prepend(content);
     $('#train11').attr('disabled', false);
     $('#train12').attr('disabled', false);
@@ -70,10 +70,10 @@ async function lucky(){
     var a=parseInt(Math.random()*100)+m1/10+l2/100;
     let content = '';
     if (age>=18){
-        if(m1>40 && l2>50 && a>60){
+        if(m1>50 && l2>200 && a>60){
             content = '<div>恭喜您被錄取了。</div>';
             localStorage.setItem("work","彩卷行員工");
-        }else if(l2>100 && a>90){
+        }else if(l2>400 && a>90){
             content = '<div>在離開彩卷行時，你順便買了一張樂透，恭喜您中獎了。</div>';
             localStorage.setItem("work","幸運星");
         }else{
@@ -82,7 +82,7 @@ async function lucky(){
     }else{
         content = '<div>很抱歉，本場所不雇傭童工。</div>';
     }
-    gobig3(-1,-1,-1,-1,-1,-1,-1,-1);
+    gobig2(-1,-1,-1,-1,-1,-1,-1,-1);
     $('#2').prepend(content);
     $('#train11').attr('disabled', false);
     $('#train12').attr('disabled', false);
@@ -119,19 +119,19 @@ async function swimmer(){
     var a=parseInt(Math.random()*100)+m1/10+l2/100;
     let content = '';
     if (age>=18){
-        if(i1>25 && g2>35 && a>60){
-            content = '<div>恭喜您被錄取了。</div>';
-            localStorage.setItem("work","救生員");
-        }else if(g2>60 && a>60){
+        if(g2>150 && a>90){
             content = '<div>路過的國家游泳隊教練看上了你，恭喜您被錄取了。</div>';
             localStorage.setItem("work","游泳國手");
+        }else if(i1>40 && g2>100 && a>60){
+            content = '<div>恭喜您被錄取了。</div>';
+            localStorage.setItem("work","救生員");
         }else{
             content = '<div>很抱歉，您並不符合我們的要求。</div>';
         }
     }else{
         content = '<div>很抱歉，本場所不雇傭童工。</div>';
     }
-    gobig3(-1,-1,-1,-1,-1,-1,-1,-1);
+    gobig2(-1,-1,-1,-1,-1,-1,-1,-1);
     $('#2').prepend(content);
     $('#train11').attr('disabled', false);
     $('#train12').attr('disabled', false);
@@ -186,7 +186,7 @@ async function study(){
     }else{
         content = '<div>旁邊有社區大學。</div>';
     }
-    gobig3(-1,-1,-1,-1,-1,-1,-1,-1);
+    gobig2(-1,-1,-1,-1,-1,-1,-1,-1);
     $('#2').prepend(content);
     $('#train11').attr('disabled', false);
     $('#train12').attr('disabled', false);
@@ -213,16 +213,16 @@ async function getcar(){
     var age=Number(localStorage.getItem("age"));
     var a1 = parseInt(Math.random()*60);
     let content = '';
-    if(l1>40 && age>18 && a1>40){
+    if(l1>90 && age>18 && a1>50){
         content = '<div>你撿到了一台來路不明的卡車。</div>';
         localStorage.setItem("work","卡車司機");
-    }else if(m1>30 && age<20 && a1>20){
+    }else if(m1>70 && age<20 && a1>30){
         content = '<div>你結交到了一群志同道合的朋友。</div>';
         localStorage.setItem("work","童子軍");
     }else{
         content = '<div>來這裡找工作是想當乞丐嗎？</div>';
     }
-    gobig3(-1,-1,-1,-1,-1,-1,-1,-1);
+    gobig2(-1,-1,-1,-1,-1,-1,-1,-1);
     $('#2').prepend(content);
     $('#train11').attr('disabled', false);
     $('#train12').attr('disabled', false);
@@ -267,7 +267,7 @@ async function star(){
             content = '<div>我們只歡迎真正的冒險者</div>';
         }
     }
-    gobig3(-1,-1,-1,-1,-1,-1,-1,-1);
+    gobig2(-1,-1,-1,-1,-1,-1,-1,-1);
     $('#2').prepend(content);
     $('#train11').attr('disabled', false);
     $('#train12').attr('disabled', false);
@@ -298,12 +298,12 @@ async function gym(){
     var i11=Number(localStorage.getItem("i11"));
     let content = '';
     if (age>=18){
-        if(g2>=g1*20){
+        if(g2>=g1*2){
             content = '<div>為什麼我的人生會變成這樣...</div>';
             localStorage.setItem("work","俱樂部會員");
         }else{
-            g21=g21+(g31/4)+4;
-            g31=g31/3;
+            g21=g21+8;
+            g31=g31-7;
             l21=l21-3;
             i11=i11-3;
             content = '<div>你在淋浴間撿到了塊肥皂，但是沒有事情發生。</div>';
@@ -311,7 +311,7 @@ async function gym(){
     }else{
         content = '<div>未成年禁止入內。</div>';
     }
-    gobig3(-1,g21,g31,-1,-1,l21,i11,0);
+    gobig2(-1,g21,g31,-1,-1,l21,i11,0);
     $('#2').prepend(content);
     $('#train11').attr('disabled', false);
     $('#train12').attr('disabled', false);
@@ -340,7 +340,7 @@ async function circus(){
     }else{
         content = '<div>小朋友，我們不賣水餃。</div>';
     } 
-    gobig3(-1,-1,-1,-1,-1,-1,-1,-1);
+    gobig2(-1,-1,-1,-1,-1,-1,-1,-1);
     $('#2').prepend(content);
     $('#train11').attr('disabled', false);
     $('#train12').attr('disabled', false);

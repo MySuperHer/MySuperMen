@@ -753,6 +753,144 @@ function tie(){
 }
 
 
+function gobig2(g11,g21,g31,j11,l11,l21,i11,m11){
+    g11correction();
+    g21correction();
+    g31correction();
+    j11correction();
+    l11correction();
+    l21correction();
+    i11correction();
+    m11correction();
+    var do1=Number(localStorage.getItem("do"))+1;
+    var age=Number(localStorage.getItem("age"));
+    var line=Number(localStorage.getItem("exp"));
+    var age1=Number(localStorage.getItem("age"))+1;
+    var aged=Number(localStorage.getItem("ageend"));
+    if(age1>=20){
+        var line1=20;
+    }else if(age1>=12){
+        var line1=age1;
+    }else{
+        var line1=age1+5;
+    }
+    if (do1 >= line){
+        g11=parseInt(Number(localStorage.getItem("g11")));
+        g21=parseInt(Number(localStorage.getItem("g21")));
+        g31=parseInt(Number(localStorage.getItem("g31")));
+        j11=parseInt(Number(localStorage.getItem("j11")));
+        l11=parseInt(Number(localStorage.getItem("l11")));
+        l21=parseInt(Number(localStorage.getItem("l21")));
+        i11=parseInt(Number(localStorage.getItem("i11")));
+        m11=parseInt(Number(localStorage.getItem("m11")));
+        var g1n=Number(localStorage.getItem("g1"));
+        var g2n=Number(localStorage.getItem("g2"));
+        var g3n=Number(localStorage.getItem("g3"));
+        var j1n=Number(localStorage.getItem("j1"));
+        var l1n=Number(localStorage.getItem("l1"));
+        var l2n=Number(localStorage.getItem("l2"));
+        var i1n=Number(localStorage.getItem("i1"));
+        var m1n=Number(localStorage.getItem("m1"));
+        var g1=g1n+g11;
+        var g2=g2n+g21;
+        var g3=g3n+g31;
+        var j1=j1n+j11;
+        var l1=l1n+l11;
+        var l2=l2n+l21;
+        var i1=i1n+i11;
+        var m1=m1n+m11;
+        var hp=Number(localStorage.getItem("hp"))+g1;
+        if (g1>200){
+            g1=g1-5;
+        }
+        if (g2+g3>g1){
+            g2=g2-3;
+            g3=g3-2;
+        }
+        if (j1>g1){
+            j1=j1-5;
+        }
+        if (l1>100){
+            l1=l1-5;
+        }
+        if (l2>i1){
+            l2=l2-10;
+        }
+        if (i1>l1){
+            i1=i1-5;
+        }
+        if (m1>i1){
+            m1=m1-3;
+        }
+        if (age>aged){
+            g1=g1-5;
+            g2=g2-10;
+            g3=g3-7;
+            l1=l1-9;
+            i1=i1-8;
+            m1=m1-6;
+            var content2 = '<div>你的身體開始老化了</div>';
+            $("#2").prepend(content2);
+        }
+        localStorage.setItem("hp",hp.toString());
+        localStorage.setItem("g1",g1.toString());
+        localStorage.setItem("g11","1");
+        localStorage.setItem("g2",g2.toString());
+        localStorage.setItem("g21","1");
+        localStorage.setItem("g3",g3.toString());
+        localStorage.setItem("g31","1");
+        localStorage.setItem("j1",j1.toString());
+        localStorage.setItem("j11","1");
+        localStorage.setItem("l1",l1.toString());
+        localStorage.setItem("l11","1");
+        localStorage.setItem("l2",l2.toString());
+        localStorage.setItem("l21","1");
+        localStorage.setItem("i1",i1.toString());
+        localStorage.setItem("i11","1");
+        localStorage.setItem("m1",m1.toString());
+        localStorage.setItem("m11","1");
+        localStorage.setItem("do","0");
+        localStorage.setItem("age",age1.toString());
+        localStorage.setItem("exp",String(line1));
+        let content = '';
+        content += '<div>你長大了，成果如下</div>';
+        content += '<div>身高成長了' + String(parseInt(g1-g1n))+ 'cm</div>';
+        content += '<div>體重成長了' + String(parseInt(g1+g2+g3-g1n-g2n-g3n)) + 'kg</div>';
+        content += '<div>跳躍力成長了' + String(parseInt(j1-j1n)) + '</div>';
+        content += '<div>視力成長了' + String(parseInt(l1-l1n)) + '</div>';
+        content += '<div>幸運成長了' + String(parseInt(l2-l2n)) + '</div>';
+        content += '<div>智力成長了' + String(parseInt(i1-i1n)) + '</div>';
+        content += '<div>魅力成長了' + String(parseInt(m1-m1n)) + '</div>';
+        $("#2").prepend(content);
+    } else {
+        if(g11>=0){
+            localStorage.setItem("g11",String(g11));
+        }
+        if(g21>=0){
+            localStorage.setItem("g21",String(g21));
+        }
+        if(g31>=0){
+            localStorage.setItem("g31",String(g31));
+        }
+        if(j11>=0){
+            localStorage.setItem("j11",String(j11));
+        }
+        if(l11>=0){
+            localStorage.setItem("l11",String(l11));
+        }
+        if(l21>=0){
+            localStorage.setItem("l21",String(l21));
+        }
+        if(i11>=0){
+            localStorage.setItem("i11",String(i11));
+        }
+        if(m11>=0){
+            localStorage.setItem("m11",String(m11));
+        }
+        localStorage.setItem("do",do1.toString());
+    }
+}
+
 
 async function down(){
     $('#train1').attr('disabled', true);
