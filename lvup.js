@@ -82,7 +82,7 @@ function again(){
 
 async function gohigh(){
     down();
-    await delay(5);
+    await delay(0);
     var work=localStorage.getItem("work");
     work1(work);
     var g11=Number(localStorage.getItem("g11"))+2;
@@ -95,7 +95,7 @@ async function gohigh(){
 }
 async function gofat(){
     down();
-    await delay(5);
+    await delay(0);
     var work=localStorage.getItem("work");
     work1(work);
     var g31=Number(localStorage.getItem("g31"))+3;
@@ -109,7 +109,7 @@ async function gofat(){
 }
 async function backfat(){
     down();
-    await delay(5);
+    await delay(0);
     var work=localStorage.getItem("work");
     work1(work);
     var j11=Number(localStorage.getItem("j11"))+3;
@@ -124,7 +124,7 @@ async function backfat(){
 }
 async function badeye(){
     down();
-    await delay(5);
+    await delay(0);
     var work=localStorage.getItem("work");
     work1(work);
     var i11=Number(localStorage.getItem("i11"))+4;
@@ -139,7 +139,7 @@ async function badeye(){
 }
 async function useeye(){
     down();
-    await delay(5);
+    await delay(0);
     var work=localStorage.getItem("work");
     work1(work);
     var a1 = parseInt(Math.random()*7);
@@ -157,7 +157,7 @@ async function useeye(){
 }
 async function gopretty(){
     down();
-    await delay(5);
+    await delay(0);
     var work=localStorage.getItem("work");
     work1(work);
     var m11=Number(localStorage.getItem("m11"))+6;
@@ -172,7 +172,7 @@ async function gopretty(){
 }
 async function getcookie(){
     down();
-    await delay(5);
+    await delay(0);
     var work=localStorage.getItem("work");
     if (work=='童子軍'){
         var coo=Number(localStorage.getItem("cookie"))+5;
@@ -187,7 +187,7 @@ async function getcookie(){
 
 async function gettofu(){
     down();
-    await delay(5);
+    await delay(0);
     var work=localStorage.getItem("work");
     var sto=Number(localStorage.getItem("stool"));
     if (work=='廚師'){
@@ -210,7 +210,7 @@ async function gettofu(){
 
 async function getg2g3(){
     down();
-    await delay(5);
+    await delay(0);
     var g1=Number(localStorage.getItem("g1"));
     var g2=Number(localStorage.getItem("g2"));
     var g3=Number(localStorage.getItem("g3"));
