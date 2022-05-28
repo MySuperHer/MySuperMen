@@ -94,7 +94,7 @@
                             if(localStorage.getItem("g01") == null){
                                 document.write("未知");
                             }else{
-                                h01=parseInt(Number(localStorage.getItem("g01")*10));
+                                h01=parseInt(Number(localStorage.getItem("g01")));
                                 document.write("身高："+h01+"cm");
                             }
                         </script><p>
@@ -161,8 +161,8 @@
                     </div>
                     <div class=" form-group col-md-3 col-sm-6 col-6">
                         <p><script>
-                            plm2=parseInt(Number(localStorage.getItem("m2"))*100)/100;
-                            document.write("魔力："+plm2);
+                            plhp=parseInt(Number(localStorage.getItem("hp0"))*100)/100;
+                            document.write("血量："+plhp);
                         </script><p>
                     </div>
                 </div>

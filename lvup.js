@@ -62,6 +62,7 @@ function again(){
         localStorage.setItem("l02",localStorage.getItem("l2"));
         localStorage.setItem("i01",localStorage.getItem("i1"));
         localStorage.setItem("m01",localStorage.getItem("m1"));
+        localStorage.setItem("hp0",localStorage.getItem("hp"));
         if(localStorage.getItem("ageend")==null){
             localStorage.setItem("ageend","30");
         }
