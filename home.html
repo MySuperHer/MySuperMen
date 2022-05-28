@@ -89,6 +89,9 @@
                     <div class=" form-group col-md-3 col-sm-6 col-6">
                         <p><script>
                             var plh=parseInt(Number(localStorage.getItem("g1")));
+                            if (plh<0){
+                                plh=0;
+                            }
                             document.write("身高："+plh+"cm");
                         </script><p>
                     </div>
@@ -116,18 +119,27 @@
                                     plg=parseInt((plg+(Number(localStorage.getItem("helmet"))*7))*100)/100;
                                 }
                             }
+                            if (plg<0){
+                                plg=0;
+                            }
                             document.write("體重："+plg+"kg");
                         </script><p>
                     </div>
                     <div class=" form-group col-md-3 col-sm-6 col-6">
                         <p><script>
                             var plj=parseInt(Number(localStorage.getItem("j1"))*100)/100;
+                            if (plj<0){
+                                plj=0;
+                            }
                             document.write("跳躍力："+plj);
                         </script><p>
                     </div>
                     <div class=" form-group col-md-3 col-sm-6 col-6">
                         <p><script>
                             var pll=parseInt(Number(localStorage.getItem("l1"))*100)/100;
+                            if (pll<0){
+                                pll=0;
+                            }
                             document.write("視力："+pll);
                         </script><p>
                     </div>
@@ -140,6 +152,9 @@
                                 }else{
                                     pll2=parseInt((pll2+(Number(localStorage.getItem("gossip"))*10))*100)/100;
                                 }
+                            }
+                            if (pll2<0){
+                                pll2=0;
                             }
                             document.write("幸運："+pll2);
                         </script><p>
@@ -154,12 +169,18 @@
                                     pli=parseInt((pli+(Number(localStorage.getItem("phone"))*3))*100)/100;
                                 }
                             }
+                            if (pli<0){
+                                pli=0;
+                            }
                             document.write("智力："+pli);
                         </script><p>
                     </div>
                     <div class=" form-group col-md-3 col-sm-6 col-6">
                         <p><script>
                             plm=parseInt(Number(localStorage.getItem("m1"))*100)/100;
+                            if (plm<0){
+                                plm=0;
+                            }
                             document.write("魅力："+plm);
                         </script><p>
                     </div>

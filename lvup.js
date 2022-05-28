@@ -212,6 +212,8 @@ async function gettofu(){
 async function getg2g3(){
     down();
     await delay(0);
+    var work=localStorage.getItem("work");
+    work1(work);
     var g1=Number(localStorage.getItem("g1"));
     var g2=Number(localStorage.getItem("g2"));
     var g3=Number(localStorage.getItem("g3"));
@@ -275,36 +277,39 @@ function gobig(g11,g21,g31,j11,l11,l21,i11,m11){
         var m1=m1n+m11;
         var hp=Number(localStorage.getItem("hp"))+g1;
         if (g1>200){
-            g1=g1-5;
+            g1=g1-20;
         }
         if (g2+g3>g1){
-            g2=g2-3;
-            g3=g3-2;
+            g2=g2-15;
+            g3=g3-20;
         }
         if (j1>g1){
-            j1=j1-5;
+            j1=j1-25;
         }
         if (l1>100){
-            l1=l1-5;
+            l1=l1-10;
         }
         if (l2>i1){
-            l2=l2-10;
+            l2=l2-35;
         }
         if (i1>l1){
-            i1=i1-5;
+            i1=i1-25;
         }
         if (m1>i1){
-            m1=m1-3;
+            m1=m1-15;
+        }
+        if (hp>g1*5){
+            hp=g1*5;
         }
         if (age>aged){
-            g1=g1-5;
-            g2=g2-10;
-            g3=g3-7;
-            l1=l1-9;
-            i1=i1-8;
-            m1=m1-6;
+            g1=g1-50;
+            g2=g2-40;
+            g3=g3-35;
+            l1=l1-30;
+            i1=i1-25;
+            m1=m1-20;
             var content2 = '<div>你的身體開始老化了</div>';
-            $("#1").prepend(content2);
+            $("#2").prepend(content2);
         }
         localStorage.setItem("hp",hp.toString());
         localStorage.setItem("g1",g1.toString());
@@ -367,88 +372,29 @@ function gobig(g11,g21,g31,j11,l11,l21,i11,m11){
 
 
 function work1(work1){
-    var age=Number(localStorage.getItem("age"));
     if (work1 === "跳級生"){
         var do1=Number(localStorage.getItem("do"))+1;
-        var i11=Number(localStorage.getItem("i11"))*1.5;
+        var i11=Number(localStorage.getItem("i11"))+7;
         var g31=Number(localStorage.getItem("g31"))-5;
         localStorage.setItem("i11",i11.toString());
         localStorage.setItem("g31",g31.toString());
         localStorage.setItem("do",do1.toString());
-        if(age == 27){
-            var i1=Number(localStorage.getItem("i1"));
-            if(i1<70){
-                localStorage.setItem("work","延畢生");
-            }else if(i1<100){
-                localStorage.setItem("work","畢業生");
-            }else{
-                localStorage.setItem("work","大學教授");
-            }
-        }
         let content = '';
         content += '<div>你寫了一篇論文</div>';
         $("#1").prepend(content);
     }else if(work1 === "研究生"){
         var do1=Number(localStorage.getItem("do"))+1;
-        var i11=Number(localStorage.getItem("i11"))*1.2;
-        var g31=Number(localStorage.getItem("g31"))-10;
+        var i11=Number(localStorage.getItem("i11"))+5;
+        var g31=Number(localStorage.getItem("g31"))-3;
+        var g21=Number(localStorage.getItem("g21"))-2;
         localStorage.setItem("i11",i11.toString());
         localStorage.setItem("g31",g31.toString());
+        localStorage.setItem("g21",g21.toString());
         localStorage.setItem("do",do1.toString());
+        g21correction();
         g31correction();
-        if(age == 27){
-            var i1=Number(localStorage.getItem("i1"));
-            if(i1<70){
-                localStorage.setItem("work","延畢生");
-            }else{
-                localStorage.setItem("work","畢業生");
-            }
-        }
         let content = '';
         content += '<div>你做了一篇研究</div>';
-        $("#1").prepend(content);
-    }else if(work1 === "延畢生"){
-        var do1=Number(localStorage.getItem("do"))+1;
-        var i11=Number(localStorage.getItem("i11"))*1.1;
-        var g31=Number(localStorage.getItem("g31"))-20;
-        localStorage.setItem("i11",i11.toString());
-        localStorage.setItem("g31",g31.toString());
-        localStorage.setItem("do",do1.toString());
-        g31correction();
-        if(age >= 27){
-            var i1=Number(localStorage.getItem("i1"));
-            if(i1>70){
-                localStorage.setItem("work","畢業生");
-            }else{
-                let content = '';
-                content += '<div>你寫了一篇論文，但沒有通過考試</div>';
-                $("#1").prepend(content);
-            }
-        }else{
-            let content = '';
-            content += '<div>你寫了一篇論文</div>';
-            $("#1").prepend(content);
-        }
-    }else if(work1 === "畢業生"){
-        var do1=Number(localStorage.getItem("do"))+1;
-        var i11=Number(localStorage.getItem("i11"))*1.15;
-        var g31=Number(localStorage.getItem("g31"))-7;
-        localStorage.setItem("i11",i11.toString());
-        localStorage.setItem("g31",g31.toString());
-        localStorage.setItem("do",do1.toString());
-        g31correction();
-        let content = '';
-        content += '<div>你還沒找到工作</div>';
-        $("#1").prepend(content);
-    }else if(work1 === "大學教授"){
-        var do1=Number(localStorage.getItem("do"))+1;
-        var i11=Number(localStorage.getItem("i11"))*1.3;
-        var g31=Number(localStorage.getItem("g31"))/2;
-        localStorage.setItem("i11",i11.toString());
-        localStorage.setItem("g31",g31.toString());
-        localStorage.setItem("do",do1.toString());
-        let content = '';
-        content += '<div>你在大學教書</div>';
         $("#1").prepend(content);
     }
 }
@@ -801,34 +747,37 @@ function gobig2(g11,g21,g31,j11,l11,l21,i11,m11){
         var m1=m1n+m11;
         var hp=Number(localStorage.getItem("hp"))+g1;
         if (g1>200){
-            g1=g1-5;
+            g1=g1-20;
         }
         if (g2+g3>g1){
-            g2=g2-3;
-            g3=g3-2;
+            g2=g2-15;
+            g3=g3-20;
         }
         if (j1>g1){
-            j1=j1-5;
+            j1=j1-25;
         }
         if (l1>100){
-            l1=l1-5;
+            l1=l1-10;
         }
         if (l2>i1){
-            l2=l2-10;
+            l2=l2-35;
         }
         if (i1>l1){
-            i1=i1-5;
+            i1=i1-25;
         }
         if (m1>i1){
-            m1=m1-3;
+            m1=m1-15;
+        }
+        if (hp>g1*5){
+            hp=g1*5;
         }
         if (age>aged){
-            g1=g1-5;
-            g2=g2-10;
-            g3=g3-7;
-            l1=l1-9;
-            i1=i1-8;
-            m1=m1-6;
+            g1=g1-50;
+            g2=g2-40;
+            g3=g3-35;
+            l1=l1-30;
+            i1=i1-25;
+            m1=m1-20;
             var content2 = '<div>你的身體開始老化了</div>';
             $("#2").prepend(content2);
         }
