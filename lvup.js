@@ -144,11 +144,11 @@ async function useeye(){
     work1(work);
     var a1 = parseInt(Math.random()*7);
     var b1 = ["g11", "g21", "g31", "j11", "l11", "i11", "m11"];
-    var r1=parseInt(Number(localStorage.getItem(b1[a1]))*+5);
+    var r1=parseInt(Number(localStorage.getItem(b1[a1]))+4);
     localStorage.setItem(b1[a1],r1.toString());
     var b2 = b1.splice(a1, 1);
     var a2 = parseInt(Math.random()*7);
-    var r2=parseInt(Number(localStorage.getItem(b2[a2]))-2);
+    var r2=parseInt(Number(localStorage.getItem(b2[a2]))-5);
     localStorage.setItem(b2[a2],r2.toString());
     var l21=parseInt(Number(localStorage.getItem("l21"))+3);
     $("#1").prepend("<div>看三小還想星爆啊。</div>");
