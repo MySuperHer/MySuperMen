@@ -237,21 +237,15 @@ function gobig(g11,g21,g31,j11,l11,l21,i11,m11){
     m11correction();
     var do1=Number(localStorage.getItem("do"))+1;
     var age=Number(localStorage.getItem("age"));
+    var line=Number(localStorage.getItem("exp"));
     var age1=Number(localStorage.getItem("age"))+1;
     var aged=Number(localStorage.getItem("ageend"));
-    if(age>=35){
-        var line=age;
-    }else if(age>=20){
-        var line=age+20;
-    }else{
-        var line=age*2+2;
-    }
-    if(age1>=35){
+    if(age1>=20){
+        var line1=20;
+    }else if(age1>=12){
         var line1=age1;
-    }else if(age1>=20){
-        var line1=age1+20;
     }else{
-        var line1=age1*2+2;
+        var line1=age1+5;
     }
     if (do1 >= line){
         g11=parseInt(Number(localStorage.getItem("g11")));
@@ -279,6 +273,28 @@ function gobig(g11,g21,g31,j11,l11,l21,i11,m11){
         var i1=i1n+i11;
         var m1=m1n+m11;
         var hp=Number(localStorage.getItem("hp"))+g1;
+        if (g1>200){
+            g1=g1-5;
+        }
+        if (g2+g3>g1){
+            g2=g2-3;
+            g3=g3-2;
+        }
+        if (j1>g1){
+            j1=j1-5;
+        }
+        if (l1>100){
+            l1=l1-5;
+        }
+        if (l2>i1){
+            l2=l2-10;
+        }
+        if (i1>l1){
+            i1=i1-5;
+        }
+        if (m1>i1){
+            m1=m1-3;
+        }
         if (age>aged){
             g1=g1-5;
             g2=g2-10;
