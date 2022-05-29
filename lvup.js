@@ -379,6 +379,7 @@ function work1(work1){
         localStorage.setItem("i11",i11.toString());
         localStorage.setItem("g31",g31.toString());
         localStorage.setItem("do",do1.toString());
+        gobig(-1,-1,g31,-1,-1,-1,i11,-1);
         let content = '';
         content += '<div>你寫了一篇論文</div>';
         $("#1").prepend(content);
@@ -391,8 +392,7 @@ function work1(work1){
         localStorage.setItem("g31",g31.toString());
         localStorage.setItem("g21",g21.toString());
         localStorage.setItem("do",do1.toString());
-        g21correction();
-        g31correction();
+        gobig(-1,-1,g31,-1,-1,-1,i11,-1);
         let content = '';
         content += '<div>你做了一篇研究</div>';
         $("#1").prepend(content);
