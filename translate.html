@@ -9,12 +9,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src="lvup.js"></script>
-        <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest/disable-devtool.min.js'></script>
-        <script>
-            import disableDevtool from 'disable-devtool';
-            disableDevtool();
-        </script>
+        <script src="change.js"></script>
     </head>
     <body>
         <div class="bg-blue">
@@ -41,16 +36,43 @@
             <div class="container bc-white">
                 <div class="form-row">
                     <div class="form-group col-md-4 col-sm-4 col-6">
-                        <div class="flex">
-                            <button class="btn btn-primary" id="j" onclick="fuck()">回收按鈕</button>
-                            <p>沒事不要亂按</p>
-                            <script>
-                                function fuck(){
-                                    localStorage.clear();
-                                }
-                            </script>
-                        </div>
+                        <p>恩科姆普語轉換器</p>
+                        <P>這個語言只有一百個人用喔。</p>
                     </div>
+                </div>
+
+                <hr class="divider" />
+
+                <form>
+                    <label for="testInput">
+                    <span>數字轉文字 </span>
+                    <input type="text" placeholder="test" id="testInput2" />
+                    <button id="again" class="btn btn-primary" onclick="FsubmitBtn()">轉換</button>
+                    <button class="btn btn-primary" type="reset">還是不要好了...</button>
+                    </label>
+                </form>
+
+                <form>
+                    <label for="testInput">
+                    <span>文字轉數字 </span>
+                    <input type="text" placeholder="test" id="testInput3" />
+                    <button id="again2" class="btn btn-primary" onclick="FsubmitBtn2()">轉換</button>
+                    <button class="btn btn-primary" type="reset">還是不要好了...</button>
+                    </label>
+                </form>
+
+                <div>
+                    <p><script>
+                        var number=localStorage.getItem("ans");
+                        document.write("數字："+number);
+                    </script><p>
+                </div>
+
+                <div>
+                    <p><script>
+                        var word=localStorage.getItem("word");
+                        document.write("文字："+word);
+                    </script><p>
                 </div>
             </div>
         </div>
